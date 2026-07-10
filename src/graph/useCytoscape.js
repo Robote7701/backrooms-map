@@ -32,11 +32,24 @@ export function runHybridLayout(cy) {
   cy.layout({
     name: 'fcose',
     quality: 'proof',
+    randomize: true,
     animate: false,
     fit: true,
-    padding: 60,
-    nodeSeparation: 140,
-    idealEdgeLength: 150,
+    padding: 80,
+    // Graphe de ~100 nœuds : il faut une forte répulsion et une faible
+    // gravité pour éviter que tout ne s'écrase au centre (surtout autour
+    // des nœuds à très haut degré comme les niveaux 53/54/1).
+    nodeSeparation: 260,
+    idealEdgeLength: 320,
+    nodeRepulsion: 28000,
+    edgeElasticity: 0.15,
+    gravity: 0.02,
+    gravityRange: 8.0,
+    numIter: 8000,
+    // Empile proprement les nœuds isolés (stubs sans connexions) à part.
+    tile: true,
+    tilingPaddingVertical: 80,
+    tilingPaddingHorizontal: 80,
     // On fige les nœuds qui possèdent déjà des coordonnées.
     fixedNodeConstraint: withCoords.map((n) => ({
       nodeId: n.id(),

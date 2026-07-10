@@ -9,9 +9,9 @@ export default {
     {
       selector: 'node',
       style: {
-        // 1 -> vert, 3 -> ambre Backrooms, 5 -> rouge (dégradé continu).
-        'background-color': 'mapData(dangerLevel, 1, 5, #2ea043, #f85149)',
-        'border-color': 'mapData(dangerLevel, 1, 5, #2ea043, #f85149)',
+        // 1 -> vert, 5 -> rouge (dégradé continu, néons saturés).
+        'background-color': 'mapData(dangerLevel, 1, 5, #00e676, #ff2d55)',
+        'border-color': 'mapData(dangerLevel, 1, 5, #00e676, #ff2d55)',
       },
     },
   ],

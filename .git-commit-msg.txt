@@ -1,0 +1,10 @@
+style: theme plus sombre + couleurs neon plus saturees, layout auto corrige
+
+- theme.css : fond quasi noir (#030305), palette neon repoussee en saturation
+  (cyan/magenta/jaune/violet plus vifs), glow plus marque sur le titre
+- cytoscapeStyle.js + layers/*.js : couleurs alignees sur la nouvelle palette
+- useCytoscape.js : parametres fcose retravailles (repulsion, gravite,
+  longueur d'arete ideale, iterations) pour eviter que les ~100 niveaux ne
+  s'ecrasent tous au centre au premier chargement
+
+Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>

@@ -1,19 +1,20 @@
 /* ===== Thème dark / neon — ambiance "vieux terminal / liminal space" ===== */
 :root {
-  --bg: #0a0a0f;
-  --bg-elev: #12121a;
-  --bg-panel: rgba(18, 18, 26, 0.92);
-  --border: #262636;
-  --text: #e8e8f0;
-  --muted: #8a8aa0;
+  --bg: #030305;
+  --bg-elev: #0a0a10;
+  --bg-panel: rgba(10, 10, 16, 0.94);
+  --border: #26263a;
+  --text: #f2f2fa;
+  --muted: #8b8ba8;
 
-  --neon-cyan: #31d7f5;
-  --neon-magenta: #e34ba9;
-  --backrooms-yellow: #d4c26a;
-  --neon-purple: #8a7de0;
+  /* Néons plus saturés et plus lumineux qu'avant. */
+  --neon-cyan: #00f0ff;
+  --neon-magenta: #ff2ec4;
+  --backrooms-yellow: #ffd60a;
+  --neon-purple: #b14bff;
 
-  --safe: #2ea043;
-  --danger: #f85149;
+  --safe: #00e676;
+  --danger: #ff2d55;
 
   --radius: 10px;
   --mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
@@ -32,7 +33,10 @@ body,
 }
 
 body {
-  background: radial-gradient(circle at 30% 20%, #14141f 0%, var(--bg) 60%);
+  background:
+    radial-gradient(circle at 20% 15%, rgba(0, 240, 255, 0.05) 0%, transparent 35%),
+    radial-gradient(circle at 85% 80%, rgba(255, 46, 196, 0.05) 0%, transparent 35%),
+    radial-gradient(circle at 30% 20%, #0c0c14 0%, var(--bg) 60%);
   color: var(--text);
   font-family: var(--sans);
   overflow: hidden;
@@ -60,7 +64,7 @@ body {
   font-size: 20px;
   letter-spacing: 1px;
   color: var(--backrooms-yellow);
-  text-shadow: 0 0 12px rgba(212, 194, 106, 0.35);
+  text-shadow: 0 0 16px rgba(255, 214, 10, 0.55);
 }
 .app__subtitle {
   margin: 2px 0 0;

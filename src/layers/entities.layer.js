@@ -10,7 +10,7 @@ export default {
       selector: 'node[entityCount > 0]',
       style: {
         label: 'data(labelWithEntities)',
-        'border-color': '#e34ba9',
+        'border-color': '#ff2ec4',
         'border-width': 'mapData(entityCount, 1, 4, 3, 10)',
       },
     },

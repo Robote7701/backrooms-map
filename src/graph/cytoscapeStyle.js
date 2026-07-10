@@ -1,12 +1,13 @@
 // Style de base du graphe (thème dark/neon). Les calques ajoutent leurs
 // propres règles PAR-DESSUS ce tableau (voir layers/ et MapView).
+// Couleurs alignées sur les variables CSS de theme.css (Cytoscape ne lit pas
+// les custom properties, on duplique donc les valeurs ici).
 export const baseStylesheet = [
   {
     selector: 'node',
     style: {
       label: 'data(label)',
-      color: '#e8e8f0',
-      // Cytoscape veut une valeur simple, sans guillemets internes.
+      color: '#f2f2fa',
       'font-family': 'JetBrains Mono, Courier New, monospace',
       'font-size': 13,
       'text-valign': 'bottom',
@@ -14,13 +15,13 @@ export const baseStylesheet = [
       'text-margin-y': 8,
       'text-wrap': 'wrap',
       'text-max-width': 140,
-      'text-outline-color': '#0a0a0f',
+      'text-outline-color': '#030305',
       'text-outline-width': 2,
       width: 34,
       height: 34,
-      'background-color': '#1b1b26',
-      'border-color': '#d4c26a',
-      'border-width': 2,
+      'background-color': '#12121c',
+      'border-color': '#ffd60a',
+      'border-width': 2.5,
       'transition-property': 'border-color, border-width, background-color, width, height',
       'transition-duration': '150ms',
     },
@@ -29,24 +30,24 @@ export const baseStylesheet = [
     // Survol : halo néon cyan (overlay = la façon Cytoscape de "glow").
     selector: 'node.hovered',
     style: {
-      'border-color': '#31d7f5',
-      'border-width': 4,
-      'overlay-color': '#31d7f5',
-      'overlay-opacity': 0.25,
-      'overlay-padding': 10,
-      width: 40,
-      height: 40,
+      'border-color': '#00f0ff',
+      'border-width': 4.5,
+      'overlay-color': '#00f0ff',
+      'overlay-opacity': 0.35,
+      'overlay-padding': 12,
+      width: 42,
+      height: 42,
     },
   },
   {
     // Sélection : halo magenta persistant.
     selector: 'node.selected',
     style: {
-      'border-color': '#e34ba9',
-      'border-width': 4,
-      'overlay-color': '#e34ba9',
-      'overlay-opacity': 0.3,
-      'overlay-padding': 10,
+      'border-color': '#ff2ec4',
+      'border-width': 4.5,
+      'overlay-color': '#ff2ec4',
+      'overlay-opacity': 0.4,
+      'overlay-padding': 12,
     },
   },
 
@@ -55,8 +56,8 @@ export const baseStylesheet = [
     selector: 'edge',
     style: {
       width: 2,
-      'line-color': '#3a3a52',
-      'target-arrow-color': '#3a3a52',
+      'line-color': '#41415c',
+      'target-arrow-color': '#41415c',
       'curve-style': 'bezier',
       opacity: 0.85,
       'transition-property': 'line-color, width, opacity',
@@ -72,44 +73,44 @@ export const baseStylesheet = [
     style: {
       'target-arrow-shape': 'triangle',
       'source-arrow-shape': 'triangle',
-      'target-arrow-color': '#3a3a52',
-      'source-arrow-color': '#3a3a52',
+      'target-arrow-color': '#41415c',
+      'source-arrow-color': '#41415c',
     },
   },
   // Type de route -> couleur de ligne (voir Légende).
   {
     selector: 'edge.noclip',
     style: {
-      'line-color': '#31d7f5',
+      'line-color': '#00f0ff',
       'line-style': 'dashed',
-      'target-arrow-color': '#31d7f5',
-      'source-arrow-color': '#31d7f5',
+      'target-arrow-color': '#00f0ff',
+      'source-arrow-color': '#00f0ff',
     },
   },
   {
     selector: 'edge.porte',
     style: {
-      'line-color': '#d4c26a',
-      'target-arrow-color': '#d4c26a',
-      'source-arrow-color': '#d4c26a',
+      'line-color': '#ffd60a',
+      'target-arrow-color': '#ffd60a',
+      'source-arrow-color': '#ffd60a',
     },
   },
   {
     selector: 'edge.escalier',
     style: {
-      'line-color': '#8a7de0',
+      'line-color': '#b14bff',
       'line-style': 'dotted',
-      'target-arrow-color': '#8a7de0',
-      'source-arrow-color': '#8a7de0',
+      'target-arrow-color': '#b14bff',
+      'source-arrow-color': '#b14bff',
     },
   },
   {
     // Autre (portail, ascenseur, trou, mécanisme non classé).
     selector: 'edge.autre',
     style: {
-      'line-color': '#6b7280',
-      'target-arrow-color': '#6b7280',
-      'source-arrow-color': '#6b7280',
+      'line-color': '#8b8ba8',
+      'target-arrow-color': '#8b8ba8',
+      'source-arrow-color': '#8b8ba8',
     },
   },
   {
@@ -118,16 +119,16 @@ export const baseStylesheet = [
     style: {
       width: 4,
       opacity: 1,
-      'overlay-opacity': 0.18,
+      'overlay-opacity': 0.22,
       'overlay-padding': 4,
     },
   },
   {
     selector: 'edge.dimmed',
-    style: { opacity: 0.15 },
+    style: { opacity: 0.12 },
   },
   {
     selector: 'node.dimmed',
-    style: { opacity: 0.25 },
+    style: { opacity: 0.22 },
   },
 ]
