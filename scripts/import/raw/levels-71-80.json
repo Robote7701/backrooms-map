@@ -1,0 +1,193 @@
+[
+  {
+    "number": 71,
+    "title": "Void Basement",
+    "survivalClass": 2,
+    "tags": ["darkness", "disorientation", "existential-fading", "horror"],
+    "safe": false,
+    "secure": false,
+    "entities": [],
+    "connections": [
+      { "to": 4, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "An infinite basement where visitors slowly lose their senses and dissolve, piece by piece, into nothingness.",
+    "atmosphere": "A pitch-black void of growing disorientation and despair as explorers lose form and, eventually, consciousness.",
+    "tips": "Avoid basements reached from Level 4 — this level induces an irreversible fade from reality.",
+    "noData": true
+  },
+  {
+    "number": 72,
+    "title": "The Pit",
+    "survivalClass": 3,
+    "tags": ["cave-system", "water-hazards", "claustrophobic", "hostile-creatures"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "shelf-crawlers", "presence": "common" },
+      { "id": "the-repeater", "presence": "occasional" },
+      { "id": "the-long-one", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 0, "type": "noclip", "direction": "one-way" },
+      { "to": 73, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A deep cavern reached by falling through pitfalls: tight passages, an algae bog and crushingly narrow squeezes with few ways out.",
+    "atmosphere": "Oppressive, flooded caves reeking of salt and decay; unstable walls and crushing dark broken by bioluminescent fungi.",
+    "tips": "Keep a hand on the wall through the maze. Crouch during tremors. Never touch bog walls or kick creatures. Angle carefully through the squeeze.",
+    "noData": false
+  },
+  {
+    "number": 73,
+    "title": "The Redlands",
+    "survivalClass": 5,
+    "tags": ["hostile-entities", "island", "darkness", "castle-refuge"],
+    "safe": false,
+    "secure": true,
+    "entities": [
+      { "id": "windows", "presence": "omnipresent" },
+      { "id": "smilers", "presence": "omnipresent" },
+      { "id": "deathmoths", "presence": "omnipresent" },
+      { "id": "clumps", "presence": "frequent" },
+      { "id": "hounds", "presence": "frequent" }
+    ],
+    "connections": [
+      { "to": 6, "type": "noclip", "direction": "one-way" },
+      { "to": 14, "type": "noclip", "direction": "one-way" }
+    ],
+    "shortDescription": "A crimson island drowned in darkness and swarmed by entities; only the Silver Castle, under CORAN's protection, offers refuge.",
+    "atmosphere": "Perpetual darkness under a full moon, suffocating black clouds and endless hostile creatures ringing a gothic sanctuary.",
+    "tips": "Sprint straight for the Silver Castle — don't look around or slow down. Bang on the doors for entry. Never use artificial light.",
+    "noData": false
+  },
+  {
+    "number": 74,
+    "title": "Stage Fright",
+    "survivalClass": null,
+    "tags": ["psychological-hazard", "hallucinations", "entity-mimicry", "time-dependent"],
+    "safe": false,
+    "secure": false,
+    "entities": [],
+    "connections": [
+      { "to": 68, "type": "door", "direction": "one-way" },
+      { "to": 117, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "A theatre stage of looping hallways populated by dream-like figures resembling people the visitor knows.",
+    "atmosphere": "Theatrical and familiar at first, growing more unsettling as isolation deepens and hallucinations intensify.",
+    "tips": "Leave through the trapdoors within two hours — longer stays badly erode your grip on reality.",
+    "noData": true
+  },
+  {
+    "number": 75,
+    "title": "Liminality",
+    "survivalClass": 0,
+    "tags": ["sand", "nostalgia", "peaceful", "liminal"],
+    "safe": true,
+    "secure": true,
+    "entities": [],
+    "connections": [
+      { "to": 74, "type": "other", "direction": "two-way" },
+      { "to": 76, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "Sandy corridors of peeling painted walls, sun-like light and endless rain sounds, scattered with children's toys and old footprints.",
+    "atmosphere": "An eerie yet soothing emptiness that evokes childhood memories despite the cracked paint and abandoned rooms.",
+    "tips": "Mostly accessible to younger travelers — adults usually need an accompanying child. Windows and doorways make easy exits.",
+    "noData": false
+  },
+  {
+    "number": 76,
+    "title": "Back from the Charwood Brink",
+    "survivalClass": 0,
+    "tags": ["tea-fields", "mountainous", "supernatural-entity", "post-fire"],
+    "safe": true,
+    "secure": true,
+    "entities": [
+      { "id": "saola", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 10, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "A subtropical highland of tea plantations and mountains, dotted with mysterious Saola statues, still healing from an ancient fire.",
+    "atmosphere": "Humid, lush terrain thick with tea-leaf scent; an unusual 21-hour daylight cycle, peaceful but tinged with mystery.",
+    "tips": "Bring a light for the 3-hour dark stretch. Navigate by the hut waypoints. Never try to start a fire. Trade with Smoky Steep Farm.",
+    "noData": false
+  },
+  {
+    "number": 77,
+    "title": "Oh, Shenandoah",
+    "survivalClass": 3,
+    "tags": ["foggy-hills", "hostile-entities", "sheep-herding", "dense-forest"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "nguithr-xurh", "presence": "frequent" },
+      { "id": "shenandoah-sheep", "presence": "common" }
+    ],
+    "connections": [
+      { "to": 32, "type": "noclip", "direction": "two-way" },
+      { "to": 48, "type": "noclip", "direction": "two-way" }
+    ],
+    "shortDescription": "Foggy pastoral hills lit by endless daylight, ringed by a permanently dark forest of massive insectoid colonies and odd sheep herds.",
+    "atmosphere": "Persistent fog over rolling grassland; unchanging daylight in the hills against the perpetually dark deciduous border forest.",
+    "tips": "Avoid the forest border where the insectoids thrive. Move carefully through the fogged center. The sheep are docile and often mark safe paths.",
+    "noData": false
+  },
+  {
+    "number": 78,
+    "title": "Space Station",
+    "survivalClass": 2,
+    "tags": ["zero-gravity", "vacuum-hazard", "derelict", "hostile-entities"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "combine", "presence": "common" },
+      { "id": "clumps", "presence": "occasional" },
+      { "id": "dullers", "presence": "occasional" },
+      { "id": "wretches", "presence": "occasional" },
+      { "id": "deathmoths", "presence": "rare" }
+    ],
+    "connections": [
+      { "to": 5, "type": "door", "direction": "two-way" },
+      { "to": 11, "type": "door", "direction": "one-way" },
+      { "to": 56, "type": "door", "direction": "two-way" }
+    ],
+    "shortDescription": "A vast weightless space station stretching endlessly in every direction, full of dead machinery, overgrown gardens and starry portholes.",
+    "atmosphere": "Desolate, disorienting null-gravity halls of dead equipment and plants; the shifting stars through the portholes hypnotize.",
+    "tips": "Don't stare too long at the portholes — the pull toward the airlocks is real. Avoid lavatories where Clumps hide. Find a working spacesuit before you try to leave.",
+    "noData": false
+  },
+  {
+    "number": 79,
+    "title": "Ghosts in the Machine",
+    "survivalClass": 4,
+    "tags": ["temporal-instability", "medical-horror", "anomalous-machinery", "spatial-displacement"],
+    "safe": false,
+    "secure": false,
+    "entities": [],
+    "connections": [],
+    "shortDescription": "An abandoned mid-20th-century medical research facility racked by time anomalies, bearing traces of unethical experiments on children.",
+    "atmosphere": "A decrepit clinic of ominous machinery where temporal distortion makes you feel like you're phasing through reality itself.",
+    "tips": "Don't linger — the entrance relocates unpredictably, and a 16-clock machine triggers spatial-displacement tremors every 30 minutes.",
+    "noData": false
+  },
+  {
+    "number": 80,
+    "title": "Sententia Oblita",
+    "survivalClass": 2,
+    "tags": ["swamp", "unfinished-structures", "surreal-creatures", "metafiction"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "textureless-animals", "presence": "common" },
+      { "id": "faceless-humanoids", "presence": "occasional" },
+      { "id": "cosmonaut-bird", "presence": "rare" },
+      { "id": "amorphous-entity", "presence": "rare" }
+    ],
+    "connections": [
+      { "to": 11, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "A sinking swamp of incomplete structures and forgotten beings, its architectural fragments slowly swallowed by murky water.",
+    "atmosphere": "An eerie, desolate bog where uncanny, unfinished entities feel like abandoned concepts or forgotten stories.",
+    "tips": "Seek high ground and the rusted staircase set in the giant cube wall. The more coherent inhabitants may point you toward an exit.",
+    "noData": false
+  }
+]

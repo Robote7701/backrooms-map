@@ -1,0 +1,105 @@
+{
+  "id": "level-67",
+  "slug": "level-67",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "hostile-entities",
+      "food-hazard",
+      "desire-manipulation",
+      "reality-distortion"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "moyen"
+  },
+  "entities": [
+    {
+      "id": "facelings",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "colombina-masks",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "kitsune-masks",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-11",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-31",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-57",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-98",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 67 — Bakery of Desire",
+      "shortDescription": "A 1980s-style bakery that conjures items to match each visitor's tastes — its pastries hide dangerous, desire-tuned psychoactive effects.",
+      "atmosphere": "A nostalgic yet unsettling bakery that adapts to your palate while masking lethal danger inside appealing confections.",
+      "tips": "Never eat your favorite pastry — pick something neutral or disliked instead. Decide beforehand to avoid Faceling aggression in line."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-67-thumb.webp",
+    "banner": "/images/levels/level-67-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-67",
+    "fr": "https://backrooms-wiki.wikidot.com/level-67"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

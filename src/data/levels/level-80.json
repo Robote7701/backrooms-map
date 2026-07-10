@@ -1,0 +1,80 @@
+{
+  "id": "level-80",
+  "slug": "level-80",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "swamp",
+      "unfinished-structures",
+      "surreal-creatures",
+      "metafiction"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "moyen"
+  },
+  "entities": [
+    {
+      "id": "textureless-animals",
+      "presence": "common",
+      "zones": []
+    },
+    {
+      "id": "faceless-humanoids",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "cosmonaut-bird",
+      "presence": "rare",
+      "zones": []
+    },
+    {
+      "id": "amorphous-entity",
+      "presence": "rare",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-11",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 80 — Sententia Oblita",
+      "shortDescription": "A sinking swamp of incomplete structures and forgotten beings, its architectural fragments slowly swallowed by murky water.",
+      "atmosphere": "An eerie, desolate bog where uncanny, unfinished entities feel like abandoned concepts or forgotten stories.",
+      "tips": "Seek high ground and the rusted staircase set in the giant cube wall. The more coherent inhabitants may point you toward an exit."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-80-thumb.webp",
+    "banner": "/images/levels/level-80-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-80",
+    "fr": "https://backrooms-wiki.wikidot.com/level-80"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

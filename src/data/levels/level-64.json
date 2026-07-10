@@ -1,0 +1,125 @@
+{
+  "id": "level-64",
+  "slug": "level-64",
+  "class": "dangereux",
+  "danger": {
+    "level": 4,
+    "scale": 5,
+    "tags": [
+      "darkness",
+      "hostile-entities",
+      "shifting-layout",
+      "psychological-horror"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "lurkers",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-0",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-2",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-6",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-8",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-9",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-57",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-65",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 64 — The Lurking Darkness",
+      "shortDescription": "An infinite house swallowed in darkness, its light fixtures failing and worm-like entities hunting; the layout shifts when unwatched.",
+      "atmosphere": "Oppressive dark decaying domesticity of impossible layouts, unsettling silence and the threat of unseen predators.",
+      "tips": "Move fast and stay hidden from Lurkers. Wait for the safe phase — every light comes on and the entities vanish — then find an exit."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-64-thumb.webp",
+    "banner": "/images/levels/level-64-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-64",
+    "fr": "https://backrooms-wiki.wikidot.com/level-64"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

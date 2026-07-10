@@ -1,0 +1,69 @@
+{
+  "id": "level-75",
+  "slug": "level-75",
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": [
+      "sand",
+      "nostalgia",
+      "peaceful",
+      "liminal"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": true,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [
+    {
+      "to": "level-74",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-76",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 75 — Liminality",
+      "shortDescription": "Sandy corridors of peeling painted walls, sun-like light and endless rain sounds, scattered with children's toys and old footprints.",
+      "atmosphere": "An eerie yet soothing emptiness that evokes childhood memories despite the cracked paint and abandoned rooms.",
+      "tips": "Mostly accessible to younger travelers — adults usually need an accompanying child. Windows and doorways make easy exits."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-75-thumb.webp",
+    "banner": "/images/levels/level-75-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-75",
+    "fr": "https://backrooms-wiki.wikidot.com/level-75"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

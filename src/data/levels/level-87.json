@@ -1,0 +1,75 @@
+{
+  "id": "level-87",
+  "slug": "level-87",
+  "class": "habitable",
+  "danger": {
+    "level": 2,
+    "scale": 5,
+    "tags": [
+      "time-anomalies",
+      "endless-hallways",
+      "temporal-loops",
+      "paradox-danger"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "gearmaker",
+      "presence": "rare",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-9",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-21",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 87 — Hallways of Time",
+      "shortDescription": "Miles of locked hallways stocked with keys and supplies, where meeting your past or future self is a real, dangerous risk.",
+      "atmosphere": "Isolated and disorienting; time flows unevenly here, breeding confusion and unsettling encounters with yourself.",
+      "tips": "Find keys matching the colored or coded locks. Never harm a past or future version of yourself. Keep checking doors for a way out."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-87-thumb.webp",
+    "banner": "/images/levels/level-87-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-87",
+    "fr": "https://backrooms-wiki.wikidot.com/level-87"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "level-91",
+  "slug": "level-91",
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": [
+      "nostalgia",
+      "island",
+      "bittersweet",
+      "shifting"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": false,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [
+    {
+      "to": "level-90",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-92",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 91 — But a Memory",
+      "shortDescription": "A dreamlike island with a solitary cliffside house, where wanderers find deep peace before mysteriously moving on.",
+      "atmosphere": "Serene and melancholic, filled with gentle ocean sounds and the ethereal feel of a cherished, fading memory.",
+      "tips": "Just rest and let the tranquility settle — every visitor eventually falls asleep and wakes somewhere else."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-91-thumb.webp",
+    "banner": "/images/levels/level-91-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-91",
+    "fr": "https://backrooms-wiki.wikidot.com/level-91"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

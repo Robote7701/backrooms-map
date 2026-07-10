@@ -1,0 +1,105 @@
+{
+  "id": "level-78",
+  "slug": "level-78",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "zero-gravity",
+      "vacuum-hazard",
+      "derelict",
+      "hostile-entities"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "eleve"
+  },
+  "entities": [
+    {
+      "id": "combine",
+      "presence": "common",
+      "zones": []
+    },
+    {
+      "id": "clumps",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "dullers",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "wretches",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "deathmoths",
+      "presence": "rare",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-5",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-11",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-56",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 78 — Space Station",
+      "shortDescription": "A vast weightless space station stretching endlessly in every direction, full of dead machinery, overgrown gardens and starry portholes.",
+      "atmosphere": "Desolate, disorienting null-gravity halls of dead equipment and plants; the shifting stars through the portholes hypnotize.",
+      "tips": "Don't stare too long at the portholes — the pull toward the airlocks is real. Avoid lavatories where Clumps hide. Find a working spacesuit before you try to leave."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-78-thumb.webp",
+    "banner": "/images/levels/level-78-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-78",
+    "fr": "https://backrooms-wiki.wikidot.com/level-78"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

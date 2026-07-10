@@ -1,0 +1,59 @@
+{
+  "id": "level-71",
+  "slug": "level-71",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "darkness",
+      "disorientation",
+      "existential-fading",
+      "horror"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [
+    {
+      "to": "level-4",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 71 — Void Basement",
+      "shortDescription": "An infinite basement where visitors slowly lose their senses and dissolve, piece by piece, into nothingness.",
+      "atmosphere": "A pitch-black void of growing disorientation and despair as explorers lose form and, eventually, consciousness.",
+      "tips": "Avoid basements reached from Level 4 — this level induces an irreversible fade from reality."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-71-thumb.webp",
+    "banner": "/images/levels/level-71-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-71",
+    "fr": "https://backrooms-wiki.wikidot.com/level-71"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "stub",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

@@ -3,6 +3,10 @@
     "title": "Backrooms — Carte interactive",
     "subtitle": "Niveaux, routes et entités"
   },
+  "search": {
+    "placeholder": "Rechercher un niveau…",
+    "noResults": "Aucun niveau trouvé"
+  },
   "panel": {
     "empty": "Cliquez sur un niveau pour afficher ses détails.",
     "class": "Classe",

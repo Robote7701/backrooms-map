@@ -1,0 +1,60 @@
+{
+  "id": "level-74",
+  "slug": "level-74",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "psychological-hazard",
+      "hallucinations",
+      "entity-mimicry",
+      "time-dependent",
+      "difficulte-estimee"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [
+    {
+      "to": "level-68",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 74 — Stage Fright",
+      "shortDescription": "A theatre stage of looping hallways populated by dream-like figures resembling people the visitor knows.",
+      "atmosphere": "Theatrical and familiar at first, growing more unsettling as isolation deepens and hallucinations intensify.",
+      "tips": "Leave through the trapdoors within two hours — longer stays badly erode your grip on reality."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-74-thumb.webp",
+    "banner": "/images/levels/level-74-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-74",
+    "fr": "https://backrooms-wiki.wikidot.com/level-74"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "stub",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

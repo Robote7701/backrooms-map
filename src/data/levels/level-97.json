@@ -1,0 +1,65 @@
+{
+  "id": "level-97",
+  "slug": "level-97",
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": [
+      "aquatic",
+      "fog",
+      "undead-entities",
+      "shipwreck"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "ghouls",
+      "presence": "frequent",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-17",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 97 — Lighthouse",
+      "shortDescription": "A fog-shrouded island holding a ruined lighthouse, home to undead entities and ringed by deep, cold saltwater.",
+      "atmosphere": "Perpetual night under thick fog and a crescent moon; an isolating quiet broken only by scattered signs of past tragedy.",
+      "tips": "Avoid the island itself — stay near the boat wreckage. The lighthouse ruins are extremely dangerous; be ready to swim the moment you arrive."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-97-thumb.webp",
+    "banner": "/images/levels/level-97-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-97",
+    "fr": "https://backrooms-wiki.wikidot.com/level-97"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

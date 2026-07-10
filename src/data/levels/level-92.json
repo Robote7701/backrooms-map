@@ -1,0 +1,125 @@
+{
+  "id": "level-92",
+  "slug": "level-92",
+  "class": "mortel",
+  "danger": {
+    "level": 5,
+    "scale": 5,
+    "tags": [
+      "radiation-hazard",
+      "armed-conflict",
+      "hostile-entities",
+      "faction-territory"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "moyen"
+  },
+  "entities": [
+    {
+      "id": "clumps",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "hounds",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "smilers",
+      "presence": "frequent",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-2",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-3",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-9",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-11",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-17",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-34",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 92 — Fallout Shelter",
+      "shortDescription": "A vast underground bunker of radiation zones, anomalous computers and scattered weapons, torn by faction conflicts.",
+      "atmosphere": "Decaying concrete tunnels of murky pipes and heavy blast doors, radiation exposure looming beside armed groups and entities.",
+      "tips": "Avoid radiation zones — disorientation and spatial anomalies follow. Stay clear of rival faction outposts. Grab protective gear and night vision if found."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-92-thumb.webp",
+    "banner": "/images/levels/level-92-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-92",
+    "fr": "https://backrooms-wiki.wikidot.com/level-92"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

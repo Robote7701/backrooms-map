@@ -1,0 +1,55 @@
+{
+  "id": "level-88",
+  "slug": "level-88",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "sound-distortion",
+      "aquatic-hazard",
+      "sensory-deprivation",
+      "unknown-entity",
+      "difficulte-estimee"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "muted-lake-entity",
+      "presence": "unknown",
+      "zones": []
+    }
+  ],
+  "connections": [],
+  "i18n": {
+    "en": {
+      "name": "Level 88 — Muted Lake",
+      "shortDescription": "A frigid, unnervingly still lake in a dark forest that swallows all sound and hides an unidentified aquatic threat.",
+      "atmosphere": "Oppressively silent, faintly metallic-smelling; sound vanishes into the depths, leaving palpable dread.",
+      "tips": "Avoid this level entirely. Don't approach or enter the water — prolonged exposure can cause temporary or permanent mutism."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-88-thumb.webp",
+    "banner": "/images/levels/level-88-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-88",
+    "fr": "https://backrooms-wiki.wikidot.com/level-88"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

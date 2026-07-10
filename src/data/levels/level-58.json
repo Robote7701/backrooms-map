@@ -1,0 +1,110 @@
+{
+  "id": "level-58",
+  "slug": "level-58",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "waterpark",
+      "tribal-settlement",
+      "hostile-entities",
+      "tegan-fruit"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "moyen"
+  },
+  "entities": [
+    {
+      "id": "smilers",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "dullers",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "windows",
+      "presence": "rare",
+      "zones": []
+    },
+    {
+      "id": "wretches",
+      "presence": "rare",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-0",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-1",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-9",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-37",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 58 — Water Wonder",
+      "shortDescription": "An abandoned indoor waterpark of pools, corridors, cafes and storerooms, home to the Tribe of Tegan and a B.N.T.G. base.",
+      "atmosphere": "Decaying amusement facilities where a primitive tribal settlement and an organized corporate outpost coexist in eerie duality.",
+      "tips": "Avoid entities in the corridors. Befriend the Tribe of Tegan for resources and harvest ripe Tegan Fruit for food and protective skin."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-58-thumb.webp",
+    "banner": "/images/levels/level-58-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-58",
+    "fr": "https://backrooms-wiki.wikidot.com/level-58"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

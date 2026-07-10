@@ -1,0 +1,95 @@
+{
+  "id": "level-51",
+  "slug": "level-51",
+  "class": "dangereux",
+  "danger": {
+    "level": 5,
+    "scale": 5,
+    "tags": [
+      "ancient-ruins",
+      "technology-disabled",
+      "hostile-entities",
+      "shifting-labyrinth"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "moyen"
+  },
+  "entities": [
+    {
+      "id": "deathmoths",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "death-rats",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "crawlers",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-10",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-20",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-57",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 51 — The Forgotten City",
+      "shortDescription": "An underground cavern holding the ruins of an ancient city of The Lost, with a shifting labyrinth and a central temple of sealed chambers.",
+      "atmosphere": "A decaying civilization in perpetual abandonment: crumbling architecture, creeping vegetation and an oppressive sense of lost purpose.",
+      "tips": "All technology fails — navigate by landmarks. Avoid entity-infested zones outside the temple. Map the shifting labyrinth and heed The Lost."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-51-thumb.webp",
+    "banner": "/images/levels/level-51-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-51",
+    "fr": "https://backrooms-wiki.wikidot.com/level-51"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

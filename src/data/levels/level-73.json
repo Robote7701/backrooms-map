@@ -1,0 +1,95 @@
+{
+  "id": "level-73",
+  "slug": "level-73",
+  "class": "mortel",
+  "danger": {
+    "level": 5,
+    "scale": 5,
+    "tags": [
+      "hostile-entities",
+      "island",
+      "darkness",
+      "castle-refuge"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": true,
+    "entityCount": "eleve"
+  },
+  "entities": [
+    {
+      "id": "windows",
+      "presence": "omnipresent",
+      "zones": []
+    },
+    {
+      "id": "smilers",
+      "presence": "omnipresent",
+      "zones": []
+    },
+    {
+      "id": "deathmoths",
+      "presence": "omnipresent",
+      "zones": []
+    },
+    {
+      "id": "clumps",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "hounds",
+      "presence": "frequent",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-6",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-14",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 73 — The Redlands",
+      "shortDescription": "A crimson island drowned in darkness and swarmed by entities; only the Silver Castle, under CORAN's protection, offers refuge.",
+      "atmosphere": "Perpetual darkness under a full moon, suffocating black clouds and endless hostile creatures ringing a gothic sanctuary.",
+      "tips": "Sprint straight for the Silver Castle — don't look around or slow down. Bang on the doors for entry. Never use artificial light."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-73-thumb.webp",
+    "banner": "/images/levels/level-73-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-73",
+    "fr": "https://backrooms-wiki.wikidot.com/level-73"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "level-90",
+  "slug": "level-90",
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": [
+      "safe",
+      "homelike",
+      "mystery",
+      "renovated"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": false,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [
+    {
+      "to": "level-89",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-91",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 90 — Newly Renovated Home",
+      "shortDescription": "A two-storey renovated house presented as a fresh safe haven, recently cleared of whatever infested it before.",
+      "atmosphere": "Welcoming yet faintly uncanny domestic comfort, with hints of something dark beneath the cheerful renovation story.",
+      "tips": "Enter by simply thinking of 'home'. Exit through the old oak tree in the backyard. Stay cautious despite the reassuring facade."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-90-thumb.webp",
+    "banner": "/images/levels/level-90-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-90",
+    "fr": "https://backrooms-wiki.wikidot.com/level-90"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

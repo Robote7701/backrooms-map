@@ -11,7 +11,7 @@ import { useI18n } from '../i18n/I18nContext'
  *  - les calques actifs -> recompose le stylesheet
  *  - la sélection -> classes .selected / .highlighted
  */
-export default function MapView({ levels, activeLayers, selectedId, onSelect }) {
+export default function MapView({ levels, activeLayers, selectedId, focusNonce, onSelect }) {
   const { lang } = useI18n()
   const containerRef = useRef(null)
   const cyRef = useCytoscape(containerRef, (cy) => bindEvents(cy))
@@ -65,6 +65,17 @@ export default function MapView({ levels, activeLayers, selectedId, onSelect }) 
     if (!cy) return
     applySelection(cy, selectedId)
   }, [selectedId, cyRef])
+
+  // Recentre la carte sur le niveau recherché (focusNonce change à chaque recherche).
+  useEffect(() => {
+    if (!focusNonce) return
+    const cy = cyRef.current
+    if (!cy || !selectedId) return
+    const node = cy.getElementById(selectedId)
+    if (node.empty()) return
+    cy.animate({ center: { eles: node }, zoom: Math.max(cy.zoom(), 1.4) }, { duration: 350 })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [focusNonce])
 
   return <div ref={containerRef} className="map-view" />
 }

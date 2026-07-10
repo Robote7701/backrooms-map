@@ -1,0 +1,80 @@
+{
+  "id": "level-93",
+  "slug": "level-93",
+  "class": "dangereux",
+  "danger": {
+    "level": 5,
+    "scale": 5,
+    "tags": [
+      "extreme-cold",
+      "avalanche-risk",
+      "hostile-weather",
+      "entity-graveyard"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "hounds",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "wretches",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-8",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-47",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 93 — The Summit",
+      "shortDescription": "A seemingly endless Everest-like peak with weather that worsens over time, plunging below -180°C.",
+      "atmosphere": "A desolate alpine climb of escalating blizzards, fog and hail — every entity here eventually dies, leaving only frozen corpses.",
+      "tips": "Avoid the tents — hostile entities live in them. Wear cold-weather gear. Weather turns fast: get out within 10 minutes."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-93-thumb.webp",
+    "banner": "/images/levels/level-93-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-93",
+    "fr": "https://backrooms-wiki.wikidot.com/level-93"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "stub",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

@@ -1,0 +1,219 @@
+[
+  {
+    "number": 51,
+    "title": "The Forgotten City",
+    "survivalClass": 4,
+    "tags": ["ancient-ruins", "technology-disabled", "hostile-entities", "shifting-labyrinth"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "deathmoths", "presence": "occasional" },
+      { "id": "death-rats", "presence": "occasional" },
+      { "id": "crawlers", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 10, "type": "noclip", "direction": "one-way" },
+      { "to": 20, "type": "noclip", "direction": "one-way" },
+      { "to": 57, "type": "noclip", "direction": "two-way" }
+    ],
+    "shortDescription": "An underground cavern holding the ruins of an ancient city of The Lost, with a shifting labyrinth and a central temple of sealed chambers.",
+    "atmosphere": "A decaying civilization in perpetual abandonment: crumbling architecture, creeping vegetation and an oppressive sense of lost purpose.",
+    "tips": "All technology fails — navigate by landmarks. Avoid entity-infested zones outside the temple. Map the shifting labyrinth and heed The Lost.",
+    "noData": false
+  },
+  {
+    "number": 52,
+    "title": "Eyes On You",
+    "survivalClass": null,
+    "tags": ["cavern", "surveillance", "psychological", "minerals"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "smilers", "presence": "occasional" },
+      { "id": "facelings", "presence": "common" },
+      { "id": "wretches", "presence": "common" },
+      { "id": "hounds", "presence": "common" }
+    ],
+    "connections": [
+      { "to": 2, "type": "noclip", "direction": "two-way" },
+      { "to": 11, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A vast ancient cavern of valuable minerals, home to evolved Neanderthals and adapted entities, and a relentless feeling of being watched.",
+    "atmosphere": "Cavernous darkness lit by distant torches; an overwhelming sense of surveillance builds mounting psychological pressure.",
+    "tips": "Stay constantly aware of your surroundings. Keep almond water handy. Don't explore deep — the entities are passive but unpredictable.",
+    "noData": false
+  },
+  {
+    "number": 53,
+    "title": "Alone",
+    "survivalClass": 0,
+    "tags": ["isolated", "homelike", "finite", "bittersweet"],
+    "safe": true,
+    "secure": true,
+    "entities": [
+      { "id": "facelings", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 9, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A single house suspended in an eternal morning, where a trapped wanderer lives on mysteriously restocking food and faceless visitors.",
+    "atmosphere": "An isolated home under perpetual dawn: peaceful yet profoundly lonely, comfort at war with inescapable confinement.",
+    "tips": "Rescue is possible via outside contact — leave written messages where they can be found. The faceless visitors mean no immediate harm.",
+    "noData": false
+  },
+  {
+    "number": 54,
+    "title": "Stairwell Of Spirals",
+    "survivalClass": 2,
+    "tags": ["spiral-stairwell", "water-damage", "damp", "lonely"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "camo-crawler", "presence": "occasional" },
+      { "id": "crustors", "presence": "occasional" },
+      { "id": "smilers", "presence": "rare" },
+      { "id": "hounds", "presence": "rare" },
+      { "id": "skin-stealers", "presence": "rare" }
+    ],
+    "connections": [
+      { "to": 1, "type": "door", "direction": "one-way" },
+      { "to": 4, "type": "door", "direction": "one-way" },
+      { "to": 5, "type": "door", "direction": "one-way" },
+      { "to": 9, "type": "door", "direction": "one-way" },
+      { "to": 17, "type": "stairs", "direction": "two-way" },
+      { "to": 21, "type": "door", "direction": "one-way" },
+      { "to": 33, "type": "noclip", "direction": "one-way" },
+      { "to": 34, "type": "door", "direction": "one-way" },
+      { "to": 42, "type": "stairs", "direction": "two-way" },
+      { "to": 43, "type": "door", "direction": "one-way" },
+      { "to": 58, "type": "door", "direction": "one-way" },
+      { "to": 61, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "An infinite spiraling stairwell of decaying wooden steps and damp blue walls, threaded with mysterious hallways and rare entities.",
+    "atmosphere": "Damp and moldy, water dripping down the walls; creaking stairs and distant ocean sounds deepen a pervasive loneliness.",
+    "tips": "Avoid the water-filled rooms and stay alert for rare entities. Use the visible doors strategically to reach safer levels.",
+    "noData": false
+  },
+  {
+    "number": 55,
+    "title": "Pit Stop",
+    "survivalClass": 0,
+    "tags": ["safe", "quiet", "memory-inducing", "time-limited"],
+    "safe": true,
+    "secure": false,
+    "entities": [],
+    "connections": [
+      { "to": 1, "type": "noclip", "direction": "one-way" },
+      { "to": 2, "type": "noclip", "direction": "one-way" },
+      { "to": 3, "type": "noclip", "direction": "one-way" },
+      { "to": 4, "type": "noclip", "direction": "one-way" },
+      { "to": 5, "type": "noclip", "direction": "one-way" }
+    ],
+    "shortDescription": "An infinite abandoned restaurant complex used as a temporary refuge; wanderers are automatically displaced after random intervals.",
+    "atmosphere": "Eerily quiet under perpetual sunlight; damp cool air around 21°C brings drowsiness and quiet introspection.",
+    "tips": "Use it only as a brief sanctuary. Food and water are available. Explore carefully — the average stay is about three days.",
+    "noData": false
+  },
+  {
+    "number": 56,
+    "title": "Frostbite",
+    "survivalClass": 5,
+    "tags": ["extreme-cold", "ice-cavern", "hostile-entities", "arctic"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "death-rats", "presence": "common" },
+      { "id": "deathmoths", "presence": "common" },
+      { "id": "frost-spider", "presence": "rare" }
+    ],
+    "connections": [
+      { "to": 5, "type": "other", "direction": "two-way" },
+      { "to": 8, "type": "noclip", "direction": "two-way" },
+      { "to": 55, "type": "other", "direction": "two-way" },
+      { "to": 57, "type": "other", "direction": "two-way" },
+      { "to": 93, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "A circular ice-cavern system of ever-colder zones, reaching absolute zero at a deadly frozen core.",
+    "atmosphere": "A desolate frozen void lit by bioluminescent ice; temperature extremes make survival impossible without specialized gear.",
+    "tips": "Find supply crates with cold suits and oxygen. Follow red flags toward outposts. Avoid ice burrows and never touch the singularity floor.",
+    "noData": false
+  },
+  {
+    "number": 57,
+    "title": "Diurnal Art Gallery",
+    "survivalClass": 0,
+    "tags": ["art-gallery", "safe-haven", "immersive-paintings", "friendly-entities"],
+    "safe": true,
+    "secure": true,
+    "entities": [
+      { "id": "the-painter", "presence": "frequent" },
+      { "id": "the-muralist", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 7, "type": "noclip", "direction": "one-way" },
+      { "to": 21, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "A welcoming art gallery of surreal paintings depicting Backrooms levels, kept by a friendly teenage artist and a veiled figure.",
+    "atmosphere": "A warm creative sanctuary of shifting layouts, paint and wood scents, and soft light that links you to the levels on the walls.",
+    "tips": "Ask The Painter for directions. Avoid the unnamed painting at the back of the Registry. Approaching a painting immerses you in its level.",
+    "noData": false
+  },
+  {
+    "number": 58,
+    "title": "Water Wonder",
+    "survivalClass": 2,
+    "tags": ["waterpark", "tribal-settlement", "hostile-entities", "tegan-fruit"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "smilers", "presence": "occasional" },
+      { "id": "dullers", "presence": "occasional" },
+      { "id": "windows", "presence": "rare" },
+      { "id": "wretches", "presence": "rare" }
+    ],
+    "connections": [
+      { "to": 0, "type": "noclip", "direction": "one-way" },
+      { "to": 1, "type": "other", "direction": "one-way" },
+      { "to": 9, "type": "other", "direction": "one-way" },
+      { "to": 37, "type": "noclip", "direction": "one-way" }
+    ],
+    "shortDescription": "An abandoned indoor waterpark of pools, corridors, cafes and storerooms, home to the Tribe of Tegan and a B.N.T.G. base.",
+    "atmosphere": "Decaying amusement facilities where a primitive tribal settlement and an organized corporate outpost coexist in eerie duality.",
+    "tips": "Avoid entities in the corridors. Befriend the Tribe of Tegan for resources and harvest ripe Tegan Fruit for food and protective skin.",
+    "noData": false
+  },
+  {
+    "number": 59,
+    "title": "(page unavailable)",
+    "survivalClass": null,
+    "tags": ["source-missing"],
+    "safe": false,
+    "secure": false,
+    "entities": [],
+    "connections": [],
+    "shortDescription": "Source page returned HTTP 404 at fetch time; kept as a stub so cross-references resolve. Data to be filled on a re-fetch.",
+    "atmosphere": "",
+    "tips": "",
+    "noData": true
+  },
+  {
+    "number": 60,
+    "title": "The Baywalk",
+    "survivalClass": 5,
+    "tags": ["darkness", "smilers", "drowning", "hypnotic-effect"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "smilers", "presence": "frequent" }
+    ],
+    "connections": [
+      { "to": 7, "type": "other", "direction": "one-way" },
+      { "to": 61, "type": "other", "direction": "one-way" },
+      { "to": 85, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A dark bayside concrete promenade with broken streetlights, prowled by Smilers and a calming mental effect that lures wanderers to drown.",
+    "atmosphere": "An unsettling seaside walk of malfunctioning lights and constant Smiler presence, laced with an insidious 'painless death' pull.",
+    "tips": "Travel in groups to resist the Painless Death effect. Avoid the upper area; prep in the lower dirt section. Remember the Guide.",
+    "noData": false
+  }
+]

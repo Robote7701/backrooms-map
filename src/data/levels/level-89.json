@@ -1,0 +1,75 @@
+{
+  "id": "level-89",
+  "slug": "level-89",
+  "class": "dangereux",
+  "danger": {
+    "level": 4,
+    "scale": 5,
+    "tags": [
+      "forested",
+      "parasitic",
+      "hazardous",
+      "mysterious"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "unknown-hostile",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-0",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-90",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 89 — Dreaded Park",
+      "shortDescription": "An autumn park of narrow paths and public facilities, hiding parasitic organisms that dangerously warp cognition and behavior.",
+      "atmosphere": "A desolate autumn landscape of scattered lighting and vegetation — familiar at first, slowly breeding confusion and aggression.",
+      "tips": "Never drink any liquid found here. Watch your companions for behavior changes. Find the exit quickly and don't linger."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-89-thumb.webp",
+    "banner": "/images/levels/level-89-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-89",
+    "fr": "https://backrooms-wiki.wikidot.com/level-89"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

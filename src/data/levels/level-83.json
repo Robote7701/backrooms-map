@@ -1,0 +1,65 @@
+{
+  "id": "level-83",
+  "slug": "level-83",
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": [
+      "aquatic",
+      "safe-haven",
+      "submarine",
+      "friendly-crew"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": true,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "great-observer",
+      "presence": "frequent",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-7",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 83 — The Sunken Submarine",
+      "shortDescription": "A functional sunken nuclear submarine on the seafloor, stocked with endless food and crewed by a friendly permanent staff.",
+      "atmosphere": "Deep underwater, dim artificial light and the constant creak of pressure, occasionally watched by a colossal entity outside.",
+      "tips": "Stay calm if the Great Observer appears at a window. Use the escape hatch to reach Level 7 — brace for the water pressure."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-83-thumb.webp",
+    "banner": "/images/levels/level-83-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-83",
+    "fr": "https://backrooms-wiki.wikidot.com/level-83"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

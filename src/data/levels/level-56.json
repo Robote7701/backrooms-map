@@ -1,0 +1,115 @@
+{
+  "id": "level-56",
+  "slug": "level-56",
+  "class": "mortel",
+  "danger": {
+    "level": 5,
+    "scale": 5,
+    "tags": [
+      "extreme-cold",
+      "ice-cavern",
+      "hostile-entities",
+      "arctic"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "moyen"
+  },
+  "entities": [
+    {
+      "id": "death-rats",
+      "presence": "common",
+      "zones": []
+    },
+    {
+      "id": "deathmoths",
+      "presence": "common",
+      "zones": []
+    },
+    {
+      "id": "frost-spider",
+      "presence": "rare",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-5",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-8",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-55",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-57",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-93",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 56 — Frostbite",
+      "shortDescription": "A circular ice-cavern system of ever-colder zones, reaching absolute zero at a deadly frozen core.",
+      "atmosphere": "A desolate frozen void lit by bioluminescent ice; temperature extremes make survival impossible without specialized gear.",
+      "tips": "Find supply crates with cold suits and oxygen. Follow red flags toward outposts. Avoid ice burrows and never touch the singularity floor."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-56-thumb.webp",
+    "banner": "/images/levels/level-56-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-56",
+    "fr": "https://backrooms-wiki.wikidot.com/level-56"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

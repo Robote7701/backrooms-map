@@ -1,0 +1,46 @@
+{
+  "id": "level-59",
+  "slug": "level-59",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "source-missing",
+      "difficulte-estimee"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [],
+  "i18n": {
+    "en": {
+      "name": "Level 59 — (page unavailable)",
+      "shortDescription": "Source page returned HTTP 404 at fetch time; kept as a stub so cross-references resolve. Data to be filled on a re-fetch.",
+      "atmosphere": "",
+      "tips": ""
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-59-thumb.webp",
+    "banner": "/images/levels/level-59-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-59",
+    "fr": "https://backrooms-wiki.wikidot.com/level-59"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "stub",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

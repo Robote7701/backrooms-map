@@ -1,0 +1,49 @@
+{
+  "id": "level-96",
+  "slug": "level-96",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "war-refuge",
+      "homelike",
+      "tragedy",
+      "bittersweet",
+      "difficulte-estimee"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": true,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [],
+  "i18n": {
+    "en": {
+      "name": "Level 96 — Solace",
+      "shortDescription": "An abandoned Levantine mansion offering refuge from conflict, where visitors find peace through familiar sensory memories.",
+      "atmosphere": "Serene yet melancholic: traditional architecture, dusty rooms and finely patterned windows overlooking distant mountains.",
+      "tips": "Let the familiar comforts settle you — the carpet, the smell of coffee. This peace comes with a permanent separation from the outside."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-96-thumb.webp",
+    "banner": "/images/levels/level-96-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-96",
+    "fr": "https://backrooms-wiki.wikidot.com/level-96"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

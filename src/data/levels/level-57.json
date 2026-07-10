@@ -1,0 +1,80 @@
+{
+  "id": "level-57",
+  "slug": "level-57",
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": [
+      "art-gallery",
+      "safe-haven",
+      "immersive-paintings",
+      "friendly-entities"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": true,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "the-painter",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "the-muralist",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-7",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-21",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 57 — Diurnal Art Gallery",
+      "shortDescription": "A welcoming art gallery of surreal paintings depicting Backrooms levels, kept by a friendly teenage artist and a veiled figure.",
+      "atmosphere": "A warm creative sanctuary of shifting layouts, paint and wood scents, and soft light that links you to the levels on the walls.",
+      "tips": "Ask The Painter for directions. Avoid the unnamed painting at the back of the Registry. Approaching a painting immerses you in its level."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-57-thumb.webp",
+    "banner": "/images/levels/level-57-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-57",
+    "fr": "https://backrooms-wiki.wikidot.com/level-57"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

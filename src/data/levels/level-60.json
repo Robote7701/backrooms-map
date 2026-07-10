@@ -1,0 +1,85 @@
+{
+  "id": "level-60",
+  "slug": "level-60",
+  "class": "mortel",
+  "danger": {
+    "level": 5,
+    "scale": 5,
+    "tags": [
+      "darkness",
+      "smilers",
+      "drowning",
+      "hypnotic-effect"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "smilers",
+      "presence": "frequent",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-7",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-61",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-85",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 60 — The Baywalk",
+      "shortDescription": "A dark bayside concrete promenade with broken streetlights, prowled by Smilers and a calming mental effect that lures wanderers to drown.",
+      "atmosphere": "An unsettling seaside walk of malfunctioning lights and constant Smiler presence, laced with an insidious 'painless death' pull.",
+      "tips": "Travel in groups to resist the Painless Death effect. Avoid the upper area; prep in the lower dirt section. Remember the Guide."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-60-thumb.webp",
+    "banner": "/images/levels/level-60-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-60",
+    "fr": "https://backrooms-wiki.wikidot.com/level-60"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

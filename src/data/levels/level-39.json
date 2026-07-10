@@ -18,7 +18,18 @@
     "entityCount": "aucune"
   },
   "entities": [],
-  "connections": [],
+  "connections": [
+    {
+      "to": "level-63",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
   "i18n": {
     "en": {
       "name": "Level 39 — Enchanted Forest",

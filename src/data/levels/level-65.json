@@ -1,0 +1,85 @@
+{
+  "id": "level-65",
+  "slug": "level-65",
+  "class": "dangereux",
+  "danger": {
+    "level": 5,
+    "scale": 5,
+    "tags": [
+      "carnivorous-flora",
+      "hostile-fauna",
+      "transformation-hazard",
+      "anomalous-structures"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "centipedes",
+      "presence": "common",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-14",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-23",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-32",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 65 — Bloodstained Garden",
+      "shortDescription": "A perpetually foggy forest of blood-red autumn trees, carnivorous flora that transforms wanderers, and massive hostile centipedes.",
+      "atmosphere": "Thick fog, dim twilight and cool winds — nature itself actively hunts and consumes whoever enters.",
+      "tips": "Never eat the blood-apples — it triggers irreversible transformation into a centipede. Move slowly near centipedes; avoid the mouth structures and the stump."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-65-thumb.webp",
+    "banner": "/images/levels/level-65-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-65",
+    "fr": "https://backrooms-wiki.wikidot.com/level-65"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "level-63",
+  "slug": "level-63",
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": [
+      "peaceful",
+      "meditation",
+      "void",
+      "natural"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": true,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [
+    {
+      "to": "level-11",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-39",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 63 — Tranquility",
+      "shortDescription": "A serene sky realm of wooden bridges suspended over a void, dotted with meditation points that ease the mind.",
+      "atmosphere": "Constant daylight over shifting vine walls, gentle wind, and a profound tranquility free of entities or hazards.",
+      "tips": "Visit the isolated meditation platforms to soothe distress. Falling into the void safely drops you into other natural levels."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-63-thumb.webp",
+    "banner": "/images/levels/level-63-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-63",
+    "fr": "https://backrooms-wiki.wikidot.com/level-63"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

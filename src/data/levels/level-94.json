@@ -1,0 +1,105 @@
+{
+  "id": "level-94",
+  "slug": "level-94",
+  "class": "dangereux",
+  "danger": {
+    "level": 4,
+    "scale": 5,
+    "tags": [
+      "stop-motion",
+      "day-night-cycle",
+      "hostile-entities",
+      "nostalgia"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "eleve"
+  },
+  "entities": [
+    {
+      "id": "animations",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "smilers",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "skin-stealers",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "hounds",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "deathmoths",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-7",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-9",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-53",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 94 — Motion",
+      "shortDescription": "A 1930s stop-motion town of an Almond Water fountain, endless grassy hills and a floating castle — safe by day, hostile by night.",
+      "atmosphere": "A whimsical cartoonish town with sinister undertones, its cheerful siren music giving way to total silence and danger after dark.",
+      "tips": "Never stay outside after nightfall — shelter in buildings. Look for Almond Water. Only approach the Animated King's trial if you're prepared."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-94-thumb.webp",
+    "banner": "/images/levels/level-94-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-94",
+    "fr": "https://backrooms-wiki.wikidot.com/level-94"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

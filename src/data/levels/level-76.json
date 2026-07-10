@@ -1,0 +1,65 @@
+{
+  "id": "level-76",
+  "slug": "level-76",
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": [
+      "tea-fields",
+      "mountainous",
+      "supernatural-entity",
+      "post-fire"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": true,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "saola",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-10",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 76 — Back from the Charwood Brink",
+      "shortDescription": "A subtropical highland of tea plantations and mountains, dotted with mysterious Saola statues, still healing from an ancient fire.",
+      "atmosphere": "Humid, lush terrain thick with tea-leaf scent; an unusual 21-hour daylight cycle, peaceful but tinged with mystery.",
+      "tips": "Bring a light for the 3-hour dark stretch. Navigate by the hut waypoints. Never try to start a fire. Trade with Smoky Steep Farm."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-76-thumb.webp",
+    "banner": "/images/levels/level-76-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-76",
+    "fr": "https://backrooms-wiki.wikidot.com/level-76"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "level-53",
+  "slug": "level-53",
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": [
+      "isolated",
+      "homelike",
+      "finite",
+      "bittersweet"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": true,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "facelings",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-9",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 53 — Alone",
+      "shortDescription": "A single house suspended in an eternal morning, where a trapped wanderer lives on mysteriously restocking food and faceless visitors.",
+      "atmosphere": "An isolated home under perpetual dawn: peaceful yet profoundly lonely, comfort at war with inescapable confinement.",
+      "tips": "Rescue is possible via outside contact — leave written messages where they can be found. The faceless visitors mean no immediate harm."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-53-thumb.webp",
+    "banner": "/images/levels/level-53-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-53",
+    "fr": "https://backrooms-wiki.wikidot.com/level-53"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

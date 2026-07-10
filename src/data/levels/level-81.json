@@ -1,0 +1,49 @@
+{
+  "id": "level-81",
+  "slug": "level-81",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "nostalgia",
+      "peaceful",
+      "interior",
+      "dreamlike",
+      "difficulte-estimee"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": true,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [],
+  "i18n": {
+    "en": {
+      "name": "Level 81 — Afterhours Ending",
+      "shortDescription": "A dreamlike office space turned restful sanctuary, softened with furnishings, paintings and the sound of gentle rain.",
+      "atmosphere": "Tranquil and calming: muted colors, drooping willows and soft rain creating an overwhelming sense of weary comfort.",
+      "tips": "A safe haven for rest. Move gently — don't disturb the peaceful atmosphere or try to wake from this dreamlike state."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-81-thumb.webp",
+    "banner": "/images/levels/level-81-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-81",
+    "fr": "https://backrooms-wiki.wikidot.com/level-81"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

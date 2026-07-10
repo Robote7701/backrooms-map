@@ -1,0 +1,70 @@
+{
+  "id": "level-66",
+  "slug": "level-66",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "aquatic",
+      "psychological-hazard",
+      "shifting-architecture",
+      "darkness",
+      "difficulte-estimee"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [
+    {
+      "to": "level-65",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-67",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 66 — Exhibit",
+      "shortDescription": "An infinite walk-through aquarium of shifting architecture and oppressive darkness that wears down visitors' minds.",
+      "atmosphere": "Deafening silence broken by water sounds; pitch-black humid glass tunnels and a constant sense of being watched by empty tanks.",
+      "tips": "Travel in groups with light sources, count heads often, ignore strange sounds, and leave immediately if you find an emergency door."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-66-thumb.webp",
+    "banner": "/images/levels/level-66-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-66",
+    "fr": "https://backrooms-wiki.wikidot.com/level-66"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

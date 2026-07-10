@@ -1,0 +1,48 @@
+{
+  "id": "level-79",
+  "slug": "level-79",
+  "class": "dangereux",
+  "danger": {
+    "level": 5,
+    "scale": 5,
+    "tags": [
+      "temporal-instability",
+      "medical-horror",
+      "anomalous-machinery",
+      "spatial-displacement"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [],
+  "i18n": {
+    "en": {
+      "name": "Level 79 — Ghosts in the Machine",
+      "shortDescription": "An abandoned mid-20th-century medical research facility racked by time anomalies, bearing traces of unethical experiments on children.",
+      "atmosphere": "A decrepit clinic of ominous machinery where temporal distortion makes you feel like you're phasing through reality itself.",
+      "tips": "Don't linger — the entrance relocates unpredictably, and a 16-clock machine triggers spatial-displacement tremors every 30 minutes."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-79-thumb.webp",
+    "banner": "/images/levels/level-79-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-79",
+    "fr": "https://backrooms-wiki.wikidot.com/level-79"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

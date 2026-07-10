@@ -1,0 +1,69 @@
+{
+  "id": "level-68",
+  "slug": "level-68",
+  "class": "dangereux",
+  "danger": {
+    "level": 4,
+    "scale": 5,
+    "tags": [
+      "fungal-growth",
+      "organic-traps",
+      "hypnotic-films",
+      "digestive-hazard"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [
+    {
+      "to": "level-11",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-74",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 68 — The Eater",
+      "shortDescription": "A vast theater complex whose chairs fuse to victims and force them to watch a unique film before the level slowly consumes them.",
+      "atmosphere": "Unsettling and predatory: organic theater rooms built to trap and absorb visitors through chemical and psychological means.",
+      "tips": "Never enter a theater room and never sit in a chair. The level actively hunts through deception and biological traps."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-68-thumb.webp",
+    "banner": "/images/levels/level-68-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-68",
+    "fr": "https://backrooms-wiki.wikidot.com/level-68"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

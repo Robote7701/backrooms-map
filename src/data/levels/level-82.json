@@ -1,0 +1,105 @@
+{
+  "id": "level-82",
+  "slug": "level-82",
+  "class": "habitable",
+  "danger": {
+    "level": 2,
+    "scale": 5,
+    "tags": [
+      "trading-market",
+      "hostile-entities",
+      "strict-schedule",
+      "entity-commerce"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "eleve"
+  },
+  "entities": [
+    {
+      "id": "smilers",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "hounds",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "bursters",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "reviooks",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "dentists",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-9",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-28",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-33",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 82 — Self-Automated Trade",
+      "shortDescription": "A Victorian indoor market run by hostile entities acting as traders, open on a strict schedule with violent closures.",
+      "atmosphere": "Commercial yet threatening — entities trade grudgingly while staying predatory, and closing time means forced eviction.",
+      "tips": "Trade fairly, don't linger, and leave before 9 PM closing. Cheating a trader gets you killed on the spot; re-entry after eviction is fatal."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-82-thumb.webp",
+    "banner": "/images/levels/level-82-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-82",
+    "fr": "https://backrooms-wiki.wikidot.com/level-82"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

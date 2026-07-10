@@ -1,0 +1,213 @@
+[
+  {
+    "number": 61,
+    "title": "(page unavailable)",
+    "survivalClass": null,
+    "tags": ["source-missing"],
+    "safe": false,
+    "secure": false,
+    "entities": [],
+    "connections": [],
+    "shortDescription": "Source page returned HTTP 404 at fetch time; kept as a stub so cross-references resolve. Data to be filled on a re-fetch.",
+    "atmosphere": "",
+    "tips": "",
+    "noData": true
+  },
+  {
+    "number": 62,
+    "title": "Jungle Backyard",
+    "survivalClass": 2,
+    "tags": ["overgrown", "jungle", "hostile-entities", "abandoned-house"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "deathmoths", "presence": "occasional" },
+      { "id": "hounds", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 4, "type": "noclip", "direction": "one-way" },
+      { "to": 10, "type": "noclip", "direction": "one-way" },
+      { "to": 37, "type": "noclip", "direction": "two-way" }
+    ],
+    "shortDescription": "A deteriorating backyard ringed by impossibly tall walls, with a jungle reachable through a breach and one aggressive hound in residence.",
+    "atmosphere": "Decrepit and overgrown, the dilapidated house showing signs of violent disturbance and lingering danger.",
+    "shortDescription2": "",
+    "tips": "Avoid the aggressive hound. Stay in the forest about a week to exit. The deeper jungle jams tracking. Approach brick walls with care.",
+    "noData": false
+  },
+  {
+    "number": 63,
+    "title": "Tranquility",
+    "survivalClass": 0,
+    "tags": ["peaceful", "meditation", "void", "natural"],
+    "safe": true,
+    "secure": true,
+    "entities": [],
+    "connections": [
+      { "to": 11, "type": "other", "direction": "one-way" },
+      { "to": 39, "type": "noclip", "direction": "one-way" }
+    ],
+    "shortDescription": "A serene sky realm of wooden bridges suspended over a void, dotted with meditation points that ease the mind.",
+    "atmosphere": "Constant daylight over shifting vine walls, gentle wind, and a profound tranquility free of entities or hazards.",
+    "tips": "Visit the isolated meditation platforms to soothe distress. Falling into the void safely drops you into other natural levels.",
+    "noData": false
+  },
+  {
+    "number": 64,
+    "title": "The Lurking Darkness",
+    "survivalClass": 3,
+    "tags": ["darkness", "hostile-entities", "shifting-layout", "psychological-horror"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "lurkers", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 0, "type": "door", "direction": "one-way" },
+      { "to": 2, "type": "other", "direction": "one-way" },
+      { "to": 6, "type": "other", "direction": "one-way" },
+      { "to": 8, "type": "other", "direction": "one-way" },
+      { "to": 9, "type": "door", "direction": "one-way" },
+      { "to": 57, "type": "noclip", "direction": "one-way" },
+      { "to": 65, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "An infinite house swallowed in darkness, its light fixtures failing and worm-like entities hunting; the layout shifts when unwatched.",
+    "atmosphere": "Oppressive dark decaying domesticity of impossible layouts, unsettling silence and the threat of unseen predators.",
+    "tips": "Move fast and stay hidden from Lurkers. Wait for the safe phase — every light comes on and the entities vanish — then find an exit.",
+    "noData": false
+  },
+  {
+    "number": 65,
+    "title": "Bloodstained Garden",
+    "survivalClass": 4,
+    "tags": ["carnivorous-flora", "hostile-fauna", "transformation-hazard", "anomalous-structures"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "centipedes", "presence": "common" }
+    ],
+    "connections": [
+      { "to": 14, "type": "door", "direction": "two-way" },
+      { "to": 23, "type": "door", "direction": "two-way" },
+      { "to": 32, "type": "door", "direction": "two-way" }
+    ],
+    "shortDescription": "A perpetually foggy forest of blood-red autumn trees, carnivorous flora that transforms wanderers, and massive hostile centipedes.",
+    "atmosphere": "Thick fog, dim twilight and cool winds — nature itself actively hunts and consumes whoever enters.",
+    "tips": "Never eat the blood-apples — it triggers irreversible transformation into a centipede. Move slowly near centipedes; avoid the mouth structures and the stump.",
+    "noData": false
+  },
+  {
+    "number": 66,
+    "title": "Exhibit",
+    "survivalClass": null,
+    "tags": ["aquatic", "psychological-hazard", "shifting-architecture", "darkness"],
+    "safe": false,
+    "secure": false,
+    "entities": [],
+    "connections": [
+      { "to": 65, "type": "other", "direction": "two-way" },
+      { "to": 67, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "An infinite walk-through aquarium of shifting architecture and oppressive darkness that wears down visitors' minds.",
+    "atmosphere": "Deafening silence broken by water sounds; pitch-black humid glass tunnels and a constant sense of being watched by empty tanks.",
+    "tips": "Travel in groups with light sources, count heads often, ignore strange sounds, and leave immediately if you find an emergency door.",
+    "noData": false
+  },
+  {
+    "number": 67,
+    "title": "Bakery of Desire",
+    "survivalClass": 2,
+    "tags": ["hostile-entities", "food-hazard", "desire-manipulation", "reality-distortion"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "facelings", "presence": "frequent" },
+      { "id": "colombina-masks", "presence": "occasional" },
+      { "id": "kitsune-masks", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 11, "type": "other", "direction": "two-way" },
+      { "to": 31, "type": "other", "direction": "one-way" },
+      { "to": 57, "type": "other", "direction": "one-way" },
+      { "to": 98, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A 1980s-style bakery that conjures items to match each visitor's tastes — its pastries hide dangerous, desire-tuned psychoactive effects.",
+    "atmosphere": "A nostalgic yet unsettling bakery that adapts to your palate while masking lethal danger inside appealing confections.",
+    "tips": "Never eat your favorite pastry — pick something neutral or disliked instead. Decide beforehand to avoid Faceling aggression in line.",
+    "noData": false
+  },
+  {
+    "number": 68,
+    "title": "The Eater",
+    "survivalClass": 3,
+    "tags": ["fungal-growth", "organic-traps", "hypnotic-films", "digestive-hazard"],
+    "safe": false,
+    "secure": false,
+    "entities": [],
+    "connections": [
+      { "to": 11, "type": "door", "direction": "one-way" },
+      { "to": 74, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "A vast theater complex whose chairs fuse to victims and force them to watch a unique film before the level slowly consumes them.",
+    "atmosphere": "Unsettling and predatory: organic theater rooms built to trap and absorb visitors through chemical and psychological means.",
+    "tips": "Never enter a theater room and never sit in a chair. The level actively hunts through deception and biological traps.",
+    "noData": false
+  },
+  {
+    "number": 69,
+    "title": "The Road Trip of Affliction",
+    "survivalClass": null,
+    "tags": ["highway", "fog", "vehicles", "hostile-entities"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "smilers", "presence": "rare" },
+      { "id": "wretches", "presence": "rare" },
+      { "id": "beings-from-above", "presence": "occasional" },
+      { "id": "the-whispers", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 0, "type": "other", "direction": "one-way" },
+      { "to": 3, "type": "other", "direction": "one-way" },
+      { "to": 6, "type": "other", "direction": "one-way" },
+      { "to": 8, "type": "other", "direction": "one-way" },
+      { "to": 11, "type": "other", "direction": "one-way" },
+      { "to": 22, "type": "noclip", "direction": "one-way" },
+      { "to": 23, "type": "other", "direction": "one-way" },
+      { "to": 33, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "An infinite foggy highway where survival means never leaving your vehicle — something hunts whoever steps outside.",
+    "atmosphere": "Perpetual darkness and thick fog swallow the endless highway; eerie silence broken by unseen threats above the abandoned cars.",
+    "tips": "Never exit your vehicle. Drive toward tunnel exits perpendicular to the highway. Ration supplies — the trip can run long.",
+    "noData": false
+  },
+  {
+    "number": 70,
+    "title": "Froidetown",
+    "survivalClass": 4,
+    "tags": ["arctic", "extreme-cold", "hostile-entities", "resource-limited"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "hounds", "presence": "frequent" },
+      { "id": "facelings", "presence": "frequent" },
+      { "id": "death-rats", "presence": "frequent" },
+      { "id": "scrambies", "presence": "common" },
+      { "id": "smilers", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 2, "type": "door", "direction": "two-way" },
+      { "to": 3, "type": "door", "direction": "two-way" },
+      { "to": 9, "type": "door", "direction": "two-way" },
+      { "to": 13, "type": "door", "direction": "two-way" },
+      { "to": 31, "type": "door", "direction": "two-way" },
+      { "to": 37, "type": "door", "direction": "two-way" },
+      { "to": 39, "type": "door", "direction": "two-way" },
+      { "to": 43, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "A frozen planetary city modeled on North American urban centers, from -15°C to -52°C, held by settlements amid dangerous entities.",
+    "atmosphere": "Perpetually snowy and bitterly cold, North American architecture split between desolate exteriors and warm resource-rich shelters.",
+    "tips": "Find heated buildings for shelter and check them thoroughly for entities first. Avoid office basements and suburbs at night. Ration food.",
+    "noData": false
+  }
+]

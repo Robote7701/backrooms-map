@@ -1,0 +1,91 @@
+{
+  "id": "level-52",
+  "slug": "level-52",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "cavern",
+      "surveillance",
+      "psychological",
+      "minerals",
+      "difficulte-estimee"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "moyen"
+  },
+  "entities": [
+    {
+      "id": "smilers",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "facelings",
+      "presence": "common",
+      "zones": []
+    },
+    {
+      "id": "wretches",
+      "presence": "common",
+      "zones": []
+    },
+    {
+      "id": "hounds",
+      "presence": "common",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-2",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-11",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 52 — Eyes On You",
+      "shortDescription": "A vast ancient cavern of valuable minerals, home to evolved Neanderthals and adapted entities, and a relentless feeling of being watched.",
+      "atmosphere": "Cavernous darkness lit by distant torches; an overwhelming sense of surveillance builds mounting psychological pressure.",
+      "tips": "Stay constantly aware of your surroundings. Keep almond water handy. Don't explore deep — the entities are passive but unpredictable."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-52-thumb.webp",
+    "banner": "/images/levels/level-52-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-52",
+    "fr": "https://backrooms-wiki.wikidot.com/level-52"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

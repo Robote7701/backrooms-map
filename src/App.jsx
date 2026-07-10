@@ -5,6 +5,7 @@ import LanguageSwitcher from './components/LanguageSwitcher'
 import LayerToggles from './components/LayerToggles'
 import Filters from './components/Filters'
 import Legend from './components/Legend'
+import SearchBar from './components/SearchBar'
 import { useI18n } from './i18n/I18nContext'
 import { levels as allLevels, levelsById, dangerBounds } from './data/loadLevels'
 import { defaultActiveLayers } from './layers/registry'
@@ -12,6 +13,8 @@ import { defaultActiveLayers } from './layers/registry'
 export default function App() {
   const { t } = useI18n()
   const [selectedId, setSelectedId] = useState(null)
+  // Incrémenté à chaque recherche pour demander à la carte de recentrer.
+  const [focusNonce, setFocusNonce] = useState(0)
   const [activeLayers, setActiveLayers] = useState(() => new Set(defaultActiveLayers))
   const [filters, setFilters] = useState(() => ({
     hiddenClasses: new Set(),
@@ -37,6 +40,12 @@ export default function App() {
       ? levelsById[selectedId]
       : null
 
+  // Sélection depuis la recherche : ouvre le panneau + recentre la carte.
+  function focusLevel(id) {
+    setSelectedId(id)
+    setFocusNonce((n) => n + 1)
+  }
+
   function toggleLayer(id) {
     setActiveLayers((prev) => {
       const next = new Set(prev)
@@ -48,10 +57,11 @@ export default function App() {
   return (
     <div className="app">
       <header className="app__header">
-        <div>
+        <div className="app__brand">
           <h1 className="app__title">{t('app.title')}</h1>
           <p className="app__subtitle">{t('app.subtitle')}</p>
         </div>
+        <SearchBar levels={visibleLevels} onSelect={focusLevel} />
         <LanguageSwitcher />
       </header>
 
@@ -61,6 +71,7 @@ export default function App() {
             levels={visibleLevels}
             activeLayers={activeLayers}
             selectedId={selectedLevel?.id ?? null}
+            focusNonce={focusNonce}
             onSelect={setSelectedId}
           />
 

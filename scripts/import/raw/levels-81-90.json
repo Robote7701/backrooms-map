@@ -1,0 +1,201 @@
+[
+  {
+    "number": 81,
+    "title": "Afterhours Ending",
+    "survivalClass": null,
+    "tags": ["nostalgia", "peaceful", "interior", "dreamlike"],
+    "safe": true,
+    "secure": true,
+    "entities": [],
+    "connections": [],
+    "shortDescription": "A dreamlike office space turned restful sanctuary, softened with furnishings, paintings and the sound of gentle rain.",
+    "atmosphere": "Tranquil and calming: muted colors, drooping willows and soft rain creating an overwhelming sense of weary comfort.",
+    "tips": "A safe haven for rest. Move gently — don't disturb the peaceful atmosphere or try to wake from this dreamlike state.",
+    "noData": false
+  },
+  {
+    "number": 82,
+    "title": "Self-Automated Trade",
+    "survivalClass": 1,
+    "tags": ["trading-market", "hostile-entities", "strict-schedule", "entity-commerce"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "smilers", "presence": "frequent" },
+      { "id": "hounds", "presence": "frequent" },
+      { "id": "bursters", "presence": "occasional" },
+      { "id": "reviooks", "presence": "occasional" },
+      { "id": "dentists", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 9, "type": "door", "direction": "two-way" },
+      { "to": 28, "type": "door", "direction": "two-way" },
+      { "to": 33, "type": "door", "direction": "two-way" }
+    ],
+    "shortDescription": "A Victorian indoor market run by hostile entities acting as traders, open on a strict schedule with violent closures.",
+    "atmosphere": "Commercial yet threatening — entities trade grudgingly while staying predatory, and closing time means forced eviction.",
+    "tips": "Trade fairly, don't linger, and leave before 9 PM closing. Cheating a trader gets you killed on the spot; re-entry after eviction is fatal.",
+    "noData": false
+  },
+  {
+    "number": 83,
+    "title": "The Sunken Submarine",
+    "survivalClass": 0,
+    "tags": ["aquatic", "safe-haven", "submarine", "friendly-crew"],
+    "safe": true,
+    "secure": true,
+    "entities": [
+      { "id": "great-observer", "presence": "frequent" }
+    ],
+    "connections": [
+      { "to": 7, "type": "noclip", "direction": "two-way" }
+    ],
+    "shortDescription": "A functional sunken nuclear submarine on the seafloor, stocked with endless food and crewed by a friendly permanent staff.",
+    "atmosphere": "Deep underwater, dim artificial light and the constant creak of pressure, occasionally watched by a colossal entity outside.",
+    "tips": "Stay calm if the Great Observer appears at a window. Use the escape hatch to reach Level 7 — brace for the water pressure.",
+    "noData": false
+  },
+  {
+    "number": 84,
+    "title": "The Shifting Hedge Maze",
+    "survivalClass": 3,
+    "tags": ["maze", "shifting-walls", "fog", "hostile-entities"],
+    "safe": true,
+    "secure": false,
+    "entities": [
+      { "id": "smilers", "presence": "occasional" },
+      { "id": "hounds", "presence": "occasional" },
+      { "id": "skin-stealers", "presence": "rare" },
+      { "id": "facelings", "presence": "rare" }
+    ],
+    "connections": [
+      { "to": 0, "type": "noclip", "direction": "one-way" },
+      { "to": 1, "type": "noclip", "direction": "one-way" },
+      { "to": 2, "type": "noclip", "direction": "one-way" },
+      { "to": 10, "type": "noclip", "direction": "one-way" },
+      { "to": 26, "type": "other", "direction": "one-way" },
+      { "to": 46, "type": "other", "direction": "one-way" },
+      { "to": 62, "type": "door", "direction": "one-way" },
+      { "to": 82, "type": "door", "direction": "one-way" },
+      { "to": 85, "type": "door", "direction": "one-way" },
+      { "to": 90, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A sprawling hedge maze of tall dark-green walls with shifting routes and fog, dotted with safe zones and rare specialty parks.",
+    "atmosphere": "Perpetual fog around tall hedges makes for disorienting paths; safe zones offer respite, but rare 'darkening' events bring entity invasions.",
+    "tips": "Head for Safety Parks for supplies and shelter. Never climb the hedges. Watch for Skin-Stealers slipping past park protections during darkening events.",
+    "noData": false
+  },
+  {
+    "number": 85,
+    "title": "Brilliant Evermore",
+    "survivalClass": 3,
+    "tags": ["polluted-wasteland", "extreme-weather", "water-scarcity", "robotic-threats"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "robopets", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 6, "type": "noclip", "direction": "one-way" },
+      { "to": 43, "type": "other", "direction": "one-way" },
+      { "to": 64, "type": "noclip", "direction": "one-way" },
+      { "to": 84, "type": "door", "direction": "one-way" },
+      { "to": 99, "type": "door", "direction": "one-way" },
+      { "to": 121, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A barren polluted wasteland of extreme weather, abandoned buildings holding supplies, and dangerous robotic guardians.",
+    "atmosphere": "A desolate desert under toxic smog, brutal heat and acidic waterways, haunted by radio broadcasts hinting at ecological collapse.",
+    "tips": "Shelter in buildings for filtration and supplies. Disable RoboPets' solar panels to stop them. Ration bottled water and cover up from the sun.",
+    "noData": false
+  },
+  {
+    "number": 86,
+    "title": "Rivergate Tower",
+    "survivalClass": 0,
+    "tags": ["office-building", "safe-zone", "facelings", "nostalgia"],
+    "safe": true,
+    "secure": false,
+    "entities": [
+      { "id": "facelings", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 4, "type": "door", "direction": "one-way" },
+      { "to": 11, "type": "door", "direction": "two-way" }
+    ],
+    "shortDescription": "A 31-floor office tower with a modern lobby and interconnected upper floors — mostly safe, its Facelings quietly at work.",
+    "atmosphere": "Corporate calm in clean architecture; Facelings play mundane office workers as the higher floors grow more spacious and orderly.",
+    "tips": "Avoid the hostile Britagne Royaume on floor 14. The boss's office computer holds undocumented level information.",
+    "noData": false
+  },
+  {
+    "number": 87,
+    "title": "Hallways of Time",
+    "survivalClass": 1,
+    "tags": ["time-anomalies", "endless-hallways", "temporal-loops", "paradox-danger"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "gearmaker", "presence": "rare" }
+    ],
+    "connections": [
+      { "to": 9, "type": "door", "direction": "one-way" },
+      { "to": 21, "type": "noclip", "direction": "one-way" }
+    ],
+    "shortDescription": "Miles of locked hallways stocked with keys and supplies, where meeting your past or future self is a real, dangerous risk.",
+    "atmosphere": "Isolated and disorienting; time flows unevenly here, breeding confusion and unsettling encounters with yourself.",
+    "tips": "Find keys matching the colored or coded locks. Never harm a past or future version of yourself. Keep checking doors for a way out.",
+    "noData": false
+  },
+  {
+    "number": 88,
+    "title": "Muted Lake",
+    "survivalClass": null,
+    "tags": ["sound-distortion", "aquatic-hazard", "sensory-deprivation", "unknown-entity"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "muted-lake-entity", "presence": "unknown" }
+    ],
+    "connections": [],
+    "shortDescription": "A frigid, unnervingly still lake in a dark forest that swallows all sound and hides an unidentified aquatic threat.",
+    "atmosphere": "Oppressively silent, faintly metallic-smelling; sound vanishes into the depths, leaving palpable dread.",
+    "tips": "Avoid this level entirely. Don't approach or enter the water — prolonged exposure can cause temporary or permanent mutism.",
+    "noData": false
+  },
+  {
+    "number": 89,
+    "title": "Dreaded Park",
+    "survivalClass": 3,
+    "tags": ["forested", "parasitic", "hazardous", "mysterious"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "unknown-hostile", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 0, "type": "other", "direction": "two-way" },
+      { "to": 90, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "An autumn park of narrow paths and public facilities, hiding parasitic organisms that dangerously warp cognition and behavior.",
+    "atmosphere": "A desolate autumn landscape of scattered lighting and vegetation — familiar at first, slowly breeding confusion and aggression.",
+    "tips": "Never drink any liquid found here. Watch your companions for behavior changes. Find the exit quickly and don't linger.",
+    "noData": false
+  },
+  {
+    "number": 90,
+    "title": "Newly Renovated Home",
+    "survivalClass": 0,
+    "tags": ["safe", "homelike", "mystery", "renovated"],
+    "safe": true,
+    "secure": false,
+    "entities": [],
+    "connections": [
+      { "to": 89, "type": "other", "direction": "two-way" },
+      { "to": 91, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "A two-storey renovated house presented as a fresh safe haven, recently cleared of whatever infested it before.",
+    "atmosphere": "Welcoming yet faintly uncanny domestic comfort, with hints of something dark beneath the cheerful renovation story.",
+    "tips": "Enter by simply thinking of 'home'. Exit through the old oak tree in the backyard. Stay cautious despite the reassuring facade.",
+    "noData": false
+  }
+]

@@ -3,6 +3,10 @@
     "title": "Backrooms — Interactive Map",
     "subtitle": "Levels, routes and entities"
   },
+  "search": {
+    "placeholder": "Search a level…",
+    "noResults": "No level found"
+  },
   "panel": {
     "empty": "Click a level to see its details.",
     "class": "Class",

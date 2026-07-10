@@ -1,0 +1,90 @@
+{
+  "id": "level-62",
+  "slug": "level-62",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "overgrown",
+      "jungle",
+      "hostile-entities",
+      "abandoned-house"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "deathmoths",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "hounds",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-4",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-10",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-37",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 62 — Jungle Backyard",
+      "shortDescription": "A deteriorating backyard ringed by impossibly tall walls, with a jungle reachable through a breach and one aggressive hound in residence.",
+      "atmosphere": "Decrepit and overgrown, the dilapidated house showing signs of violent disturbance and lingering danger.",
+      "tips": "Avoid the aggressive hound. Stay in the forest about a week to exit. The deeper jungle jams tracking. Approach brick walls with care."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-62-thumb.webp",
+    "banner": "/images/levels/level-62-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-62",
+    "fr": "https://backrooms-wiki.wikidot.com/level-62"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

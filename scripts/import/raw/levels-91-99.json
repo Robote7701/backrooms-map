@@ -1,0 +1,178 @@
+[
+  {
+    "number": 91,
+    "title": "But a Memory",
+    "survivalClass": 0,
+    "tags": ["nostalgia", "island", "bittersweet", "shifting"],
+    "safe": true,
+    "secure": false,
+    "entities": [],
+    "connections": [
+      { "to": 90, "type": "other", "direction": "two-way" },
+      { "to": 92, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "A dreamlike island with a solitary cliffside house, where wanderers find deep peace before mysteriously moving on.",
+    "atmosphere": "Serene and melancholic, filled with gentle ocean sounds and the ethereal feel of a cherished, fading memory.",
+    "tips": "Just rest and let the tranquility settle — every visitor eventually falls asleep and wakes somewhere else.",
+    "noData": false
+  },
+  {
+    "number": 92,
+    "title": "Fallout Shelter",
+    "survivalClass": 5,
+    "tags": ["radiation-hazard", "armed-conflict", "hostile-entities", "faction-territory"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "clumps", "presence": "frequent" },
+      { "id": "hounds", "presence": "frequent" },
+      { "id": "smilers", "presence": "frequent" }
+    ],
+    "connections": [
+      { "to": 2, "type": "other", "direction": "one-way" },
+      { "to": 3, "type": "other", "direction": "one-way" },
+      { "to": 9, "type": "door", "direction": "two-way" },
+      { "to": 11, "type": "door", "direction": "two-way" },
+      { "to": 17, "type": "door", "direction": "two-way" },
+      { "to": 34, "type": "door", "direction": "two-way" }
+    ],
+    "shortDescription": "A vast underground bunker of radiation zones, anomalous computers and scattered weapons, torn by faction conflicts.",
+    "atmosphere": "Decaying concrete tunnels of murky pipes and heavy blast doors, radiation exposure looming beside armed groups and entities.",
+    "tips": "Avoid radiation zones — disorientation and spatial anomalies follow. Stay clear of rival faction outposts. Grab protective gear and night vision if found.",
+    "noData": false
+  },
+  {
+    "number": 93,
+    "title": "The Summit",
+    "survivalClass": 4,
+    "tags": ["extreme-cold", "avalanche-risk", "hostile-weather", "entity-graveyard"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "hounds", "presence": "occasional" },
+      { "id": "wretches", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 8, "type": "noclip", "direction": "one-way" },
+      { "to": 47, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A seemingly endless Everest-like peak with weather that worsens over time, plunging below -180°C.",
+    "atmosphere": "A desolate alpine climb of escalating blizzards, fog and hail — every entity here eventually dies, leaving only frozen corpses.",
+    "tips": "Avoid the tents — hostile entities live in them. Wear cold-weather gear. Weather turns fast: get out within 10 minutes.",
+    "noData": true
+  },
+  {
+    "number": 94,
+    "title": "Motion",
+    "survivalClass": 3,
+    "tags": ["stop-motion", "day-night-cycle", "hostile-entities", "nostalgia"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "animations", "presence": "frequent" },
+      { "id": "smilers", "presence": "occasional" },
+      { "id": "skin-stealers", "presence": "occasional" },
+      { "id": "hounds", "presence": "occasional" },
+      { "id": "deathmoths", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 7, "type": "door", "direction": "one-way" },
+      { "to": 9, "type": "door", "direction": "one-way" },
+      { "to": 53, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "A 1930s stop-motion town of an Almond Water fountain, endless grassy hills and a floating castle — safe by day, hostile by night.",
+    "atmosphere": "A whimsical cartoonish town with sinister undertones, its cheerful siren music giving way to total silence and danger after dark.",
+    "tips": "Never stay outside after nightfall — shelter in buildings. Look for Almond Water. Only approach the Animated King's trial if you're prepared.",
+    "noData": false
+  },
+  {
+    "number": 95,
+    "title": "Toward Agape",
+    "survivalClass": null,
+    "tags": ["mechanical", "divine", "self-constructing", "surreal"],
+    "safe": false,
+    "secure": false,
+    "entities": [],
+    "connections": [
+      { "to": 94, "type": "other", "direction": "two-way" },
+      { "to": 96, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "An ever-constructing level whose corridors converge on a central point where a machine god assembles something at its core.",
+    "atmosphere": "Mechanical yet mystical: industrial corridors oriented inward toward an omniscient machine consciousness issuing precise instructions.",
+    "tips": "The level keeps rebuilding itself. Understanding the machine god's odd theology may be the key to navigating it safely.",
+    "noData": false
+  },
+  {
+    "number": 96,
+    "title": "Solace",
+    "survivalClass": null,
+    "tags": ["war-refuge", "homelike", "tragedy", "bittersweet"],
+    "safe": true,
+    "secure": true,
+    "entities": [],
+    "connections": [],
+    "shortDescription": "An abandoned Levantine mansion offering refuge from conflict, where visitors find peace through familiar sensory memories.",
+    "atmosphere": "Serene yet melancholic: traditional architecture, dusty rooms and finely patterned windows overlooking distant mountains.",
+    "tips": "Let the familiar comforts settle you — the carpet, the smell of coffee. This peace comes with a permanent separation from the outside.",
+    "noData": false
+  },
+  {
+    "number": 97,
+    "title": "Lighthouse",
+    "survivalClass": 0,
+    "tags": ["aquatic", "fog", "undead-entities", "shipwreck"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "ghouls", "presence": "frequent" }
+    ],
+    "connections": [
+      { "to": 17, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "A fog-shrouded island holding a ruined lighthouse, home to undead entities and ringed by deep, cold saltwater.",
+    "atmosphere": "Perpetual night under thick fog and a crescent moon; an isolating quiet broken only by scattered signs of past tragedy.",
+    "tips": "Avoid the island itself — stay near the boat wreckage. The lighthouse ruins are extremely dangerous; be ready to swim the moment you arrive.",
+    "noData": false
+  },
+  {
+    "number": 98,
+    "title": "Downtown Diner",
+    "survivalClass": 1,
+    "tags": ["nostalgia", "liminal", "looping-street", "entities"],
+    "safe": true,
+    "secure": false,
+    "entities": [
+      { "id": "familiar-entities", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 5, "type": "door", "direction": "two-way" },
+      { "to": 6, "type": "other", "direction": "two-way" },
+      { "to": 11, "type": "door", "direction": "two-way" }
+    ],
+    "shortDescription": "A looping brick street whose sole destination is a nostalgic diner, haunted by ambiguous entities and echoes of yourself.",
+    "atmosphere": "Eerie isolation shot through with homesick comfort — yellowed diner light against a barren street full of reflections.",
+    "tips": "Enter the diner carefully. Approaching the entities triggers blackouts; sit still and the friendly patrons will engage peacefully.",
+    "noData": false
+  },
+  {
+    "number": 99,
+    "title": "Ghoul Town",
+    "survivalClass": 1,
+    "tags": ["desert", "rust-atmosphere", "hostile-air", "settlement"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "ghouls", "presence": "frequent" }
+    ],
+    "connections": [
+      { "to": 4, "type": "door", "direction": "two-way" },
+      { "to": 7, "type": "door", "direction": "one-way" },
+      { "to": 11, "type": "other", "direction": "two-way" },
+      { "to": 85, "type": "door", "direction": "two-way" }
+    ],
+    "shortDescription": "An orange desert under rust-laden skies and oxidized metal sand, home to peaceful ghouls who speak in sign and grunts.",
+    "atmosphere": "A permanently orange sky over unbreathable, rust-thick air — humans need oxygen gear to survive here for long.",
+    "tips": "Bring oxygen tanks the moment you arrive. Ghouls stay passive if treated with respect. Follow the rope path to the settlement for shelter.",
+    "noData": false
+  }
+]
