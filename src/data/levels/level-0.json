@@ -1,0 +1,73 @@
+{
+  "id": "level-0",
+  "slug": "level-0",
+  "coordinates": { "x": 0, "y": 0 },
+  "class": "habitable",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": ["desorientation", "entites-rares"]
+  },
+  "survival": {
+    "safe": true,
+    "secure": false,
+    "entityCount": "minimal"
+  },
+  "entities": [
+    { "id": "smiler", "presence": "rare", "zones": ["couloirs sombres"] },
+    { "id": "hound", "presence": "exceptionnelle", "zones": [] }
+  ],
+  "connections": [
+    {
+      "to": "level-1",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "fr": "No-clip à travers un mur fissuré, souvent près des zones inondées",
+        "en": "No-clip through a cracked wall, often near flooded areas"
+      },
+      "reliability": "commune"
+    },
+    {
+      "to": "level-manila-room",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "fr": "Porte jaune isolée au bout d'un long couloir",
+        "en": "Isolated yellow door at the end of a long hallway"
+      },
+      "reliability": "rare"
+    }
+  ],
+  "i18n": {
+    "fr": {
+      "name": "Niveau 0 — Les Salles Jaunes",
+      "shortDescription": "Labyrinthe infini de bureaux vides à la moquette humide et aux néons bourdonnants.",
+      "atmosphere": "Moquette humide, papier peint jaune monochrome, bourdonnement constant des néons.",
+      "tips": "Ne suivez jamais le bourdonnement. Marquez votre chemin."
+    },
+    "en": {
+      "name": "Level 0 — The Lobby",
+      "shortDescription": "Endless maze of empty office rooms with damp carpet and buzzing fluorescent lights.",
+      "atmosphere": "Damp carpet, monochrome yellow wallpaper, constant hum of fluorescent lights.",
+      "tips": "Never follow the humming. Mark your path."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-0-thumb.webp",
+    "banner": "/images/levels/level-0-banner.webp"
+  },
+  "wikiUrl": {
+    "fr": "https://backrooms-wiki-fr.example/level-0",
+    "en": "https://backrooms.fandom.com/wiki/Level_0"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published"
+  }
+}

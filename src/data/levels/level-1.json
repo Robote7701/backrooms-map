@@ -1,0 +1,83 @@
+{
+  "id": "level-1",
+  "slug": "level-1",
+  "coordinates": { "x": 2, "y": 0 },
+  "class": "habitable",
+  "danger": {
+    "level": 2,
+    "scale": 5,
+    "tags": ["obscurite", "entites-occasionnelles"]
+  },
+  "survival": {
+    "safe": true,
+    "secure": false,
+    "entityCount": "faible"
+  },
+  "entities": [
+    { "id": "hound", "presence": "occasionnelle", "zones": ["entrepots", "zones sombres"] },
+    { "id": "smiler", "presence": "occasionnelle", "zones": ["coins non eclaires"] }
+  ],
+  "connections": [
+    {
+      "to": "level-0",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "fr": "Retour par no-clip dans une flaque profonde",
+        "en": "No-clip back through a deep puddle"
+      },
+      "reliability": "commune"
+    },
+    {
+      "to": "level-2",
+      "type": "escalier",
+      "direction": "bidirectional",
+      "method": {
+        "fr": "Escalier de service descendant vers la salle des machines",
+        "en": "Service staircase leading down to the machine hall"
+      },
+      "reliability": "commune"
+    },
+    {
+      "to": "level-fun",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "fr": "Porte peinte en couleurs vives, entrouverte, d'où s'échappe de la musique",
+        "en": "Brightly painted door, ajar, with music leaking out"
+      },
+      "reliability": "rare"
+    }
+  ],
+  "i18n": {
+    "fr": {
+      "name": "Niveau 1 — Habitations",
+      "shortDescription": "Vastes entrepôts de béton faiblement éclairés, tuyaux apparents et flaques stagnantes.",
+      "atmosphere": "Béton froid, néons clignotants, échos lointains de machines et gouttes d'eau.",
+      "tips": "Restez dans les zones éclairées. Les Hounds évitent la lumière."
+    },
+    "en": {
+      "name": "Level 1 — Habitable Zone",
+      "shortDescription": "Vast dimly-lit concrete warehouses with exposed pipes and stagnant puddles.",
+      "atmosphere": "Cold concrete, flickering lights, distant echoes of machinery and dripping water.",
+      "tips": "Stay in lit areas. Hounds avoid the light."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-1-thumb.webp",
+    "banner": "/images/levels/level-1-banner.webp"
+  },
+  "wikiUrl": {
+    "fr": "https://backrooms-wiki-fr.example/level-1",
+    "en": "https://backrooms.fandom.com/wiki/Level_1"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published"
+  }
+}

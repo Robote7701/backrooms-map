@@ -1,0 +1,72 @@
+{
+  "id": "level-run",
+  "slug": "level-run",
+  "coordinates": { "x": 7, "y": -3 },
+  "class": "dangereux",
+  "danger": {
+    "level": 5,
+    "scale": 5,
+    "tags": ["poursuite", "entite-unique", "mortel"]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "unique"
+  },
+  "entities": [
+    { "id": "wretched", "presence": "unique", "zones": ["derriere vous"] }
+  ],
+  "connections": [
+    {
+      "to": "level-3",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "fr": "Porte de service qui apparaît brièvement sur le côté de la route",
+        "en": "Service door that briefly appears at the side of the road"
+      },
+      "reliability": "rare"
+    },
+    {
+      "to": "level-fun",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "fr": "No-clip dans une bouche d'égout ouverte, en pleine course",
+        "en": "No-clip into an open manhole while running"
+      },
+      "reliability": "peu-fiable"
+    }
+  ],
+  "i18n": {
+    "fr": {
+      "name": "Niveau ! — La Course",
+      "shortDescription": "Route et tunnels sans fin plongés dans le noir, où une entité vous poursuit sans jamais s'arrêter.",
+      "atmosphere": "Asphalte humide, phares morts, un grondement qui se rapproche derrière vous.",
+      "tips": "Ne vous arrêtez jamais. Ne regardez pas en arrière. Trouvez une porte et franchissez-la."
+    },
+    "en": {
+      "name": "Level ! — Run For Your Life",
+      "shortDescription": "Endless pitch-black road and tunnels where a single entity chases you without ever stopping.",
+      "atmosphere": "Wet asphalt, dead headlights, a rumble closing in right behind you.",
+      "tips": "Never stop. Never look back. Find a door and go through it."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-run-thumb.webp",
+    "banner": "/images/levels/level-run-banner.webp"
+  },
+  "wikiUrl": {
+    "fr": "https://backrooms-wiki-fr.example/level-run",
+    "en": "https://backrooms.fandom.com/wiki/Level_Run"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published"
+  }
+}

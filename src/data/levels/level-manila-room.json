@@ -1,0 +1,60 @@
+{
+  "id": "level-manila-room",
+  "slug": "level-manila-room",
+  "coordinates": { "x": -2, "y": -1 },
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": ["refuge", "sans-entite"]
+  },
+  "survival": {
+    "safe": true,
+    "secure": true,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [
+    {
+      "to": "level-0",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "fr": "No-clip à travers le mur de dossiers en carton manille au fond de la salle",
+        "en": "No-clip through the wall of manila folders at the back of the room"
+      },
+      "reliability": "rare"
+    }
+  ],
+  "i18n": {
+    "fr": {
+      "name": "The Manila Room — La Salle Manille",
+      "shortDescription": "Petite pièce close tapissée de dossiers couleur manille : un rare refuge sans entité.",
+      "atmosphere": "Silence ouaté, odeur de vieux papier, lumière chaude et stable d'une unique lampe.",
+      "tips": "Reposez-vous ici. Aucune entité n'y entre — mais on n'y trouve ni eau ni nourriture."
+    },
+    "en": {
+      "name": "The Manila Room",
+      "shortDescription": "A small sealed room papered with manila folders — a rare entity-free refuge.",
+      "atmosphere": "Muffled silence, smell of old paper, warm steady light from a single lamp.",
+      "tips": "Rest here. No entity enters — but there is neither water nor food to be found."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-manila-room-thumb.webp",
+    "banner": "/images/levels/level-manila-room-banner.webp"
+  },
+  "wikiUrl": {
+    "fr": "https://backrooms-wiki-fr.example/the-manila-room",
+    "en": "https://backrooms.fandom.com/wiki/The_Manila_Room"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published"
+  }
+}

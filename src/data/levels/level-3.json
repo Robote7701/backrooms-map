@@ -1,0 +1,73 @@
+{
+  "id": "level-3",
+  "slug": "level-3",
+  "coordinates": { "x": 6, "y": 0 },
+  "class": "dangereux",
+  "danger": {
+    "level": 4,
+    "scale": 5,
+    "tags": ["electrocution", "entites-agressives", "labyrinthe"]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "eleve"
+  },
+  "entities": [
+    { "id": "smiler", "presence": "commune", "zones": ["couloirs coupes"] },
+    { "id": "hound", "presence": "occasionnelle", "zones": ["salles techniques"] }
+  ],
+  "connections": [
+    {
+      "to": "level-2",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "fr": "No-clip par une trappe de maintenance descellée",
+        "en": "No-clip through an unsealed maintenance hatch"
+      },
+      "reliability": "peu-fiable"
+    },
+    {
+      "to": "level-run",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "fr": "Porte coupe-feu qui claque derrière vous et refuse de se rouvrir",
+        "en": "Fire door that slams shut behind you and refuses to reopen"
+      },
+      "reliability": "rare"
+    }
+  ],
+  "i18n": {
+    "fr": {
+      "name": "Niveau 3 — Station Électrique",
+      "shortDescription": "Dédale de salles techniques bourdonnantes, câbles à nu et flaques électrifiées.",
+      "atmosphere": "Odeur d'ozone, arcs électriques dans le noir, néons qui grésillent et meurent.",
+      "tips": "Repérez les flaques avant chaque pas. Coupez les disjoncteurs si vous le pouvez."
+    },
+    "en": {
+      "name": "Level 3 — Electrical Station",
+      "shortDescription": "A maze of humming technical rooms, exposed cables and electrified puddles.",
+      "atmosphere": "Smell of ozone, arcing electricity in the dark, fluorescent lights sputtering out.",
+      "tips": "Spot the puddles before every step. Trip the breakers if you can."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-3-thumb.webp",
+    "banner": "/images/levels/level-3-banner.webp"
+  },
+  "wikiUrl": {
+    "fr": "https://backrooms-wiki-fr.example/level-3",
+    "en": "https://backrooms.fandom.com/wiki/Level_3"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published"
+  }
+}

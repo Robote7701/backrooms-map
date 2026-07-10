@@ -1,0 +1,72 @@
+{
+  "id": "level-fun",
+  "slug": "level-fun",
+  "coordinates": { "x": 3, "y": -3 },
+  "class": "dangereux",
+  "danger": {
+    "level": 5,
+    "scale": 5,
+    "tags": ["entites-omnipresentes", "piege-social", "mortel"]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "extreme"
+  },
+  "entities": [
+    { "id": "partygoer", "presence": "omnipresente", "zones": ["toute la fete"] }
+  ],
+  "connections": [
+    {
+      "to": "level-run",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "fr": "No-clip à travers un mur de ballons quand la fête tourne mal",
+        "en": "No-clip through a wall of balloons when the party turns"
+      },
+      "reliability": "peu-fiable"
+    },
+    {
+      "to": "level-1",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "fr": "Sortie de secours dissimulée derrière la scène, gardée par les Partygoers",
+        "en": "Emergency exit hidden behind the stage, guarded by the Partygoers"
+      },
+      "reliability": "rare"
+    }
+  ],
+  "i18n": {
+    "fr": {
+      "name": "Niveau Fun (=) — La Fête",
+      "shortDescription": "Salle des fêtes rose bonbon en liesse permanente, peuplée d'entités jovialement mortelles.",
+      "atmosphere": "Guirlandes, gâteau et musique d'anniversaire en boucle ; une gaieté qui ne s'arrête jamais.",
+      "tips": "Ne parlez pas aux Partygoers. Ne mangez rien. Ne souriez pas, ne pleurez pas."
+    },
+    "en": {
+      "name": "Level Fun (=) — The Party",
+      "shortDescription": "A candy-pink party hall in permanent revelry, filled with cheerfully lethal entities.",
+      "atmosphere": "Streamers, cake and looping birthday music; a joy that never, ever stops.",
+      "tips": "Don't talk to the Partygoers. Don't eat anything. Don't smile, don't cry."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-fun-thumb.webp",
+    "banner": "/images/levels/level-fun-banner.webp"
+  },
+  "wikiUrl": {
+    "fr": "https://backrooms-wiki-fr.example/level-fun",
+    "en": "https://backrooms.fandom.com/wiki/Level_Fun"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published"
+  }
+}

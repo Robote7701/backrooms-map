@@ -1,0 +1,67 @@
+{
+  "app": {
+    "title": "Backrooms — Interactive Map",
+    "subtitle": "Levels, routes and entities"
+  },
+  "panel": {
+    "empty": "Click a level to see its details.",
+    "class": "Class",
+    "danger": "Danger",
+    "atmosphere": "Atmosphere",
+    "tips": "Survival tips",
+    "entities": "Entities",
+    "noEntities": "No known entities",
+    "connections": "Connections",
+    "noConnections": "No known connections",
+    "survival": "Survival",
+    "safe": "Safe",
+    "secure": "Secure",
+    "unsafe": "Unsafe",
+    "unsecure": "Unsecured",
+    "wiki": "View on wiki",
+    "presence": "presence",
+    "reliability": "reliability",
+    "close": "Close"
+  },
+  "layers": {
+    "title": "Layers",
+    "danger": "Danger",
+    "entities": "Entities"
+  },
+  "filters": {
+    "title": "Filters",
+    "byClass": "By class",
+    "dangerRange": "Danger level",
+    "min": "min",
+    "max": "max",
+    "reset": "Reset",
+    "showing": "{count} levels shown"
+  },
+  "legend": {
+    "title": "Legend",
+    "routes": "Route types",
+    "noclip": "No-clip (phase through reality)",
+    "porte": "Door",
+    "escalier": "Stairs",
+    "bidirectional": "Two-way",
+    "oneway": "One-way",
+    "dangerScale": "Danger scale",
+    "safeLevel": "Safe",
+    "lethalLevel": "Lethal",
+    "entitiesBadge": "Magenta ring = entities present"
+  },
+  "direction": {
+    "bidirectional": "two-way",
+    "one-way": "one-way"
+  },
+  "connType": {
+    "noclip": "No-clip",
+    "porte": "Door",
+    "escalier": "Stairs"
+  },
+  "language": {
+    "label": "Language",
+    "fr": "Français",
+    "en": "English"
+  }
+}

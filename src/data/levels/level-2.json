@@ -1,0 +1,72 @@
+{
+  "id": "level-2",
+  "slug": "level-2",
+  "coordinates": { "x": 4, "y": 1 },
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": ["chaleur", "espaces-confines", "obscurite"]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "moyen"
+  },
+  "entities": [
+    { "id": "deathmoth", "presence": "commune", "zones": ["conduits", "jonctions de tuyaux"] }
+  ],
+  "connections": [
+    {
+      "to": "level-1",
+      "type": "escalier",
+      "direction": "bidirectional",
+      "method": {
+        "fr": "Escalier métallique remontant vers les entrepôts",
+        "en": "Metal staircase climbing back to the warehouses"
+      },
+      "reliability": "commune"
+    },
+    {
+      "to": "level-3",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "fr": "No-clip contre une valve rouillée qui cède",
+        "en": "No-clip against a rusted valve that gives way"
+      },
+      "reliability": "peu-fiable"
+    }
+  ],
+  "i18n": {
+    "fr": {
+      "name": "Niveau 2 — Tuyauterie",
+      "shortDescription": "Corridors interminables et étroits bordés de tuyaux brûlants, dans une pénombre étouffante.",
+      "atmosphere": "Chaleur écrasante, sifflement de vapeur, obscurité rompue par de rares ampoules nues.",
+      "tips": "Emportez de l'eau. Ne touchez jamais les tuyaux. Avancez, ne courez pas."
+    },
+    "en": {
+      "name": "Level 2 — Pipe Dreams",
+      "shortDescription": "Endless narrow corridors lined with scalding pipes in a suffocating gloom.",
+      "atmosphere": "Crushing heat, hissing steam, darkness broken by rare bare bulbs.",
+      "tips": "Carry water. Never touch the pipes. Walk, don't run."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-2-thumb.webp",
+    "banner": "/images/levels/level-2-banner.webp"
+  },
+  "wikiUrl": {
+    "fr": "https://backrooms-wiki-fr.example/level-2",
+    "en": "https://backrooms.fandom.com/wiki/Level_2"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published"
+  }
+}

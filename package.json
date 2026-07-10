@@ -1,0 +1,23 @@
+{
+  "name": "backrooms-map",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Map interactive de l'univers des Backrooms (Vite + React + Cytoscape.js)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate-levels.mjs"
+  },
+  "dependencies": {
+    "cytoscape": "^3.30.2",
+    "cytoscape-fcose": "^2.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}

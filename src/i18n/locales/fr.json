@@ -1,0 +1,67 @@
+{
+  "app": {
+    "title": "Backrooms — Carte interactive",
+    "subtitle": "Niveaux, routes et entités"
+  },
+  "panel": {
+    "empty": "Cliquez sur un niveau pour afficher ses détails.",
+    "class": "Classe",
+    "danger": "Danger",
+    "atmosphere": "Ambiance",
+    "tips": "Conseils de survie",
+    "entities": "Entités",
+    "noEntities": "Aucune entité connue",
+    "connections": "Connexions",
+    "noConnections": "Aucune connexion connue",
+    "survival": "Survie",
+    "safe": "Sûr",
+    "secure": "Sécurisé",
+    "unsafe": "Non sûr",
+    "unsecure": "Non sécurisé",
+    "wiki": "Voir sur le wiki",
+    "presence": "présence",
+    "reliability": "fiabilité",
+    "close": "Fermer"
+  },
+  "layers": {
+    "title": "Calques",
+    "danger": "Danger",
+    "entities": "Entités"
+  },
+  "filters": {
+    "title": "Filtres",
+    "byClass": "Par classe",
+    "dangerRange": "Niveau de danger",
+    "min": "min",
+    "max": "max",
+    "reset": "Réinitialiser",
+    "showing": "{count} niveaux affichés"
+  },
+  "legend": {
+    "title": "Légende",
+    "routes": "Types de routes",
+    "noclip": "No-clip (traverser la réalité)",
+    "porte": "Porte",
+    "escalier": "Escalier",
+    "bidirectional": "Bidirectionnelle",
+    "oneway": "Sens unique",
+    "dangerScale": "Échelle de danger",
+    "safeLevel": "Sûr",
+    "lethalLevel": "Mortel",
+    "entitiesBadge": "Anneau magenta = présence d'entités"
+  },
+  "direction": {
+    "bidirectional": "bidirectionnelle",
+    "one-way": "sens unique"
+  },
+  "connType": {
+    "noclip": "No-clip",
+    "porte": "Porte",
+    "escalier": "Escalier"
+  },
+  "language": {
+    "label": "Langue",
+    "fr": "Français",
+    "en": "English"
+  }
+}
