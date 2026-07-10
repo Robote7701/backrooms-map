@@ -26,6 +26,12 @@
       "shortDescription": "An abandoned Levantine mansion offering refuge from conflict, where visitors find peace through familiar sensory memories.",
       "atmosphere": "Serene yet melancholic: traditional architecture, dusty rooms and finely patterned windows overlooking distant mountains.",
       "tips": "Let the familiar comforts settle you — the carpet, the smell of coffee. This peace comes with a permanent separation from the outside."
+    },
+    "fr": {
+      "name": "Niveau 96 — Consolation",
+      "shortDescription": "Un manoir levantin abandonné offrant refuge loin du conflit, où les visiteurs trouvent la paix à travers des souvenirs sensoriels familiers.",
+      "atmosphere": "Serein mais mélancolique : architecture traditionnelle, pièces poussiéreuses et fenêtres finement ouvragées surplombant des montagnes lointaines.",
+      "tips": "Laissez-vous apaiser par les conforts familiers — le tapis sous les pieds, l'odeur du café. Cette paix a pour prix une séparation définitive du monde extérieur."
     }
   },
   "media": {

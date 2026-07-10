@@ -112,6 +112,12 @@
       "shortDescription": "An infinite 1930s hotel of pristine mahogany halls and mysterious rooms, populated by deathmoths and unsettling watching presences.",
       "atmosphere": "Eerie elegance: vintage décor, ambient jazz, self-cleaning surfaces, strange whispers and a constant sense of being watched.",
       "tips": "Stay with communities like the Homely Hotel. Avoid elevators past floor 12 and dark deathmoth rooms. Carry good meat for Samantha."
+    },
+    "fr": {
+      "name": "Niveau 5 — Hôtel de la Terreur",
+      "shortDescription": "Un hôtel infini des années 1930 aux couloirs d'acajou impeccables, hanté par des chuchotements et des présences inquiétantes.",
+      "atmosphere": "Élégance rétro glaçante : jazz aléatoire, portraits qui observent, tapes fantômes dans des couloirs vides.",
+      "tips": "Restez avec des communautés comme le Homely Hotel. Évitez les ascenseurs au-delà du 12e étage et les pièces sombres."
     }
   },
   "media": {

@@ -67,6 +67,12 @@
       "shortDescription": "An abandoned retail space with non-Euclidean geometry, creeping corrosive liquid, and windows showing Frontrooms imagery.",
       "atmosphere": "Empty desolate retail under partial light, dark corners and moans from above, thick with anxiety and architectural impossibility.",
       "tips": "Don't explore long — stay near the entrance. Avoid the dark. Beware the fast-spreading corrosive fluid and the silhouette entity."
+    },
+    "fr": {
+      "name": "Niveau 44 — Boutique en Corrosion",
+      "shortDescription": "Un local commercial abandonné à la géométrie non euclidienne, rongé par un liquide corrosif mystérieux et des vitrines montrant les Frontrooms.",
+      "atmosphere": "Un commerce vide et désolé sous une lumière partielle, des coins sombres, des gémissements venus d'en haut et une anxiété architecturale.",
+      "tips": "N'explorez pas longtemps — restez près de l'entrée. Évitez l'obscurité. Attention au liquide corrosif qui se propage vite."
     }
   },
   "media": {

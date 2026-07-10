@@ -42,6 +42,12 @@
       "shortDescription": "A vast industrial complex of futuristic hallways full of strange machinery, abandoned laboratories and corpses in lab coats.",
       "atmosphere": "Eerie desolate facility, engine sounds echoing through white concrete corridors under unsettling artificial light.",
       "tips": "Explore cautiously and avoid the mysterious doorframe in the empty engine room. Watch your mental health on long stays."
+    },
+    "fr": {
+      "name": "Niveau 15 — Couloirs Futuristes",
+      "shortDescription": "Un vaste complexe industriel de couloirs futuristes emplis de machines étranges, de laboratoires abandonnés et de cadavres en blouse.",
+      "atmosphere": "Installation désolée et inquiétante, bruits de moteurs résonnant dans des couloirs de béton blanc sous une lumière artificielle malsaine.",
+      "tips": "Explorez avec prudence et évitez le cadre de porte mystérieux dans la salle des machines vide. Surveillez votre santé mentale."
     }
   },
   "media": {

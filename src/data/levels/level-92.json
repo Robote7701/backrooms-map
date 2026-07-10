@@ -102,6 +102,12 @@
       "shortDescription": "A vast underground bunker of radiation zones, anomalous computers and scattered weapons, torn by faction conflicts.",
       "atmosphere": "Decaying concrete tunnels of murky pipes and heavy blast doors, radiation exposure looming beside armed groups and entities.",
       "tips": "Avoid radiation zones — disorientation and spatial anomalies follow. Stay clear of rival faction outposts. Grab protective gear and night vision if found."
+    },
+    "fr": {
+      "name": "Niveau 92 — Abri Antiatomique",
+      "shortDescription": "Un vaste bunker souterrain aux zones irradiées, ordinateurs anormaux et armes éparses, déchiré par les conflits entre factions.",
+      "atmosphere": "Des tunnels de béton en décomposition, tuyaux troubles et lourdes portes blindées, la menace de l'irradiation planant à côté des groupes armés.",
+      "tips": "Évitez les zones irradiées — désorientation et anomalies spatiales garanties. Restez à l'écart des avant-postes de factions rivales."
     }
   },
   "media": {

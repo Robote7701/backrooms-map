@@ -92,6 +92,12 @@
       "shortDescription": "A vast desert of scorching days and freezing nights, scattered with ancient ruins and prowled by hostile sand spirits.",
       "atmosphere": "Desolate and harsh, with violent climate swings and sandstorms that draw hostile entities out of the dunes.",
       "tips": "Shelter in ruins during temperature extremes. Avoid sandstorms or stay near oases. Carry water to fend off sand spirits."
+    },
+    "fr": {
+      "name": "Niveau 46 — Désert Arabique",
+      "shortDescription": "Un vaste désert aux journées brûlantes et aux nuits glaciales, parsemé de ruines antiques et parcouru par des esprits de sable hostiles.",
+      "atmosphere": "Désolé et rude, avec des variations climatiques violentes et des tempêtes de sable qui font surgir des entités hostiles.",
+      "tips": "Abritez-vous dans les ruines lors des extrêmes de température. Évitez les tempêtes de sable ou restez près des oasis."
     }
   },
   "media": {

@@ -102,6 +102,12 @@
       "shortDescription": "Vast maintenance tunnels of machinery, wiring and mysterious doors, in a Euclidean layout accessible from Level 1 and the Frontrooms.",
       "atmosphere": "Sparse fluorescent light, heavy machines choking narrow concrete corridors; abandoned, industrial, dark and silent after a blackout.",
       "tips": "Shelter near Office Space EL3A. Never open void rooms behind locked doors. Beware power failures on series-wired lighting."
+    },
+    "fr": {
+      "name": "Niveau 2 — Couloirs Techniques Abandonnés",
+      "shortDescription": "Un dédale infini mais cartographiable de tunnels de maintenance euclidiens, pleins de machines, de tuyaux et de néons bourdonnants.",
+      "atmosphere": "Industriel et claustrophobe : béton fissuré, machines qui ronronnent doucement, obscurité qui gagne après une panne récente.",
+      "tips": "Réfugiez-vous près du local EL3A. Ne touchez jamais aux salles vides derrière une porte verrouillée."
     }
   },
   "media": {

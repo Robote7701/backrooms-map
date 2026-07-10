@@ -66,6 +66,12 @@
       "shortDescription": "A collapsed multi-storey car park once held by the Emstable micronation, now hazardous ruins of unstable structure and deep mining pits.",
       "atmosphere": "Desolate industrial decay: rubble, rusted vehicles, abandoned tents and the skeletal remains of a failed society in the dark.",
       "tips": "Beware collapse and deep-pit falls. Traversal is extremely dangerous; most wanderers avoid this level entirely."
+    },
+    "fr": {
+      "name": "Niveau 22 — Ruines Abandonnées",
+      "shortDescription": "Un parking à étages effondré, jadis occupé par la micronation d'Emstable, aujourd'hui des ruines instables et des puits profonds.",
+      "atmosphere": "Décrépitude industrielle désolée : gravats, véhicules rouillés, tentes abandonnées et les restes d'une société disparue.",
+      "tips": "Méfiez-vous des effondrements et des chutes dans les puits profonds. La traversée est extrêmement dangereuse."
     }
   },
   "media": {

@@ -42,6 +42,12 @@
       "shortDescription": "A reality-warping skybox of floating islands where Memory Lurkers bend perception and cognition, trapping wanderers in false sensations.",
       "atmosphere": "Perpetual daylight with dreamlike distortion; everything feels artificial and flat, steeped in a constant sense of unreality.",
       "tips": "Avoid Memory Lurkers — their touch corrupts the mind and fakes safety. Trust your original memories and question what you perceive."
+    },
+    "fr": {
+      "name": "Niveau 30 — Décalé de la Réalité",
+      "shortDescription": "Un skybox déformant la réalité, fait d'îles flottantes où les Rôdeurs de Mémoire manipulent perception et cognition.",
+      "atmosphere": "Un jour perpétuel à la distorsion onirique ; tout semble artificiel et plat, dans un sentiment constant d'irréalité.",
+      "tips": "Évitez les Rôdeurs de Mémoire — leur contact corrompt l'esprit et simule une fausse sécurité. Fiez-vous à vos souvenirs d'origine."
     }
   },
   "media": {

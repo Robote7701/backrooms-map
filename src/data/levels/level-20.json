@@ -132,6 +132,12 @@
       "shortDescription": "An amusement facility split into the Waiting Halls (lockers, vending) and the Electric (deadly game rooms), bitterly cold and paranoia-inducing.",
       "atmosphere": "Eerie artificially-lit amusement palace sinking into darkness and extreme cold, with breathing/wind hallucinations and phantom snow.",
       "tips": "Don't read expedition logs before entry. Use staff-only doors in the Waiting Halls to exit fast. Win games for supplies; losing teleports you."
+    },
+    "fr": {
+      "name": "Niveau 20 — Structure Boréas",
+      "shortDescription": "Un complexe de loisirs divisé en Salles d'Attente (casiers, distributeurs) et l'Électrique (salles de jeux mortelles), glacial.",
+      "atmosphere": "Un palais de fête artificiellement éclairé qui sombre dans le noir et le froid extrême, avec des hallucinations de souffle et de neige.",
+      "tips": "Ne lisez pas les journaux d'expédition avant d'entrer. Cherchez les portes réservées au personnel pour sortir vite."
     }
   },
   "media": {

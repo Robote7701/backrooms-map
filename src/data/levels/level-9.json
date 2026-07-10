@@ -132,6 +132,12 @@
       "shortDescription": "An infinite suburb frozen at midnight, with furnished houses and deadly foggy streets prowled by hazardous entities.",
       "atmosphere": "Dark, eerie neighborhood: midnight fog, flickering streetlights, abandoned homes and unsettling psychological effects.",
       "tips": "Follow arrow signs toward Level 11. Avoid the entity-spawning fog. Loot houses but beware sudden teleportation."
+    },
+    "fr": {
+      "name": "Niveau 9 — La Banlieue",
+      "shortDescription": "Une banlieue infinie figée à minuit, aux maisons meublées et aux rues mortelles, où rôdent des entités dangereuses.",
+      "atmosphere": "Un quartier gelé dans la nuit : brouillard, lampadaires qui clignotent, maisons abandonnées, effets psychologiques troublants.",
+      "tips": "Suivez les panneaux fléchés vers le Niveau 11. Évitez le brouillard qui fait apparaître les entités."
     }
   },
   "media": {

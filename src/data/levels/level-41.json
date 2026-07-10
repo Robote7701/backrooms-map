@@ -62,6 +62,12 @@
       "shortDescription": "A vast boiling tar pit wrapped in toxic fumes, dotted with scorching islands and sinking wooden platforms that make for perilous crossings.",
       "atmosphere": "An oppressive haze over a charcoal landscape; bubbling tar coughs up choking fumes while skeletal things hunt from below.",
       "tips": "Never touch the tar. Cross via the islands and platforms. Watch for sudden eruptions and don't chase the unreachable dunes beyond."
+    },
+    "fr": {
+      "name": "Niveau 41 — Le Lac Noir",
+      "shortDescription": "Une vaste fosse de goudron bouillonnant enveloppée de fumées toxiques, parsemée d'îlots brûlants et de plateformes de bois qui s'enfoncent.",
+      "atmosphere": "Une brume oppressante masque un paysage de charbon ; le goudron crache des vapeurs suffocantes tandis que des créatures chassent depuis les profondeurs.",
+      "tips": "Ne touchez jamais le goudron. Traversez par les îlots et les plateformes. Attention aux éruptions soudaines."
     }
   },
   "media": {

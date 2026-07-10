@@ -102,6 +102,12 @@
       "shortDescription": "Windswept grasslands under permanent overcast around a medieval castle, where a sentient black tar slowly creeps in from the mountains.",
       "atmosphere": "Melancholic and desolate; a blue glow lights empty fields where a lone armored figure holds back an advancing darkness.",
       "tips": "Avoid the tar-like abyss at all costs. The Blue Knight is friendly but clingy. Lightning strikes hourly in predictable zones."
+    },
+    "fr": {
+      "name": "Niveau 28 — Vertu Ultime",
+      "shortDescription": "Des prairies balayées par le vent sous un ciel toujours couvert, autour d'un château médiéval qu'un goudron vivant grignote lentement.",
+      "atmosphere": "Mélancolique et désolé ; une lueur bleue éclaire des champs vides où une silhouette blindée solitaire retient les ténèbres.",
+      "tips": "Évitez l'abîme goudronneux à tout prix. Le Chevalier Bleu est amical mais attaché aux visiteurs. La foudre frappe chaque heure."
     }
   },
   "media": {

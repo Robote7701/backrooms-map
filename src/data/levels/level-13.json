@@ -96,6 +96,12 @@
       "shortDescription": "A 290-floor apartment complex of bland halls and identical furnished rooms that quietly nudges long-term residents into lethargy and withdrawal.",
       "atmosphere": "Monotonous, suffocating comfort; dim endless hallways and apartments giving just enough to make leaving psychologically hard.",
       "tips": "Keep social ties and routines outside your room. The level's lethargy deepens isolation — seek work or a group to resist stagnation."
+    },
+    "fr": {
+      "name": "Niveau 13 — Les Grenouilles Ébouillantées",
+      "shortDescription": "Un immeuble de 290 étages aux couloirs fades et appartements identiques, qui pousse doucement ses habitants vers la léthargie.",
+      "atmosphere": "Un confort étouffant et monotone ; des couloirs sombres sans fin où rester devient psychologiquement de plus en plus dur.",
+      "tips": "Gardez des liens sociaux et une routine hors de votre appartement. Cherchez un travail ou un groupe pour résister à la stagnation."
     }
   },
   "media": {

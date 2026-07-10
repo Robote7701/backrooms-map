@@ -53,6 +53,12 @@
       "shortDescription": "A level whose terrain rapidly transforms between ecosystems, currently a frozen arctic of luminous ice and unpredictable topography.",
       "atmosphere": "Hazardous and unstable: an arctic landscape that reshapes without warning, threatening sudden geological and environmental shifts.",
       "tips": "Never linger during an environmental shift. The exit moves with each transformation — don't get boxed in by changing terrain."
+    },
+    "fr": {
+      "name": "Niveau 16 — Topographie Altérée",
+      "shortDescription": "Un niveau dont le terrain se transforme rapidement d'un écosystème à l'autre, actuellement un désert arctique à la glace lumineuse.",
+      "atmosphere": "Dangereux et instable : un paysage arctique qui se remodèle sans prévenir, menaçant de changements géologiques soudains.",
+      "tips": "Ne restez jamais pendant une transformation. La sortie se déplace à chaque changement — ne vous laissez pas piéger."
     }
   },
   "media": {

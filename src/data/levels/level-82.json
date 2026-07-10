@@ -82,6 +82,12 @@
       "shortDescription": "A Victorian indoor market run by hostile entities acting as traders, open on a strict schedule with violent closures.",
       "atmosphere": "Commercial yet threatening — entities trade grudgingly while staying predatory, and closing time means forced eviction.",
       "tips": "Trade fairly, don't linger, and leave before 9 PM closing. Cheating a trader gets you killed on the spot; re-entry after eviction is fatal."
+    },
+    "fr": {
+      "name": "Niveau 82 — Marché Auto-Automatisé",
+      "shortDescription": "Un marché victorien tenu par des entités hostiles jouant les commerçants, ouvert selon un horaire strict avec des fermetures violentes.",
+      "atmosphere": "Commercial mais menaçant — les entités échangent à contrecœur tout en restant prédatrices, la fermeture signifiant une expulsion forcée.",
+      "tips": "Échangez honnêtement, ne traînez pas, et partez avant 21h. Tricher un commerçant est fatal ; revenir après une expulsion l'est tout autant."
     }
   },
   "media": {

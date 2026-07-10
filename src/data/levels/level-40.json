@@ -132,6 +132,12 @@
       "shortDescription": "A retro 1980s arcade of playable machines, vending sauce best left alone, and unseen entities that quietly use the games.",
       "atmosphere": "Neon-lit arcade humming with machines and chatter, thick with the smell of decades-old pizza and stale soda.",
       "tips": "Don't play the anomalous games — especially 'General Starflare: Wild Space'. Never drink the glowing Universal Sauce. Pat at the desk is safe."
+    },
+    "fr": {
+      "name": "Niveau 40 — Roller Rockin' Pizza !",
+      "shortDescription": "Une arcade rétro des années 1980 aux machines jouables, une sauce à éviter absolument, et des entités invisibles qui utilisent les jeux.",
+      "atmosphere": "Une arcade illuminée de néons, bourdonnante de machines et de bavardages, imprégnée de l'odeur de pizza et de soda éventé.",
+      "tips": "Ne jouez pas aux jeux anormaux — surtout « General Starflare : Wild Space ». Ne buvez jamais la Sauce Universelle luminescente."
     }
   },
   "media": {

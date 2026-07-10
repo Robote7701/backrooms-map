@@ -137,6 +137,12 @@
       "shortDescription": "A tight, pitch-black sewer of brick and stone where the water below may drop you into other levels. Home to several dangerous entities.",
       "atmosphere": "Claustrophobic darkness over stagnant water, hostile creatures lurking in the cramped tunnels.",
       "tips": "Bring a light and almond water. Kill your flashlight if you meet Smilers. Never fall into the water."
+    },
+    "fr": {
+      "name": "Niveau 34 — Réseau d'Égouts",
+      "shortDescription": "Un égout étroit et plongé dans le noir de brique et de pierre, dont l'eau en contrebas peut faire chuter vers d'autres niveaux.",
+      "atmosphere": "Obscurité claustrophobe au-dessus d'une eau stagnante, avec des créatures hostiles tapies dans les tunnels exigus.",
+      "tips": "Emportez une lumière et de l'Eau d'Amande. Éteignez votre lampe si vous croisez des Smilers. Ne tombez jamais dans l'eau."
     }
   },
   "media": {

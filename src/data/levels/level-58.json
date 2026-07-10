@@ -87,6 +87,12 @@
       "shortDescription": "An abandoned indoor waterpark of pools, corridors, cafes and storerooms, home to the Tribe of Tegan and a B.N.T.G. base.",
       "atmosphere": "Decaying amusement facilities where a primitive tribal settlement and an organized corporate outpost coexist in eerie duality.",
       "tips": "Avoid entities in the corridors. Befriend the Tribe of Tegan for resources and harvest ripe Tegan Fruit for food and protective skin."
+    },
+    "fr": {
+      "name": "Niveau 58 — Merveille Aquatique",
+      "shortDescription": "Un parc aquatique intérieur abandonné, entre piscines, couloirs, cafés et réserves, habité par la Tribu de Tegan et une base du B.N.T.G.",
+      "atmosphere": "Des installations de loisirs en décrépitude où cohabitent une communauté tribale primitive et un avant-poste corporate organisé.",
+      "tips": "Évitez les entités dans les couloirs. Liez-vous à la Tribu de Tegan et récoltez les Fruits de Tegan mûrs pour se nourrir."
     }
   },
   "media": {

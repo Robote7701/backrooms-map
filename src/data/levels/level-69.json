@@ -128,6 +128,12 @@
       "shortDescription": "An infinite foggy highway where survival means never leaving your vehicle — something hunts whoever steps outside.",
       "atmosphere": "Perpetual darkness and thick fog swallow the endless highway; eerie silence broken by unseen threats above the abandoned cars.",
       "tips": "Never exit your vehicle. Drive toward tunnel exits perpendicular to the highway. Ration supplies — the trip can run long."
+    },
+    "fr": {
+      "name": "Niveau 69 — Le Road Trip de l'Affliction",
+      "shortDescription": "Une autoroute infinie noyée de brouillard où la survie dépend de rester dans son véhicule — quelque chose chasse ceux qui en sortent.",
+      "atmosphere": "L'obscurité perpétuelle et le brouillard épais engloutissent l'autoroute sans fin ; un silence inquiétant troublé par des menaces invisibles.",
+      "tips": "Ne sortez jamais du véhicule. Roulez vers les sorties de tunnel perpendiculaires à l'autoroute. Rationnez vos provisions."
     }
   },
   "media": {

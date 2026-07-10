@@ -46,6 +46,12 @@
       "shortDescription": "A vast theater complex whose chairs fuse to victims and force them to watch a unique film before the level slowly consumes them.",
       "atmosphere": "Unsettling and predatory: organic theater rooms built to trap and absorb visitors through chemical and psychological means.",
       "tips": "Never enter a theater room and never sit in a chair. The level actively hunts through deception and biological traps."
+    },
+    "fr": {
+      "name": "Niveau 68 — Le Dévoreur",
+      "shortDescription": "Un vaste complexe de théâtres dont les fauteuils se fondent aux victimes et les forcent à regarder un film avant de les consumer lentement.",
+      "atmosphere": "Inquiétant et prédateur : des salles de théâtre organiques conçues pour piéger et absorber les visiteurs par des moyens chimiques et psychologiques.",
+      "tips": "N'entrez jamais dans une salle de théâtre et ne vous asseyez jamais dans un fauteuil. Le niveau chasse activement par la tromperie."
     }
   },
   "media": {

@@ -46,6 +46,12 @@
       "shortDescription": "A dreamlike island with a solitary cliffside house, where wanderers find deep peace before mysteriously moving on.",
       "atmosphere": "Serene and melancholic, filled with gentle ocean sounds and the ethereal feel of a cherished, fading memory.",
       "tips": "Just rest and let the tranquility settle — every visitor eventually falls asleep and wakes somewhere else."
+    },
+    "fr": {
+      "name": "Niveau 91 — Rien qu'un Souvenir",
+      "shortDescription": "Une île onirique avec une maison isolée en falaise, où les errants trouvent une paix profonde avant de mystérieusement repartir ailleurs.",
+      "atmosphere": "Serein et mélancolique, empli du doux bruit de l'océan et de la texture éthérée d'un souvenir cher qui s'estompe.",
+      "tips": "Reposez-vous simplement et laissez la tranquillité s'installer — chaque visiteur finit par s'endormir et se réveille ailleurs."
     }
   },
   "media": {

@@ -86,6 +86,12 @@
       "shortDescription": "An infinite sandy beach in eternal sunset with a tropical forest, edible plants and luxury lodging, home to docile fauna and farming communities.",
       "atmosphere": "A serene tropical paradise frozen at golden hour: warm, threat-free and abundant — remarkably peaceful for weary wanderers.",
       "tips": "Forage Veroka Fruits (vitamins and lithium) in the forest. Trade with the Veroka Farmers. Never play dead on the beaches."
+    },
+    "fr": {
+      "name": "Niveau 48 — La Plage au Coucher du Soleil",
+      "shortDescription": "Une plage de sable infinie figée dans un coucher de soleil éternel, avec une forêt tropicale, des fruits comestibles et une faune docile.",
+      "atmosphere": "Un paradis tropical serein figé à l'heure dorée : chaud, sans menace et abondant en ressources — un vrai répit pour les errants.",
+      "tips": "Récoltez les Fruits de Veroka dans la forêt. Échangez avec les Fermiers de Veroka. Ne faites jamais le mort sur la plage."
     }
   },
   "media": {

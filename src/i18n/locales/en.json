@@ -24,6 +24,7 @@
     "unsecure": "Unsecured",
     "wiki": "View on wiki",
     "presence": "presence",
+    "entityLinkHint": "View this entity's wiki page (external link, not guaranteed)",
     "reliability": "reliability",
     "close": "Close"
   },

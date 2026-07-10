@@ -47,6 +47,12 @@
       "shortDescription": "An ever-constructing level whose corridors converge on a central point where a machine god assembles something at its core.",
       "atmosphere": "Mechanical yet mystical: industrial corridors oriented inward toward an omniscient machine consciousness issuing precise instructions.",
       "tips": "The level keeps rebuilding itself. Understanding the machine god's odd theology may be the key to navigating it safely."
+    },
+    "fr": {
+      "name": "Niveau 95 — Vers Agape",
+      "shortDescription": "Un niveau en construction perpétuelle dont les couloirs convergent vers un point central où un dieu-machine assemble quelque chose en son cœur.",
+      "atmosphere": "Mécanique et pourtant mystique : des couloirs industriels orientés vers une conscience-machine omnisciente délivrant des instructions précises.",
+      "tips": "Le niveau se reconstruit sans cesse. Comprendre l'étrange théologie du dieu-machine pourrait être la clé pour le traverser."
     }
   },
   "media": {

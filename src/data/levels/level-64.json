@@ -102,6 +102,12 @@
       "shortDescription": "An infinite house swallowed in darkness, its light fixtures failing and worm-like entities hunting; the layout shifts when unwatched.",
       "atmosphere": "Oppressive dark decaying domesticity of impossible layouts, unsettling silence and the threat of unseen predators.",
       "tips": "Move fast and stay hidden from Lurkers. Wait for the safe phase — every light comes on and the entities vanish — then find an exit."
+    },
+    "fr": {
+      "name": "Niveau 64 — L'Obscurité Tapie",
+      "shortDescription": "Une maison infinie engloutie par les ténèbres, aux lumières défaillantes, chassée par des entités semblables à des vers dont le plan change à l'insu.",
+      "atmosphere": "Une décrépitude domestique oppressante et sombre, aux plans impossibles, un silence troublant menacé par des prédateurs invisibles.",
+      "tips": "Déplacez-vous vite et restez caché des Rôdeurs. Attendez la phase sûre — toutes les lumières s'allument et les entités disparaissent."
     }
   },
   "media": {

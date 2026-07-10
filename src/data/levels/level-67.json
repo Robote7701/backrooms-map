@@ -82,6 +82,12 @@
       "shortDescription": "A 1980s-style bakery that conjures items to match each visitor's tastes — its pastries hide dangerous, desire-tuned psychoactive effects.",
       "atmosphere": "A nostalgic yet unsettling bakery that adapts to your palate while masking lethal danger inside appealing confections.",
       "tips": "Never eat your favorite pastry — pick something neutral or disliked instead. Decide beforehand to avoid Faceling aggression in line."
+    },
+    "fr": {
+      "name": "Niveau 67 — La Boulangerie du Désir",
+      "shortDescription": "Une boulangerie façon années 1980 qui matérialise des objets adaptés aux goûts du visiteur, avec des pâtisseries aux effets psychoactifs dangereux.",
+      "atmosphere": "Une boulangerie nostalgique mais dérangeante qui s'adapte au palais de chacun tout en dissimulant un danger mortel dans ses confiseries.",
+      "tips": "Ne mangez jamais votre pâtisserie préférée — choisissez plutôt quelque chose de neutre ou détesté. Décidez à l'avance pour éviter l'agressivité des Facelings."
     }
   },
   "media": {

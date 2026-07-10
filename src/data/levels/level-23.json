@@ -92,6 +92,12 @@
       "shortDescription": "A planetoid-sized superorganism of interwoven ancient trees, with bioluminescent caverns and ruins that mimic classical Frontrooms structures.",
       "atmosphere": "Dense shadowy canopy in perpetual twilight; underground glow-rooms pulse with eerie light amid petrified wood and forgotten ruins.",
       "tips": "Never say 'it's only a matter of time' — it wakes buried sentries. Shelter at Base Seedling, which holds the main exit. Don't harm the Green Giants."
+    },
+    "fr": {
+      "name": "Niveau 23 — Le Jardin Pétrifié",
+      "shortDescription": "Un super-organisme de la taille d'une planète fait d'arbres anciens entrelacés, avec des cavernes bioluminescentes et des ruines.",
+      "atmosphere": "Une canopée dense et ombragée dans un crépuscule perpétuel ; des salles souterraines luisantes au cœur d'un bois pétrifié millénaire.",
+      "tips": "Ne dites jamais « ce n'est qu'une question de temps » — cela réveille des sentinelles enfouies. Réfugiez-vous à Base Seedling."
     }
   },
   "media": {

@@ -14,6 +14,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..', '..')
 const LEVELS_DIR = join(ROOT, 'src', 'data', 'levels')
 const RAW_DIR = join(__dirname, 'raw')
+const FR_FILE = join(__dirname, 'fr-translations.json')
 const ADDED_ON = '2026-07-10'
 const SOURCE = 'backrooms-wiki.wikidot.com'
 
@@ -55,7 +56,7 @@ function rawConnections(raw) {
   return []
 }
 
-function mapLevel(raw, validTargets) {
+function mapLevel(raw, validTargets, frTranslations) {
   const cm = raw.survivalClass == null ? CLASS_FALLBACK : CLASS_MAP[raw.survivalClass] ?? CLASS_FALLBACK
   const tags = [...(raw.tags ?? [])]
   if (raw.survivalClass == null) tags.push('difficulte-estimee')
@@ -88,6 +89,24 @@ function mapLevel(raw, validTargets) {
     zones: [],
   }))
 
+  const fr = frTranslations[String(raw.number)]
+  const i18n = {
+    en: {
+      name: `Level ${raw.number} — ${raw.title}`,
+      shortDescription: raw.shortDescription ?? '',
+      atmosphere: raw.atmosphere ?? '',
+      tips: raw.tips ?? '',
+    },
+  }
+  if (fr) {
+    i18n.fr = {
+      name: fr.name,
+      shortDescription: fr.shortDescription,
+      atmosphere: fr.atmosphere,
+      tips: fr.tips,
+    }
+  }
+
   return {
     id: `level-${raw.number}`,
     slug: `level-${raw.number}`,
@@ -100,14 +119,7 @@ function mapLevel(raw, validTargets) {
     },
     entities,
     connections,
-    i18n: {
-      en: {
-        name: `Level ${raw.number} — ${raw.title}`,
-        shortDescription: raw.shortDescription ?? '',
-        atmosphere: raw.atmosphere ?? '',
-        tips: raw.tips ?? '',
-      },
-    },
+    i18n,
     media: {
       thumbnail: `/images/levels/level-${raw.number}-thumb.webp`,
       banner: `/images/levels/level-${raw.number}-banner.webp`,
@@ -139,6 +151,14 @@ for (const f of rawFiles.sort()) {
 }
 const rawLevels = [...byNumber.values()]
 
+// Traductions FR, optionnelles (clé = numéro de niveau en string).
+let frTranslations = {}
+try {
+  frTranslations = JSON.parse(readFileSync(FR_FILE, 'utf8'))
+} catch {
+  // Pas de traductions FR disponibles : les niveaux resteront EN-only.
+}
+
 // Cibles valides = niveaux du raw + fichiers level-N.json déjà présents (ex: level-0).
 const existingNumeric = readdirSync(LEVELS_DIR)
   .map((f) => /^level-(\d+)\.json$/.exec(f))
@@ -148,7 +168,7 @@ const validTargets = new Set([...existingNumeric, ...rawLevels.map((r) => `level
 
 let written = 0
 for (const raw of rawLevels) {
-  const out = mapLevel(raw, validTargets)
+  const out = mapLevel(raw, validTargets, frTranslations)
   writeFileSync(join(LEVELS_DIR, `${out.id}.json`), JSON.stringify(out, null, 2) + '\n', 'utf8')
   written++
 }

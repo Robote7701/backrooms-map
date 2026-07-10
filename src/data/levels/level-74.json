@@ -37,6 +37,12 @@
       "shortDescription": "A theatre stage of looping hallways populated by dream-like figures resembling people the visitor knows.",
       "atmosphere": "Theatrical and familiar at first, growing more unsettling as isolation deepens and hallucinations intensify.",
       "tips": "Leave through the trapdoors within two hours — longer stays badly erode your grip on reality."
+    },
+    "fr": {
+      "name": "Niveau 74 — Trac",
+      "shortDescription": "Une scène de théâtre aux couloirs en boucle peuplés de figures oniriques ressemblant à des gens que le visiteur connaît.",
+      "atmosphere": "Théâtral et familier au début, de plus en plus troublant à mesure que l'isolement s'installe et que les hallucinations s'intensifient.",
+      "tips": "Sortez par les trappes avant deux heures — rester plus longtemps altère gravement la perception de la réalité."
     }
   },
   "media": {

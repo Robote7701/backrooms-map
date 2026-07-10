@@ -62,6 +62,12 @@
       "shortDescription": "An infinite desert highway of paused vehicles and eerie silence, roamed by mysterious humans whose intentions stay unknown.",
       "atmosphere": "A silent desolate desert with frozen traffic; extreme heat and the psychological strain of isolation and uneasy human encounters.",
       "tips": "Avoid the roaming humans. Mobile homes make safe shelter. Loot vehicles for supplies but don't stay inside. Bring almond water."
+    },
+    "fr": {
+      "name": "Niveau 50 — L'Autoroute Moribonde",
+      "shortDescription": "Une autoroute désertique infinie de véhicules à l'arrêt et de silence inquiétant, parcourue par des humains errants aux intentions inconnues.",
+      "atmosphere": "Un désert silencieux et désolé aux embouteillages figés ; chaleur extrême et tension psychologique de l'isolement.",
+      "tips": "Évitez les humains errants. Les mobil-homes offrent un abri sûr. Pillez les véhicules mais n'y restez pas. Emportez de l'Eau d'Amande."
     }
   },
   "media": {

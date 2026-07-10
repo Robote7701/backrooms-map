@@ -76,6 +76,12 @@
       "shortDescription": "An infinite abandoned restaurant complex used as a temporary refuge; wanderers are automatically displaced after random intervals.",
       "atmosphere": "Eerily quiet under perpetual sunlight; damp cool air around 21°C brings drowsiness and quiet introspection.",
       "tips": "Use it only as a brief sanctuary. Food and water are available. Explore carefully — the average stay is about three days."
+    },
+    "fr": {
+      "name": "Niveau 55 — Halte Routière",
+      "shortDescription": "Un complexe de restaurants abandonnés infini servant de refuge temporaire ; les errants sont automatiquement déplacés après un délai aléatoire.",
+      "atmosphere": "Étrangement calme sous un soleil perpétuel ; un air frais et humide à 21°C invite à la somnolence et à l'introspection.",
+      "tips": "N'utilisez ce niveau que comme sanctuaire bref. Nourriture et eau sont disponibles. Le séjour moyen dure environ trois jours."
     }
   },
   "media": {

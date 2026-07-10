@@ -72,6 +72,12 @@
       "shortDescription": "An abandoned industrial complex, resource-rich but walled by indestructible barriers and hunted by unusually intelligent, coordinated entities.",
       "atmosphere": "Dark brick halls of archaic electrical gear, humming machines and black liquid in the pipes; a pervasive sense of being hunted.",
       "tips": "Never go alone. Reach Base Gamma. Don't stare at barred areas. Carry a flashlight and a light-bomb against entity brigades."
+    },
+    "fr": {
+      "name": "Niveau 3 — Station Électrique",
+      "shortDescription": "Une vieille installation électrique dangereuse aux couloirs de brique, riche en ressources mais gardée par des entités anormalement intelligentes.",
+      "atmosphere": "Couloirs de brique sombres, équipements bourdonnants et tuyaux noirs, entre passages étroits et halls industriels oppressants.",
+      "tips": "N'y allez jamais seul. Rejoignez la Base Gamma. Ne fixez jamais les zones barrées. Emportez lampe torche et bombe lumineuse."
     }
   },
   "media": {

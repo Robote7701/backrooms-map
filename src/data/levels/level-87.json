@@ -52,6 +52,12 @@
       "shortDescription": "Miles of locked hallways stocked with keys and supplies, where meeting your past or future self is a real, dangerous risk.",
       "atmosphere": "Isolated and disorienting; time flows unevenly here, breeding confusion and unsettling encounters with yourself.",
       "tips": "Find keys matching the colored or coded locks. Never harm a past or future version of yourself. Keep checking doors for a way out."
+    },
+    "fr": {
+      "name": "Niveau 87 — Couloirs du Temps",
+      "shortDescription": "Des kilomètres de couloirs verrouillés remplis de clés et de ravitaillement, où croiser une version passée ou future de soi-même est un risque réel.",
+      "atmosphere": "Isolé et désorientant ; le temps s'écoule ici de façon irrégulière, provoquant confusion mémorielle et rencontres troublantes avec soi-même.",
+      "tips": "Trouvez les clés correspondant aux serrures codées ou colorées. Ne blessez jamais une version passée ou future de vous-même."
     }
   },
   "media": {

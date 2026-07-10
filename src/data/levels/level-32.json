@@ -67,6 +67,12 @@
       "shortDescription": "An endless dark forest of hanging skeletons under a moonless sky, ruled by a skeletal queen who may grant wishes for the price of a soul.",
       "atmosphere": "Perpetual night lit only by moonlight on bone and bark; haunting winds whisper through the remains — oppressive and sorrowful.",
       "tips": "Show the Skeleton Queen respect; she may bargain rather than kill. Never chase The Belle unless ready for fatal consequences."
+    },
+    "fr": {
+      "name": "Niveau 32 — La Forêt de la Reine Squelette",
+      "shortDescription": "Une forêt sombre et infinie de squelettes suspendus sous un ciel sans lune, régie par une reine squelette qui peut exaucer des vœux — contre une âme.",
+      "atmosphere": "Nuit perpétuelle éclairée par la seule lune sur les os et l'écorce ; des vents lugubres soufflent à travers les restes.",
+      "tips": "Montrez du respect à la Reine Squelette ; elle peut négocier plutôt que tuer. Ne poursuivez jamais la Belle."
     }
   },
   "media": {

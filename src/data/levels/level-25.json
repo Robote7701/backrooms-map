@@ -116,6 +116,12 @@
       "shortDescription": "A dusty abandoned arcade spanning miles whose broken cabinets act as interdimensional transit hubs between Backrooms levels.",
       "atmosphere": "Desolate echoing arcade thick with dust and decay, vintage machines vandalized by age, a faint electrical hum in the silence.",
       "tips": "Find a working cabinet and insert quarters to travel. Only ~1 in 1500 works. An arcade always appears when you arrive."
+    },
+    "fr": {
+      "name": "Niveau 25 — Le Carrefour aux Pièces",
+      "shortDescription": "Une salle d'arcade poussiéreuse et abandonnée, longue de plusieurs kilomètres, dont les bornes cassées servent de hubs interdimensionnels.",
+      "atmosphere": "Une arcade désolée et résonnante, épaisse de poussière et de décrépitude, des machines vintage vandalisées par le temps.",
+      "tips": "Trouvez une borne fonctionnelle et insérez une pièce pour voyager. Seule 1 borne sur 1500 environ fonctionne."
     }
   },
   "media": {

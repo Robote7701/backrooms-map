@@ -52,6 +52,12 @@
       "shortDescription": "An autumn park of narrow paths and public facilities, hiding parasitic organisms that dangerously warp cognition and behavior.",
       "atmosphere": "A desolate autumn landscape of scattered lighting and vegetation — familiar at first, slowly breeding confusion and aggression.",
       "tips": "Never drink any liquid found here. Watch your companions for behavior changes. Find the exit quickly and don't linger."
+    },
+    "fr": {
+      "name": "Niveau 89 — Parc Redouté",
+      "shortDescription": "Un parc automnal aux trottoirs étroits, forêts et équipements publics, abritant des organismes parasitaires qui altèrent dangereusement la cognition.",
+      "atmosphere": "Un paysage automnal désolé à l'éclairage sporadique et à la végétation éparse, familier au premier abord mais gagné par la confusion.",
+      "tips": "Ne buvez jamais aucun liquide trouvé sur place. Surveillez les changements de comportement chez vos compagnons. Cherchez la sortie rapidement."
     }
   },
   "media": {

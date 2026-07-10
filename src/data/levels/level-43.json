@@ -192,6 +192,12 @@
       "shortDescription": "An abandoned aquatic theme park of four linked zones, ending in a flooded final area where aquatic creatures roam free.",
       "atmosphere": "An eerily quiet park still humming with machinery, choked with fog and disembodied announcements as dread mounts with depth.",
       "tips": "Don't trigger the corrupted video in the staff halls. Come equipped for hostile entities. Leave at once if you reach the flooded final zone."
+    },
+    "fr": {
+      "name": "Niveau 43 — Water World",
+      "shortDescription": "Un parc aquatique abandonné en quatre zones reliées, se terminant par une zone finale inondée où rôdent des créatures aquatiques.",
+      "atmosphere": "Un parc étrangement silencieux mais toujours mécaniquement actif, brouillard épais et annonces désincarnées, l'angoisse montant avec la profondeur.",
+      "tips": "Ne déclenchez pas la vidéo corrompue dans les couloirs du personnel. Venez équipé contre les entités. Fuyez dès la zone inondée finale."
     }
   },
   "media": {

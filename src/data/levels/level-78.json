@@ -82,6 +82,12 @@
       "shortDescription": "A vast weightless space station stretching endlessly in every direction, full of dead machinery, overgrown gardens and starry portholes.",
       "atmosphere": "Desolate, disorienting null-gravity halls of dead equipment and plants; the shifting stars through the portholes hypnotize.",
       "tips": "Don't stare too long at the portholes — the pull toward the airlocks is real. Avoid lavatories where Clumps hide. Find a working spacesuit before you try to leave."
+    },
+    "fr": {
+      "name": "Niveau 78 — Station Spatiale",
+      "shortDescription": "Une vaste station spatiale en apesanteur s'étendant à l'infini, pleine de machines hors service, de jardins envahis et de hublots étoilés.",
+      "atmosphere": "Des couloirs en apesanteur désolés et désorientants, équipements et plantes morts, des étoiles changeantes hypnotisant les voyageurs.",
+      "tips": "Ne fixez pas trop longtemps les hublots — l'attirance vers les sas est réelle. Évitez les toilettes où se cachent les Clumps."
     }
   },
   "media": {

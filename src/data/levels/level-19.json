@@ -96,6 +96,12 @@
       "shortDescription": "A dilapidated attic of dusty furniture and boxes, with an alluring orange glow under the floorboards that alters memory and rots matter.",
       "atmosphere": "Musty and oppressive clutter of vintage items; a warm inviting glow feigns comfort while eroding the mind.",
       "tips": "Avoid prolonged exposure to the orange glow. Items decay fast once removed from containers. Expect hallucinations and memory loss."
+    },
+    "fr": {
+      "name": "Niveau 19 — Planches du Grenier",
+      "shortDescription": "Un grenier délabré rempli de meubles poussiéreux et de cartons, avec une lueur orange sous le plancher qui altère la mémoire.",
+      "atmosphere": "Un fouillis moite et oppressant d'objets vintage ; une lueur chaleureuse et fausse qui érode peu à peu l'esprit.",
+      "tips": "Évitez toute exposition prolongée à la lueur orange. Les objets se décomposent vite une fois sortis de leur contenant."
     }
   },
   "media": {

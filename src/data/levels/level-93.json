@@ -57,6 +57,12 @@
       "shortDescription": "A seemingly endless Everest-like peak with weather that worsens over time, plunging below -180°C.",
       "atmosphere": "A desolate alpine climb of escalating blizzards, fog and hail — every entity here eventually dies, leaving only frozen corpses.",
       "tips": "Avoid the tents — hostile entities live in them. Wear cold-weather gear. Weather turns fast: get out within 10 minutes."
+    },
+    "fr": {
+      "name": "Niveau 93 — Le Sommet",
+      "shortDescription": "Un pic sans fin façon Everest dont le temps empire progressivement, plongeant sous les -180°C.",
+      "atmosphere": "Une ascension alpine désolée de blizzards, brouillard et grêle croissants — toute entité y meurt, ne laissant que des cadavres gelés.",
+      "tips": "Évitez les tentes — des entités hostiles y vivent. Portez un équipement contre le froid. Sortez en moins de 10 minutes."
     }
   },
   "media": {

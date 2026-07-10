@@ -92,6 +92,12 @@
       "shortDescription": "A circular ice-cavern system of ever-colder zones, reaching absolute zero at a deadly frozen core.",
       "atmosphere": "A desolate frozen void lit by bioluminescent ice; temperature extremes make survival impossible without specialized gear.",
       "tips": "Find supply crates with cold suits and oxygen. Follow red flags toward outposts. Avoid ice burrows and never touch the singularity floor."
+    },
+    "fr": {
+      "name": "Niveau 56 — Morsure du Gel",
+      "shortDescription": "Un système de cavernes de glace circulaire aux zones toujours plus froides, atteignant le zéro absolu en son cœur mortel.",
+      "atmosphere": "Un vide gelé et désolé éclairé par la glace bioluminescente ; les températures extrêmes rendent toute survie impossible sans équipement spécial.",
+      "tips": "Trouvez des caisses de ravitaillement avec combinaisons chauffantes et bonbonnes d'oxygène. Suivez les drapeaux rouges vers les avant-postes."
     }
   },
   "media": {

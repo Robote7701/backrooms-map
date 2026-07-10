@@ -569,9 +569,18 @@ body {
 .connections li {
   font-size: 14px;
 }
+.entity-icon {
+  margin-right: 4px;
+  font-size: 11px;
+}
 .entity-name {
   font-family: var(--mono);
   color: var(--neon-magenta);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.entity-name:hover {
+  text-shadow: 0 0 8px var(--neon-magenta);
 }
 .connections li {
   display: flex;

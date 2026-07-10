@@ -56,6 +56,12 @@
       "shortDescription": "A vast submerged complex of white ceramic rooms flooded with relaxing salt water, its surreal architecture serving no clear purpose.",
       "atmosphere": "Serene yet unsettling calm over crystalline pools under perfect light; strange geometry and altered acoustics undercut the peace.",
       "tips": "Appears entirely entity-free and restful. Avoid the deep pits and dark tunnels; the Epsom-salt water relaxes but long immersion is untested."
+    },
+    "fr": {
+      "name": "Niveau 37 — Sublimité",
+      "shortDescription": "Un vaste complexe submergé de salles en céramique blanche, inondé d'une eau salée relaxante, à l'architecture surréaliste sans but apparent.",
+      "atmosphere": "Un calme serein mais dérangeant au-dessus de bassins cristallins sous une lumière parfaite ; géométrie étrange et acoustique altérée.",
+      "tips": "Semble entièrement dénué d'entités et reposant. Évitez les fosses profondes et les tunnels sombres."
     }
   },
   "media": {

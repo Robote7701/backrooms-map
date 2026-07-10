@@ -62,6 +62,12 @@
       "shortDescription": "A dark bayside concrete promenade with broken streetlights, prowled by Smilers and a calming mental effect that lures wanderers to drown.",
       "atmosphere": "An unsettling seaside walk of malfunctioning lights and constant Smiler presence, laced with an insidious 'painless death' pull.",
       "tips": "Travel in groups to resist the Painless Death effect. Avoid the upper area; prep in the lower dirt section. Remember the Guide."
+    },
+    "fr": {
+      "name": "Niveau 60 — La Promenade de la Baie",
+      "shortDescription": "Une promenade côtière en béton, sombre et éclairée de lampadaires cassés, hantée par des Smilers et un effet mental apaisant qui pousse à se noyer.",
+      "atmosphere": "Une promenade maritime inquiétante aux lumières défaillantes, présence constante de Smilers et une attraction insidieuse vers une « mort sans douleur ».",
+      "tips": "Voyagez en groupe pour résister à l'effet de Mort Indolore. Évitez la partie haute ; préparez-vous dans la partie basse en terre."
     }
   },
   "media": {

@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { useI18n } from '../i18n/I18nContext'
 import { getLevelText, pickLang } from '../i18n/getLevelText'
 import { levelsById } from '../data/loadLevels'
+import { classIcons, routeIcons, presenceIcons } from '../data/icons'
+import { entityWikiUrl } from '../data/entityWiki'
 
 // Panneau latéral : détails du niveau sélectionné.
 export default function SidePanel({ level, onSelect, onClose }) {
@@ -31,7 +33,7 @@ export default function SidePanel({ level, onSelect, onClose }) {
 
       <div className="badges">
         <span className={`badge badge--class badge--${level.class}`}>
-          {t('panel.class')}: {level.class}
+          {classIcons[level.class] ?? ''} {t('panel.class')}: {level.class}
         </span>
         <DangerBadge danger={level.danger} label={t('panel.danger')} />
       </div>
@@ -49,10 +51,10 @@ export default function SidePanel({ level, onSelect, onClose }) {
       <Section title={t('panel.survival')}>
         <ul className="survival">
           <li className={level.survival?.safe ? 'ok' : 'ko'}>
-            {level.survival?.safe ? t('panel.safe') : t('panel.unsafe')}
+            {level.survival?.safe ? `✅ ${t('panel.safe')}` : `⚠️ ${t('panel.unsafe')}`}
           </li>
           <li className={level.survival?.secure ? 'ok' : 'ko'}>
-            {level.survival?.secure ? t('panel.secure') : t('panel.unsecure')}
+            {level.survival?.secure ? `🔒 ${t('panel.secure')}` : `🔓 ${t('panel.unsecure')}`}
           </li>
         </ul>
       </Section>
@@ -62,7 +64,18 @@ export default function SidePanel({ level, onSelect, onClose }) {
           <ul className="entities">
             {level.entities.map((e) => (
               <li key={e.id}>
-                <span className="entity-name">{e.id}</span>
+                <span className="entity-icon" aria-hidden="true">
+                  {presenceIcons[e.presence] ?? '❔'}
+                </span>
+                <a
+                  className="entity-name"
+                  href={entityWikiUrl(e.id)}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  title={t('panel.entityLinkHint')}
+                >
+                  {e.id}
+                </a>
                 <span className="muted"> — {e.presence} {t('panel.presence')}</span>
                 {e.zones?.length > 0 && (
                   <div className="muted small">{e.zones.join(', ')}</div>
@@ -91,7 +104,9 @@ export default function SidePanel({ level, onSelect, onClose }) {
                   >
                     {targetName}
                   </button>
-                  <span className={`chip chip--${c.type}`}>{t(`connType.${c.type}`)}</span>
+                  <span className={`chip chip--${c.type}`}>
+                    {routeIcons[c.type] ?? ''} {t(`connType.${c.type}`)}
+                  </span>
                   <span className="chip chip--dir">{t(`direction.${c.direction}`)}</span>
                   <div className="muted small">{pickLang(c.method, lang)}</div>
                 </li>
@@ -127,7 +142,7 @@ function DangerBadge({ danger, label }) {
   const hue = Math.round((1 - pct) * 120)
   return (
     <span className="badge" style={{ borderColor: `hsl(${hue} 70% 55%)`, color: `hsl(${hue} 70% 70%)` }}>
-      {label}: {danger.level}/{danger.scale}
+      🔥 {label}: {danger.level}/{danger.scale}
     </span>
   )
 }

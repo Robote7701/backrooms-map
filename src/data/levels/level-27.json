@@ -46,6 +46,12 @@
       "shortDescription": "A small cave with a mineral-rich hot spring that soothes and heals wanderers — while hiding a darker secret further in.",
       "atmosphere": "Serene and therapeutic at first, concealing an unsettling truth about the level's true nature and its edges.",
       "tips": "Bathe 1–2 hours at most for the benefits. Avoid the second waterfall tunnel. Respect others and leave promptly."
+    },
+    "fr": {
+      "name": "Niveau 27 — Les Sources du Bunker",
+      "shortDescription": "Une petite grotte avec une source chaude minérale qui apaise et soigne les errants — tout en cachant un secret plus sombre.",
+      "atmosphere": "Sereine et thérapeutique au premier abord, dissimulant une vérité troublante sur la nature réelle du niveau.",
+      "tips": "Ne vous baignez pas plus d'1 à 2 heures. Évitez le second tunnel derrière la cascade. Respectez les autres et partez vite."
     }
   },
   "media": {

@@ -25,6 +25,12 @@
       "shortDescription": "An abandoned mid-20th-century medical research facility racked by time anomalies, bearing traces of unethical experiments on children.",
       "atmosphere": "A decrepit clinic of ominous machinery where temporal distortion makes you feel like you're phasing through reality itself.",
       "tips": "Don't linger — the entrance relocates unpredictably, and a 16-clock machine triggers spatial-displacement tremors every 30 minutes."
+    },
+    "fr": {
+      "name": "Niveau 79 — Fantômes dans la Machine",
+      "shortDescription": "Un centre de recherche médicale abandonné du milieu du 20e siècle secoué d'anomalies temporelles, portant les traces d'expériences contraires à l'éthique sur des enfants.",
+      "atmosphere": "Une clinique décrépite aux machines inquiétantes où la distorsion temporelle donne l'impression de traverser la réalité elle-même.",
+      "tips": "Ne vous attardez pas — l'entrée se déplace de façon imprévisible, et une machine à 16 horloges déclenche des secousses toutes les 30 minutes."
     }
   },
   "media": {

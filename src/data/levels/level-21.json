@@ -92,6 +92,12 @@
       "shortDescription": "Four interconnected hallways of randomized numbered doors leading all across the Backrooms, around an unpredictable hub and a deadly exit passage.",
       "atmosphere": "Maze-like and disorienting, with passageways that shift and mysterious numbered doors breeding constant uncertainty.",
       "tips": "Trust labeled doors 105–356 for known destinations. Avoid unlabeled or 'trustworthy'-claiming doors. Never open the red Exit door."
+    },
+    "fr": {
+      "name": "Niveau 21 — Portes Numérotées",
+      "shortDescription": "Quatre couloirs reliés par des portes numérotées au hasard menant partout dans les Backrooms, autour d'un carrefour imprévisible.",
+      "atmosphere": "Labyrinthique et désorientant, avec des passages changeants et de mystérieuses portes numérotées qui entretiennent la tension.",
+      "tips": "Fiez-vous aux portes numérotées de 105 à 356 pour des destinations connues. N'ouvrez jamais la porte rouge de Sortie."
     }
   },
   "media": {

@@ -147,6 +147,12 @@
       "shortDescription": "A sprawling hedge maze of tall dark-green walls with shifting routes and fog, dotted with safe zones and rare specialty parks.",
       "atmosphere": "Perpetual fog around tall hedges makes for disorienting paths; safe zones offer respite, but rare 'darkening' events bring entity invasions.",
       "tips": "Head for Safety Parks for supplies and shelter. Never climb the hedges. Watch for Skin-Stealers slipping past park protections during darkening events."
+    },
+    "fr": {
+      "name": "Niveau 84 — Le Labyrinthe de Haies Changeant",
+      "shortDescription": "Un vaste labyrinthe de hautes haies vert sombre aux itinéraires changeants et au brouillard, parsemé de zones sûres et de rares parcs spéciaux.",
+      "atmosphere": "Un brouillard perpétuel autour de hautes haies rend les chemins désorientants ; les zones sûres offrent un répit, mais de rares événements d'obscurcissement amènent des invasions d'entités.",
+      "tips": "Cherchez les Parcs de Sécurité pour du ravitaillement et un abri. Ne grimpez jamais aux haies. Restez vigilant lors des obscurcissements."
     }
   },
   "media": {

@@ -57,6 +57,12 @@
       "shortDescription": "A completely dark level of seamless concrete hallways where light sources fail and sound is absent, causing severe psychological distress.",
       "atmosphere": "Total darkness, absolute silence and deep isolation breed paranoia; auditory hallucinations come with prolonged exposure.",
       "tips": "Navigate by touch. Listen for faint waves to find the Level 7 exit. Never flip a discovered light switch."
+    },
+    "fr": {
+      "name": "Niveau 6 — Extinction des Feux",
+      "shortDescription": "Un niveau totalement plongé dans le noir, fait de couloirs de béton lisse sans fin, où lumière et son disparaissent.",
+      "atmosphere": "Obscurité totale, silence absolu et isolement profond qui font naître la paranoïa ; hallucinations auditives possibles.",
+      "tips": "Avancez au toucher. N'actionnez jamais un interrupteur trouvé. Suivez le bruit des vagues vers le Niveau 7."
     }
   },
   "media": {

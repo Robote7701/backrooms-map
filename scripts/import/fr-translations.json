@@ -1,0 +1,572 @@
+{
+  "1": {
+    "name": "Niveau 1 — Zone Habitable",
+    "shortDescription": "Vaste entrepôt aux couloirs de béton à la géométrie non euclidienne, ponctué de pannes de courant et de caisses de ravitaillement.",
+    "atmosphere": "Complexe industriel abandonné : néons vacillants, bruits de tuyaux au loin, architecture désorientante et silence pesant.",
+    "tips": "Repérez-vous à des points fixes contre les fausses distances. Traversez les couloirs pendant les pannes. Fouillez les caisses."
+  },
+  "2": {
+    "name": "Niveau 2 — Couloirs Techniques Abandonnés",
+    "shortDescription": "Un dédale infini mais cartographiable de tunnels de maintenance euclidiens, pleins de machines, de tuyaux et de néons bourdonnants.",
+    "atmosphere": "Industriel et claustrophobe : béton fissuré, machines qui ronronnent doucement, obscurité qui gagne après une panne récente.",
+    "tips": "Réfugiez-vous près du local EL3A. Ne touchez jamais aux salles vides derrière une porte verrouillée."
+  },
+  "3": {
+    "name": "Niveau 3 — Station Électrique",
+    "shortDescription": "Une vieille installation électrique dangereuse aux couloirs de brique, riche en ressources mais gardée par des entités anormalement intelligentes.",
+    "atmosphere": "Couloirs de brique sombres, équipements bourdonnants et tuyaux noirs, entre passages étroits et halls industriels oppressants.",
+    "tips": "N'y allez jamais seul. Rejoignez la Base Gamma. Ne fixez jamais les zones barrées. Emportez lampe torche et bombe lumineuse."
+  },
+  "4": {
+    "name": "Niveau 4 — Bureau Abandonné",
+    "shortDescription": "Un immeuble de bureaux vide au mobilier minimal : un hub majeur où les errants se rassemblent et font le plein d'Eau d'Amande.",
+    "atmosphere": "Couloirs presque désolés, certaines fenêtres occultées ; calme et commercial, avec un peu d'affluence d'autres voyageurs.",
+    "tips": "Faites le plein d'Eau d'Amande avant de continuer. Évitez les fenêtres non occultées — ce sont des pièges."
+  },
+  "5": {
+    "name": "Niveau 5 — Hôtel de la Terreur",
+    "shortDescription": "Un hôtel infini des années 1930 aux couloirs d'acajou impeccables, hanté par des chuchotements et des présences inquiétantes.",
+    "atmosphere": "Élégance rétro glaçante : jazz aléatoire, portraits qui observent, tapes fantômes dans des couloirs vides.",
+    "tips": "Restez avec des communautés comme le Homely Hotel. Évitez les ascenseurs au-delà du 12e étage et les pièces sombres."
+  },
+  "6": {
+    "name": "Niveau 6 — Extinction des Feux",
+    "shortDescription": "Un niveau totalement plongé dans le noir, fait de couloirs de béton lisse sans fin, où lumière et son disparaissent.",
+    "atmosphere": "Obscurité totale, silence absolu et isolement profond qui font naître la paranoïa ; hallucinations auditives possibles.",
+    "tips": "Avancez au toucher. N'actionnez jamais un interrupteur trouvé. Suivez le bruit des vagues vers le Niveau 7."
+  },
+  "7": {
+    "name": "Niveau 7 — Thalassophobie",
+    "shortDescription": "Un océan d'une immensité impossible sous un plafond de béton, divisé en zones de plus en plus sombres et dangereuses.",
+    "atmosphere": "Étendue sous-marine glaciale et désolée, ossements sur le fond marin, lumière tamisée qui s'éteint dans les profondeurs hostiles.",
+    "tips": "Installez votre camp dans la salle d'entrée meublée. Exploitez les faiblesses de chaque entité pour vous faufiler."
+  },
+  "8": {
+    "name": "Niveau 8 — Réseau de Grottes",
+    "shortDescription": "Un vaste réseau de grottes non euclidien au terrain traître, aux écarts de température et de gravité extrêmes.",
+    "atmosphere": "Cavernes sombres et claustrophobes de roche chaotique, air froid et stagnant, bruits de créatures au loin.",
+    "tips": "Suivez scrupuleusement les balises de la 9e Route. Restez au chaud, au sec et éveillé. Évitez les colonies d'araignées."
+  },
+  "9": {
+    "name": "Niveau 9 — La Banlieue",
+    "shortDescription": "Une banlieue infinie figée à minuit, aux maisons meublées et aux rues mortelles, où rôdent des entités dangereuses.",
+    "atmosphere": "Un quartier gelé dans la nuit : brouillard, lampadaires qui clignotent, maisons abandonnées, effets psychologiques troublants.",
+    "tips": "Suivez les panneaux fléchés vers le Niveau 11. Évitez le brouillard qui fait apparaître les entités."
+  },
+  "10": {
+    "name": "Niveau 10 — Récolte Abondante",
+    "shortDescription": "Des champs de blé et d'orge à perte de vue sous un ciel éternellement couvert, semés de fermes vides et grouillant de vers.",
+    "atmosphere": "Une lumière du jour terne et immuable, pluie et brume passagères sur des champs cultivés, hors du temps.",
+    "tips": "Ne creusez jamais plus d'un mètre — les vers remontent vite. Suivez les chemins de terre pour trouver une sortie."
+  },
+  "11": {
+    "name": "Niveau 11 — La Ville Qui Ne Dort Jamais",
+    "shortDescription": "Une métropole vide qui sert de hub principal aux Backrooms : infrastructures autonomes, factions installées et innombrables sorties.",
+    "atmosphere": "Un vide urbain tentaculaire d'immeubles en activité, des zones qui se fondent l'une dans l'autre, étrangement apaisant pour les entités.",
+    "tips": "Balisez vos trajets sûrs à la peinture. Évitez les zones non cartographiées près des sorties. Trouvez du travail pour vous loger."
+  },
+  "12": {
+    "name": "Niveau 12 — Matrix",
+    "shortDescription": "Un niveau autocensuré qui brouille tous les enregistrements. Une simple pièce meublée s'étend en un vide blanc infini.",
+    "atmosphere": "Un vide blanc qui embrume l'esprit et érode la mémoire ; paisible mais désorientant, la réalité s'effiloche avec la distance.",
+    "tips": "Asseyez-vous ~15 min sur la chaise d'origine, essayez la porte verrouillée, entrez par la porte-copie, attendez une heure pile."
+  },
+  "13": {
+    "name": "Niveau 13 — Les Grenouilles Ébouillantées",
+    "shortDescription": "Un immeuble de 290 étages aux couloirs fades et appartements identiques, qui pousse doucement ses habitants vers la léthargie.",
+    "atmosphere": "Un confort étouffant et monotone ; des couloirs sombres sans fin où rester devient psychologiquement de plus en plus dur.",
+    "tips": "Gardez des liens sociaux et une routine hors de votre appartement. Cherchez un travail ou un groupe pour résister à la stagnation."
+  },
+  "14": {
+    "name": "Niveau 14 — Paradis",
+    "shortDescription": "Un royaume forestier onirique qui attire les errants vers une conscience collective, absorbant leur esprit sans retour possible.",
+    "atmosphere": "Serein mais faux : ciels étoilés, cascades et herbe pourpre masquant une entité-ruche parasite affamée d'assimilation.",
+    "tips": "Ne lisez jamais les inscriptions sur les murs. Résistez à l'attrait paisible qui pousse à se rendre au collectif."
+  },
+  "15": {
+    "name": "Niveau 15 — Couloirs Futuristes",
+    "shortDescription": "Un vaste complexe industriel de couloirs futuristes emplis de machines étranges, de laboratoires abandonnés et de cadavres en blouse.",
+    "atmosphere": "Installation désolée et inquiétante, bruits de moteurs résonnant dans des couloirs de béton blanc sous une lumière artificielle malsaine.",
+    "tips": "Explorez avec prudence et évitez le cadre de porte mystérieux dans la salle des machines vide. Surveillez votre santé mentale."
+  },
+  "16": {
+    "name": "Niveau 16 — Topographie Altérée",
+    "shortDescription": "Un niveau dont le terrain se transforme rapidement d'un écosystème à l'autre, actuellement un désert arctique à la glace lumineuse.",
+    "atmosphere": "Dangereux et instable : un paysage arctique qui se remodèle sans prévenir, menaçant de changements géologiques soudains.",
+    "tips": "Ne restez jamais pendant une transformation. La sortie se déplace à chaque changement — ne vous laissez pas piéger."
+  },
+  "18": {
+    "name": "Niveau 18 — Souvenirs",
+    "shortDescription": "Un royaume de souvenirs d'enfance personnalisé qui se manifeste différemment pour chaque visiteur, empli de voix chuchotantes.",
+    "atmosphere": "Évocateur et introspectif ; recrée des lieux marquants avec une mélancolie qui fait ressurgir des souvenirs oubliés.",
+    "tips": "Aucun danger physique. Faites simplement demi-tour pour rejoindre le Niveau 19. Suivre le Dino en Peluche peut vous guider, lentement."
+  },
+  "19": {
+    "name": "Niveau 19 — Planches du Grenier",
+    "shortDescription": "Un grenier délabré rempli de meubles poussiéreux et de cartons, avec une lueur orange sous le plancher qui altère la mémoire.",
+    "atmosphere": "Un fouillis moite et oppressant d'objets vintage ; une lueur chaleureuse et fausse qui érode peu à peu l'esprit.",
+    "tips": "Évitez toute exposition prolongée à la lueur orange. Les objets se décomposent vite une fois sortis de leur contenant."
+  },
+  "20": {
+    "name": "Niveau 20 — Structure Boréas",
+    "shortDescription": "Un complexe de loisirs divisé en Salles d'Attente (casiers, distributeurs) et l'Électrique (salles de jeux mortelles), glacial.",
+    "atmosphere": "Un palais de fête artificiellement éclairé qui sombre dans le noir et le froid extrême, avec des hallucinations de souffle et de neige.",
+    "tips": "Ne lisez pas les journaux d'expédition avant d'entrer. Cherchez les portes réservées au personnel pour sortir vite."
+  },
+  "21": {
+    "name": "Niveau 21 — Portes Numérotées",
+    "shortDescription": "Quatre couloirs reliés par des portes numérotées au hasard menant partout dans les Backrooms, autour d'un carrefour imprévisible.",
+    "atmosphere": "Labyrinthique et désorientant, avec des passages changeants et de mystérieuses portes numérotées qui entretiennent la tension.",
+    "tips": "Fiez-vous aux portes numérotées de 105 à 356 pour des destinations connues. N'ouvrez jamais la porte rouge de Sortie."
+  },
+  "22": {
+    "name": "Niveau 22 — Ruines Abandonnées",
+    "shortDescription": "Un parking à étages effondré, jadis occupé par la micronation d'Emstable, aujourd'hui des ruines instables et des puits profonds.",
+    "atmosphere": "Décrépitude industrielle désolée : gravats, véhicules rouillés, tentes abandonnées et les restes d'une société disparue.",
+    "tips": "Méfiez-vous des effondrements et des chutes dans les puits profonds. La traversée est extrêmement dangereuse."
+  },
+  "23": {
+    "name": "Niveau 23 — Le Jardin Pétrifié",
+    "shortDescription": "Un super-organisme de la taille d'une planète fait d'arbres anciens entrelacés, avec des cavernes bioluminescentes et des ruines.",
+    "atmosphere": "Une canopée dense et ombragée dans un crépuscule perpétuel ; des salles souterraines luisantes au cœur d'un bois pétrifié millénaire.",
+    "tips": "Ne dites jamais « ce n'est qu'une question de temps » — cela réveille des sentinelles enfouies. Réfugiez-vous à Base Seedling."
+  },
+  "24": {
+    "name": "Niveau 24 — La Lune",
+    "shortDescription": "Une immense maquette en plastique du système solaire dans un cabinet victorien ; seule la surface lunaire, peinte au plomb, est accessible.",
+    "atmosphere": "Une étendue grise et désolée de peinture au plomb sur une lune en plastique, balayée par des brumes toxiques et des tempêtes.",
+    "tips": "Éloignez-vous des phénomènes météo. Limitez l'exposition à la poussière de peinture. Suivez les mineurs de PlasticWorks."
+  },
+  "25": {
+    "name": "Niveau 25 — Le Carrefour aux Pièces",
+    "shortDescription": "Une salle d'arcade poussiéreuse et abandonnée, longue de plusieurs kilomètres, dont les bornes cassées servent de hubs interdimensionnels.",
+    "atmosphere": "Une arcade désolée et résonnante, épaisse de poussière et de décrépitude, des machines vintage vandalisées par le temps.",
+    "tips": "Trouvez une borne fonctionnelle et insérez une pièce pour voyager. Seule 1 borne sur 1500 environ fonctionne."
+  },
+  "26": {
+    "name": "Niveau 26 — Le SS Fun =)",
+    "shortDescription": "Un paquebot corrompu, quartier général des Partygoers, qui no-clip aléatoirement entre les niveaux avec un intérieur infini d'horreurs festives.",
+    "atmosphere": "Une célébration chaotique et grotesque mêlée d'un danger constant : des salles de fête sans fin sous des ponts contaminés.",
+    "tips": "Évitez tout objet de fête. Touchez une affiche floue et inversée pour vous échapper. N'y montez jamais volontairement."
+  },
+  "27": {
+    "name": "Niveau 27 — Les Sources du Bunker",
+    "shortDescription": "Une petite grotte avec une source chaude minérale qui apaise et soigne les errants — tout en cachant un secret plus sombre.",
+    "atmosphere": "Sereine et thérapeutique au premier abord, dissimulant une vérité troublante sur la nature réelle du niveau.",
+    "tips": "Ne vous baignez pas plus d'1 à 2 heures. Évitez le second tunnel derrière la cascade. Respectez les autres et partez vite."
+  },
+  "28": {
+    "name": "Niveau 28 — Vertu Ultime",
+    "shortDescription": "Des prairies balayées par le vent sous un ciel toujours couvert, autour d'un château médiéval qu'un goudron vivant grignote lentement.",
+    "atmosphere": "Mélancolique et désolé ; une lueur bleue éclaire des champs vides où une silhouette blindée solitaire retient les ténèbres.",
+    "tips": "Évitez l'abîme goudronneux à tout prix. Le Chevalier Bleu est amical mais attaché aux visiteurs. La foudre frappe chaque heure."
+  },
+  "29": {
+    "name": "Niveau 29 — Hyperian",
+    "shortDescription": "Une vaste civilisation insulaire de 25 000 habitants répartis en 250 sociétés, cernée de montagnes et d'océans anormaux.",
+    "atmosphere": "Un sanctuaire insulaire de communautés florissantes et de flore étrange, contrasté par des mers mortelles et un léviathan endormi.",
+    "tips": "Arrivez par les quais et liez-vous aux représentants des colonies. Ne voyagez jamais en mer — le Kraken guette."
+  },
+  "30": {
+    "name": "Niveau 30 — Décalé de la Réalité",
+    "shortDescription": "Un skybox déformant la réalité, fait d'îles flottantes où les Rôdeurs de Mémoire manipulent perception et cognition.",
+    "atmosphere": "Un jour perpétuel à la distorsion onirique ; tout semble artificiel et plat, dans un sentiment constant d'irréalité.",
+    "tips": "Évitez les Rôdeurs de Mémoire — leur contact corrompt l'esprit et simule une fausse sécurité. Fiez-vous à vos souvenirs d'origine."
+  },
+  "31": {
+    "name": "Niveau 31 — Patinoire à Roulettes",
+    "shortDescription": "Une patinoire à roulettes en boucle façon années 90 avec arcade, snack et location de patins ; un habitant amical y donne des cours.",
+    "atmosphere": "Ambiance rétro : musique pop, rires et odeurs de snack sur une moquette néon nostalgique — accueillant et sans menace.",
+    "tips": "Parlez au Coach pour des leçons et des indications. Le personnel du snack offre des repas gratuits. L'arcade mène au Niveau 40."
+  },
+  "32": {
+    "name": "Niveau 32 — La Forêt de la Reine Squelette",
+    "shortDescription": "Une forêt sombre et infinie de squelettes suspendus sous un ciel sans lune, régie par une reine squelette qui peut exaucer des vœux — contre une âme.",
+    "atmosphere": "Nuit perpétuelle éclairée par la seule lune sur les os et l'écorce ; des vents lugubres soufflent à travers les restes.",
+    "tips": "Montrez du respect à la Reine Squelette ; elle peut négocier plutôt que tuer. Ne poursuivez jamais la Belle."
+  },
+  "33": {
+    "name": "Niveau 33 — Le Centre Commercial Infini",
+    "shortDescription": "Un centre commercial infini qui se délabre à mesure qu'on s'y enfonce, passant de boutiques propres à des ruines inondées et dangereuses.",
+    "atmosphere": "Propre et calme au début, puis inondé, moisi et envahi de végétation à mesure que la détérioration mentale et les hallucinations s'installent.",
+    "tips": "Évitez de dépasser ~80 km. Restez hydraté, surveillez les effets psychologiques et l'activité des entités qui croît avec la distance."
+  },
+  "34": {
+    "name": "Niveau 34 — Réseau d'Égouts",
+    "shortDescription": "Un égout étroit et plongé dans le noir de brique et de pierre, dont l'eau en contrebas peut faire chuter vers d'autres niveaux.",
+    "atmosphere": "Obscurité claustrophobe au-dessus d'une eau stagnante, avec des créatures hostiles tapies dans les tunnels exigus.",
+    "tips": "Emportez une lumière et de l'Eau d'Amande. Éteignez votre lampe si vous croisez des Smilers. Ne tombez jamais dans l'eau."
+  },
+  "35": {
+    "name": "Niveau 35 — Un Parking Vide",
+    "shortDescription": "Un parking en béton de six étages éclairé de couleurs, cerné d'un abîme sombre et abritant des véhicules anormaux imprévisibles.",
+    "atmosphere": "Lumière tamisée et colorée sur un parking presque vide et inquiétant, aux voitures dangereuses et aux sorties qui déforment la réalité.",
+    "tips": "Ne vous approchez pas des bords, sous peine d'un afflux de voitures. Traversez les véhicules pour atteindre les escaliers sûrs."
+  },
+  "36": {
+    "name": "Niveau 36 — Aéroport Intemporel",
+    "shortDescription": "Un immense aéroport non euclidien de 26 terminaux avec des vols vers presque tous les niveaux ; une dilatation temporelle sévère rend chaque attente éternelle.",
+    "atmosphere": "Des terminaux stériles et hors du temps sous néons, couloirs sans fin déformés par une géométrie désorientante.",
+    "tips": "Suivez attentivement la signalétique dans les zones non euclidiennes. Demandez conseil à l'Agence de Voyage des Backrooms."
+  },
+  "37": {
+    "name": "Niveau 37 — Sublimité",
+    "shortDescription": "Un vaste complexe submergé de salles en céramique blanche, inondé d'une eau salée relaxante, à l'architecture surréaliste sans but apparent.",
+    "atmosphere": "Un calme serein mais dérangeant au-dessus de bassins cristallins sous une lumière parfaite ; géométrie étrange et acoustique altérée.",
+    "tips": "Semble entièrement dénué d'entités et reposant. Évitez les fosses profondes et les tunnels sombres."
+  },
+  "38": {
+    "name": "Niveau 38 — Point de Repli",
+    "shortDescription": "Un point de convergence où les Niveaux 0 à 37 se superposent physiquement, fusionnant architecture et dangers de tous les niveaux précédents.",
+    "atmosphere": "Un amalgame chaotique et désorientant de styles contradictoires, très sombre et en constante instabilité structurelle.",
+    "tips": "Les photos fonctionnent à peine ici. Dirigez-vous vers une géométrie stable pour sortir. Ne faites jamais de no-clip vers l'extérieur."
+  },
+  "39": {
+    "name": "Niveau 39 — Forêt Enchantée",
+    "shortDescription": "Une forêt circulaire finie aux sentiers de terre sinueux figée dans un crépuscule perpétuel, inspirant nostalgie et calme hypnotique.",
+    "atmosphere": "Un crépuscule permanent sous de rares chênes anciens, frais et étrangement paisible mais désorientant, tirant l'esprit vers l'inaction.",
+    "tips": "Buvez de l'Eau d'Amande pour rompre l'effet hypnotique. Ne restez pas près du centre. Suivez les sentiers."
+  },
+  "40": {
+    "name": "Niveau 40 — Roller Rockin' Pizza !",
+    "shortDescription": "Une arcade rétro des années 1980 aux machines jouables, une sauce à éviter absolument, et des entités invisibles qui utilisent les jeux.",
+    "atmosphere": "Une arcade illuminée de néons, bourdonnante de machines et de bavardages, imprégnée de l'odeur de pizza et de soda éventé.",
+    "tips": "Ne jouez pas aux jeux anormaux — surtout « General Starflare : Wild Space ». Ne buvez jamais la Sauce Universelle luminescente."
+  },
+  "41": {
+    "name": "Niveau 41 — Le Lac Noir",
+    "shortDescription": "Une vaste fosse de goudron bouillonnant enveloppée de fumées toxiques, parsemée d'îlots brûlants et de plateformes de bois qui s'enfoncent.",
+    "atmosphere": "Une brume oppressante masque un paysage de charbon ; le goudron crache des vapeurs suffocantes tandis que des créatures chassent depuis les profondeurs.",
+    "tips": "Ne touchez jamais le goudron. Traversez par les îlots et les plateformes. Attention aux éruptions soudaines."
+  },
+  "43": {
+    "name": "Niveau 43 — Water World",
+    "shortDescription": "Un parc aquatique abandonné en quatre zones reliées, se terminant par une zone finale inondée où rôdent des créatures aquatiques.",
+    "atmosphere": "Un parc étrangement silencieux mais toujours mécaniquement actif, brouillard épais et annonces désincarnées, l'angoisse montant avec la profondeur.",
+    "tips": "Ne déclenchez pas la vidéo corrompue dans les couloirs du personnel. Venez équipé contre les entités. Fuyez dès la zone inondée finale."
+  },
+  "44": {
+    "name": "Niveau 44 — Boutique en Corrosion",
+    "shortDescription": "Un local commercial abandonné à la géométrie non euclidienne, rongé par un liquide corrosif mystérieux et des vitrines montrant les Frontrooms.",
+    "atmosphere": "Un commerce vide et désolé sous une lumière partielle, des coins sombres, des gémissements venus d'en haut et une anxiété architecturale.",
+    "tips": "N'explorez pas longtemps — restez près de l'entrée. Évitez l'obscurité. Attention au liquide corrosif qui se propage vite."
+  },
+  "45": {
+    "name": "Niveau 45 — Abyss Inc.",
+    "shortDescription": "Un vide d'encre contenant 33 gratte-ciels en apesanteur disposés autour d'une réplique de l'Empire State Building — siège du Consortium de Recherche des Backrooms.",
+    "atmosphere": "Une étendue d'un autre monde faite de tours de bureaux flottantes dans le noir absolu, éclairée par des créatures bioluminescentes.",
+    "tips": "Tout le mobilier est en polystyrène factice. Les escaliers de secours relient les tours. Évitez les tours extérieures, souvent en panne."
+  },
+  "46": {
+    "name": "Niveau 46 — Désert Arabique",
+    "shortDescription": "Un vaste désert aux journées brûlantes et aux nuits glaciales, parsemé de ruines antiques et parcouru par des esprits de sable hostiles.",
+    "atmosphere": "Désolé et rude, avec des variations climatiques violentes et des tempêtes de sable qui font surgir des entités hostiles.",
+    "tips": "Abritez-vous dans les ruines lors des extrêmes de température. Évitez les tempêtes de sable ou restez près des oasis."
+  },
+  "47": {
+    "name": "Niveau 47 — Le Bois d'Adder",
+    "shortDescription": "Une forêt primitive ancienne à la topologie non euclidienne, gardée par un serpent colossal qui punit tout mal fait aux serpents.",
+    "atmosphere": "Brumeuse le jour sous de vieux arbres immenses ; nuits claires et étoilées sous une lune démesurée, la réalité vacillant sans témoin.",
+    "tips": "Ne blessez jamais un serpent, sous peine d'être traqué par le Grand Adder. Grimpez aux arbres la nuit pour échapper aux Black Shucks."
+  },
+  "48": {
+    "name": "Niveau 48 — La Plage au Coucher du Soleil",
+    "shortDescription": "Une plage de sable infinie figée dans un coucher de soleil éternel, avec une forêt tropicale, des fruits comestibles et une faune docile.",
+    "atmosphere": "Un paradis tropical serein figé à l'heure dorée : chaud, sans menace et abondant en ressources — un vrai répit pour les errants.",
+    "tips": "Récoltez les Fruits de Veroka dans la forêt. Échangez avec les Fermiers de Veroka. Ne faites jamais le mort sur la plage."
+  },
+  "49": {
+    "name": "Niveau 49 — La Rivière Inachevée du Phlégéton",
+    "shortDescription": "Un réseau de tranchées infini façon Première Guerre mondiale où des machines de guerre automatisées patrouillent, punissant toute tentative de fuite.",
+    "atmosphere": "Une zone de guerre désolée de tirs incessants, de brouillard épais et d'inondations, hantée par des horreurs mécaniques dans la boue.",
+    "tips": "Cachez-vous dans les bunkers pendant les bombardements. Déplacez-vous en silence, en groupe. N'essayez jamais de partir."
+  },
+  "50": {
+    "name": "Niveau 50 — L'Autoroute Moribonde",
+    "shortDescription": "Une autoroute désertique infinie de véhicules à l'arrêt et de silence inquiétant, parcourue par des humains errants aux intentions inconnues.",
+    "atmosphere": "Un désert silencieux et désolé aux embouteillages figés ; chaleur extrême et tension psychologique de l'isolement.",
+    "tips": "Évitez les humains errants. Les mobil-homes offrent un abri sûr. Pillez les véhicules mais n'y restez pas. Emportez de l'Eau d'Amande."
+  },
+  "51": {
+    "name": "Niveau 51 — La Cité Oubliée",
+    "shortDescription": "Une caverne souterraine renfermant les ruines d'une cité antique des Perdus, avec un labyrinthe changeant et un temple central aux chambres scellées.",
+    "atmosphere": "Une civilisation en décomposition figée dans un abandon perpétuel : architecture croulante, végétation envahissante, sens du temps perdu.",
+    "tips": "Toute technologie tombe en panne ici — repérez-vous par les points de repère. Évitez les zones infestées hors du temple."
+  },
+  "52": {
+    "name": "Niveau 52 — Des Yeux Sur Vous",
+    "shortDescription": "Une vaste caverne antique riche en minerais, habitée par des Néandertaliens évolués et des entités adaptées, sous une sensation persistante d'être observé.",
+    "atmosphere": "Une obscurité caverneuse éclairée de torches lointaines ; le sentiment écrasant d'être surveillé fait monter la pression psychologique.",
+    "tips": "Restez constamment vigilant. Gardez de l'Eau d'Amande à portée. N'explorez pas en profondeur — les entités sont passives mais imprévisibles."
+  },
+  "53": {
+    "name": "Niveau 53 — Seul",
+    "shortDescription": "Une maison isolée suspendue dans un matin éternel, où un errant piégé survit grâce à une nourriture qui se renouvelle mystérieusement.",
+    "atmosphere": "Un foyer isolé sous une aube perpétuelle : paisible mais profondément solitaire, entre confort et enfermement inéluctable.",
+    "tips": "Un sauvetage est possible via un contact extérieur — laissez des messages écrits là où on peut les trouver."
+  },
+  "54": {
+    "name": "Niveau 54 — L'Escalier en Spirale",
+    "shortDescription": "Un escalier en spirale infini aux marches de bois pourrissant et aux murs bleus humides, traversé de couloirs mystérieux et d'entités rares.",
+    "atmosphere": "Humide et moisi, l'eau suintant des murs ; une profonde solitude accentuée par les marches qui craquent et le son lointain de l'océan.",
+    "tips": "Évitez les pièces inondées et restez attentif aux rares entités. Utilisez les portes visibles pour rejoindre des niveaux plus sûrs."
+  },
+  "55": {
+    "name": "Niveau 55 — Halte Routière",
+    "shortDescription": "Un complexe de restaurants abandonnés infini servant de refuge temporaire ; les errants sont automatiquement déplacés après un délai aléatoire.",
+    "atmosphere": "Étrangement calme sous un soleil perpétuel ; un air frais et humide à 21°C invite à la somnolence et à l'introspection.",
+    "tips": "N'utilisez ce niveau que comme sanctuaire bref. Nourriture et eau sont disponibles. Le séjour moyen dure environ trois jours."
+  },
+  "56": {
+    "name": "Niveau 56 — Morsure du Gel",
+    "shortDescription": "Un système de cavernes de glace circulaire aux zones toujours plus froides, atteignant le zéro absolu en son cœur mortel.",
+    "atmosphere": "Un vide gelé et désolé éclairé par la glace bioluminescente ; les températures extrêmes rendent toute survie impossible sans équipement spécial.",
+    "tips": "Trouvez des caisses de ravitaillement avec combinaisons chauffantes et bonbonnes d'oxygène. Suivez les drapeaux rouges vers les avant-postes."
+  },
+  "57": {
+    "name": "Niveau 57 — Galerie d'Art Diurne",
+    "shortDescription": "Une galerie d'art accueillante de peintures surréalistes représentant des niveaux des Backrooms, tenue par une jeune artiste amicale et une figure voilée.",
+    "atmosphere": "Un sanctuaire créatif et chaleureux à la disposition changeante, parfumé de peinture et de bois, relié aux niveaux par ses tableaux.",
+    "tips": "Demandez conseil au Peintre. Évitez le tableau sans nom au fond du Registre. S'approcher d'un tableau vous immerge dans son niveau."
+  },
+  "58": {
+    "name": "Niveau 58 — Merveille Aquatique",
+    "shortDescription": "Un parc aquatique intérieur abandonné, entre piscines, couloirs, cafés et réserves, habité par la Tribu de Tegan et une base du B.N.T.G.",
+    "atmosphere": "Des installations de loisirs en décrépitude où cohabitent une communauté tribale primitive et un avant-poste corporate organisé.",
+    "tips": "Évitez les entités dans les couloirs. Liez-vous à la Tribu de Tegan et récoltez les Fruits de Tegan mûrs pour se nourrir."
+  },
+  "60": {
+    "name": "Niveau 60 — La Promenade de la Baie",
+    "shortDescription": "Une promenade côtière en béton, sombre et éclairée de lampadaires cassés, hantée par des Smilers et un effet mental apaisant qui pousse à se noyer.",
+    "atmosphere": "Une promenade maritime inquiétante aux lumières défaillantes, présence constante de Smilers et une attraction insidieuse vers une « mort sans douleur ».",
+    "tips": "Voyagez en groupe pour résister à l'effet de Mort Indolore. Évitez la partie haute ; préparez-vous dans la partie basse en terre."
+  },
+  "62": {
+    "name": "Niveau 62 — Jardin de la Jungle",
+    "shortDescription": "Un jardin en ruine cerné de murs d'une hauteur impossible, avec une jungle accessible par une brèche et un chien de garde agressif.",
+    "atmosphere": "Décrépit et envahi de végétation ; la maison délabrée porte des traces de troubles violents et un danger persistant.",
+    "tips": "Évitez le chien agressif. Restez environ une semaine dans la forêt pour en sortir. Approchez les murs de brique avec prudence."
+  },
+  "63": {
+    "name": "Niveau 63 — Tranquillité",
+    "shortDescription": "Un royaume céleste serein fait de ponts de bois suspendus au-dessus d'un vide, parsemé de points de méditation apaisants.",
+    "atmosphere": "Une lumière du jour constante sous des murs de vigne mouvants, un vent doux et une tranquillité profonde, sans entité ni danger.",
+    "tips": "Visitez les plateformes de méditation isolées pour apaiser la détresse. Tomber dans le vide vous transporte en sécurité vers d'autres niveaux naturels."
+  },
+  "64": {
+    "name": "Niveau 64 — L'Obscurité Tapie",
+    "shortDescription": "Une maison infinie engloutie par les ténèbres, aux lumières défaillantes, chassée par des entités semblables à des vers dont le plan change à l'insu.",
+    "atmosphere": "Une décrépitude domestique oppressante et sombre, aux plans impossibles, un silence troublant menacé par des prédateurs invisibles.",
+    "tips": "Déplacez-vous vite et restez caché des Rôdeurs. Attendez la phase sûre — toutes les lumières s'allument et les entités disparaissent."
+  },
+  "65": {
+    "name": "Niveau 65 — Le Jardin Taché de Sang",
+    "shortDescription": "Une forêt perpétuellement brumeuse d'arbres d'automne rouge sang, à la flore carnivore qui transforme les errants et à d'énormes mille-pattes hostiles.",
+    "atmosphere": "Un épais brouillard, une pénombre crépusculaire et un vent frais — la nature elle-même chasse et dévore ceux qui s'y aventurent.",
+    "tips": "Ne mangez jamais les pommes-sang — la consommation déclenche une transformation irréversible en mille-pattes. Évitez les structures anormales."
+  },
+  "66": {
+    "name": "Niveau 66 — Exposition",
+    "shortDescription": "Un aquarium à parcourir infini à l'architecture changeante et à l'obscurité oppressante, qui use progressivement la santé mentale des visiteurs.",
+    "atmosphere": "Un silence assourdissant brisé par le bruit de l'eau ; des tunnels de verre humides et sombres, avec un sentiment constant d'être observé.",
+    "tips": "Voyagez en groupe avec des sources de lumière. Comptez-vous souvent. Ignorez les bruits étranges et sortez dès qu'une porte de secours apparaît."
+  },
+  "67": {
+    "name": "Niveau 67 — La Boulangerie du Désir",
+    "shortDescription": "Une boulangerie façon années 1980 qui matérialise des objets adaptés aux goûts du visiteur, avec des pâtisseries aux effets psychoactifs dangereux.",
+    "atmosphere": "Une boulangerie nostalgique mais dérangeante qui s'adapte au palais de chacun tout en dissimulant un danger mortel dans ses confiseries.",
+    "tips": "Ne mangez jamais votre pâtisserie préférée — choisissez plutôt quelque chose de neutre ou détesté. Décidez à l'avance pour éviter l'agressivité des Facelings."
+  },
+  "68": {
+    "name": "Niveau 68 — Le Dévoreur",
+    "shortDescription": "Un vaste complexe de théâtres dont les fauteuils se fondent aux victimes et les forcent à regarder un film avant de les consumer lentement.",
+    "atmosphere": "Inquiétant et prédateur : des salles de théâtre organiques conçues pour piéger et absorber les visiteurs par des moyens chimiques et psychologiques.",
+    "tips": "N'entrez jamais dans une salle de théâtre et ne vous asseyez jamais dans un fauteuil. Le niveau chasse activement par la tromperie."
+  },
+  "69": {
+    "name": "Niveau 69 — Le Road Trip de l'Affliction",
+    "shortDescription": "Une autoroute infinie noyée de brouillard où la survie dépend de rester dans son véhicule — quelque chose chasse ceux qui en sortent.",
+    "atmosphere": "L'obscurité perpétuelle et le brouillard épais engloutissent l'autoroute sans fin ; un silence inquiétant troublé par des menaces invisibles.",
+    "tips": "Ne sortez jamais du véhicule. Roulez vers les sorties de tunnel perpendiculaires à l'autoroute. Rationnez vos provisions."
+  },
+  "70": {
+    "name": "Niveau 70 — Froidetown",
+    "shortDescription": "Une cité planétaire gelée inspirée des centres urbains nord-américains, de -15°C à -52°C, tenue par des colonies parmi des entités dangereuses.",
+    "atmosphere": "Éternellement enneigée et glaciale, une architecture nord-américaine partagée entre extérieurs désolés et abris chauffés riches en ressources.",
+    "tips": "Cherchez des bâtiments chauffés pour vous abriter et fouillez-les d'abord soigneusement. Évitez les sous-sols de bureaux et les banlieues la nuit."
+  },
+  "71": {
+    "name": "Niveau 71 — Sous-sol du Vide",
+    "shortDescription": "Un sous-sol infini où les visiteurs perdent progressivement leurs sens et se dissolvent, morceau par morceau, dans le néant.",
+    "atmosphere": "Un vide d'un noir absolu de désorientation croissante et de désespoir, à mesure que les explorateurs perdent forme puis conscience.",
+    "tips": "Évitez les sous-sols accessibles depuis le Niveau 4 — ce niveau provoque un effacement irréversible de la réalité."
+  },
+  "72": {
+    "name": "Niveau 72 — La Fosse",
+    "shortDescription": "Une caverne profonde atteinte en tombant dans des trappes : passages étroits, un bourbier d'algues et des resserrements écrasants avec peu d'issues.",
+    "atmosphere": "Des grottes oppressantes et inondées, empestant le sel et la décomposition ; parois instables et obscurité écrasante trouée de champignons lumineux.",
+    "tips": "Gardez une main sur le mur dans le labyrinthe. Accroupissez-vous pendant les secousses. Ne touchez jamais les parois du bourbier."
+  },
+  "73": {
+    "name": "Niveau 73 — Les Terres Rouges",
+    "shortDescription": "Une île écarlate noyée dans les ténèbres, envahie d'essaims d'entités incessants ; seul le Château d'Argent offre un refuge.",
+    "atmosphere": "Une obscurité perpétuelle sous une pleine lune, nuages noirs suffocants, créatures hostiles sans fin autour d'un sanctuaire gothique.",
+    "tips": "Foncez droit vers le Château d'Argent sans regarder autour de vous ni ralentir. Frappez fort aux portes. N'utilisez jamais de lumière artificielle."
+  },
+  "74": {
+    "name": "Niveau 74 — Trac",
+    "shortDescription": "Une scène de théâtre aux couloirs en boucle peuplés de figures oniriques ressemblant à des gens que le visiteur connaît.",
+    "atmosphere": "Théâtral et familier au début, de plus en plus troublant à mesure que l'isolement s'installe et que les hallucinations s'intensifient.",
+    "tips": "Sortez par les trappes avant deux heures — rester plus longtemps altère gravement la perception de la réalité."
+  },
+  "75": {
+    "name": "Niveau 75 — Liminalité",
+    "shortDescription": "Des couloirs de sable aux murs peints écaillés, une lumière semblable au soleil et un bruit de pluie constant, jonchés de jouets d'enfants.",
+    "atmosphere": "Un vide étrange mais apaisant qui évoque des souvenirs d'enfance malgré la peinture craquelée et les pièces abandonnées.",
+    "tips": "Surtout accessible aux jeunes voyageurs ; les adultes doivent généralement être accompagnés d'un enfant. Fenêtres et portes offrent des sorties faciles."
+  },
+  "76": {
+    "name": "Niveau 76 — Retour des Cendres de Charwood",
+    "shortDescription": "Une région montagneuse subtropicale de plantations de thé, parsemée de mystérieuses statues de Saola, se relevant d'un ancien incendie.",
+    "atmosphere": "Un terrain luxuriant et humide chargé du parfum du thé, un cycle de jour inhabituel de 21 heures, paisible mais teinté de mystère.",
+    "tips": "Emportez une lumière pour la période sombre de 3 heures. Repérez-vous aux huttes-balises. N'essayez jamais d'allumer un feu."
+  },
+  "77": {
+    "name": "Niveau 77 — Oh, Shenandoah",
+    "shortDescription": "Des collines pastorales brumeuses éclairées d'un jour sans fin, cernées d'une forêt éternellement nocturne d'insectoïdes géants et de moutons étranges.",
+    "atmosphere": "Un brouillard persistant sur des prairies vallonnées ; une lumière du jour immuable au centre contre la forêt sombre en bordure.",
+    "tips": "Évitez la bordure forestière où prospèrent les insectoïdes. Avancez prudemment dans le centre embrumé. Les moutons sont dociles."
+  },
+  "78": {
+    "name": "Niveau 78 — Station Spatiale",
+    "shortDescription": "Une vaste station spatiale en apesanteur s'étendant à l'infini, pleine de machines hors service, de jardins envahis et de hublots étoilés.",
+    "atmosphere": "Des couloirs en apesanteur désolés et désorientants, équipements et plantes morts, des étoiles changeantes hypnotisant les voyageurs.",
+    "tips": "Ne fixez pas trop longtemps les hublots — l'attirance vers les sas est réelle. Évitez les toilettes où se cachent les Clumps."
+  },
+  "79": {
+    "name": "Niveau 79 — Fantômes dans la Machine",
+    "shortDescription": "Un centre de recherche médicale abandonné du milieu du 20e siècle secoué d'anomalies temporelles, portant les traces d'expériences contraires à l'éthique sur des enfants.",
+    "atmosphere": "Une clinique décrépite aux machines inquiétantes où la distorsion temporelle donne l'impression de traverser la réalité elle-même.",
+    "tips": "Ne vous attardez pas — l'entrée se déplace de façon imprévisible, et une machine à 16 horloges déclenche des secousses toutes les 30 minutes."
+  },
+  "80": {
+    "name": "Niveau 80 — Sententia Oblita",
+    "shortDescription": "Un marécage englouti de structures inachevées et d'êtres oubliés, ses fragments architecturaux disparaissant lentement dans une eau trouble.",
+    "atmosphere": "Un bourbier désolé et étrange où des entités inachevées semblent être des concepts abandonnés ou des récits oubliés.",
+    "tips": "Cherchez les hauteurs et l'escalier rouillé encastré dans le grand mur cubique. Les habitants les plus cohérents peuvent indiquer une sortie."
+  },
+  "81": {
+    "name": "Niveau 81 — Fin d'Après-Fermeture",
+    "shortDescription": "Un bureau onirique transformé en sanctuaire reposant, meublé avec douceur, orné de peintures et bercé de sons naturels apaisants.",
+    "atmosphere": "Tranquille et apaisant, aux couleurs feutrées, des saules pleureurs, une pluie douce et un profond sentiment de repos.",
+    "tips": "Un havre sûr pour se reposer. Avancez avec douceur — ne troublez pas cette atmosphère paisible ni ne tentez de vous réveiller."
+  },
+  "82": {
+    "name": "Niveau 82 — Marché Auto-Automatisé",
+    "shortDescription": "Un marché victorien tenu par des entités hostiles jouant les commerçants, ouvert selon un horaire strict avec des fermetures violentes.",
+    "atmosphere": "Commercial mais menaçant — les entités échangent à contrecœur tout en restant prédatrices, la fermeture signifiant une expulsion forcée.",
+    "tips": "Échangez honnêtement, ne traînez pas, et partez avant 21h. Tricher un commerçant est fatal ; revenir après une expulsion l'est tout autant."
+  },
+  "83": {
+    "name": "Niveau 83 — Le Sous-marin Englouti",
+    "shortDescription": "Un sous-marin nucléaire fonctionnel échoué au fond de l'océan, aux vivres infinis et à l'équipage permanent amical.",
+    "atmosphere": "Profondeurs sous-marines, éclairage artificiel tamisé, craquements constants sous la pression, visites occasionnelles d'une entité colossale.",
+    "tips": "Restez calme si le Grand Observateur apparaît à un hublot. Utilisez le sas de secours pour rejoindre le Niveau 7 — préparez-vous à la pression."
+  },
+  "84": {
+    "name": "Niveau 84 — Le Labyrinthe de Haies Changeant",
+    "shortDescription": "Un vaste labyrinthe de hautes haies vert sombre aux itinéraires changeants et au brouillard, parsemé de zones sûres et de rares parcs spéciaux.",
+    "atmosphere": "Un brouillard perpétuel autour de hautes haies rend les chemins désorientants ; les zones sûres offrent un répit, mais de rares événements d'obscurcissement amènent des invasions d'entités.",
+    "tips": "Cherchez les Parcs de Sécurité pour du ravitaillement et un abri. Ne grimpez jamais aux haies. Restez vigilant lors des obscurcissements."
+  },
+  "85": {
+    "name": "Niveau 85 — Brillant Sempiternel",
+    "shortDescription": "Un désert pollué et stérile aux conditions extrêmes, aux bâtiments abandonnés remplis de ravitaillement, gardé par des entités robotiques dangereuses.",
+    "atmosphere": "Un désert désolé sous un smog toxique, une chaleur brutale et des cours d'eau acides, hanté par des émissions radio évoquant un effondrement écologique.",
+    "tips": "Abritez-vous dans les bâtiments pour la filtration et le ravitaillement. Désactivez les panneaux solaires des RoboPets. Rationnez l'eau."
+  },
+  "86": {
+    "name": "Niveau 86 — Tour de Rivergate",
+    "shortDescription": "Une tour de bureaux de 31 étages au hall moderne et aux étages supérieurs interconnectés — globalement sûre, ses Facelings vaquant tranquillement.",
+    "atmosphere": "Un calme corporate dans une architecture propre ; les Facelings jouent les employés de bureau tandis que les étages supérieurs deviennent plus spacieux.",
+    "tips": "Évitez la Britagne Royaume, hostile, à l'étage 14. L'ordinateur du bureau du patron contient des informations sur des niveaux non documentés."
+  },
+  "87": {
+    "name": "Niveau 87 — Couloirs du Temps",
+    "shortDescription": "Des kilomètres de couloirs verrouillés remplis de clés et de ravitaillement, où croiser une version passée ou future de soi-même est un risque réel.",
+    "atmosphere": "Isolé et désorientant ; le temps s'écoule ici de façon irrégulière, provoquant confusion mémorielle et rencontres troublantes avec soi-même.",
+    "tips": "Trouvez les clés correspondant aux serrures codées ou colorées. Ne blessez jamais une version passée ou future de vous-même."
+  },
+  "88": {
+    "name": "Niveau 88 — Lac Assourdi",
+    "shortDescription": "Un lac glacial et étrangement immobile trouvé dans des forêts sombres, qui étouffe toute communication vocale et abrite une menace aquatique inconnue.",
+    "atmosphere": "Un silence oppressant à l'odeur métallique ; le son disparaît dans les profondeurs, laissant place à une angoisse palpable.",
+    "tips": "Évitez ce niveau complètement. Ne vous approchez pas de l'eau et ne vous y immergez jamais — l'exposition prolongée peut rendre muet."
+  },
+  "89": {
+    "name": "Niveau 89 — Parc Redouté",
+    "shortDescription": "Un parc automnal aux trottoirs étroits, forêts et équipements publics, abritant des organismes parasitaires qui altèrent dangereusement la cognition.",
+    "atmosphere": "Un paysage automnal désolé à l'éclairage sporadique et à la végétation éparse, familier au premier abord mais gagné par la confusion.",
+    "tips": "Ne buvez jamais aucun liquide trouvé sur place. Surveillez les changements de comportement chez vos compagnons. Cherchez la sortie rapidement."
+  },
+  "90": {
+    "name": "Niveau 90 — Maison Récemment Rénovée",
+    "shortDescription": "Une maison à deux étages rénovée présentée comme un refuge sûr, récemment débarrassée de ce qui l'infestait auparavant.",
+    "atmosphere": "Un confort domestique accueillant mais légèrement étrange, avec l'ombre de quelque chose de sombre sous le récit joyeux de la rénovation.",
+    "tips": "Entrez simplement en pensant à « la maison ». Sortez par le vieux chêne dans le jardin. Restez prudent malgré les apparences rassurantes."
+  },
+  "91": {
+    "name": "Niveau 91 — Rien qu'un Souvenir",
+    "shortDescription": "Une île onirique avec une maison isolée en falaise, où les errants trouvent une paix profonde avant de mystérieusement repartir ailleurs.",
+    "atmosphere": "Serein et mélancolique, empli du doux bruit de l'océan et de la texture éthérée d'un souvenir cher qui s'estompe.",
+    "tips": "Reposez-vous simplement et laissez la tranquillité s'installer — chaque visiteur finit par s'endormir et se réveille ailleurs."
+  },
+  "92": {
+    "name": "Niveau 92 — Abri Antiatomique",
+    "shortDescription": "Un vaste bunker souterrain aux zones irradiées, ordinateurs anormaux et armes éparses, déchiré par les conflits entre factions.",
+    "atmosphere": "Des tunnels de béton en décomposition, tuyaux troubles et lourdes portes blindées, la menace de l'irradiation planant à côté des groupes armés.",
+    "tips": "Évitez les zones irradiées — désorientation et anomalies spatiales garanties. Restez à l'écart des avant-postes de factions rivales."
+  },
+  "93": {
+    "name": "Niveau 93 — Le Sommet",
+    "shortDescription": "Un pic sans fin façon Everest dont le temps empire progressivement, plongeant sous les -180°C.",
+    "atmosphere": "Une ascension alpine désolée de blizzards, brouillard et grêle croissants — toute entité y meurt, ne laissant que des cadavres gelés.",
+    "tips": "Évitez les tentes — des entités hostiles y vivent. Portez un équipement contre le froid. Sortez en moins de 10 minutes."
+  },
+  "94": {
+    "name": "Niveau 94 — Motion",
+    "shortDescription": "Une ville en stop-motion façon années 1930, avec une fontaine d'Eau d'Amande, des collines herbeuses infinies et un château flottant — sûre le jour, hostile la nuit.",
+    "atmosphere": "Une esthétique cartoonesque et fantasque aux sous-entendus sinistres, la musique joyeuse cédant place au silence total et au danger à la nuit tombée.",
+    "tips": "Ne restez jamais dehors après la tombée de la nuit — abritez-vous. Cherchez l'Eau d'Amande. N'approchez du procès du Roi Animé que préparé."
+  },
+  "95": {
+    "name": "Niveau 95 — Vers Agape",
+    "shortDescription": "Un niveau en construction perpétuelle dont les couloirs convergent vers un point central où un dieu-machine assemble quelque chose en son cœur.",
+    "atmosphere": "Mécanique et pourtant mystique : des couloirs industriels orientés vers une conscience-machine omnisciente délivrant des instructions précises.",
+    "tips": "Le niveau se reconstruit sans cesse. Comprendre l'étrange théologie du dieu-machine pourrait être la clé pour le traverser."
+  },
+  "96": {
+    "name": "Niveau 96 — Consolation",
+    "shortDescription": "Un manoir levantin abandonné offrant refuge loin du conflit, où les visiteurs trouvent la paix à travers des souvenirs sensoriels familiers.",
+    "atmosphere": "Serein mais mélancolique : architecture traditionnelle, pièces poussiéreuses et fenêtres finement ouvragées surplombant des montagnes lointaines.",
+    "tips": "Laissez-vous apaiser par les conforts familiers — le tapis sous les pieds, l'odeur du café. Cette paix a pour prix une séparation définitive du monde extérieur."
+  },
+  "97": {
+    "name": "Niveau 97 — Phare",
+    "shortDescription": "Une île noyée de brouillard abritant un phare en ruine, habitée par des entités mortes-vivantes et cernée d'un océan salé et froid.",
+    "atmosphere": "Une nuit perpétuelle sous un épais brouillard et un croissant de lune ; un calme isolant troublé par les traces éparses d'une tragédie passée.",
+    "tips": "Évitez l'île elle-même — restez près de l'épave du bateau. Les ruines du phare sont extrêmement dangereuses ; préparez-vous à nager."
+  },
+  "98": {
+    "name": "Niveau 98 — Le Diner du Centre-Ville",
+    "shortDescription": "Une rue de brique en boucle dont l'unique destination est un diner nostalgique, hanté par des entités ambiguës et des échos de soi-même.",
+    "atmosphere": "Un isolement troublant mêlé de mal du pays : la lumière jaunie du diner contraste avec une rue vide pleine de reflets de soi.",
+    "tips": "Entrez dans le diner avec prudence. Approcher les entités déclenche des trous noirs ; rester immobile permet une interaction paisible."
+  },
+  "99": {
+    "name": "Niveau 99 — Ville des Goules",
+    "shortDescription": "Un désert orange dominé par un ciel chargé de rouille et un sable métallique oxydé, habité par des goules pacifiques communiquant par signes.",
+    "atmosphere": "Un ciel en permanence orange sur un air irrespirable saturé de particules de rouille, exigeant un équipement à oxygène pour les humains.",
+    "tips": "Emportez des bonbonnes d'oxygène dès l'arrivée. Les goules restent passives si on les traite avec respect. Suivez le chemin de corde vers la colonie."
+  }
+}

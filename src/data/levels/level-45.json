@@ -47,6 +47,12 @@
       "shortDescription": "An inky void holding 33 weightless skyscrapers arranged around a central Empire State replica — HQ of the Backrooms Research Consortium.",
       "atmosphere": "An otherworldly expanse of floating office towers in absolute darkness, lit by bioluminescent creatures and the glow of live buildings.",
       "tips": "All furnishings are non-functional Styrofoam. Fire escapes link the buildings. Avoid the outer towers — frequent blackouts and dense entities."
+    },
+    "fr": {
+      "name": "Niveau 45 — Abyss Inc.",
+      "shortDescription": "Un vide d'encre contenant 33 gratte-ciels en apesanteur disposés autour d'une réplique de l'Empire State Building — siège du Consortium de Recherche des Backrooms.",
+      "atmosphere": "Une étendue d'un autre monde faite de tours de bureaux flottantes dans le noir absolu, éclairée par des créatures bioluminescentes.",
+      "tips": "Tout le mobilier est en polystyrène factice. Les escaliers de secours relient les tours. Évitez les tours extérieures, souvent en panne."
     }
   },
   "media": {

@@ -26,6 +26,12 @@
       "shortDescription": "A dreamlike office space turned restful sanctuary, softened with furnishings, paintings and the sound of gentle rain.",
       "atmosphere": "Tranquil and calming: muted colors, drooping willows and soft rain creating an overwhelming sense of weary comfort.",
       "tips": "A safe haven for rest. Move gently — don't disturb the peaceful atmosphere or try to wake from this dreamlike state."
+    },
+    "fr": {
+      "name": "Niveau 81 — Fin d'Après-Fermeture",
+      "shortDescription": "Un bureau onirique transformé en sanctuaire reposant, meublé avec douceur, orné de peintures et bercé de sons naturels apaisants.",
+      "atmosphere": "Tranquille et apaisant, aux couleurs feutrées, des saules pleureurs, une pluie douce et un profond sentiment de repos.",
+      "tips": "Un havre sûr pour se reposer. Avancez avec douceur — ne troublez pas cette atmosphère paisible ni ne tentez de vous réveiller."
     }
   },
   "media": {

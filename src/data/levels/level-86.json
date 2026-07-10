@@ -52,6 +52,12 @@
       "shortDescription": "A 31-floor office tower with a modern lobby and interconnected upper floors — mostly safe, its Facelings quietly at work.",
       "atmosphere": "Corporate calm in clean architecture; Facelings play mundane office workers as the higher floors grow more spacious and orderly.",
       "tips": "Avoid the hostile Britagne Royaume on floor 14. The boss's office computer holds undocumented level information."
+    },
+    "fr": {
+      "name": "Niveau 86 — Tour de Rivergate",
+      "shortDescription": "Une tour de bureaux de 31 étages au hall moderne et aux étages supérieurs interconnectés — globalement sûre, ses Facelings vaquant tranquillement.",
+      "atmosphere": "Un calme corporate dans une architecture propre ; les Facelings jouent les employés de bureau tandis que les étages supérieurs deviennent plus spacieux.",
+      "tips": "Évitez la Britagne Royaume, hostile, à l'étage 14. L'ordinateur du bureau du patron contient des informations sur des niveaux non documentés."
     }
   },
   "media": {

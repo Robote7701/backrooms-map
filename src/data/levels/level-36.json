@@ -56,6 +56,12 @@
       "shortDescription": "A vast non-Euclidean airport of 26 terminals with flights to nearly every level; severe time dilation makes every wait feel eternal.",
       "atmosphere": "Sterile timeless terminals under fluorescent light: endless corridors, shops and gate lounges warped by disorienting geometry.",
       "tips": "Follow signage carefully through the non-Euclidean areas; empty signs mean dead ends. Ask the Backrooms Travel Agency at check-in for routes."
+    },
+    "fr": {
+      "name": "Niveau 36 — Aéroport Intemporel",
+      "shortDescription": "Un immense aéroport non euclidien de 26 terminaux avec des vols vers presque tous les niveaux ; une dilatation temporelle sévère rend chaque attente éternelle.",
+      "atmosphere": "Des terminaux stériles et hors du temps sous néons, couloirs sans fin déformés par une géométrie désorientante.",
+      "tips": "Suivez attentivement la signalétique dans les zones non euclidiennes. Demandez conseil à l'Agence de Voyage des Backrooms."
     }
   },
   "media": {

@@ -68,6 +68,12 @@
       "shortDescription": "A vast ancient cavern of valuable minerals, home to evolved Neanderthals and adapted entities, and a relentless feeling of being watched.",
       "atmosphere": "Cavernous darkness lit by distant torches; an overwhelming sense of surveillance builds mounting psychological pressure.",
       "tips": "Stay constantly aware of your surroundings. Keep almond water handy. Don't explore deep — the entities are passive but unpredictable."
+    },
+    "fr": {
+      "name": "Niveau 52 — Des Yeux Sur Vous",
+      "shortDescription": "Une vaste caverne antique riche en minerais, habitée par des Néandertaliens évolués et des entités adaptées, sous une sensation persistante d'être observé.",
+      "atmosphere": "Une obscurité caverneuse éclairée de torches lointaines ; le sentiment écrasant d'être surveillé fait monter la pression psychologique.",
+      "tips": "Restez constamment vigilant. Gardez de l'Eau d'Amande à portée. N'explorez pas en profondeur — les entités sont passives mais imprévisibles."
     }
   },
   "media": {

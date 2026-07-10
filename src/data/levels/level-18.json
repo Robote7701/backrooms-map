@@ -52,6 +52,12 @@
       "shortDescription": "A personalized childhood-memory realm that manifests differently for each visitor, laced with whispering voices and nostalgic imagery.",
       "atmosphere": "Emotionally evocative and introspective; recreates formative spaces with a melancholy that resurfaces forgotten memories.",
       "tips": "No physical danger. Simply turn around and leave to reach Level 19. Following the Plush Dino can guide you, though slowly."
+    },
+    "fr": {
+      "name": "Niveau 18 — Souvenirs",
+      "shortDescription": "Un royaume de souvenirs d'enfance personnalisé qui se manifeste différemment pour chaque visiteur, empli de voix chuchotantes.",
+      "atmosphere": "Évocateur et introspectif ; recrée des lieux marquants avec une mélancolie qui fait ressurgir des souvenirs oubliés.",
+      "tips": "Aucun danger physique. Faites simplement demi-tour pour rejoindre le Niveau 19. Suivre le Dino en Peluche peut vous guider, lentement."
     }
   },
   "media": {

@@ -62,6 +62,12 @@
       "shortDescription": "A deep cavern reached by falling through pitfalls: tight passages, an algae bog and crushingly narrow squeezes with few ways out.",
       "atmosphere": "Oppressive, flooded caves reeking of salt and decay; unstable walls and crushing dark broken by bioluminescent fungi.",
       "tips": "Keep a hand on the wall through the maze. Crouch during tremors. Never touch bog walls or kick creatures. Angle carefully through the squeeze."
+    },
+    "fr": {
+      "name": "Niveau 72 — La Fosse",
+      "shortDescription": "Une caverne profonde atteinte en tombant dans des trappes : passages étroits, un bourbier d'algues et des resserrements écrasants avec peu d'issues.",
+      "atmosphere": "Des grottes oppressantes et inondées, empestant le sel et la décomposition ; parois instables et obscurité écrasante trouée de champignons lumineux.",
+      "tips": "Gardez une main sur le mur dans le labyrinthe. Accroupissez-vous pendant les secousses. Ne touchez jamais les parois du bourbier."
     }
   },
   "media": {

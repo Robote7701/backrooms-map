@@ -112,6 +112,12 @@
       "shortDescription": "A vast underground cave network with non-Euclidean geometry, shifting gravity, flooded passages and many hostile entities.",
       "atmosphere": "Oppressively dark caverns, cold almond water, eerie silence broken by creature sounds and flickering emergency lights.",
       "tips": "Follow the 9th Road markers religiously. Stay warm, dry and awake against hypothermia. Avoid glyph-marked spider colonies."
+    },
+    "fr": {
+      "name": "Niveau 8 — Réseau de Grottes",
+      "shortDescription": "Un vaste réseau de grottes non euclidien au terrain traître, aux écarts de température et de gravité extrêmes.",
+      "atmosphere": "Cavernes sombres et claustrophobes de roche chaotique, air froid et stagnant, bruits de créatures au loin.",
+      "tips": "Suivez scrupuleusement les balises de la 9e Route. Restez au chaud, au sec et éveillé. Évitez les colonies d'araignées."
     }
   },
   "media": {

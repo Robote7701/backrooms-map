@@ -62,6 +62,12 @@
       "shortDescription": "An ancient primeval forest of non-Euclidean topology, guarded by a colossal serpent that punishes harm to snakes, roamed by predatory canids.",
       "atmosphere": "Foggy by day beneath towering old trees; clear starlit nights under an oversized moon; reality shifts when unobserved.",
       "tips": "Never harm a snake or the Great Adder hunts you. Climb trees at night to escape Black Shucks. Dead tree hollows are no-clip exits."
+    },
+    "fr": {
+      "name": "Niveau 47 — Le Bois d'Adder",
+      "shortDescription": "Une forêt primitive ancienne à la topologie non euclidienne, gardée par un serpent colossal qui punit tout mal fait aux serpents.",
+      "atmosphere": "Brumeuse le jour sous de vieux arbres immenses ; nuits claires et étoilées sous une lune démesurée, la réalité vacillant sans témoin.",
+      "tips": "Ne blessez jamais un serpent, sous peine d'être traqué par le Grand Adder. Grimpez aux arbres la nuit pour échapper aux Black Shucks."
     }
   },
   "media": {

@@ -57,6 +57,12 @@
       "shortDescription": "A welcoming art gallery of surreal paintings depicting Backrooms levels, kept by a friendly teenage artist and a veiled figure.",
       "atmosphere": "A warm creative sanctuary of shifting layouts, paint and wood scents, and soft light that links you to the levels on the walls.",
       "tips": "Ask The Painter for directions. Avoid the unnamed painting at the back of the Registry. Approaching a painting immerses you in its level."
+    },
+    "fr": {
+      "name": "Niveau 57 — Galerie d'Art Diurne",
+      "shortDescription": "Une galerie d'art accueillante de peintures surréalistes représentant des niveaux des Backrooms, tenue par une jeune artiste amicale et une figure voilée.",
+      "atmosphere": "Un sanctuaire créatif et chaleureux à la disposition changeante, parfumé de peinture et de bois, relié aux niveaux par ses tableaux.",
+      "tips": "Demandez conseil au Peintre. Évitez le tableau sans nom au fond du Registre. S'approcher d'un tableau vous immerge dans son niveau."
     }
   },
   "media": {

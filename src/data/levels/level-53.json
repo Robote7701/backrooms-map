@@ -42,6 +42,12 @@
       "shortDescription": "A single house suspended in an eternal morning, where a trapped wanderer lives on mysteriously restocking food and faceless visitors.",
       "atmosphere": "An isolated home under perpetual dawn: peaceful yet profoundly lonely, comfort at war with inescapable confinement.",
       "tips": "Rescue is possible via outside contact — leave written messages where they can be found. The faceless visitors mean no immediate harm."
+    },
+    "fr": {
+      "name": "Niveau 53 — Seul",
+      "shortDescription": "Une maison isolée suspendue dans un matin éternel, où un errant piégé survit grâce à une nourriture qui se renouvelle mystérieusement.",
+      "atmosphere": "Un foyer isolé sous une aube perpétuelle : paisible mais profondément solitaire, entre confort et enfermement inéluctable.",
+      "tips": "Un sauvetage est possible via un contact extérieur — laissez des messages écrits là où on peut les trouver."
     }
   },
   "media": {

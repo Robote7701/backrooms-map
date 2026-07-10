@@ -32,6 +32,12 @@
       "shortDescription": "A frigid, unnervingly still lake in a dark forest that swallows all sound and hides an unidentified aquatic threat.",
       "atmosphere": "Oppressively silent, faintly metallic-smelling; sound vanishes into the depths, leaving palpable dread.",
       "tips": "Avoid this level entirely. Don't approach or enter the water — prolonged exposure can cause temporary or permanent mutism."
+    },
+    "fr": {
+      "name": "Niveau 88 — Lac Assourdi",
+      "shortDescription": "Un lac glacial et étrangement immobile trouvé dans des forêts sombres, qui étouffe toute communication vocale et abrite une menace aquatique inconnue.",
+      "atmosphere": "Un silence oppressant à l'odeur métallique ; le son disparaît dans les profondeurs, laissant place à une angoisse palpable.",
+      "tips": "Évitez ce niveau complètement. Ne vous approchez pas de l'eau et ne vous y immergez jamais — l'exposition prolongée peut rendre muet."
     }
   },
   "media": {

@@ -36,6 +36,12 @@
       "shortDescription": "A finite circular forest of twisting dirt paths locked in twilight, inducing nostalgia and a hypnotic calm that tempts dangerously long stays.",
       "atmosphere": "Perpetual dusk over sparse ancient oaks, cool and unnaturally tranquil yet disorienting, pulling the mind toward inaction.",
       "tips": "Drink Almond Water to break the hypnotic effect. Don't linger near the center. Navigate by the paths and beware the Border's harsh weather."
+    },
+    "fr": {
+      "name": "Niveau 39 — Forêt Enchantée",
+      "shortDescription": "Une forêt circulaire finie aux sentiers de terre sinueux figée dans un crépuscule perpétuel, inspirant nostalgie et calme hypnotique.",
+      "atmosphere": "Un crépuscule permanent sous de rares chênes anciens, frais et étrangement paisible mais désorientant, tirant l'esprit vers l'inaction.",
+      "tips": "Buvez de l'Eau d'Amande pour rompre l'effet hypnotique. Ne restez pas près du centre. Suivez les sentiers."
     }
   },
   "media": {

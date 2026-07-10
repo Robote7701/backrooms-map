@@ -117,6 +117,12 @@
       "shortDescription": "An empty metropolis that serves as the Backrooms' main hub: self-sustaining infrastructure, many faction settlements and countless exits.",
       "atmosphere": "Sprawling urban emptiness of working buildings, zones bleeding into one another, oddly pacifying to hostile entities.",
       "tips": "Mark safe routes with paint. Avoid unmapped areas near exits. Seek work for housing in the Capital and ask locals for directions."
+    },
+    "fr": {
+      "name": "Niveau 11 — La Ville Qui Ne Dort Jamais",
+      "shortDescription": "Une métropole vide qui sert de hub principal aux Backrooms : infrastructures autonomes, factions installées et innombrables sorties.",
+      "atmosphere": "Un vide urbain tentaculaire d'immeubles en activité, des zones qui se fondent l'une dans l'autre, étrangement apaisant pour les entités.",
+      "tips": "Balisez vos trajets sûrs à la peinture. Évitez les zones non cartographiées près des sorties. Trouvez du travail pour vous loger."
     }
   },
   "media": {

@@ -92,6 +92,12 @@
       "shortDescription": "A looping 90s-themed roller rink with arcade, food court and skate rentals; a friendly native, the Coach, offers lessons and guidance.",
       "atmosphere": "Retro rink vibes: pop music, laughter and food-court smells over nostalgic neon carpeting — inviting and non-threatening.",
       "tips": "Talk to the Coach for lessons and directions. Food-court staff give free meals if you don't mention the Backrooms. The arcade no-clips to Level 40."
+    },
+    "fr": {
+      "name": "Niveau 31 — Patinoire à Roulettes",
+      "shortDescription": "Une patinoire à roulettes en boucle façon années 90 avec arcade, snack et location de patins ; un habitant amical y donne des cours.",
+      "atmosphere": "Ambiance rétro : musique pop, rires et odeurs de snack sur une moquette néon nostalgique — accueillant et sans menace.",
+      "tips": "Parlez au Coach pour des leçons et des indications. Le personnel du snack offre des repas gratuits. L'arcade mène au Niveau 40."
     }
   },
   "media": {

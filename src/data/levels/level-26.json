@@ -62,6 +62,12 @@
       "shortDescription": "A corrupted cruise ship — Partygoer headquarters — that randomly no-clips between levels, its infinite interior full of party horrors.",
       "atmosphere": "A grotesque unending celebration laced with danger: party rooms below contaminated decks, screams echoing through shifting corridors.",
       "tips": "Avoid all party paraphernalia. Touch a reversed, unfocused poster to escape. Never board willingly — the ship reappears unpredictably."
+    },
+    "fr": {
+      "name": "Niveau 26 — Le SS Fun =)",
+      "shortDescription": "Un paquebot corrompu, quartier général des Partygoers, qui no-clip aléatoirement entre les niveaux avec un intérieur infini d'horreurs festives.",
+      "atmosphere": "Une célébration chaotique et grotesque mêlée d'un danger constant : des salles de fête sans fin sous des ponts contaminés.",
+      "tips": "Évitez tout objet de fête. Touchez une affiche floue et inversée pour vous échapper. N'y montez jamais volontairement."
     }
   },
   "media": {

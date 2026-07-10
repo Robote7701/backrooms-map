@@ -96,6 +96,12 @@
       "shortDescription": "A self-censoring level that blurs all recordings. A single furnished room expands into an infinite white void scattered with furniture.",
       "atmosphere": "Stark white emptiness that fogs the mind and erodes memory; peaceful yet disorienting, reality fraying with distance from the center.",
       "tips": "Sit in the original chair ~15 min, try the locked door, enter the copycat door, return, wait exactly one hour, then try the door again."
+    },
+    "fr": {
+      "name": "Niveau 12 — Matrix",
+      "shortDescription": "Un niveau autocensuré qui brouille tous les enregistrements. Une simple pièce meublée s'étend en un vide blanc infini.",
+      "atmosphere": "Un vide blanc qui embrume l'esprit et érode la mémoire ; paisible mais désorientant, la réalité s'effiloche avec la distance.",
+      "tips": "Asseyez-vous ~15 min sur la chaise d'origine, essayez la porte verrouillée, entrez par la porte-copie, attendez une heure pile."
     }
   },
   "media": {

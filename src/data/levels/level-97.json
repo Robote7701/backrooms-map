@@ -42,6 +42,12 @@
       "shortDescription": "A fog-shrouded island holding a ruined lighthouse, home to undead entities and ringed by deep, cold saltwater.",
       "atmosphere": "Perpetual night under thick fog and a crescent moon; an isolating quiet broken only by scattered signs of past tragedy.",
       "tips": "Avoid the island itself — stay near the boat wreckage. The lighthouse ruins are extremely dangerous; be ready to swim the moment you arrive."
+    },
+    "fr": {
+      "name": "Niveau 97 — Phare",
+      "shortDescription": "Une île noyée de brouillard abritant un phare en ruine, habitée par des entités mortes-vivantes et cernée d'un océan salé et froid.",
+      "atmosphere": "Une nuit perpétuelle sous un épais brouillard et un croissant de lune ; un calme isolant troublé par les traces éparses d'une tragédie passée.",
+      "tips": "Évitez l'île elle-même — restez près de l'épave du bateau. Les ruines du phare sont extrêmement dangereuses ; préparez-vous à nager."
     }
   },
   "media": {

@@ -62,6 +62,12 @@
       "shortDescription": "A perpetually foggy forest of blood-red autumn trees, carnivorous flora that transforms wanderers, and massive hostile centipedes.",
       "atmosphere": "Thick fog, dim twilight and cool winds — nature itself actively hunts and consumes whoever enters.",
       "tips": "Never eat the blood-apples — it triggers irreversible transformation into a centipede. Move slowly near centipedes; avoid the mouth structures and the stump."
+    },
+    "fr": {
+      "name": "Niveau 65 — Le Jardin Taché de Sang",
+      "shortDescription": "Une forêt perpétuellement brumeuse d'arbres d'automne rouge sang, à la flore carnivore qui transforme les errants et à d'énormes mille-pattes hostiles.",
+      "atmosphere": "Un épais brouillard, une pénombre crépusculaire et un vent frais — la nature elle-même chasse et dévore ceux qui s'y aventurent.",
+      "tips": "Ne mangez jamais les pommes-sang — la consommation déclenche une transformation irréversible en mille-pattes. Évitez les structures anormales."
     }
   },
   "media": {

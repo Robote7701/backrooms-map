@@ -47,6 +47,12 @@
       "shortDescription": "A giant plastic scale model of the solar system set in a Victorian study; only the Moon's surface, coated in toxic lead paint, is reachable.",
       "atmosphere": "A vast barren expanse of grey lead paint on a plastic moon, swept by toxic mists and sandstorms, an immense humanoid sometimes crossing it.",
       "tips": "Stay clear of weather events. Limit exposure to paint dust and fumes. Follow PlasticWorks miners for safe exit routes."
+    },
+    "fr": {
+      "name": "Niveau 24 — La Lune",
+      "shortDescription": "Une immense maquette en plastique du système solaire dans un cabinet victorien ; seule la surface lunaire, peinte au plomb, est accessible.",
+      "atmosphere": "Une étendue grise et désolée de peinture au plomb sur une lune en plastique, balayée par des brumes toxiques et des tempêtes.",
+      "tips": "Éloignez-vous des phénomènes météo. Limitez l'exposition à la poussière de peinture. Suivez les mineurs de PlasticWorks."
     }
   },
   "media": {

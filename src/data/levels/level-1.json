@@ -102,6 +102,12 @@
       "shortDescription": "A vast warehouse-like level of concrete pillars and non-Euclidean geometry, home to survivor settlements offering food, shelter and guidance.",
       "atmosphere": "Industrial and liminal; flickering lights bring dangerous blackouts. Habitable despite roaming entities and deceptive distances.",
       "tips": "Navigate by fixed landmarks. Cross corridors during flickering events. Loot crates for Almond Water. Seek established bases."
+    },
+    "fr": {
+      "name": "Niveau 1 — Zone Habitable",
+      "shortDescription": "Vaste entrepôt aux couloirs de béton à la géométrie non euclidienne, ponctué de pannes de courant et de caisses de ravitaillement.",
+      "atmosphere": "Complexe industriel abandonné : néons vacillants, bruits de tuyaux au loin, architecture désorientante et silence pesant.",
+      "tips": "Repérez-vous à des points fixes contre les fausses distances. Traversez les couloirs pendant les pannes. Fouillez les caisses."
     }
   },
   "media": {

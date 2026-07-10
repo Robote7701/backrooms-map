@@ -57,6 +57,12 @@
       "shortDescription": "Foggy pastoral hills lit by endless daylight, ringed by a permanently dark forest of massive insectoid colonies and odd sheep herds.",
       "atmosphere": "Persistent fog over rolling grassland; unchanging daylight in the hills against the perpetually dark deciduous border forest.",
       "tips": "Avoid the forest border where the insectoids thrive. Move carefully through the fogged center. The sheep are docile and often mark safe paths."
+    },
+    "fr": {
+      "name": "Niveau 77 — Oh, Shenandoah",
+      "shortDescription": "Des collines pastorales brumeuses éclairées d'un jour sans fin, cernées d'une forêt éternellement nocturne d'insectoïdes géants et de moutons étranges.",
+      "atmosphere": "Un brouillard persistant sur des prairies vallonnées ; une lumière du jour immuable au centre contre la forêt sombre en bordure.",
+      "tips": "Évitez la bordure forestière où prospèrent les insectoïdes. Avancez prudemment dans le centre embrumé. Les moutons sont dociles."
     }
   },
   "media": {

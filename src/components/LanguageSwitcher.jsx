@@ -1,4 +1,5 @@
 import { useI18n } from '../i18n/I18nContext'
+import { langIcons } from '../data/icons'
 
 // Sélecteur de langue. S'appuie sur AVAILABLE_LANGS -> extensible.
 export default function LanguageSwitcher() {
@@ -12,7 +13,7 @@ export default function LanguageSwitcher() {
           onClick={() => setLang(code)}
           aria-pressed={code === lang}
         >
-          {code.toUpperCase()}
+          {langIcons[code] ?? ''} {code.toUpperCase()}
         </button>
       ))}
     </div>

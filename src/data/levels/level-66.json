@@ -47,6 +47,12 @@
       "shortDescription": "An infinite walk-through aquarium of shifting architecture and oppressive darkness that wears down visitors' minds.",
       "atmosphere": "Deafening silence broken by water sounds; pitch-black humid glass tunnels and a constant sense of being watched by empty tanks.",
       "tips": "Travel in groups with light sources, count heads often, ignore strange sounds, and leave immediately if you find an emergency door."
+    },
+    "fr": {
+      "name": "Niveau 66 — Exposition",
+      "shortDescription": "Un aquarium à parcourir infini à l'architecture changeante et à l'obscurité oppressante, qui use progressivement la santé mentale des visiteurs.",
+      "atmosphere": "Un silence assourdissant brisé par le bruit de l'eau ; des tunnels de verre humides et sombres, avec un sentiment constant d'être observé.",
+      "tips": "Voyagez en groupe avec des sources de lumière. Comptez-vous souvent. Ignorez les bruits étranges et sortez dès qu'une porte de secours apparaît."
     }
   },
   "media": {

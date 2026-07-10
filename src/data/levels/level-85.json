@@ -82,6 +82,12 @@
       "shortDescription": "A barren polluted wasteland of extreme weather, abandoned buildings holding supplies, and dangerous robotic guardians.",
       "atmosphere": "A desolate desert under toxic smog, brutal heat and acidic waterways, haunted by radio broadcasts hinting at ecological collapse.",
       "tips": "Shelter in buildings for filtration and supplies. Disable RoboPets' solar panels to stop them. Ration bottled water and cover up from the sun."
+    },
+    "fr": {
+      "name": "Niveau 85 — Brillant Sempiternel",
+      "shortDescription": "Un désert pollué et stérile aux conditions extrêmes, aux bâtiments abandonnés remplis de ravitaillement, gardé par des entités robotiques dangereuses.",
+      "atmosphere": "Un désert désolé sous un smog toxique, une chaleur brutale et des cours d'eau acides, hanté par des émissions radio évoquant un effondrement écologique.",
+      "tips": "Abritez-vous dans les bâtiments pour la filtration et le ravitaillement. Désactivez les panneaux solaires des RoboPets. Rationnez l'eau."
     }
   },
   "media": {

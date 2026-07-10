@@ -52,6 +52,12 @@
       "shortDescription": "A convergence point where Levels 0–37 physically overlap, fusing the architecture and hazards of every earlier level.",
       "atmosphere": "A chaotic, disorienting amalgam of clashing level designs, badly distorted and dark, in constant structural flux.",
       "tips": "Photos barely work here. Head toward stabilizing geometry to exit. Don't no-clip outward or you risk the Blue Channel."
+    },
+    "fr": {
+      "name": "Niveau 38 — Point de Repli",
+      "shortDescription": "Un point de convergence où les Niveaux 0 à 37 se superposent physiquement, fusionnant architecture et dangers de tous les niveaux précédents.",
+      "atmosphere": "Un amalgame chaotique et désorientant de styles contradictoires, très sombre et en constante instabilité structurelle.",
+      "tips": "Les photos fonctionnent à peine ici. Dirigez-vous vers une géométrie stable pour sortir. Ne faites jamais de no-clip vers l'extérieur."
     }
   },
   "media": {

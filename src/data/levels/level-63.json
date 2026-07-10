@@ -46,6 +46,12 @@
       "shortDescription": "A serene sky realm of wooden bridges suspended over a void, dotted with meditation points that ease the mind.",
       "atmosphere": "Constant daylight over shifting vine walls, gentle wind, and a profound tranquility free of entities or hazards.",
       "tips": "Visit the isolated meditation platforms to soothe distress. Falling into the void safely drops you into other natural levels."
+    },
+    "fr": {
+      "name": "Niveau 63 — Tranquillité",
+      "shortDescription": "Un royaume céleste serein fait de ponts de bois suspendus au-dessus d'un vide, parsemé de points de méditation apaisants.",
+      "atmosphere": "Une lumière du jour constante sous des murs de vigne mouvants, un vent doux et une tranquillité profonde, sans entité ni danger.",
+      "tips": "Visitez les plateformes de méditation isolées pour apaiser la détresse. Tomber dans le vide vous transporte en sécurité vers d'autres niveaux naturels."
     }
   },
   "media": {

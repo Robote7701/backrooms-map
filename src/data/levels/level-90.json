@@ -46,6 +46,12 @@
       "shortDescription": "A two-storey renovated house presented as a fresh safe haven, recently cleared of whatever infested it before.",
       "atmosphere": "Welcoming yet faintly uncanny domestic comfort, with hints of something dark beneath the cheerful renovation story.",
       "tips": "Enter by simply thinking of 'home'. Exit through the old oak tree in the backyard. Stay cautious despite the reassuring facade."
+    },
+    "fr": {
+      "name": "Niveau 90 — Maison Récemment Rénovée",
+      "shortDescription": "Une maison à deux étages rénovée présentée comme un refuge sûr, récemment débarrassée de ce qui l'infestait auparavant.",
+      "atmosphere": "Un confort domestique accueillant mais légèrement étrange, avec l'ombre de quelque chose de sombre sous le récit joyeux de la rénovation.",
+      "tips": "Entrez simplement en pensant à « la maison ». Sortez par le vieux chêne dans le jardin. Restez prudent malgré les apparences rassurantes."
     }
   },
   "media": {

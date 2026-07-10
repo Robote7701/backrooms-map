@@ -82,6 +82,12 @@
       "shortDescription": "An infinite shopping mall that decays the further you travel, from clean stores into flooded, hazardous ruins.",
       "atmosphere": "Clean and quiet at first, turning flooded, moldy and overgrown as mental deterioration and hallucinations creep in.",
       "tips": "Try not to travel beyond ~50 miles. Stay hydrated, manage the psychological effects and watch for entity activity that grows with distance."
+    },
+    "fr": {
+      "name": "Niveau 33 — Le Centre Commercial Infini",
+      "shortDescription": "Un centre commercial infini qui se délabre à mesure qu'on s'y enfonce, passant de boutiques propres à des ruines inondées et dangereuses.",
+      "atmosphere": "Propre et calme au début, puis inondé, moisi et envahi de végétation à mesure que la détérioration mentale et les hallucinations s'installent.",
+      "tips": "Évitez de dépasser ~80 km. Restez hydraté, surveillez les effets psychologiques et l'activité des entités qui croît avec la distance."
     }
   },
   "media": {

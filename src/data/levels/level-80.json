@@ -57,6 +57,12 @@
       "shortDescription": "A sinking swamp of incomplete structures and forgotten beings, its architectural fragments slowly swallowed by murky water.",
       "atmosphere": "An eerie, desolate bog where uncanny, unfinished entities feel like abandoned concepts or forgotten stories.",
       "tips": "Seek high ground and the rusted staircase set in the giant cube wall. The more coherent inhabitants may point you toward an exit."
+    },
+    "fr": {
+      "name": "Niveau 80 — Sententia Oblita",
+      "shortDescription": "Un marécage englouti de structures inachevées et d'êtres oubliés, ses fragments architecturaux disparaissant lentement dans une eau trouble.",
+      "atmosphere": "Un bourbier désolé et étrange où des entités inachevées semblent être des concepts abandonnés ou des récits oubliés.",
+      "tips": "Cherchez les hauteurs et l'escalier rouillé encastré dans le grand mur cubique. Les habitants les plus cohérents peuvent indiquer une sortie."
     }
   },
   "media": {

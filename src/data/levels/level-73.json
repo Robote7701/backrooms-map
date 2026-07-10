@@ -72,6 +72,12 @@
       "shortDescription": "A crimson island drowned in darkness and swarmed by entities; only the Silver Castle, under CORAN's protection, offers refuge.",
       "atmosphere": "Perpetual darkness under a full moon, suffocating black clouds and endless hostile creatures ringing a gothic sanctuary.",
       "tips": "Sprint straight for the Silver Castle — don't look around or slow down. Bang on the doors for entry. Never use artificial light."
+    },
+    "fr": {
+      "name": "Niveau 73 — Les Terres Rouges",
+      "shortDescription": "Une île écarlate noyée dans les ténèbres, envahie d'essaims d'entités incessants ; seul le Château d'Argent offre un refuge.",
+      "atmosphere": "Une obscurité perpétuelle sous une pleine lune, nuages noirs suffocants, créatures hostiles sans fin autour d'un sanctuaire gothique.",
+      "tips": "Foncez droit vers le Château d'Argent sans regarder autour de vous ni ralentir. Frappez fort aux portes. N'utilisez jamais de lumière artificielle."
     }
   },
   "media": {

@@ -72,6 +72,12 @@
       "shortDescription": "An underground cavern holding the ruins of an ancient city of The Lost, with a shifting labyrinth and a central temple of sealed chambers.",
       "atmosphere": "A decaying civilization in perpetual abandonment: crumbling architecture, creeping vegetation and an oppressive sense of lost purpose.",
       "tips": "All technology fails — navigate by landmarks. Avoid entity-infested zones outside the temple. Map the shifting labyrinth and heed The Lost."
+    },
+    "fr": {
+      "name": "Niveau 51 — La Cité Oubliée",
+      "shortDescription": "Une caverne souterraine renfermant les ruines d'une cité antique des Perdus, avec un labyrinthe changeant et un temple central aux chambres scellées.",
+      "atmosphere": "Une civilisation en décomposition figée dans un abandon perpétuel : architecture croulante, végétation envahissante, sens du temps perdu.",
+      "tips": "Toute technologie tombe en panne ici — repérez-vous par les points de repère. Évitez les zones infestées hors du temple."
     }
   },
   "media": {

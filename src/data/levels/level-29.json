@@ -62,6 +62,12 @@
       "shortDescription": "A vast island civilization of 25,000 across 250 societies, ringed by mountains and anomalous oceans full of dangerous entities.",
       "atmosphere": "An island sanctuary of thriving settlements and strange flora, offset by deadly seas and an ancient sleeping leviathan.",
       "tips": "Arrive via the dockyards and befriend settlement reps. Never travel the ocean — the waters and the Kraken make escape near-impossible."
+    },
+    "fr": {
+      "name": "Niveau 29 — Hyperian",
+      "shortDescription": "Une vaste civilisation insulaire de 25 000 habitants répartis en 250 sociétés, cernée de montagnes et d'océans anormaux.",
+      "atmosphere": "Un sanctuaire insulaire de communautés florissantes et de flore étrange, contrasté par des mers mortelles et un léviathan endormi.",
+      "tips": "Arrivez par les quais et liez-vous aux représentants des colonies. Ne voyagez jamais en mer — le Kraken guette."
     }
   },
   "media": {

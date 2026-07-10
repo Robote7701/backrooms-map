@@ -132,6 +132,12 @@
       "shortDescription": "A frozen planetary city modeled on North American urban centers, from -15°C to -52°C, held by settlements amid dangerous entities.",
       "atmosphere": "Perpetually snowy and bitterly cold, North American architecture split between desolate exteriors and warm resource-rich shelters.",
       "tips": "Find heated buildings for shelter and check them thoroughly for entities first. Avoid office basements and suburbs at night. Ration food."
+    },
+    "fr": {
+      "name": "Niveau 70 — Froidetown",
+      "shortDescription": "Une cité planétaire gelée inspirée des centres urbains nord-américains, de -15°C à -52°C, tenue par des colonies parmi des entités dangereuses.",
+      "atmosphere": "Éternellement enneigée et glaciale, une architecture nord-américaine partagée entre extérieurs désolés et abris chauffés riches en ressources.",
+      "tips": "Cherchez des bâtiments chauffés pour vous abriter et fouillez-les d'abord soigneusement. Évitez les sous-sols de bureaux et les banlieues la nuit."
     }
   },
   "media": {

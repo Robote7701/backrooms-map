@@ -67,6 +67,12 @@
       "shortDescription": "A deteriorating backyard ringed by impossibly tall walls, with a jungle reachable through a breach and one aggressive hound in residence.",
       "atmosphere": "Decrepit and overgrown, the dilapidated house showing signs of violent disturbance and lingering danger.",
       "tips": "Avoid the aggressive hound. Stay in the forest about a week to exit. The deeper jungle jams tracking. Approach brick walls with care."
+    },
+    "fr": {
+      "name": "Niveau 62 — Jardin de la Jungle",
+      "shortDescription": "Un jardin en ruine cerné de murs d'une hauteur impossible, avec une jungle accessible par une brèche et un chien de garde agressif.",
+      "atmosphere": "Décrépit et envahi de végétation ; la maison délabrée porte des traces de troubles violents et un danger persistant.",
+      "tips": "Évitez le chien agressif. Restez environ une semaine dans la forêt pour en sortir. Approchez les murs de brique avec prudence."
     }
   },
   "media": {

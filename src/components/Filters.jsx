@@ -1,5 +1,6 @@
 import { useI18n } from '../i18n/I18nContext'
 import { levelClasses, dangerBounds } from '../data/loadLevels'
+import { classIcons } from '../data/icons'
 
 // Filtres : par classe (toggle) et par plage de danger (min/max).
 export default function Filters({ filters, onChange, shownCount }) {
@@ -44,7 +45,7 @@ export default function Filters({ filters, onChange, shownCount }) {
                 onClick={() => toggleClass(cls)}
                 aria-pressed={active}
               >
-                {cls}
+                {classIcons[cls] ?? ''} {cls}
               </button>
             )
           })}

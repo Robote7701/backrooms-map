@@ -72,6 +72,12 @@
       "shortDescription": "An orange desert under rust-laden skies and oxidized metal sand, home to peaceful ghouls who speak in sign and grunts.",
       "atmosphere": "A permanently orange sky over unbreathable, rust-thick air — humans need oxygen gear to survive here for long.",
       "tips": "Bring oxygen tanks the moment you arrive. Ghouls stay passive if treated with respect. Follow the rope path to the settlement for shelter."
+    },
+    "fr": {
+      "name": "Niveau 99 — Ville des Goules",
+      "shortDescription": "Un désert orange dominé par un ciel chargé de rouille et un sable métallique oxydé, habité par des goules pacifiques communiquant par signes.",
+      "atmosphere": "Un ciel en permanence orange sur un air irrespirable saturé de particules de rouille, exigeant un équipement à oxygène pour les humains.",
+      "tips": "Emportez des bonbonnes d'oxygène dès l'arrivée. Les goules restent passives si on les traite avec respect. Suivez le chemin de corde vers la colonie."
     }
   },
   "media": {

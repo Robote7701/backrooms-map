@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useI18n } from '../i18n/I18nContext'
+import { routeIcons } from '../data/icons'
 
 // Légende repliable : types de routes, échelle de danger, badge entités.
 export default function Legend() {
@@ -19,16 +20,16 @@ export default function Legend() {
             <h4>{t('legend.routes')}</h4>
             <ul>
               <li>
-                <span className="route-swatch route-swatch--noclip" /> {t('legend.noclip')}
+                <span className="route-swatch route-swatch--noclip" /> {routeIcons.noclip} {t('legend.noclip')}
               </li>
               <li>
-                <span className="route-swatch route-swatch--porte" /> {t('legend.porte')}
+                <span className="route-swatch route-swatch--porte" /> {routeIcons.porte} {t('legend.porte')}
               </li>
               <li>
-                <span className="route-swatch route-swatch--escalier" /> {t('legend.escalier')}
+                <span className="route-swatch route-swatch--escalier" /> {routeIcons.escalier} {t('legend.escalier')}
               </li>
               <li>
-                <span className="route-swatch route-swatch--autre" /> {t('legend.autre')}
+                <span className="route-swatch route-swatch--autre" /> {routeIcons.autre} {t('legend.autre')}
               </li>
               <li>
                 <span className="arrow-swatch">⇄</span> {t('legend.bidirectional')}

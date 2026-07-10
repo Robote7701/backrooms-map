@@ -46,6 +46,12 @@
       "shortDescription": "Sandy corridors of peeling painted walls, sun-like light and endless rain sounds, scattered with children's toys and old footprints.",
       "atmosphere": "An eerie yet soothing emptiness that evokes childhood memories despite the cracked paint and abandoned rooms.",
       "tips": "Mostly accessible to younger travelers — adults usually need an accompanying child. Windows and doorways make easy exits."
+    },
+    "fr": {
+      "name": "Niveau 75 — Liminalité",
+      "shortDescription": "Des couloirs de sable aux murs peints écaillés, une lumière semblable au soleil et un bruit de pluie constant, jonchés de jouets d'enfants.",
+      "atmosphere": "Un vide étrange mais apaisant qui évoque des souvenirs d'enfance malgré la peinture craquelée et les pièces abandonnées.",
+      "tips": "Surtout accessible aux jeunes voyageurs ; les adultes doivent généralement être accompagnés d'un enfant. Fenêtres et portes offrent des sorties faciles."
     }
   },
   "media": {

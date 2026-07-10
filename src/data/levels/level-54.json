@@ -172,6 +172,12 @@
       "shortDescription": "An infinite spiraling stairwell of decaying wooden steps and damp blue walls, threaded with mysterious hallways and rare entities.",
       "atmosphere": "Damp and moldy, water dripping down the walls; creaking stairs and distant ocean sounds deepen a pervasive loneliness.",
       "tips": "Avoid the water-filled rooms and stay alert for rare entities. Use the visible doors strategically to reach safer levels."
+    },
+    "fr": {
+      "name": "Niveau 54 — L'Escalier en Spirale",
+      "shortDescription": "Un escalier en spirale infini aux marches de bois pourrissant et aux murs bleus humides, traversé de couloirs mystérieux et d'entités rares.",
+      "atmosphere": "Humide et moisi, l'eau suintant des murs ; une profonde solitude accentuée par les marches qui craquent et le son lointain de l'océan.",
+      "tips": "Évitez les pièces inondées et restez attentif aux rares entités. Utilisez les portes visibles pour rejoindre des niveaux plus sûrs."
     }
   },
   "media": {

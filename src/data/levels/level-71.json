@@ -36,6 +36,12 @@
       "shortDescription": "An infinite basement where visitors slowly lose their senses and dissolve, piece by piece, into nothingness.",
       "atmosphere": "A pitch-black void of growing disorientation and despair as explorers lose form and, eventually, consciousness.",
       "tips": "Avoid basements reached from Level 4 — this level induces an irreversible fade from reality."
+    },
+    "fr": {
+      "name": "Niveau 71 — Sous-sol du Vide",
+      "shortDescription": "Un sous-sol infini où les visiteurs perdent progressivement leurs sens et se dissolvent, morceau par morceau, dans le néant.",
+      "atmosphere": "Un vide d'un noir absolu de désorientation croissante et de désespoir, à mesure que les explorateurs perdent forme puis conscience.",
+      "tips": "Évitez les sous-sols accessibles depuis le Niveau 4 — ce niveau provoque un effacement irréversible de la réalité."
     }
   },
   "media": {

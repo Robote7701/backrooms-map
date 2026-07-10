@@ -67,6 +67,12 @@
       "shortDescription": "An impossibly vast ocean under dim light, split by depth into zones, holding two apex predators and countless humanoid skeletal remains.",
       "atmosphere": "Claustrophobic despite open water; perpetual twilight, crushing depths and stray bioluminescence — desolate and isolating.",
       "tips": "Use the entrance room as base camp. Exploit the Thing's light sensitivity and Tiny's poor hearing. Keep excursions short."
+    },
+    "fr": {
+      "name": "Niveau 7 — Thalassophobie",
+      "shortDescription": "Un océan d'une immensité impossible sous un plafond de béton, divisé en zones de plus en plus sombres et dangereuses.",
+      "atmosphere": "Étendue sous-marine glaciale et désolée, ossements sur le fond marin, lumière tamisée qui s'éteint dans les profondeurs hostiles.",
+      "tips": "Installez votre camp dans la salle d'entrée meublée. Exploitez les faiblesses de chaque entité pour vous faufiler."
     }
   },
   "media": {

@@ -112,6 +112,12 @@
       "shortDescription": "An infinite WWI-style trench network where automated war machines patrol and unseen forces fatally punish any attempt to escape.",
       "atmosphere": "A desolate warzone of ceaseless gunfire, dense fog and floods, with mechanical horrors hunting through the mud-filled trenches.",
       "tips": "Hide in bunkers during bombardments. Move quietly in groups. Avoid armor that escalates the machines. Never try to leave."
+    },
+    "fr": {
+      "name": "Niveau 49 — La Rivière Inachevée du Phlégéton",
+      "shortDescription": "Un réseau de tranchées infini façon Première Guerre mondiale où des machines de guerre automatisées patrouillent, punissant toute tentative de fuite.",
+      "atmosphere": "Une zone de guerre désolée de tirs incessants, de brouillard épais et d'inondations, hantée par des horreurs mécaniques dans la boue.",
+      "tips": "Cachez-vous dans les bunkers pendant les bombardements. Déplacez-vous en silence, en groupe. N'essayez jamais de partir."
     }
   },
   "media": {

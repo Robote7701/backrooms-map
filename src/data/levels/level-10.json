@@ -62,6 +62,12 @@
       "shortDescription": "Endless wheat and barley fields under an overcast sky, dotted with empty structures and lakes, with worms burrowing beneath the soil.",
       "atmosphere": "Dreary, unchanging pastoral expanse under permanent overcast, calm but for underlying mysteries beneath the fields.",
       "tips": "Follow the roads toward Level 11. Gather supplies from empty structures. Dig with caution — the worms surface fast."
+    },
+    "fr": {
+      "name": "Niveau 10 — Récolte Abondante",
+      "shortDescription": "Des champs de blé et d'orge à perte de vue sous un ciel éternellement couvert, semés de fermes vides et grouillant de vers.",
+      "atmosphere": "Une lumière du jour terne et immuable, pluie et brume passagères sur des champs cultivés, hors du temps.",
+      "tips": "Ne creusez jamais plus d'un mètre — les vers remontent vite. Suivez les chemins de terre pour trouver une sortie."
     }
   },
   "media": {

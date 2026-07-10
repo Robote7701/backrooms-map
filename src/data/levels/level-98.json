@@ -62,6 +62,12 @@
       "shortDescription": "A looping brick street whose sole destination is a nostalgic diner, haunted by ambiguous entities and echoes of yourself.",
       "atmosphere": "Eerie isolation shot through with homesick comfort — yellowed diner light against a barren street full of reflections.",
       "tips": "Enter the diner carefully. Approaching the entities triggers blackouts; sit still and the friendly patrons will engage peacefully."
+    },
+    "fr": {
+      "name": "Niveau 98 — Le Diner du Centre-Ville",
+      "shortDescription": "Une rue de brique en boucle dont l'unique destination est un diner nostalgique, hanté par des entités ambiguës et des échos de soi-même.",
+      "atmosphere": "Un isolement troublant mêlé de mal du pays : la lumière jaunie du diner contraste avec une rue vide pleine de reflets de soi.",
+      "tips": "Entrez dans le diner avec prudence. Approcher les entités déclenche des trous noirs ; rester immobile permet une interaction paisible."
     }
   },
   "media": {

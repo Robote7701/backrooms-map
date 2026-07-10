@@ -72,6 +72,12 @@
       "shortDescription": "A six-floor concrete parking garage lit in colored light, ringed by a dark abyss and holding anomalous vehicles with unpredictable effects.",
       "atmosphere": "Dim warm and colored lighting over a mostly empty, eerie garage, with dangerous cars and reality-bending exits.",
       "tips": "Don't approach the edges or the cars flood in. Use vehicles strategically to reach other levels, or cross the cars to safe staircases."
+    },
+    "fr": {
+      "name": "Niveau 35 — Un Parking Vide",
+      "shortDescription": "Un parking en béton de six étages éclairé de couleurs, cerné d'un abîme sombre et abritant des véhicules anormaux imprévisibles.",
+      "atmosphere": "Lumière tamisée et colorée sur un parking presque vide et inquiétant, aux voitures dangereuses et aux sorties qui déforment la réalité.",
+      "tips": "Ne vous approchez pas des bords, sous peine d'un afflux de voitures. Traversez les véhicules pour atteindre les escaliers sûrs."
     }
   },
   "media": {

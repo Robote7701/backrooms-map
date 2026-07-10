@@ -42,6 +42,12 @@
       "shortDescription": "A subtropical highland of tea plantations and mountains, dotted with mysterious Saola statues, still healing from an ancient fire.",
       "atmosphere": "Humid, lush terrain thick with tea-leaf scent; an unusual 21-hour daylight cycle, peaceful but tinged with mystery.",
       "tips": "Bring a light for the 3-hour dark stretch. Navigate by the hut waypoints. Never try to start a fire. Trade with Smoky Steep Farm."
+    },
+    "fr": {
+      "name": "Niveau 76 — Retour des Cendres de Charwood",
+      "shortDescription": "Une région montagneuse subtropicale de plantations de thé, parsemée de mystérieuses statues de Saola, se relevant d'un ancien incendie.",
+      "atmosphere": "Un terrain luxuriant et humide chargé du parfum du thé, un cycle de jour inhabituel de 21 heures, paisible mais teinté de mystère.",
+      "tips": "Emportez une lumière pour la période sombre de 3 heures. Repérez-vous aux huttes-balises. N'essayez jamais d'allumer un feu."
     }
   },
   "media": {
