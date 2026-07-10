@@ -1,15 +1,52 @@
-# Backrooms — Map interactive
+<div align="center">
 
-Site statique (Vite + React + Cytoscape.js) affichant les niveaux des Backrooms
-et les routes qui les relient. 100 % statique, déployable sur GitHub Pages.
+# 🟨 Backrooms — Carte Interactive
 
-## Démarrer
+**Explorez les 99 premiers niveaux des Backrooms sur une carte interactive, sombre et néon.**
+
+[![Deploy to GitHub Pages](https://github.com/Robote7701/backrooms-map/actions/workflows/deploy.yml/badge.svg)](https://github.com/Robote7701/backrooms-map/actions/workflows/deploy.yml)
+![Niveaux](https://img.shields.io/badge/niveaux-99-d4c26a)
+![Langues](https://img.shields.io/badge/langues-FR%20%2F%20EN-31d7f5)
+![Stack](https://img.shields.io/badge/stack-Vite%20%2B%20React%20%2B%20Cytoscape.js-e34ba9)
+![Licence](https://img.shields.io/badge/licence-MIT-8a7de0)
+
+**[🔗 Voir la carte en ligne](https://robote7701.github.io/backrooms-map/)**
+
+</div>
+
+---
+
+Une carte interactive et navigable de l'univers des **Backrooms** : niveaux affichés
+comme des nœuds, routes (portes, escaliers, no-clip...) comme des liens. Cliquez sur
+un niveau pour son fiche complète — danger, entités, connexions, conseils de survie.
+Site 100 % statique, sans backend, déployé automatiquement sur GitHub Pages.
+
+## ✨ Fonctionnalités
+
+- 🗺️ **Carte interactive** — zoom, pan, clic sur un nœud pour ouvrir le panneau de détails
+- 🔍 **Recherche** — trouvez un niveau par nom ou numéro, la carte se recentre dessus
+- 🌐 **Multilingue FR/EN** — interface et contenu des niveaux, architecture extensible
+- 🎨 **Calques** — Danger (dégradé vert → rouge) et Entités (badge de présence)
+- 🧭 **Filtres** — par classe de niveau et par plage de danger
+- 📖 **Légende repliable** — types de routes, échelle de danger
+- 👁️ **Liens vers les entités** — chaque entité pointe vers sa fiche sur le wiki source
+- 🌑 **Thème dark/neon** — ambiance "vieux terminal / liminal space"
+
+## 📊 Contenu
+
+**103 niveaux** au total : les 99 premiers niveaux normaux du wiki Backrooms
+([backrooms-wiki.wikidot.com](https://backrooms-wiki.wikidot.com/normal-levels-i)),
+plus 4 niveaux emblématiques (Level 0, The Manila Room, Level Fun, Level !),
+reliés par **363 connexions**. Descriptions reformulées (pas de copie du wiki),
+lien source conservé sur chaque fiche.
+
+## 🚀 Démarrer
 
 Prérequis : **Node.js ≥ 18**.
 
 ```bash
 npm install
-npm run validate   # vérifie l'intégrité des niveaux
+npm run validate   # vérifie l'intégrité des niveaux et des connexions
 npm run dev        # http://localhost:5173
 ```
 
@@ -20,15 +57,7 @@ npm run build      # -> dist/
 npm run preview    # sert le build localement
 ```
 
-## Fonctionnalités (v1)
-
-- **Map interactive** : niveaux = nœuds, routes = liens ; zoom / pan / clic → panneau latéral (nom, description, danger, entités, connexions, lien wiki).
-- **Multilingue FR/EN** : UI dans `src/i18n/locales/`, textes des niveaux dans leur champ `i18n`. Architecture extensible (ajouter `xx.json` + l'enregistrer).
-- **Calques** (toggle) : `Danger` (couleur vert→rouge) et `Entités` (anneau + compte).
-- **Filtres** : par classe et par plage de niveau de danger.
-- **Légende** repliable (types de routes, échelle de danger, badge entités).
-
-## Architecture
+## 🏗️ Architecture
 
 ```
 src/
@@ -37,9 +66,12 @@ src/
   graph/               construction + style Cytoscape + layout hybride
   layers/              système de calques générique (1 fichier par calque)
   i18n/                contexte langue + dictionnaires + lecture des textes niveaux
-  components/          MapView, SidePanel, Filters, LayerToggles, Legend, LanguageSwitcher
+  components/          MapView, SidePanel, SearchBar, Filters, LayerToggles, Legend...
   styles/theme.css     thème dark/neon
-scripts/validate-levels.mjs   validation des JSON (connexions, doublons, schéma)
+scripts/
+  validate-levels.mjs        validation des JSON (connexions, doublons, schéma)
+  import/generate.mjs        génère les niveaux depuis scripts/import/raw/*.json
+  import/fr-translations.json  traductions FR fusionnées à la génération
 ```
 
 ### Ajouter un niveau
@@ -58,7 +90,14 @@ puis l'enregistrer dans `src/layers/registry.js`.
 Les nœuds avec `coordinates` sont placés à ces positions ; les autres sont
 disposés automatiquement (fcose) en figeant les premiers. Voir `graph/useCytoscape.js`.
 
-## Déploiement GitHub Pages
+## 🌍 Déploiement GitHub Pages
 
-`vite.config.js` utilise `base: './'` (chemins relatifs). Build (`npm run build`)
-puis publier le dossier `dist/` (ex. via GitHub Actions ou la branche `gh-pages`).
+Le déploiement est automatique via GitHub Actions (`.github/workflows/deploy.yml`) :
+chaque push sur `master` build le site et le publie sur Pages.
+`vite.config.js` utilise `base: './'` (chemins relatifs), compatible sous-répertoire.
+
+## 📜 Licence & source
+
+Code sous licence MIT. Les données de niveaux sont adaptées du
+[Backrooms Wiki](https://backrooms-wiki.wikidot.com/) (CC-BY-SA) — descriptions
+reformulées, lien source conservé sur chaque fiche.
