@@ -1,0 +1,80 @@
+{
+  "id": "level-6",
+  "slug": "level-6",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "darkness",
+      "isolation",
+      "psychological",
+      "silence",
+      "difficulte-estimee"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [
+    {
+      "to": "level-4",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "Listed among this level's entrances/exits on the source wiki.",
+        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-5",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "Listed among this level's entrances/exits on the source wiki.",
+        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-7",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "Listed among this level's entrances/exits on the source wiki.",
+        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 6 — Lights Out",
+      "shortDescription": "A pitch-black level of endless tight smooth-concrete hallways where total darkness and silence wear down the mind.",
+      "atmosphere": "Absolute darkness and silence breed paranoia; auditory hallucinations of scuttling, breathing and whispering are common.",
+      "tips": "Navigate by touch. Never flip a found light switch. Avoid the Mimicry. Follow the sound of waves toward the Level 7 exit."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-6-thumb.webp",
+    "banner": "/images/levels/level-6-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-6",
+    "fr": "https://backrooms-wiki.wikidot.com/level-6"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

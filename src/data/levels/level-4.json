@@ -1,52 +1,37 @@
 {
-  "id": "level-1",
-  "slug": "level-1",
+  "id": "level-4",
+  "slug": "level-4",
   "class": "habitable",
   "danger": {
     "level": 2,
     "scale": 5,
     "tags": [
-      "non-euclidean-geometry",
-      "flickering-lights",
-      "hostile-entities",
-      "resource-abundant"
+      "office",
+      "almond-water",
+      "safe-hub",
+      "low-entity"
     ]
   },
   "survival": {
     "safe": true,
-    "secure": true,
-    "entityCount": "eleve"
+    "secure": false,
+    "entityCount": "faible"
   },
   "entities": [
     {
-      "id": "smilers",
-      "presence": "common",
-      "zones": []
-    },
-    {
-      "id": "dullers",
-      "presence": "common",
-      "zones": []
-    },
-    {
-      "id": "skin-stealer",
+      "id": "entity-8",
       "presence": "occasional",
       "zones": []
     },
     {
-      "id": "crawlers",
+      "id": "entity-6",
       "presence": "occasional",
-      "zones": []
-    },
-    {
-      "id": "clumps",
-      "presence": "common",
       "zones": []
     }
   ],
   "connections": [
     {
-      "to": "level-0",
+      "to": "level-3",
       "type": "noclip",
       "direction": "bidirectional",
       "method": {
@@ -56,7 +41,7 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-2",
+      "to": "level-5",
       "type": "noclip",
       "direction": "bidirectional",
       "method": {
@@ -66,7 +51,7 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-4",
+      "to": "level-6",
       "type": "noclip",
       "direction": "bidirectional",
       "method": {
@@ -78,19 +63,19 @@
   ],
   "i18n": {
     "en": {
-      "name": "Level 1 — Habitable Zone",
-      "shortDescription": "Vast warehouse-like level of concrete halls with non-Euclidean geometry, periodic blackouts, and crates of survival supplies.",
-      "atmosphere": "Abandoned industrial complex: flickering fluorescents, distant pipe sounds, disorienting architecture and eerie silence.",
-      "tips": "Navigate by landmarks against false distances. Cross corridors during Flickering events. Loot crates and join group bases."
+      "name": "Level 4 — Abandoned Office",
+      "shortDescription": "An empty office building with blacked-out windows: a major hub where wanderers gather, restock and prepare to go deeper.",
+      "atmosphere": "Quiet corporate spaces, abandoned furniture and fluorescent light, calm near the water dispensers but eerily empty.",
+      "tips": "Stock Almond Water before advancing. Avoid clear (non-blacked-out) windows — they are traps. Several easy exits for retreat."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-1-thumb.webp",
-    "banner": "/images/levels/level-1-banner.webp"
+    "thumbnail": "/images/levels/level-4-thumb.webp",
+    "banner": "/images/levels/level-4-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-1",
-    "fr": "https://backrooms-wiki.wikidot.com/level-1"
+    "en": "https://backrooms-wiki.wikidot.com/level-4",
+    "fr": "https://backrooms-wiki.wikidot.com/level-4"
   },
   "layers": {
     "danger": true,

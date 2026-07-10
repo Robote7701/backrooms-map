@@ -1,15 +1,15 @@
 {
-  "id": "level-2",
-  "slug": "level-2",
-  "class": "dangereux",
+  "id": "level-5",
+  "slug": "level-5",
+  "class": "instable",
   "danger": {
-    "level": 4,
+    "level": 3,
     "scale": 5,
     "tags": [
-      "industrial",
-      "machinery",
-      "dark-areas",
-      "hostile-entities"
+      "hotel",
+      "deathmoths",
+      "phantom-presence",
+      "nostalgic-horror"
     ]
   },
   "survival": {
@@ -19,42 +19,32 @@
   },
   "entities": [
     {
-      "id": "entity-3",
-      "presence": "frequent",
-      "zones": []
-    },
-    {
       "id": "entity-4",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
-      "id": "entity-5",
       "presence": "common",
       "zones": []
     },
     {
       "id": "entity-8",
-      "presence": "common",
+      "presence": "occasional",
       "zones": []
     },
     {
-      "id": "entity-2",
-      "presence": "rare",
+      "id": "entity-10",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "entity-26",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "entity-38",
+      "presence": "occasional",
       "zones": []
     }
   ],
   "connections": [
-    {
-      "to": "level-1",
-      "type": "noclip",
-      "direction": "bidirectional",
-      "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
     {
       "to": "level-3",
       "type": "noclip",
@@ -76,7 +66,27 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-8",
+      "to": "level-6",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "Listed among this level's entrances/exits on the source wiki.",
+        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-9",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "Listed among this level's entrances/exits on the source wiki.",
+        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-10",
       "type": "noclip",
       "direction": "bidirectional",
       "method": {
@@ -88,19 +98,19 @@
   ],
   "i18n": {
     "en": {
-      "name": "Level 2 — Abandoned Utility Halls",
-      "shortDescription": "Infinite but mappable maze of Euclidean maintenance tunnels full of machinery, piping and buzzing fluorescent light.",
-      "atmosphere": "Industrial and claustrophobic: tattered concrete, quiet whirring machines, and darkness spreading after a recent blackout.",
-      "tips": "Shelter near Office Space EL3A. Mark doors; series-wired lights black out whole sections. Never open locked void rooms."
+      "name": "Level 5 — Terror Hotel",
+      "shortDescription": "An infinite 1930s hotel of mahogany halls and self-cleaning vintage rooms, haunted by whispers and clouds of deadly insects.",
+      "atmosphere": "Pristine early-20th-century luxury turned unsettling: random smooth jazz, watching portraits, phantom taps in empty halls.",
+      "tips": "Avoid dark rooms where insects nest. Stay in furnished areas. Never use maintenance elevators or go above floor 12."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-2-thumb.webp",
-    "banner": "/images/levels/level-2-banner.webp"
+    "thumbnail": "/images/levels/level-5-thumb.webp",
+    "banner": "/images/levels/level-5-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-2",
-    "fr": "https://backrooms-wiki.wikidot.com/level-2"
+    "en": "https://backrooms-wiki.wikidot.com/level-5",
+    "fr": "https://backrooms-wiki.wikidot.com/level-5"
   },
   "layers": {
     "danger": true,

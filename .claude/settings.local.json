@@ -12,7 +12,8 @@
       "PowerShell(winget install --id OpenJS.NodeJS.LTS -e --accept-source-agreements --accept-package-agreements --silent)",
       "mcp__claude-in-chrome__computer",
       "mcp__claude-in-chrome__read_console_messages",
-      "mcp__claude-in-chrome__navigate"
+      "mcp__claude-in-chrome__navigate",
+      "WebFetch(domain:backrooms-wiki.wikidot.com)"
     ]
   }
 }

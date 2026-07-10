@@ -55,8 +55,8 @@ for (const file of files) {
   if (!data.class) fail(file, 'champ "class" manquant')
   if (!data.danger || typeof data.danger.level !== 'number')
     fail(file, 'champ "danger.level" manquant ou invalide')
-  if (!data.i18n?.fr || !data.i18n?.en)
-    warn(file, 'i18n.fr ou i18n.en manquant (repli utilisé à l\'affichage)')
+  if (!data.i18n?.fr && !data.i18n?.en)
+    fail(file, 'i18n manquant (au moins fr ou en requis)')
 
   if (data.id) {
     if (ids.has(data.id)) fail(file, `id dupliqué "${data.id}"`)

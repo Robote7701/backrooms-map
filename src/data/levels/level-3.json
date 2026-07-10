@@ -1,12 +1,16 @@
 {
   "id": "level-3",
   "slug": "level-3",
-  "coordinates": { "x": 6, "y": 0 },
   "class": "dangereux",
   "danger": {
-    "level": 4,
+    "level": 5,
     "scale": 5,
-    "tags": ["electrocution", "entites-agressives", "labyrinthe"]
+    "tags": [
+      "intelligent-entities",
+      "electrical-hazards",
+      "indestructible-barriers",
+      "resource-abundant"
+    ]
   },
   "survival": {
     "safe": false,
@@ -14,43 +18,70 @@
     "entityCount": "eleve"
   },
   "entities": [
-    { "id": "smiler", "presence": "commune", "zones": ["couloirs coupes"] },
-    { "id": "hound", "presence": "occasionnelle", "zones": ["salles techniques"] }
+    {
+      "id": "hound",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "faceling",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "deathmoth",
+      "presence": "omnipresent",
+      "zones": []
+    },
+    {
+      "id": "skin-stealer",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "smiler",
+      "presence": "occasional",
+      "zones": []
+    }
   ],
   "connections": [
     {
-      "to": "level-2",
+      "to": "level-0",
       "type": "noclip",
       "direction": "bidirectional",
       "method": {
-        "fr": "No-clip par une trappe de maintenance descellée",
-        "en": "No-clip through an unsealed maintenance hatch"
+        "en": "Listed among this level's entrances/exits on the source wiki.",
+        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
       },
-      "reliability": "peu-fiable"
+      "reliability": "inconnue"
     },
     {
-      "to": "level-run",
-      "type": "porte",
-      "direction": "one-way",
+      "to": "level-4",
+      "type": "noclip",
+      "direction": "bidirectional",
       "method": {
-        "fr": "Porte coupe-feu qui claque derrière vous et refuse de se rouvrir",
-        "en": "Fire door that slams shut behind you and refuses to reopen"
+        "en": "Listed among this level's entrances/exits on the source wiki.",
+        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
       },
-      "reliability": "rare"
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-5",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "Listed among this level's entrances/exits on the source wiki.",
+        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
     }
   ],
   "i18n": {
-    "fr": {
-      "name": "Niveau 3 — Station Électrique",
-      "shortDescription": "Dédale de salles techniques bourdonnantes, câbles à nu et flaques électrifiées.",
-      "atmosphere": "Odeur d'ozone, arcs électriques dans le noir, néons qui grésillent et meurent.",
-      "tips": "Repérez les flaques avant chaque pas. Coupez les disjoncteurs si vous le pouvez."
-    },
     "en": {
       "name": "Level 3 — Electrical Station",
-      "shortDescription": "A maze of humming technical rooms, exposed cables and electrified puddles.",
-      "atmosphere": "Smell of ozone, arcing electricity in the dark, fluorescent lights sputtering out.",
-      "tips": "Spot the puddles before every step. Trip the breakers if you can."
+      "shortDescription": "A dangerous old electrical facility of brick corridors and machinery: resource-rich but defended by unusually intelligent entities.",
+      "atmosphere": "Dim brick passages, humming equipment and black pipes, alternating cramped tunnels and vast oppressive industrial halls.",
+      "tips": "Avoid dark paranoia-inducing corridors. Shelter in angel-statue sanctums. Never try to pass the indestructible bars."
     }
   },
   "media": {
@@ -58,8 +89,8 @@
     "banner": "/images/levels/level-3-banner.webp"
   },
   "wikiUrl": {
-    "fr": "https://backrooms-wiki-fr.example/level-3",
-    "en": "https://backrooms.fandom.com/wiki/Level_3"
+    "en": "https://backrooms-wiki.wikidot.com/level-3",
+    "fr": "https://backrooms-wiki.wikidot.com/level-3"
   },
   "layers": {
     "danger": true,
@@ -68,6 +99,7 @@
   },
   "meta": {
     "addedOn": "2026-07-10",
-    "status": "published"
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
   }
 }
