@@ -60,7 +60,6 @@ export function useCytoscape(containerRef, onReady) {
       elements: [],
       minZoom: 0.2,
       maxZoom: 3,
-      wheelSensitivity: 0.3,
       boxSelectionEnabled: false,
     })
     cyRef.current = cy

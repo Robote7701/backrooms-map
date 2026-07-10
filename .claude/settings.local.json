@@ -8,7 +8,11 @@
       "PowerShell(npm --version)",
       "Bash(git config *)",
       "Bash(git add *)",
-      "Bash(git commit -q -m 'feat: v1 map interactive Backrooms \\(Vite+React+Cytoscape\\) *)"
+      "Bash(git commit -q -m 'feat: v1 map interactive Backrooms \\(Vite+React+Cytoscape\\) *)",
+      "PowerShell(winget install --id OpenJS.NodeJS.LTS -e --accept-source-agreements --accept-package-agreements --silent)",
+      "mcp__claude-in-chrome__computer",
+      "mcp__claude-in-chrome__read_console_messages",
+      "mcp__claude-in-chrome__navigate"
     ]
   }
 }

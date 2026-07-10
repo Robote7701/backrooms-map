@@ -6,7 +6,8 @@ export const baseStylesheet = [
     style: {
       label: 'data(label)',
       color: '#e8e8f0',
-      'font-family': "'JetBrains Mono', 'Courier New', monospace",
+      // Cytoscape veut une valeur simple, sans guillemets internes.
+      'font-family': 'JetBrains Mono, Courier New, monospace',
       'font-size': 13,
       'text-valign': 'bottom',
       'text-halign': 'center',
@@ -25,27 +26,27 @@ export const baseStylesheet = [
     },
   },
   {
-    // Survol : glow néon cyan.
+    // Survol : halo néon cyan (overlay = la façon Cytoscape de "glow").
     selector: 'node.hovered',
     style: {
       'border-color': '#31d7f5',
       'border-width': 4,
-      'shadow-blur': 24,
-      'shadow-color': '#31d7f5',
-      'shadow-opacity': 0.9,
+      'overlay-color': '#31d7f5',
+      'overlay-opacity': 0.25,
+      'overlay-padding': 10,
       width: 40,
       height: 40,
     },
   },
   {
-    // Sélection : glow magenta persistant.
+    // Sélection : halo magenta persistant.
     selector: 'node.selected',
     style: {
       'border-color': '#e34ba9',
       'border-width': 4,
-      'shadow-blur': 28,
-      'shadow-color': '#e34ba9',
-      'shadow-opacity': 1,
+      'overlay-color': '#e34ba9',
+      'overlay-opacity': 0.3,
+      'overlay-padding': 10,
     },
   },
 
@@ -105,7 +106,12 @@ export const baseStylesheet = [
   {
     // Edge relié au nœud survolé/sélectionné : mis en avant.
     selector: 'edge.highlighted',
-    style: { width: 4, opacity: 1 },
+    style: {
+      width: 4,
+      opacity: 1,
+      'overlay-opacity': 0.18,
+      'overlay-padding': 4,
+    },
   },
   {
     selector: 'edge.dimmed',
