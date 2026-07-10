@@ -1,9 +1,10 @@
 #!/usr/bin/env node
-// Génère src/data/levels/level-N.json à partir de scripts/import/raw-levels.json.
-// Idempotent : régénérer après avoir ajouté des niveaux réconcilie les connexions.
-// N'écrase QUE les niveaux numériques présents dans raw-levels.json.
-// Les niveaux "ancres" faits main (level-0 + niveaux spéciaux non numériques)
-// ne sont jamais touchés, mais restent des cibles de connexion valides.
+// Génère src/data/levels/level-N.json à partir des lots de scripts/import/raw/*.json.
+// Chaque fichier de raw/ est un tableau JSON d'enregistrements de niveaux (format enrichi).
+// Idempotent : régénérer après avoir ajouté un lot réconcilie les connexions.
+// N'écrase QUE les niveaux numériques présents dans raw/. Les ancres faites main
+// (level-0 + niveaux spéciaux non numériques) ne sont jamais touchées mais restent
+// des cibles de connexion valides.
 
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
@@ -12,7 +13,7 @@ import { dirname, join } from 'node:path'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..', '..')
 const LEVELS_DIR = join(ROOT, 'src', 'data', 'levels')
-const RAW = join(__dirname, 'raw-levels.json')
+const RAW_DIR = join(__dirname, 'raw')
 const ADDED_ON = '2026-07-10'
 const SOURCE = 'backrooms-wiki.wikidot.com'
 
@@ -25,8 +26,19 @@ const CLASS_MAP = {
   4: { class: 'dangereux', danger: 5 },
   5: { class: 'mortel', danger: 5 },
 }
-// Repli quand la classe de survie est inconnue sur le wiki.
 const CLASS_FALLBACK = { class: 'instable', danger: 3 }
+
+// Type de route du wiki (anglais) -> type interne (voir cytoscapeStyle/Legend).
+const TYPE_MAP = {
+  door: 'porte',
+  stairs: 'escalier',
+  stair: 'escalier',
+  staircase: 'escalier',
+  noclip: 'noclip',
+  'no-clip': 'noclip',
+  other: 'autre',
+}
+const DIRECTION_MAP = { 'one-way': 'one-way', oneway: 'one-way', 'two-way': 'bidirectional' }
 
 function entityCountLabel(n) {
   if (n === 0) return 'aucune'
@@ -35,28 +47,36 @@ function entityCountLabel(n) {
   return 'eleve'
 }
 
+// Supporte l'ancien format (connectionsTo:[int]) ET le nouveau (connections:[{to,type,direction}]).
+function rawConnections(raw) {
+  if (Array.isArray(raw.connections)) return raw.connections
+  if (Array.isArray(raw.connectionsTo))
+    return raw.connectionsTo.map((to) => ({ to, type: 'noclip', direction: 'two-way' }))
+  return []
+}
+
 function mapLevel(raw, validTargets) {
   const cm = raw.survivalClass == null ? CLASS_FALLBACK : CLASS_MAP[raw.survivalClass] ?? CLASS_FALLBACK
   const tags = [...(raw.tags ?? [])]
   if (raw.survivalClass == null) tags.push('difficulte-estimee')
 
-  // Connexions : cibles numériques existantes, dédupliquées, sans self.
   const seen = new Set()
   const connections = []
-  for (const to of raw.connectionsTo ?? []) {
-    if (!Number.isInteger(to)) continue // ignore sous-niveaux type 6.1
-    if (to === raw.number) continue
+  for (const c of rawConnections(raw)) {
+    const to = typeof c.to === 'number' ? c.to : Number(c.to)
+    if (!Number.isInteger(to) || to === raw.number) continue
     const targetId = `level-${to}`
-    if (!validTargets.has(targetId)) continue
-    if (seen.has(targetId)) continue
+    if (!validTargets.has(targetId) || seen.has(targetId)) continue
     seen.add(targetId)
+    const type = TYPE_MAP[(c.type ?? '').toLowerCase()] ?? 'noclip'
+    const direction = DIRECTION_MAP[(c.direction ?? '').toLowerCase()] ?? 'bidirectional'
     connections.push({
       to: targetId,
-      type: 'noclip',
-      direction: 'bidirectional',
+      type,
+      direction,
       method: {
-        en: 'Listed among this level\'s entrances/exits on the source wiki.',
-        fr: 'Figure parmi les entrées/sorties de ce niveau sur le wiki source.',
+        en: 'From this level\'s entrances/exits on the source wiki.',
+        fr: 'D\'après les entrées/sorties de ce niveau sur le wiki source.',
       },
       reliability: 'inconnue',
     })
@@ -81,7 +101,6 @@ function mapLevel(raw, validTargets) {
     entities,
     connections,
     i18n: {
-      // EN d'abord ; i18n.fr retombe sur l'anglais via le repli applicatif.
       en: {
         name: `Level ${raw.number} — ${raw.title}`,
         shortDescription: raw.shortDescription ?? '',
@@ -98,33 +117,40 @@ function mapLevel(raw, validTargets) {
       fr: `https://${SOURCE}/level-${raw.number}`,
     },
     layers: { danger: true, entities: true, resources: false },
-    meta: {
-      addedOn: ADDED_ON,
-      status: raw.noData ? 'stub' : 'published',
-      source: SOURCE,
-    },
+    meta: { addedOn: ADDED_ON, status: raw.noData ? 'stub' : 'published', source: SOURCE },
   }
 }
 
-// --- Exécution ---
-const { levels: rawLevels } = JSON.parse(readFileSync(RAW, 'utf8'))
+// --- Chargement des lots raw/ ---
+let rawFiles = []
+try {
+  rawFiles = readdirSync(RAW_DIR).filter((f) => f.endsWith('.json'))
+} catch {
+  console.error(`Dossier introuvable: ${RAW_DIR}`)
+  process.exit(1)
+}
+
+// Fusion par numéro (le dernier lot chargé gagne).
+const byNumber = new Map()
+for (const f of rawFiles.sort()) {
+  const arr = JSON.parse(readFileSync(join(RAW_DIR, f), 'utf8'))
+  const records = Array.isArray(arr) ? arr : arr.levels ?? []
+  for (const r of records) byNumber.set(r.number, r)
+}
+const rawLevels = [...byNumber.values()]
 
 // Cibles valides = niveaux du raw + fichiers level-N.json déjà présents (ex: level-0).
 const existingNumeric = readdirSync(LEVELS_DIR)
   .map((f) => /^level-(\d+)\.json$/.exec(f))
   .filter(Boolean)
   .map((m) => `level-${m[1]}`)
-const validTargets = new Set([
-  ...existingNumeric,
-  ...rawLevels.map((r) => `level-${r.number}`),
-])
+const validTargets = new Set([...existingNumeric, ...rawLevels.map((r) => `level-${r.number}`)])
 
 let written = 0
 for (const raw of rawLevels) {
   const out = mapLevel(raw, validTargets)
-  const file = join(LEVELS_DIR, `${out.id}.json`)
-  writeFileSync(file, JSON.stringify(out, null, 2) + '\n', 'utf8')
+  writeFileSync(join(LEVELS_DIR, `${out.id}.json`), JSON.stringify(out, null, 2) + '\n', 'utf8')
   written++
 }
 
-console.log(`Généré ${written} niveaux depuis le wiki. Cibles valides: ${validTargets.size}.`)
+console.log(`Généré ${written} niveaux depuis ${rawFiles.length} lot(s). Cibles valides: ${validTargets.size}.`)

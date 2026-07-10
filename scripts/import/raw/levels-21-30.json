@@ -1,0 +1,213 @@
+[
+  {
+    "number": 21,
+    "title": "Numbered Doors",
+    "survivalClass": 4,
+    "tags": ["doors", "shifting-maze", "hostile-entities", "disorientation"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "clickers", "presence": "common" }
+    ],
+    "connections": [
+      { "to": 0, "type": "door", "direction": "one-way" },
+      { "to": 6, "type": "other", "direction": "two-way" },
+      { "to": 9, "type": "other", "direction": "two-way" },
+      { "to": 11, "type": "other", "direction": "two-way" },
+      { "to": 13, "type": "other", "direction": "two-way" },
+      { "to": 46, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "Four interconnected hallways of randomized numbered doors leading all across the Backrooms, around an unpredictable hub and a deadly exit passage.",
+    "atmosphere": "Maze-like and disorienting, with passageways that shift and mysterious numbered doors breeding constant uncertainty.",
+    "tips": "Trust labeled doors 105–356 for known destinations. Avoid unlabeled or 'trustworthy'-claiming doors. Never open the red Exit door.",
+    "noData": false
+  },
+  {
+    "number": 22,
+    "title": "Ruins Left Behind",
+    "survivalClass": 5,
+    "tags": ["unstable-structure", "debris", "abandoned-settlement", "deep-pits"],
+    "safe": false,
+    "secure": false,
+    "entities": [],
+    "connections": [
+      { "to": 1, "type": "door", "direction": "one-way" },
+      { "to": 21, "type": "other", "direction": "two-way" },
+      { "to": 23, "type": "other", "direction": "two-way" },
+      { "to": 69, "type": "stairs", "direction": "one-way" }
+    ],
+    "shortDescription": "A collapsed multi-storey car park once held by the Emstable micronation, now hazardous ruins of unstable structure and deep mining pits.",
+    "atmosphere": "Desolate industrial decay: rubble, rusted vehicles, abandoned tents and the skeletal remains of a failed society in the dark.",
+    "tips": "Beware collapse and deep-pit falls. Traversal is extremely dangerous; most wanderers avoid this level entirely.",
+    "noData": true
+  },
+  {
+    "number": 23,
+    "title": "The Petrified Garden",
+    "survivalClass": 4,
+    "tags": ["forest", "superorganism", "caverns", "hostile-entities"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "volpes", "presence": "common" },
+      { "id": "hounds", "presence": "common" },
+      { "id": "clumps", "presence": "common" },
+      { "id": "smilers", "presence": "common" },
+      { "id": "deathmoths", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 7, "type": "noclip", "direction": "one-way" },
+      { "to": 37, "type": "noclip", "direction": "one-way" },
+      { "to": 43, "type": "noclip", "direction": "one-way" },
+      { "to": 47, "type": "noclip", "direction": "one-way" }
+    ],
+    "shortDescription": "A planetoid-sized superorganism of interwoven ancient trees, with bioluminescent caverns and ruins that mimic classical Frontrooms structures.",
+    "atmosphere": "Dense shadowy canopy in perpetual twilight; underground glow-rooms pulse with eerie light amid petrified wood and forgotten ruins.",
+    "tips": "Never say 'it's only a matter of time' — it wakes buried sentries. Shelter at Base Seedling, which holds the main exit. Don't harm the Green Giants.",
+    "noData": false
+  },
+  {
+    "number": 24,
+    "title": "The Moon",
+    "survivalClass": 1,
+    "tags": ["toxic-paint", "mining", "dust-storms", "extreme-heat"],
+    "safe": false,
+    "secure": true,
+    "entities": [
+      { "id": "moon-mites", "presence": "occasional" },
+      { "id": "beauford", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 57, "type": "noclip", "direction": "two-way" }
+    ],
+    "shortDescription": "A giant plastic scale model of the solar system set in a Victorian study; only the Moon's surface, coated in toxic lead paint, is reachable.",
+    "atmosphere": "A vast barren expanse of grey lead paint on a plastic moon, swept by toxic mists and sandstorms, an immense humanoid sometimes crossing it.",
+    "tips": "Stay clear of weather events. Limit exposure to paint dust and fumes. Follow PlasticWorks miners for safe exit routes.",
+    "noData": false
+  },
+  {
+    "number": 25,
+    "title": "The Quarter Hub",
+    "survivalClass": 0,
+    "tags": ["arcade", "hub", "dust", "abandoned"],
+    "safe": true,
+    "secure": false,
+    "entities": [],
+    "connections": [
+      { "to": 0, "type": "other", "direction": "two-way" },
+      { "to": 4, "type": "door", "direction": "two-way" },
+      { "to": 5, "type": "other", "direction": "two-way" },
+      { "to": 9, "type": "other", "direction": "two-way" },
+      { "to": 10, "type": "other", "direction": "two-way" },
+      { "to": 12, "type": "other", "direction": "one-way" },
+      { "to": 19, "type": "other", "direction": "two-way" },
+      { "to": 40, "type": "other", "direction": "two-way" },
+      { "to": 50, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "A dusty abandoned arcade spanning miles whose broken cabinets act as interdimensional transit hubs between Backrooms levels.",
+    "atmosphere": "Desolate echoing arcade thick with dust and decay, vintage machines vandalized by age, a faint electrical hum in the silence.",
+    "tips": "Find a working cabinet and insert quarters to travel. Only ~1 in 1500 works. An arcade always appears when you arrive.",
+    "noData": false
+  },
+  {
+    "number": 26,
+    "title": "The SS Fun =)",
+    "survivalClass": 5,
+    "tags": ["partygoers", "entity-infestation", "no-clipping", "horror"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "partygoers", "presence": "omnipresent" },
+      { "id": "carnivorous-balloons", "presence": "common" },
+      { "id": "facelings", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 4, "type": "noclip", "direction": "one-way" },
+      { "to": 10, "type": "noclip", "direction": "two-way" }
+    ],
+    "shortDescription": "A corrupted cruise ship — Partygoer headquarters — that randomly no-clips between levels, its infinite interior full of party horrors.",
+    "atmosphere": "A grotesque unending celebration laced with danger: party rooms below contaminated decks, screams echoing through shifting corridors.",
+    "tips": "Avoid all party paraphernalia. Touch a reversed, unfocused poster to escape. Never board willingly — the ship reappears unpredictably.",
+    "noData": false
+  },
+  {
+    "number": 27,
+    "title": "The Bunker Springs",
+    "survivalClass": 0,
+    "tags": ["hot-spring", "peaceful", "healing", "hidden-secret"],
+    "safe": true,
+    "secure": true,
+    "entities": [],
+    "connections": [
+      { "to": 11, "type": "other", "direction": "two-way" },
+      { "to": 28, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A small cave with a mineral-rich hot spring that soothes and heals wanderers — while hiding a darker secret further in.",
+    "atmosphere": "Serene and therapeutic at first, concealing an unsettling truth about the level's true nature and its edges.",
+    "tips": "Bathe 1–2 hours at most for the benefits. Avoid the second waterfall tunnel. Respect others and leave promptly.",
+    "noData": false
+  },
+  {
+    "number": 28,
+    "title": "Final Virtue",
+    "survivalClass": 2,
+    "tags": ["tar-corruption", "lightning", "medieval-castle", "abyss-entity"],
+    "safe": true,
+    "secure": true,
+    "entities": [
+      { "id": "blue-knight", "presence": "frequent" }
+    ],
+    "connections": [
+      { "to": 4, "type": "noclip", "direction": "one-way" },
+      { "to": 5, "type": "noclip", "direction": "two-way" },
+      { "to": 14, "type": "other", "direction": "one-way" },
+      { "to": 41, "type": "other", "direction": "one-way" },
+      { "to": 73, "type": "other", "direction": "one-way" },
+      { "to": 82, "type": "other", "direction": "one-way" },
+      { "to": 88, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "Windswept grasslands under permanent overcast around a medieval castle, where a sentient black tar slowly creeps in from the mountains.",
+    "atmosphere": "Melancholic and desolate; a blue glow lights empty fields where a lone armored figure holds back an advancing darkness.",
+    "tips": "Avoid the tar-like abyss at all costs. The Blue Knight is friendly but clingy. Lightning strikes hourly in predictable zones.",
+    "noData": false
+  },
+  {
+    "number": 29,
+    "title": "Hyperian",
+    "survivalClass": 4,
+    "tags": ["island", "ocean-hazard", "leviathan", "civilization"],
+    "safe": false,
+    "secure": true,
+    "entities": [
+      { "id": "kraken", "presence": "omnipresent" },
+      { "id": "sea-entities", "presence": "frequent" },
+      { "id": "humanoid-creatures", "presence": "common" }
+    ],
+    "connections": [
+      { "to": 7, "type": "noclip", "direction": "two-way" },
+      { "to": 25, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "A vast island civilization of 25,000 across 250 societies, ringed by mountains and anomalous oceans full of dangerous entities.",
+    "atmosphere": "An island sanctuary of thriving settlements and strange flora, offset by deadly seas and an ancient sleeping leviathan.",
+    "tips": "Arrive via the dockyards and befriend settlement reps. Never travel the ocean — the waters and the Kraken make escape near-impossible.",
+    "noData": false
+  },
+  {
+    "number": 30,
+    "title": "Shifted Beyond Reality",
+    "survivalClass": null,
+    "tags": ["memory-altering", "reality-distortion", "floating-islands", "deceptive"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "memory-lurkers", "presence": "frequent" },
+      { "id": "smilers", "presence": "occasional" },
+      { "id": "wormlings", "presence": "occasional" }
+    ],
+    "connections": [],
+    "shortDescription": "A reality-warping skybox of floating islands where Memory Lurkers bend perception and cognition, trapping wanderers in false sensations.",
+    "atmosphere": "Perpetual daylight with dreamlike distortion; everything feels artificial and flat, steeped in a constant sense of unreality.",
+    "tips": "Avoid Memory Lurkers — their touch corrupts the mind and fakes safety. Trust your original memories and question what you perceive.",
+    "noData": true
+  }
+]

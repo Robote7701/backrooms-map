@@ -1,0 +1,69 @@
+{
+  "id": "level-37",
+  "slug": "level-37",
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": [
+      "aquatic",
+      "peaceful",
+      "ceramic",
+      "isolating"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": true,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [
+    {
+      "to": "level-25",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-43",
+      "type": "escalier",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 37 — Sublimity",
+      "shortDescription": "A vast submerged complex of white ceramic rooms flooded with relaxing salt water, its surreal architecture serving no clear purpose.",
+      "atmosphere": "Serene yet unsettling calm over crystalline pools under perfect light; strange geometry and altered acoustics undercut the peace.",
+      "tips": "Appears entirely entity-free and restful. Avoid the deep pits and dark tunnels; the Epsom-salt water relaxes but long immersion is untested."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-37-thumb.webp",
+    "banner": "/images/levels/level-37-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-37",
+    "fr": "https://backrooms-wiki.wikidot.com/level-37"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

@@ -7,9 +7,9 @@
     "scale": 5,
     "tags": [
       "agricultural",
-      "low-threat",
+      "worms",
       "water-safe",
-      "worm-infested"
+      "low-threat"
     ]
   },
   "survival": {
@@ -27,11 +27,31 @@
   "connections": [
     {
       "to": "level-9",
-      "type": "noclip",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-11",
+      "type": "autre",
       "direction": "bidirectional",
       "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-25",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
       },
       "reliability": "inconnue"
     }
@@ -39,9 +59,9 @@
   "i18n": {
     "en": {
       "name": "Level 10 — Bumper Crop",
-      "shortDescription": "Endless wheat and barley fields under a permanent overcast sky, dotted with empty farm buildings and worm-riddled soil.",
-      "atmosphere": "Dreary unchanging daylight with drifting rain and fog over cultivated fields, blurring any sense of passing time.",
-      "tips": "Never dig deeper than a meter or the worms surface. Follow the dirt roads to find exits. Eat the wheat only sparingly."
+      "shortDescription": "Endless wheat and barley fields under an overcast sky, dotted with empty structures and lakes, with worms burrowing beneath the soil.",
+      "atmosphere": "Dreary, unchanging pastoral expanse under permanent overcast, calm but for underlying mysteries beneath the fields.",
+      "tips": "Follow the roads toward Level 11. Gather supplies from empty structures. Dig with caution — the worms surface fast."
     }
   },
   "media": {

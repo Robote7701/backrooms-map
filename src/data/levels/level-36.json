@@ -1,28 +1,27 @@
 {
-  "id": "level-6",
-  "slug": "level-6",
-  "class": "instable",
+  "id": "level-36",
+  "slug": "level-36",
+  "class": "habitable",
   "danger": {
-    "level": 3,
+    "level": 2,
     "scale": 5,
     "tags": [
-      "darkness",
-      "isolation",
-      "silence",
-      "psychological",
-      "difficulte-estimee"
+      "time-dilation",
+      "non-euclidean",
+      "safe-hub",
+      "temporal-anomaly"
     ]
   },
   "survival": {
-    "safe": false,
-    "secure": false,
+    "safe": true,
+    "secure": true,
     "entityCount": "aucune"
   },
   "entities": [],
   "connections": [
     {
-      "to": "level-5",
-      "type": "porte",
+      "to": "level-9",
+      "type": "noclip",
       "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -31,8 +30,8 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-4",
-      "type": "porte",
+      "to": "level-11",
+      "type": "noclip",
       "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -41,9 +40,9 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-7",
-      "type": "escalier",
-      "direction": "one-way",
+      "to": "level-20",
+      "type": "porte",
+      "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
@@ -53,19 +52,19 @@
   ],
   "i18n": {
     "en": {
-      "name": "Level 6 — Lights Out",
-      "shortDescription": "A completely dark level of seamless concrete hallways where light sources fail and sound is absent, causing severe psychological distress.",
-      "atmosphere": "Total darkness, absolute silence and deep isolation breed paranoia; auditory hallucinations come with prolonged exposure.",
-      "tips": "Navigate by touch. Listen for faint waves to find the Level 7 exit. Never flip a discovered light switch."
+      "name": "Level 36 — Timeless Airport",
+      "shortDescription": "A vast non-Euclidean airport of 26 terminals with flights to nearly every level; severe time dilation makes every wait feel eternal.",
+      "atmosphere": "Sterile timeless terminals under fluorescent light: endless corridors, shops and gate lounges warped by disorienting geometry.",
+      "tips": "Follow signage carefully through the non-Euclidean areas; empty signs mean dead ends. Ask the Backrooms Travel Agency at check-in for routes."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-6-thumb.webp",
-    "banner": "/images/levels/level-6-banner.webp"
+    "thumbnail": "/images/levels/level-36-thumb.webp",
+    "banner": "/images/levels/level-36-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-6",
-    "fr": "https://backrooms-wiki.wikidot.com/level-6"
+    "en": "https://backrooms-wiki.wikidot.com/level-36",
+    "fr": "https://backrooms-wiki.wikidot.com/level-36"
   },
   "layers": {
     "danger": true,

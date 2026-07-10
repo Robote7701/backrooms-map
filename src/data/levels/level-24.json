@@ -1,0 +1,59 @@
+{
+  "id": "level-24",
+  "slug": "level-24",
+  "class": "habitable",
+  "danger": {
+    "level": 2,
+    "scale": 5,
+    "tags": [
+      "toxic-paint",
+      "mining",
+      "dust-storms",
+      "extreme-heat"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": true,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "moon-mites",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "beauford",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [],
+  "i18n": {
+    "en": {
+      "name": "Level 24 — The Moon",
+      "shortDescription": "A giant plastic scale model of the solar system set in a Victorian study; only the Moon's surface, coated in toxic lead paint, is reachable.",
+      "atmosphere": "A vast barren expanse of grey lead paint on a plastic moon, swept by toxic mists and sandstorms, an immense humanoid sometimes crossing it.",
+      "tips": "Stay clear of weather events. Limit exposure to paint dust and fumes. Follow PlasticWorks miners for safe exit routes."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-24-thumb.webp",
+    "banner": "/images/levels/level-24-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-24",
+    "fr": "https://backrooms-wiki.wikidot.com/level-24"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

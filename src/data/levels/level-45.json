@@ -1,0 +1,59 @@
+{
+  "id": "level-45",
+  "slug": "level-45",
+  "class": "habitable",
+  "danger": {
+    "level": 2,
+    "scale": 5,
+    "tags": [
+      "void",
+      "floating-structures",
+      "entity-infested",
+      "research-outpost"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": true,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "deathmoths",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "curabitur-bird",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [],
+  "i18n": {
+    "en": {
+      "name": "Level 45 — Abyss Inc.",
+      "shortDescription": "An inky void holding 33 weightless skyscrapers arranged around a central Empire State replica — HQ of the Backrooms Research Consortium.",
+      "atmosphere": "An otherworldly expanse of floating office towers in absolute darkness, lit by bioluminescent creatures and the glow of live buildings.",
+      "tips": "All furnishings are non-functional Styrofoam. Fire escapes link the buildings. Avoid the outer towers — frequent blackouts and dense entities."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-45-thumb.webp",
+    "banner": "/images/levels/level-45-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-45",
+    "fr": "https://backrooms-wiki.wikidot.com/level-45"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "level-30",
+  "slug": "level-30",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "memory-altering",
+      "reality-distortion",
+      "floating-islands",
+      "deceptive",
+      "difficulte-estimee"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "moyen"
+  },
+  "entities": [
+    {
+      "id": "memory-lurkers",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "smilers",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "wormlings",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [],
+  "i18n": {
+    "en": {
+      "name": "Level 30 — Shifted Beyond Reality",
+      "shortDescription": "A reality-warping skybox of floating islands where Memory Lurkers bend perception and cognition, trapping wanderers in false sensations.",
+      "atmosphere": "Perpetual daylight with dreamlike distortion; everything feels artificial and flat, steeped in a constant sense of unreality.",
+      "tips": "Avoid Memory Lurkers — their touch corrupts the mind and fakes safety. Trust your original memories and question what you perceive."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-30-thumb.webp",
+    "banner": "/images/levels/level-30-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-30",
+    "fr": "https://backrooms-wiki.wikidot.com/level-30"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "stub",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

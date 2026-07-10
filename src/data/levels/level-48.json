@@ -1,82 +1,26 @@
 {
-  "id": "level-1",
-  "slug": "level-1",
+  "id": "level-48",
+  "slug": "level-48",
   "class": "habitable",
   "danger": {
     "level": 2,
     "scale": 5,
     "tags": [
-      "non-euclidean-geometry",
-      "flickering-blackouts",
-      "hostile-entities",
-      "resource-crates"
+      "habitable",
+      "tropical",
+      "eternal-sunset",
+      "safe-haven"
     ]
   },
   "survival": {
     "safe": true,
     "secure": true,
-    "entityCount": "eleve"
+    "entityCount": "aucune"
   },
-  "entities": [
-    {
-      "id": "smilers",
-      "presence": "frequent",
-      "zones": []
-    },
-    {
-      "id": "dullers",
-      "presence": "common",
-      "zones": []
-    },
-    {
-      "id": "skin-stealer",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
-      "id": "hounds",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
-      "id": "wretches",
-      "presence": "occasional",
-      "zones": []
-    }
-  ],
+  "entities": [],
   "connections": [
     {
-      "to": "level-0",
-      "type": "noclip",
-      "direction": "bidirectional",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-2",
-      "type": "autre",
-      "direction": "one-way",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-19",
-      "type": "autre",
-      "direction": "one-way",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-22",
+      "to": "level-10",
       "type": "porte",
       "direction": "one-way",
       "method": {
@@ -86,7 +30,37 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-38",
+      "to": "level-11",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-21",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-46",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-49",
       "type": "autre",
       "direction": "one-way",
       "method": {
@@ -98,19 +72,19 @@
   ],
   "i18n": {
     "en": {
-      "name": "Level 1 — Habitable Zone",
-      "shortDescription": "A vast warehouse-like level of concrete pillars and non-Euclidean geometry, home to survivor settlements offering food, shelter and guidance.",
-      "atmosphere": "Industrial and liminal; flickering lights bring dangerous blackouts. Habitable despite roaming entities and deceptive distances.",
-      "tips": "Navigate by fixed landmarks. Cross corridors during flickering events. Loot crates for Almond Water. Seek established bases."
+      "name": "Level 48 — The Sunset Beach",
+      "shortDescription": "An infinite sandy beach in eternal sunset with a tropical forest, edible plants and luxury lodging, home to docile fauna and farming communities.",
+      "atmosphere": "A serene tropical paradise frozen at golden hour: warm, threat-free and abundant — remarkably peaceful for weary wanderers.",
+      "tips": "Forage Veroka Fruits (vitamins and lithium) in the forest. Trade with the Veroka Farmers. Never play dead on the beaches."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-1-thumb.webp",
-    "banner": "/images/levels/level-1-banner.webp"
+    "thumbnail": "/images/levels/level-48-thumb.webp",
+    "banner": "/images/levels/level-48-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-1",
-    "fr": "https://backrooms-wiki.wikidot.com/level-1"
+    "en": "https://backrooms-wiki.wikidot.com/level-48",
+    "fr": "https://backrooms-wiki.wikidot.com/level-48"
   },
   "layers": {
     "danger": true,

@@ -104,6 +104,15 @@ export const baseStylesheet = [
     },
   },
   {
+    // Autre (portail, ascenseur, trou, mécanisme non classé).
+    selector: 'edge.autre',
+    style: {
+      'line-color': '#6b7280',
+      'target-arrow-color': '#6b7280',
+      'source-arrow-color': '#6b7280',
+    },
+  },
+  {
     // Edge relié au nœud survolé/sélectionné : mis en avant.
     selector: 'edge.highlighted',
     style: {

@@ -1,0 +1,221 @@
+[
+  {
+    "number": 41,
+    "title": "The Black Lake",
+    "survivalClass": 0,
+    "tags": ["tar-pit", "extreme-heat", "toxic-fumes", "hostile-entities"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "collagen-leviathans", "presence": "rare" }
+    ],
+    "connections": [
+      { "to": 5, "type": "other", "direction": "one-way" },
+      { "to": 6, "type": "other", "direction": "one-way" },
+      { "to": 7, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A vast boiling tar pit wrapped in toxic fumes, dotted with scorching islands and sinking wooden platforms that make for perilous crossings.",
+    "atmosphere": "An oppressive haze over a charcoal landscape; bubbling tar coughs up choking fumes while skeletal things hunt from below.",
+    "tips": "Never touch the tar. Cross via the islands and platforms. Watch for sudden eruptions and don't chase the unreachable dunes beyond.",
+    "noData": false
+  },
+  {
+    "number": 42,
+    "title": "(page unavailable)",
+    "survivalClass": null,
+    "tags": ["source-missing"],
+    "safe": false,
+    "secure": false,
+    "entities": [],
+    "connections": [],
+    "shortDescription": "Source page returned HTTP 404 at fetch time; kept as a stub so cross-references resolve. Data to be filled on a re-fetch.",
+    "atmosphere": "",
+    "tips": "",
+    "noData": true
+  },
+  {
+    "number": 43,
+    "title": "Water World",
+    "survivalClass": 3,
+    "tags": ["aquatic", "abandoned-park", "flooded", "hostile-entities"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "the-fish-creature", "presence": "omnipresent" },
+      { "id": "smilers", "presence": "occasional" },
+      { "id": "death-rats", "presence": "rare" },
+      { "id": "facelings", "presence": "rare" },
+      { "id": "skin-stealers", "presence": "rare" }
+    ],
+    "connections": [
+      { "to": 2, "type": "door", "direction": "one-way" },
+      { "to": 4, "type": "door", "direction": "one-way" },
+      { "to": 7, "type": "other", "direction": "one-way" },
+      { "to": 9, "type": "other", "direction": "one-way" },
+      { "to": 11, "type": "other", "direction": "one-way" },
+      { "to": 33, "type": "other", "direction": "one-way" },
+      { "to": 34, "type": "other", "direction": "one-way" },
+      { "to": 40, "type": "other", "direction": "one-way" },
+      { "to": 54, "type": "door", "direction": "one-way" },
+      { "to": 58, "type": "other", "direction": "one-way" },
+      { "to": 62, "type": "other", "direction": "one-way" },
+      { "to": 65, "type": "stairs", "direction": "one-way" },
+      { "to": 72, "type": "other", "direction": "one-way" },
+      { "to": 85, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "An abandoned aquatic theme park of four linked zones, ending in a flooded final area where aquatic creatures roam free.",
+    "atmosphere": "An eerily quiet park still humming with machinery, choked with fog and disembodied announcements as dread mounts with depth.",
+    "tips": "Don't trigger the corrupted video in the staff halls. Come equipped for hostile entities. Leave at once if you reach the flooded final zone.",
+    "noData": false
+  },
+  {
+    "number": 44,
+    "title": "Corroding Retail Outlet",
+    "survivalClass": 3,
+    "tags": ["corrosive-liquid", "non-euclidean", "entity-hazard", "reality-breach"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "wranglers", "presence": "rare" },
+      { "id": "outlined-statuette", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 0, "type": "door", "direction": "one-way" },
+      { "to": 9, "type": "door", "direction": "one-way" },
+      { "to": 11, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "An abandoned retail space with non-Euclidean geometry, creeping corrosive liquid, and windows showing Frontrooms imagery.",
+    "atmosphere": "Empty desolate retail under partial light, dark corners and moans from above, thick with anxiety and architectural impossibility.",
+    "tips": "Don't explore long — stay near the entrance. Avoid the dark. Beware the fast-spreading corrosive fluid and the silhouette entity.",
+    "noData": false
+  },
+  {
+    "number": 45,
+    "title": "Abyss Inc.",
+    "survivalClass": 1,
+    "tags": ["void", "floating-structures", "entity-infested", "research-outpost"],
+    "safe": true,
+    "secure": true,
+    "entities": [
+      { "id": "deathmoths", "presence": "frequent" },
+      { "id": "curabitur-bird", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 90, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "An inky void holding 33 weightless skyscrapers arranged around a central Empire State replica — HQ of the Backrooms Research Consortium.",
+    "atmosphere": "An otherworldly expanse of floating office towers in absolute darkness, lit by bioluminescent creatures and the glow of live buildings.",
+    "tips": "All furnishings are non-functional Styrofoam. Fire escapes link the buildings. Avoid the outer towers — frequent blackouts and dense entities.",
+    "noData": false
+  },
+  {
+    "number": 46,
+    "title": "Arabian Desert",
+    "survivalClass": 3,
+    "tags": ["extreme-temperatures", "sandstorms", "ruins", "hostile-entities"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "sand-spirits", "presence": "frequent" }
+    ],
+    "connections": [
+      { "to": 0, "type": "door", "direction": "one-way" },
+      { "to": 1, "type": "door", "direction": "one-way" },
+      { "to": 4, "type": "door", "direction": "one-way" },
+      { "to": 21, "type": "door", "direction": "one-way" },
+      { "to": 80, "type": "other", "direction": "one-way" },
+      { "to": 85, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A vast desert of scorching days and freezing nights, scattered with ancient ruins and prowled by hostile sand spirits.",
+    "atmosphere": "Desolate and harsh, with violent climate swings and sandstorms that draw hostile entities out of the dunes.",
+    "tips": "Shelter in ruins during temperature extremes. Avoid sandstorms or stay near oases. Carry water to fend off sand spirits.",
+    "noData": false
+  },
+  {
+    "number": 47,
+    "title": "The Adderwood",
+    "survivalClass": 3,
+    "tags": ["forest", "anomalous-wildlife", "reality-distortion", "nocturnal-threats"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "great-old-adder", "presence": "omnipresent" },
+      { "id": "black-shucks", "presence": "frequent" },
+      { "id": "irish-elk", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 46, "type": "noclip", "direction": "two-way" },
+      { "to": 48, "type": "noclip", "direction": "two-way" }
+    ],
+    "shortDescription": "An ancient primeval forest of non-Euclidean topology, guarded by a colossal serpent that punishes harm to snakes, roamed by predatory canids.",
+    "atmosphere": "Foggy by day beneath towering old trees; clear starlit nights under an oversized moon; reality shifts when unobserved.",
+    "tips": "Never harm a snake or the Great Adder hunts you. Climb trees at night to escape Black Shucks. Dead tree hollows are no-clip exits.",
+    "noData": false
+  },
+  {
+    "number": 48,
+    "title": "The Sunset Beach",
+    "survivalClass": 1,
+    "tags": ["habitable", "tropical", "eternal-sunset", "safe-haven"],
+    "safe": true,
+    "secure": true,
+    "entities": [],
+    "connections": [
+      { "to": 10, "type": "door", "direction": "one-way" },
+      { "to": 11, "type": "other", "direction": "one-way" },
+      { "to": 21, "type": "door", "direction": "one-way" },
+      { "to": 46, "type": "noclip", "direction": "one-way" },
+      { "to": 49, "type": "other", "direction": "one-way" },
+      { "to": 85, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "An infinite sandy beach in eternal sunset with a tropical forest, edible plants and luxury lodging, home to docile fauna and farming communities.",
+    "atmosphere": "A serene tropical paradise frozen at golden hour: warm, threat-free and abundant — remarkably peaceful for weary wanderers.",
+    "tips": "Forage Veroka Fruits (vitamins and lithium) in the forest. Trade with the Veroka Farmers. Never play dead on the beaches.",
+    "noData": false
+  },
+  {
+    "number": 49,
+    "title": "The Unfilled River of Phlegethon",
+    "survivalClass": 4,
+    "tags": ["warfare", "hostile-machines", "trench-system", "extreme-danger"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "trenchcleaners", "presence": "frequent" }
+    ],
+    "connections": [
+      { "to": 3, "type": "noclip", "direction": "one-way" },
+      { "to": 7, "type": "other", "direction": "one-way" },
+      { "to": 11, "type": "noclip", "direction": "one-way" },
+      { "to": 14, "type": "door", "direction": "two-way" },
+      { "to": 35, "type": "noclip", "direction": "one-way" },
+      { "to": 48, "type": "other", "direction": "one-way" },
+      { "to": 50, "type": "door", "direction": "two-way" },
+      { "to": 65, "type": "door", "direction": "two-way" }
+    ],
+    "shortDescription": "An infinite WWI-style trench network where automated war machines patrol and unseen forces fatally punish any attempt to escape.",
+    "atmosphere": "A desolate warzone of ceaseless gunfire, dense fog and floods, with mechanical horrors hunting through the mud-filled trenches.",
+    "tips": "Hide in bunkers during bombardments. Move quietly in groups. Avoid armor that escalates the machines. Never try to leave.",
+    "noData": false
+  },
+  {
+    "number": 50,
+    "title": "The Moribund Highway",
+    "survivalClass": 3,
+    "tags": ["desert-highway", "isolation", "mysterious-humans", "vehicles"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "roaming-humans", "presence": "rare" }
+    ],
+    "connections": [
+      { "to": 25, "type": "other", "direction": "one-way" },
+      { "to": 35, "type": "noclip", "direction": "one-way" },
+      { "to": 69, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "An infinite desert highway of paused vehicles and eerie silence, roamed by mysterious humans whose intentions stay unknown.",
+    "atmosphere": "A silent desolate desert with frozen traffic; extreme heat and the psychological strain of isolation and uneasy human encounters.",
+    "tips": "Avoid the roaming humans. Mobile homes make safe shelter. Loot vehicles for supplies but don't stay inside. Bring almond water.",
+    "noData": true
+  }
+]

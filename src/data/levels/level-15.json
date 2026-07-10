@@ -1,0 +1,65 @@
+{
+  "id": "level-15",
+  "slug": "level-15",
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": [
+      "industrial",
+      "machinery",
+      "isolated",
+      "mysterious"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": false,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "hounds",
+      "presence": "rare",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-10",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 15 — Futuristic Halls",
+      "shortDescription": "A vast industrial complex of futuristic hallways full of strange machinery, abandoned laboratories and corpses in lab coats.",
+      "atmosphere": "Eerie desolate facility, engine sounds echoing through white concrete corridors under unsettling artificial light.",
+      "tips": "Explore cautiously and avoid the mysterious doorframe in the empty engine room. Watch your mental health on long stays."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-15-thumb.webp",
+    "banner": "/images/levels/level-15-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-15",
+    "fr": "https://backrooms-wiki.wikidot.com/level-15"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

@@ -8,38 +8,38 @@
     "tags": [
       "hotel",
       "deathmoths",
-      "phantom-presence",
+      "paranormal",
       "nostalgic-horror"
     ]
   },
   "survival": {
-    "safe": false,
-    "secure": false,
+    "safe": true,
+    "secure": true,
     "entityCount": "eleve"
   },
   "entities": [
     {
-      "id": "entity-4",
-      "presence": "common",
+      "id": "deathmoths",
+      "presence": "frequent",
       "zones": []
     },
     {
-      "id": "entity-8",
+      "id": "hounds",
       "presence": "occasional",
       "zones": []
     },
     {
-      "id": "entity-10",
-      "presence": "occasional",
+      "id": "woodlins",
+      "presence": "rare",
       "zones": []
     },
     {
-      "id": "entity-26",
-      "presence": "occasional",
+      "id": "skin-stealers",
+      "presence": "rare",
       "zones": []
     },
     {
-      "id": "entity-38",
+      "id": "watchers",
       "presence": "occasional",
       "zones": []
     }
@@ -47,51 +47,61 @@
   "connections": [
     {
       "to": "level-3",
-      "type": "noclip",
+      "type": "porte",
       "direction": "bidirectional",
       "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
       },
       "reliability": "inconnue"
     },
     {
       "to": "level-4",
-      "type": "noclip",
+      "type": "escalier",
       "direction": "bidirectional",
       "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
       },
       "reliability": "inconnue"
     },
     {
       "to": "level-6",
-      "type": "noclip",
-      "direction": "bidirectional",
+      "type": "autre",
+      "direction": "one-way",
       "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
       },
       "reliability": "inconnue"
     },
     {
       "to": "level-9",
-      "type": "noclip",
-      "direction": "bidirectional",
+      "type": "porte",
+      "direction": "one-way",
       "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
       },
       "reliability": "inconnue"
     },
     {
-      "to": "level-10",
-      "type": "noclip",
-      "direction": "bidirectional",
+      "to": "level-25",
+      "type": "autre",
+      "direction": "one-way",
       "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-40",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
       },
       "reliability": "inconnue"
     }
@@ -99,9 +109,9 @@
   "i18n": {
     "en": {
       "name": "Level 5 — Terror Hotel",
-      "shortDescription": "An infinite 1930s hotel of mahogany halls and self-cleaning vintage rooms, haunted by whispers and clouds of deadly insects.",
-      "atmosphere": "Pristine early-20th-century luxury turned unsettling: random smooth jazz, watching portraits, phantom taps in empty halls.",
-      "tips": "Avoid dark rooms where insects nest. Stay in furnished areas. Never use maintenance elevators or go above floor 12."
+      "shortDescription": "An infinite 1930s hotel of pristine mahogany halls and mysterious rooms, populated by deathmoths and unsettling watching presences.",
+      "atmosphere": "Eerie elegance: vintage décor, ambient jazz, self-cleaning surfaces, strange whispers and a constant sense of being watched.",
+      "tips": "Stay with communities like the Homely Hotel. Avoid elevators past floor 12 and dark deathmoth rooms. Carry good meat for Samantha."
     }
   },
   "media": {

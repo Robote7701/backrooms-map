@@ -1,54 +1,28 @@
 {
-  "id": "level-1",
-  "slug": "level-1",
-  "class": "habitable",
+  "id": "level-19",
+  "slug": "level-19",
+  "class": "instable",
   "danger": {
-    "level": 2,
+    "level": 3,
     "scale": 5,
     "tags": [
-      "non-euclidean-geometry",
-      "flickering-blackouts",
-      "hostile-entities",
-      "resource-crates"
+      "decay-effect",
+      "memory-alteration",
+      "hazardous-glow",
+      "cluttered"
     ]
   },
   "survival": {
-    "safe": true,
-    "secure": true,
-    "entityCount": "eleve"
+    "safe": false,
+    "secure": false,
+    "entityCount": "aucune"
   },
-  "entities": [
-    {
-      "id": "smilers",
-      "presence": "frequent",
-      "zones": []
-    },
-    {
-      "id": "dullers",
-      "presence": "common",
-      "zones": []
-    },
-    {
-      "id": "skin-stealer",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
-      "id": "hounds",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
-      "id": "wretches",
-      "presence": "occasional",
-      "zones": []
-    }
-  ],
+  "entities": [],
   "connections": [
     {
-      "to": "level-0",
+      "to": "level-1",
       "type": "noclip",
-      "direction": "bidirectional",
+      "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
@@ -56,7 +30,27 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-2",
+      "to": "level-5",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-12",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-18",
       "type": "autre",
       "direction": "one-way",
       "method": {
@@ -66,17 +60,7 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-19",
-      "type": "autre",
-      "direction": "one-way",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-22",
+      "to": "level-20",
       "type": "porte",
       "direction": "one-way",
       "method": {
@@ -94,23 +78,33 @@
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
       },
       "reliability": "inconnue"
+    },
+    {
+      "to": "level-40",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
     }
   ],
   "i18n": {
     "en": {
-      "name": "Level 1 — Habitable Zone",
-      "shortDescription": "A vast warehouse-like level of concrete pillars and non-Euclidean geometry, home to survivor settlements offering food, shelter and guidance.",
-      "atmosphere": "Industrial and liminal; flickering lights bring dangerous blackouts. Habitable despite roaming entities and deceptive distances.",
-      "tips": "Navigate by fixed landmarks. Cross corridors during flickering events. Loot crates for Almond Water. Seek established bases."
+      "name": "Level 19 — Attic Floorboards",
+      "shortDescription": "A dilapidated attic of dusty furniture and boxes, with an alluring orange glow under the floorboards that alters memory and rots matter.",
+      "atmosphere": "Musty and oppressive clutter of vintage items; a warm inviting glow feigns comfort while eroding the mind.",
+      "tips": "Avoid prolonged exposure to the orange glow. Items decay fast once removed from containers. Expect hallucinations and memory loss."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-1-thumb.webp",
-    "banner": "/images/levels/level-1-banner.webp"
+    "thumbnail": "/images/levels/level-19-thumb.webp",
+    "banner": "/images/levels/level-19-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-1",
-    "fr": "https://backrooms-wiki.wikidot.com/level-1"
+    "en": "https://backrooms-wiki.wikidot.com/level-19",
+    "fr": "https://backrooms-wiki.wikidot.com/level-19"
   },
   "layers": {
     "danger": true,

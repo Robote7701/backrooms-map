@@ -4,7 +4,7 @@ import { getLevelText } from '../i18n/getLevelText'
 const COORD_SCALE = 150
 
 // Types de routes connus -> classe CSS Cytoscape (voir cytoscapeStyle.js).
-export const CONNECTION_TYPES = ['noclip', 'porte', 'escalier']
+export const CONNECTION_TYPES = ['noclip', 'porte', 'escalier', 'autre']
 
 /**
  * Transforme une liste de niveaux en éléments Cytoscape (nodes + edges).

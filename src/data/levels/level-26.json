@@ -1,0 +1,85 @@
+{
+  "id": "level-26",
+  "slug": "level-26",
+  "class": "mortel",
+  "danger": {
+    "level": 5,
+    "scale": 5,
+    "tags": [
+      "partygoers",
+      "entity-infestation",
+      "no-clipping",
+      "horror"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "moyen"
+  },
+  "entities": [
+    {
+      "id": "partygoers",
+      "presence": "omnipresent",
+      "zones": []
+    },
+    {
+      "id": "carnivorous-balloons",
+      "presence": "common",
+      "zones": []
+    },
+    {
+      "id": "facelings",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-4",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-10",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 26 — The SS Fun =)",
+      "shortDescription": "A corrupted cruise ship — Partygoer headquarters — that randomly no-clips between levels, its infinite interior full of party horrors.",
+      "atmosphere": "A grotesque unending celebration laced with danger: party rooms below contaminated decks, screams echoing through shifting corridors.",
+      "tips": "Avoid all party paraphernalia. Touch a reversed, unfocused poster to escape. Never board willingly — the ship reappears unpredictably."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-26-thumb.webp",
+    "banner": "/images/levels/level-26-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-26",
+    "fr": "https://backrooms-wiki.wikidot.com/level-26"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

@@ -1,0 +1,213 @@
+[
+  {
+    "number": 11,
+    "title": "The City That Never Sleeps",
+    "survivalClass": 2,
+    "tags": ["urban", "hub", "self-sufficient", "fluid-architecture"],
+    "safe": true,
+    "secure": false,
+    "entities": [
+      { "id": "facelings", "presence": "common" },
+      { "id": "hounds", "presence": "common" },
+      { "id": "lucky-cranes", "presence": "rare" },
+      { "id": "living-pizzas", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 6, "type": "door", "direction": "two-way" },
+      { "to": 9, "type": "other", "direction": "one-way" },
+      { "to": 10, "type": "other", "direction": "one-way" },
+      { "to": 12, "type": "noclip", "direction": "one-way" },
+      { "to": 33, "type": "door", "direction": "two-way" },
+      { "to": 40, "type": "door", "direction": "one-way" },
+      { "to": 55, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "An empty metropolis that serves as the Backrooms' main hub: self-sustaining infrastructure, many faction settlements and countless exits.",
+    "atmosphere": "Sprawling urban emptiness of working buildings, zones bleeding into one another, oddly pacifying to hostile entities.",
+    "tips": "Mark safe routes with paint. Avoid unmapped areas near exits. Seek work for housing in the Capital and ask locals for directions.",
+    "noData": false
+  },
+  {
+    "number": 12,
+    "title": "Matrix",
+    "survivalClass": 0,
+    "tags": ["censorship", "memory-loss", "white-void", "furniture"],
+    "safe": true,
+    "secure": false,
+    "entities": [],
+    "connections": [
+      { "to": 1, "type": "door", "direction": "two-way" },
+      { "to": 4, "type": "door", "direction": "two-way" },
+      { "to": 10, "type": "door", "direction": "two-way" },
+      { "to": 19, "type": "door", "direction": "two-way" },
+      { "to": 25, "type": "door", "direction": "two-way" },
+      { "to": 34, "type": "door", "direction": "two-way" },
+      { "to": 11, "type": "noclip", "direction": "one-way" }
+    ],
+    "shortDescription": "A self-censoring level that blurs all recordings. A single furnished room expands into an infinite white void scattered with furniture.",
+    "atmosphere": "Stark white emptiness that fogs the mind and erodes memory; peaceful yet disorienting, reality fraying with distance from the center.",
+    "tips": "Sit in the original chair ~15 min, try the locked door, enter the copycat door, return, wait exactly one hour, then try the door again.",
+    "noData": false
+  },
+  {
+    "number": 13,
+    "title": "The Boiling Frogs",
+    "survivalClass": 2,
+    "tags": ["residential", "lethargy", "psychological", "disappearances"],
+    "safe": true,
+    "secure": true,
+    "entities": [],
+    "connections": [
+      { "to": 0, "type": "door", "direction": "two-way" },
+      { "to": 2, "type": "stairs", "direction": "two-way" },
+      { "to": 12, "type": "door", "direction": "two-way" },
+      { "to": 14, "type": "door", "direction": "one-way" },
+      { "to": 21, "type": "other", "direction": "one-way" },
+      { "to": 62, "type": "door", "direction": "two-way" },
+      { "to": 70, "type": "stairs", "direction": "one-way" }
+    ],
+    "shortDescription": "A 290-floor apartment complex of bland halls and identical furnished rooms that quietly nudges long-term residents into lethargy and withdrawal.",
+    "atmosphere": "Monotonous, suffocating comfort; dim endless hallways and apartments giving just enough to make leaving psychologically hard.",
+    "tips": "Keep social ties and routines outside your room. The level's lethargy deepens isolation — seek work or a group to resist stagnation.",
+    "noData": false
+  },
+  {
+    "number": 14,
+    "title": "Paradise",
+    "survivalClass": 5,
+    "tags": ["psychic-hazard", "hive-mind", "mind-affecting", "entrapment"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "unknown-collective-entity", "presence": "omnipresent" }
+    ],
+    "connections": [
+      { "to": 13, "type": "other", "direction": "one-way" },
+      { "to": 15, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A dreamlike forest realm that lures wanderers into a collective consciousness, absorbing their minds and making escape all but impossible.",
+    "atmosphere": "Serene yet wrong: starlit skies, waterfalls and crimson grass masking a parasitic hive-mind that hungers to assimilate.",
+    "tips": "Do not read the wall inscriptions. Resist the peaceful pull urging you to surrender to the collective.",
+    "noData": false
+  },
+  {
+    "number": 15,
+    "title": "Futuristic Halls",
+    "survivalClass": 0,
+    "tags": ["industrial", "machinery", "isolated", "mysterious"],
+    "safe": true,
+    "secure": false,
+    "entities": [
+      { "id": "hounds", "presence": "rare" }
+    ],
+    "connections": [
+      { "to": 10, "type": "noclip", "direction": "one-way" }
+    ],
+    "shortDescription": "A vast industrial complex of futuristic hallways full of strange machinery, abandoned laboratories and corpses in lab coats.",
+    "atmosphere": "Eerie desolate facility, engine sounds echoing through white concrete corridors under unsettling artificial light.",
+    "tips": "Explore cautiously and avoid the mysterious doorframe in the empty engine room. Watch your mental health on long stays.",
+    "noData": false
+  },
+  {
+    "number": 16,
+    "title": "Altered Topography",
+    "survivalClass": null,
+    "tags": ["reality-shifting", "environmental-hazard", "arctic", "unstable"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "light-guides", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 75, "type": "noclip", "direction": "two-way" },
+      { "to": 46, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A level whose terrain rapidly transforms between ecosystems, currently a frozen arctic of luminous ice and unpredictable topography.",
+    "atmosphere": "Hazardous and unstable: an arctic landscape that reshapes without warning, threatening sudden geological and environmental shifts.",
+    "tips": "Never linger during an environmental shift. The exit moves with each transformation — don't get boxed in by changing terrain.",
+    "noData": false
+  },
+  {
+    "number": 17,
+    "title": "(page unavailable)",
+    "survivalClass": null,
+    "tags": ["source-missing"],
+    "safe": false,
+    "secure": false,
+    "entities": [],
+    "connections": [],
+    "shortDescription": "Source page returned HTTP 404 at fetch time; kept as a stub so cross-references resolve. Data to be filled on a re-fetch.",
+    "atmosphere": "",
+    "tips": "",
+    "noData": true
+  },
+  {
+    "number": 18,
+    "title": "Memories",
+    "survivalClass": 1,
+    "tags": ["nostalgia", "psychological", "safe", "wonder"],
+    "safe": true,
+    "secure": true,
+    "entities": [
+      { "id": "plush-dino", "presence": "rare" }
+    ],
+    "connections": [
+      { "to": 17, "type": "other", "direction": "one-way" },
+      { "to": 19, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "A personalized childhood-memory realm that manifests differently for each visitor, laced with whispering voices and nostalgic imagery.",
+    "atmosphere": "Emotionally evocative and introspective; recreates formative spaces with a melancholy that resurfaces forgotten memories.",
+    "tips": "No physical danger. Simply turn around and leave to reach Level 19. Following the Plush Dino can guide you, though slowly.",
+    "noData": false
+  },
+  {
+    "number": 19,
+    "title": "Attic Floorboards",
+    "survivalClass": 2,
+    "tags": ["decay-effect", "memory-alteration", "hazardous-glow", "cluttered"],
+    "safe": false,
+    "secure": false,
+    "entities": [],
+    "connections": [
+      { "to": 1, "type": "noclip", "direction": "one-way" },
+      { "to": 5, "type": "door", "direction": "one-way" },
+      { "to": 12, "type": "door", "direction": "one-way" },
+      { "to": 18, "type": "other", "direction": "one-way" },
+      { "to": 20, "type": "door", "direction": "one-way" },
+      { "to": 38, "type": "other", "direction": "one-way" },
+      { "to": 40, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A dilapidated attic of dusty furniture and boxes, with an alluring orange glow under the floorboards that alters memory and rots matter.",
+    "atmosphere": "Musty and oppressive clutter of vintage items; a warm inviting glow feigns comfort while eroding the mind.",
+    "tips": "Avoid prolonged exposure to the orange glow. Items decay fast once removed from containers. Expect hallucinations and memory loss.",
+    "noData": false
+  },
+  {
+    "number": 20,
+    "title": "Boreas Structure",
+    "survivalClass": 4,
+    "tags": ["cold", "paranoia", "entity-infested", "hazardous-games"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "deathmoths", "presence": "occasional" },
+      { "id": "clumps", "presence": "occasional" },
+      { "id": "hounds", "presence": "frequent" },
+      { "id": "facelings", "presence": "occasional" },
+      { "id": "skin-stealers", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 2, "type": "door", "direction": "two-way" },
+      { "to": 4, "type": "door", "direction": "one-way" },
+      { "to": 6, "type": "door", "direction": "one-way" },
+      { "to": 7, "type": "door", "direction": "one-way" },
+      { "to": 21, "type": "door", "direction": "two-way" },
+      { "to": 24, "type": "noclip", "direction": "one-way" },
+      { "to": 36, "type": "door", "direction": "one-way" },
+      { "to": 78, "type": "noclip", "direction": "one-way" }
+    ],
+    "shortDescription": "An amusement facility split into the Waiting Halls (lockers, vending) and the Electric (deadly game rooms), bitterly cold and paranoia-inducing.",
+    "atmosphere": "Eerie artificially-lit amusement palace sinking into darkness and extreme cold, with breathing/wind hallucinations and phantom snow.",
+    "tips": "Don't read expedition logs before entry. Use staff-only doors in the Waiting Halls to exit fast. Win games for supplies; losing teleports you.",
+    "noData": false
+  }
+]

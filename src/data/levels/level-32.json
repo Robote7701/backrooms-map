@@ -1,15 +1,15 @@
 {
-  "id": "level-7",
-  "slug": "level-7",
-  "class": "dangereux",
+  "id": "level-32",
+  "slug": "level-32",
+  "class": "mortel",
   "danger": {
     "level": 5,
     "scale": 5,
     "tags": [
-      "aquatic",
-      "deep-ocean",
-      "hostile-entities",
-      "extreme-pressure"
+      "skeletal-entities",
+      "dark-forest",
+      "reality-warping",
+      "soul-trade"
     ]
   },
   "survival": {
@@ -19,20 +19,20 @@
   },
   "entities": [
     {
-      "id": "thing-on-level-7",
+      "id": "the-belle",
       "presence": "frequent",
       "zones": []
     },
     {
-      "id": "tiny",
-      "presence": "frequent",
+      "id": "skeleton-queen",
+      "presence": "omnipresent",
       "zones": []
     }
   ],
   "connections": [
     {
-      "to": "level-6",
-      "type": "escalier",
+      "to": "level-31",
+      "type": "autre",
       "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -41,9 +41,9 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-8",
-      "type": "porte",
-      "direction": "one-way",
+      "to": "level-33",
+      "type": "autre",
+      "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
@@ -51,8 +51,8 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-9",
-      "type": "porte",
+      "to": "level-47",
+      "type": "noclip",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -63,19 +63,19 @@
   ],
   "i18n": {
     "en": {
-      "name": "Level 7 — Thalassophobia",
-      "shortDescription": "An impossibly vast ocean under dim light, split by depth into zones, holding two apex predators and countless humanoid skeletal remains.",
-      "atmosphere": "Claustrophobic despite open water; perpetual twilight, crushing depths and stray bioluminescence — desolate and isolating.",
-      "tips": "Use the entrance room as base camp. Exploit the Thing's light sensitivity and Tiny's poor hearing. Keep excursions short."
+      "name": "Level 32 — Forest of the Skeleton Queen",
+      "shortDescription": "An endless dark forest of hanging skeletons under a moonless sky, ruled by a skeletal queen who may grant wishes for the price of a soul.",
+      "atmosphere": "Perpetual night lit only by moonlight on bone and bark; haunting winds whisper through the remains — oppressive and sorrowful.",
+      "tips": "Show the Skeleton Queen respect; she may bargain rather than kill. Never chase The Belle unless ready for fatal consequences."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-7-thumb.webp",
-    "banner": "/images/levels/level-7-banner.webp"
+    "thumbnail": "/images/levels/level-32-thumb.webp",
+    "banner": "/images/levels/level-32-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-7",
-    "fr": "https://backrooms-wiki.wikidot.com/level-7"
+    "en": "https://backrooms-wiki.wikidot.com/level-32",
+    "fr": "https://backrooms-wiki.wikidot.com/level-32"
   },
   "layers": {
     "danger": true,

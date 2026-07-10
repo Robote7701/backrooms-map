@@ -8,8 +8,8 @@
     "tags": [
       "intelligent-entities",
       "electrical-hazards",
-      "indestructible-barriers",
-      "resource-abundant"
+      "resource-abundant",
+      "paranoia"
     ]
   },
   "survival": {
@@ -19,27 +19,27 @@
   },
   "entities": [
     {
-      "id": "hound",
+      "id": "hounds",
       "presence": "frequent",
       "zones": []
     },
     {
-      "id": "faceling",
+      "id": "facelings",
       "presence": "frequent",
       "zones": []
     },
     {
-      "id": "deathmoth",
+      "id": "deathmoths",
       "presence": "omnipresent",
       "zones": []
     },
     {
-      "id": "skin-stealer",
+      "id": "skin-stealers",
       "presence": "frequent",
       "zones": []
     },
     {
-      "id": "smiler",
+      "id": "smilers",
       "presence": "occasional",
       "zones": []
     }
@@ -50,28 +50,18 @@
       "type": "noclip",
       "direction": "bidirectional",
       "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
       },
       "reliability": "inconnue"
     },
     {
-      "to": "level-4",
-      "type": "noclip",
+      "to": "level-11",
+      "type": "porte",
       "direction": "bidirectional",
       "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-5",
-      "type": "noclip",
-      "direction": "bidirectional",
-      "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
       },
       "reliability": "inconnue"
     }
@@ -79,9 +69,9 @@
   "i18n": {
     "en": {
       "name": "Level 3 — Electrical Station",
-      "shortDescription": "A dangerous old electrical facility of brick corridors and machinery: resource-rich but defended by unusually intelligent entities.",
-      "atmosphere": "Dim brick passages, humming equipment and black pipes, alternating cramped tunnels and vast oppressive industrial halls.",
-      "tips": "Avoid dark paranoia-inducing corridors. Shelter in angel-statue sanctums. Never try to pass the indestructible bars."
+      "shortDescription": "An abandoned industrial complex, resource-rich but walled by indestructible barriers and hunted by unusually intelligent, coordinated entities.",
+      "atmosphere": "Dark brick halls of archaic electrical gear, humming machines and black liquid in the pipes; a pervasive sense of being hunted.",
+      "tips": "Never go alone. Reach Base Gamma. Don't stare at barred areas. Carry a flashlight and a light-bomb against entity brigades."
     }
   },
   "media": {

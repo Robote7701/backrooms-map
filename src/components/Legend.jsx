@@ -28,6 +28,9 @@ export default function Legend() {
                 <span className="route-swatch route-swatch--escalier" /> {t('legend.escalier')}
               </li>
               <li>
+                <span className="route-swatch route-swatch--autre" /> {t('legend.autre')}
+              </li>
+              <li>
                 <span className="arrow-swatch">⇄</span> {t('legend.bidirectional')}
               </li>
               <li>

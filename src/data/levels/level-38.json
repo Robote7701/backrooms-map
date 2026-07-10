@@ -1,0 +1,75 @@
+{
+  "id": "level-38",
+  "slug": "level-38",
+  "class": "mortel",
+  "danger": {
+    "level": 5,
+    "scale": 5,
+    "tags": [
+      "glitched",
+      "overlapping-levels",
+      "unstable",
+      "visual-distortion"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "facelings",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-0",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-37",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 38 — Fold Point",
+      "shortDescription": "A convergence point where Levels 0–37 physically overlap, fusing the architecture and hazards of every earlier level.",
+      "atmosphere": "A chaotic, disorienting amalgam of clashing level designs, badly distorted and dark, in constant structural flux.",
+      "tips": "Photos barely work here. Head toward stabilizing geometry to exit. Don't no-clip outward or you risk the Blue Channel."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-38-thumb.webp",
+    "banner": "/images/levels/level-38-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-38",
+    "fr": "https://backrooms-wiki.wikidot.com/level-38"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

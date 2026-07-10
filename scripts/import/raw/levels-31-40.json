@@ -1,0 +1,219 @@
+[
+  {
+    "number": 31,
+    "title": "Roller Rink",
+    "survivalClass": 1,
+    "tags": ["nostalgia", "finite", "commercial", "safe"],
+    "safe": true,
+    "secure": false,
+    "entities": [
+      { "id": "hounds", "presence": "occasional" },
+      { "id": "facelings", "presence": "occasional" },
+      { "id": "the-coach", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 0, "type": "other", "direction": "one-way" },
+      { "to": 2, "type": "door", "direction": "two-way" },
+      { "to": 3, "type": "door", "direction": "two-way" },
+      { "to": 6, "type": "door", "direction": "two-way" },
+      { "to": 40, "type": "noclip", "direction": "one-way" }
+    ],
+    "shortDescription": "A looping 90s-themed roller rink with arcade, food court and skate rentals; a friendly native, the Coach, offers lessons and guidance.",
+    "atmosphere": "Retro rink vibes: pop music, laughter and food-court smells over nostalgic neon carpeting — inviting and non-threatening.",
+    "tips": "Talk to the Coach for lessons and directions. Food-court staff give free meals if you don't mention the Backrooms. The arcade no-clips to Level 40.",
+    "noData": false
+  },
+  {
+    "number": 32,
+    "title": "Forest of the Skeleton Queen",
+    "survivalClass": 5,
+    "tags": ["skeletal-entities", "dark-forest", "reality-warping", "soul-trade"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "the-belle", "presence": "frequent" },
+      { "id": "skeleton-queen", "presence": "omnipresent" }
+    ],
+    "connections": [
+      { "to": 31, "type": "other", "direction": "two-way" },
+      { "to": 33, "type": "other", "direction": "two-way" },
+      { "to": 47, "type": "noclip", "direction": "one-way" }
+    ],
+    "shortDescription": "An endless dark forest of hanging skeletons under a moonless sky, ruled by a skeletal queen who may grant wishes for the price of a soul.",
+    "atmosphere": "Perpetual night lit only by moonlight on bone and bark; haunting winds whisper through the remains — oppressive and sorrowful.",
+    "tips": "Show the Skeleton Queen respect; she may bargain rather than kill. Never chase The Belle unless ready for fatal consequences.",
+    "noData": false
+  },
+  {
+    "number": 33,
+    "title": "The Infinite Mall",
+    "survivalClass": 2,
+    "tags": ["abandoned-mall", "progressive-decay", "hallucinations", "hostile-entities"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "death-rats", "presence": "common" },
+      { "id": "smilers", "presence": "common" },
+      { "id": "anithikas", "presence": "frequent" },
+      { "id": "hounds", "presence": "occasional" },
+      { "id": "skin-stealers", "presence": "rare" }
+    ],
+    "connections": [
+      { "to": 11, "type": "door", "direction": "two-way" },
+      { "to": 22, "type": "stairs", "direction": "two-way" },
+      { "to": 45, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "An infinite shopping mall that decays the further you travel, from clean stores into flooded, hazardous ruins.",
+    "atmosphere": "Clean and quiet at first, turning flooded, moldy and overgrown as mental deterioration and hallucinations creep in.",
+    "tips": "Try not to travel beyond ~50 miles. Stay hydrated, manage the psychological effects and watch for entity activity that grows with distance.",
+    "noData": false
+  },
+  {
+    "number": 34,
+    "title": "Sewer System",
+    "survivalClass": 4,
+    "tags": ["flooded", "cramped", "darkness", "hostile-entities"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "smilers", "presence": "frequent" },
+      { "id": "death-rats", "presence": "common" },
+      { "id": "hounds", "presence": "rare" },
+      { "id": "skin-stealers", "presence": "unknown" }
+    ],
+    "connections": [
+      { "to": 0, "type": "other", "direction": "two-way" },
+      { "to": 4, "type": "other", "direction": "two-way" },
+      { "to": 7, "type": "other", "direction": "two-way" },
+      { "to": 9, "type": "other", "direction": "two-way" },
+      { "to": 11, "type": "other", "direction": "two-way" },
+      { "to": 18, "type": "door", "direction": "two-way" },
+      { "to": 43, "type": "other", "direction": "two-way" },
+      { "to": 87, "type": "other", "direction": "two-way" },
+      { "to": 99, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "A tight, pitch-black sewer of brick and stone where the water below may drop you into other levels. Home to several dangerous entities.",
+    "atmosphere": "Claustrophobic darkness over stagnant water, hostile creatures lurking in the cramped tunnels.",
+    "tips": "Bring a light and almond water. Kill your flashlight if you meet Smilers. Never fall into the water.",
+    "noData": false
+  },
+  {
+    "number": 35,
+    "title": "An Empty Car Park",
+    "survivalClass": 2,
+    "tags": ["parking-garage", "anomalous-vehicles", "void-edge", "reality-bending"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "smilers", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 14, "type": "other", "direction": "one-way" },
+      { "to": 34, "type": "noclip", "direction": "two-way" },
+      { "to": 36, "type": "stairs", "direction": "two-way" },
+      { "to": 49, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "A six-floor concrete parking garage lit in colored light, ringed by a dark abyss and holding anomalous vehicles with unpredictable effects.",
+    "atmosphere": "Dim warm and colored lighting over a mostly empty, eerie garage, with dangerous cars and reality-bending exits.",
+    "tips": "Don't approach the edges or the cars flood in. Use vehicles strategically to reach other levels, or cross the cars to safe staircases.",
+    "noData": false
+  },
+  {
+    "number": 36,
+    "title": "Timeless Airport",
+    "survivalClass": 1,
+    "tags": ["time-dilation", "non-euclidean", "safe-hub", "temporal-anomaly"],
+    "safe": true,
+    "secure": true,
+    "entities": [],
+    "connections": [
+      { "to": 9, "type": "noclip", "direction": "two-way" },
+      { "to": 11, "type": "noclip", "direction": "two-way" },
+      { "to": 20, "type": "door", "direction": "two-way" }
+    ],
+    "shortDescription": "A vast non-Euclidean airport of 26 terminals with flights to nearly every level; severe time dilation makes every wait feel eternal.",
+    "atmosphere": "Sterile timeless terminals under fluorescent light: endless corridors, shops and gate lounges warped by disorienting geometry.",
+    "tips": "Follow signage carefully through the non-Euclidean areas; empty signs mean dead ends. Ask the Backrooms Travel Agency at check-in for routes.",
+    "noData": false
+  },
+  {
+    "number": 37,
+    "title": "Sublimity",
+    "survivalClass": 0,
+    "tags": ["aquatic", "peaceful", "ceramic", "isolating"],
+    "safe": true,
+    "secure": true,
+    "entities": [],
+    "connections": [
+      { "to": 25, "type": "door", "direction": "one-way" },
+      { "to": 43, "type": "stairs", "direction": "one-way" },
+      { "to": 58, "type": "noclip", "direction": "one-way" }
+    ],
+    "shortDescription": "A vast submerged complex of white ceramic rooms flooded with relaxing salt water, its surreal architecture serving no clear purpose.",
+    "atmosphere": "Serene yet unsettling calm over crystalline pools under perfect light; strange geometry and altered acoustics undercut the peace.",
+    "tips": "Appears entirely entity-free and restful. Avoid the deep pits and dark tunnels; the Epsom-salt water relaxes but long immersion is untested.",
+    "noData": false
+  },
+  {
+    "number": 38,
+    "title": "Fold Point",
+    "survivalClass": 5,
+    "tags": ["glitched", "overlapping-levels", "unstable", "visual-distortion"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "facelings", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 0, "type": "other", "direction": "two-way" },
+      { "to": 37, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "A convergence point where Levels 0–37 physically overlap, fusing the architecture and hazards of every earlier level.",
+    "atmosphere": "A chaotic, disorienting amalgam of clashing level designs, badly distorted and dark, in constant structural flux.",
+    "tips": "Photos barely work here. Head toward stabilizing geometry to exit. Don't no-clip outward or you risk the Blue Channel.",
+    "noData": false
+  },
+  {
+    "number": 39,
+    "title": "Enchanted Forest",
+    "survivalClass": 0,
+    "tags": ["hypnotic", "forest", "navigation-hazard", "dehydration"],
+    "safe": true,
+    "secure": false,
+    "entities": [],
+    "connections": [
+      { "to": 63, "type": "noclip", "direction": "two-way" }
+    ],
+    "shortDescription": "A finite circular forest of twisting dirt paths locked in twilight, inducing nostalgia and a hypnotic calm that tempts dangerously long stays.",
+    "atmosphere": "Perpetual dusk over sparse ancient oaks, cool and unnaturally tranquil yet disorienting, pulling the mind toward inaction.",
+    "tips": "Drink Almond Water to break the hypnotic effect. Don't linger near the center. Navigate by the paths and beware the Border's harsh weather.",
+    "noData": false
+  },
+  {
+    "number": 40,
+    "title": "Roller Rockin' Pizza!",
+    "survivalClass": 1,
+    "tags": ["arcade", "anomalous-games", "nostalgic", "food-hazard"],
+    "safe": true,
+    "secure": false,
+    "entities": [
+      { "id": "facelings", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 0, "type": "door", "direction": "one-way" },
+      { "to": 1, "type": "door", "direction": "one-way" },
+      { "to": 5, "type": "other", "direction": "two-way" },
+      { "to": 9, "type": "door", "direction": "one-way" },
+      { "to": 10, "type": "door", "direction": "one-way" },
+      { "to": 11, "type": "door", "direction": "one-way" },
+      { "to": 19, "type": "other", "direction": "two-way" },
+      { "to": 25, "type": "other", "direction": "two-way" },
+      { "to": 29, "type": "other", "direction": "two-way" },
+      { "to": 57, "type": "other", "direction": "two-way" }
+    ],
+    "shortDescription": "A retro 1980s arcade of playable machines, vending sauce best left alone, and unseen entities that quietly use the games.",
+    "atmosphere": "Neon-lit arcade humming with machines and chatter, thick with the smell of decades-old pizza and stale soda.",
+    "tips": "Don't play the anomalous games — especially 'General Starflare: Wild Space'. Never drink the glowing Universal Sauce. Pat at the desk is safe.",
+    "noData": false
+  }
+]

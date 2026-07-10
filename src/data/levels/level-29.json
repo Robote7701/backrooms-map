@@ -1,0 +1,85 @@
+{
+  "id": "level-29",
+  "slug": "level-29",
+  "class": "dangereux",
+  "danger": {
+    "level": 5,
+    "scale": 5,
+    "tags": [
+      "island",
+      "ocean-hazard",
+      "leviathan",
+      "civilization"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": true,
+    "entityCount": "moyen"
+  },
+  "entities": [
+    {
+      "id": "kraken",
+      "presence": "omnipresent",
+      "zones": []
+    },
+    {
+      "id": "sea-entities",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "humanoid-creatures",
+      "presence": "common",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-7",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-25",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 29 — Hyperian",
+      "shortDescription": "A vast island civilization of 25,000 across 250 societies, ringed by mountains and anomalous oceans full of dangerous entities.",
+      "atmosphere": "An island sanctuary of thriving settlements and strange flora, offset by deadly seas and an ancient sleeping leviathan.",
+      "tips": "Arrive via the dockyards and befriend settlement reps. Never travel the ocean — the waters and the Kraken make escape near-impossible."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-29-thumb.webp",
+    "banner": "/images/levels/level-29-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-29",
+    "fr": "https://backrooms-wiki.wikidot.com/level-29"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "level-39",
+  "slug": "level-39",
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": [
+      "hypnotic",
+      "forest",
+      "navigation-hazard",
+      "dehydration"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": false,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [],
+  "i18n": {
+    "en": {
+      "name": "Level 39 — Enchanted Forest",
+      "shortDescription": "A finite circular forest of twisting dirt paths locked in twilight, inducing nostalgia and a hypnotic calm that tempts dangerously long stays.",
+      "atmosphere": "Perpetual dusk over sparse ancient oaks, cool and unnaturally tranquil yet disorienting, pulling the mind toward inaction.",
+      "tips": "Drink Almond Water to break the hypnotic effect. Don't linger near the center. Navigate by the paths and beware the Border's harsh weather."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-39-thumb.webp",
+    "banner": "/images/levels/level-39-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-39",
+    "fr": "https://backrooms-wiki.wikidot.com/level-39"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

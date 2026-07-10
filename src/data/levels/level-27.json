@@ -1,0 +1,69 @@
+{
+  "id": "level-27",
+  "slug": "level-27",
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": [
+      "hot-spring",
+      "peaceful",
+      "healing",
+      "hidden-secret"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": true,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [
+    {
+      "to": "level-11",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-28",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 27 — The Bunker Springs",
+      "shortDescription": "A small cave with a mineral-rich hot spring that soothes and heals wanderers — while hiding a darker secret further in.",
+      "atmosphere": "Serene and therapeutic at first, concealing an unsettling truth about the level's true nature and its edges.",
+      "tips": "Bathe 1–2 hours at most for the benefits. Avoid the second waterfall tunnel. Respect others and leave promptly."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-27-thumb.webp",
+    "banner": "/images/levels/level-27-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-27",
+    "fr": "https://backrooms-wiki.wikidot.com/level-27"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

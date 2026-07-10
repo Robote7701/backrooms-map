@@ -1,58 +1,33 @@
 {
-  "id": "level-4",
-  "slug": "level-4",
-  "class": "habitable",
+  "id": "level-35",
+  "slug": "level-35",
+  "class": "instable",
   "danger": {
-    "level": 2,
+    "level": 3,
     "scale": 5,
     "tags": [
-      "office",
-      "safe-hub",
-      "supplies",
-      "almond-water"
+      "parking-garage",
+      "anomalous-vehicles",
+      "void-edge",
+      "reality-bending"
     ]
   },
   "survival": {
-    "safe": true,
+    "safe": false,
     "secure": false,
     "entityCount": "faible"
   },
   "entities": [
     {
-      "id": "hounds",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
-      "id": "dullers",
+      "id": "smilers",
       "presence": "occasional",
       "zones": []
     }
   ],
   "connections": [
     {
-      "to": "level-3",
-      "type": "escalier",
-      "direction": "bidirectional",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-2",
-      "type": "porte",
-      "direction": "bidirectional",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-5",
-      "type": "escalier",
+      "to": "level-14",
+      "type": "autre",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -61,8 +36,28 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-6",
+      "to": "level-34",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-36",
       "type": "escalier",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-49",
+      "type": "autre",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -73,19 +68,19 @@
   ],
   "i18n": {
     "en": {
-      "name": "Level 4 — Abandoned Office",
-      "shortDescription": "An empty office building with minimal furniture: a major hub where wanderers gather and stock up on supplies, especially Almond Water.",
-      "atmosphere": "Mostly desolate corridors, some windows blacked out; quiet and commercial with moderate traffic from other travelers.",
-      "tips": "Stock Almond Water before going deeper. Avoid clear windows — they are traps. A good place to meet others and resupply."
+      "name": "Level 35 — An Empty Car Park",
+      "shortDescription": "A six-floor concrete parking garage lit in colored light, ringed by a dark abyss and holding anomalous vehicles with unpredictable effects.",
+      "atmosphere": "Dim warm and colored lighting over a mostly empty, eerie garage, with dangerous cars and reality-bending exits.",
+      "tips": "Don't approach the edges or the cars flood in. Use vehicles strategically to reach other levels, or cross the cars to safe staircases."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-4-thumb.webp",
-    "banner": "/images/levels/level-4-banner.webp"
+    "thumbnail": "/images/levels/level-35-thumb.webp",
+    "banner": "/images/levels/level-35-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-4",
-    "fr": "https://backrooms-wiki.wikidot.com/level-4"
+    "en": "https://backrooms-wiki.wikidot.com/level-35",
+    "fr": "https://backrooms-wiki.wikidot.com/level-35"
   },
   "layers": {
     "danger": true,

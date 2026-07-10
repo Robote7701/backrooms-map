@@ -1,0 +1,75 @@
+{
+  "id": "level-50",
+  "slug": "level-50",
+  "class": "dangereux",
+  "danger": {
+    "level": 4,
+    "scale": 5,
+    "tags": [
+      "desert-highway",
+      "isolation",
+      "mysterious-humans",
+      "vehicles"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "roaming-humans",
+      "presence": "rare",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-25",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-35",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 50 — The Moribund Highway",
+      "shortDescription": "An infinite desert highway of paused vehicles and eerie silence, roamed by mysterious humans whose intentions stay unknown.",
+      "atmosphere": "A silent desolate desert with frozen traffic; extreme heat and the psychological strain of isolation and uneasy human encounters.",
+      "tips": "Avoid the roaming humans. Mobile homes make safe shelter. Loot vehicles for supplies but don't stay inside. Bring almond water."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-50-thumb.webp",
+    "banner": "/images/levels/level-50-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-50",
+    "fr": "https://backrooms-wiki.wikidot.com/level-50"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "stub",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

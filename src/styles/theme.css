@@ -227,6 +227,10 @@ body {
   color: var(--neon-purple);
   border-color: var(--neon-purple);
 }
+.chip--autre {
+  color: #9aa3b2;
+  border-color: #6b7280;
+}
 .chip--dir {
   color: var(--muted);
 }
@@ -328,6 +332,9 @@ body {
 .route-swatch--escalier {
   border-top-style: dotted;
   border-top-color: var(--neon-purple);
+}
+.route-swatch--autre {
+  border-top-color: #6b7280;
 }
 .arrow-swatch {
   width: 26px;

@@ -10,7 +10,7 @@ import { dirname, join } from 'node:path'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const LEVELS_DIR = join(__dirname, '..', 'src', 'data', 'levels')
 
-const KNOWN_TYPES = ['noclip', 'porte', 'escalier']
+const KNOWN_TYPES = ['noclip', 'porte', 'escalier', 'autre']
 const KNOWN_DIRECTIONS = ['bidirectional', 'one-way']
 
 const errors = []

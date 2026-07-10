@@ -1,15 +1,15 @@
 {
-  "id": "level-7",
-  "slug": "level-7",
-  "class": "dangereux",
+  "id": "level-41",
+  "slug": "level-41",
+  "class": "sur",
   "danger": {
-    "level": 5,
+    "level": 1,
     "scale": 5,
     "tags": [
-      "aquatic",
-      "deep-ocean",
-      "hostile-entities",
-      "extreme-pressure"
+      "tar-pit",
+      "extreme-heat",
+      "toxic-fumes",
+      "hostile-entities"
     ]
   },
   "survival": {
@@ -19,30 +19,15 @@
   },
   "entities": [
     {
-      "id": "thing-on-level-7",
-      "presence": "frequent",
-      "zones": []
-    },
-    {
-      "id": "tiny",
-      "presence": "frequent",
+      "id": "collagen-leviathans",
+      "presence": "rare",
       "zones": []
     }
   ],
   "connections": [
     {
-      "to": "level-6",
-      "type": "escalier",
-      "direction": "bidirectional",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-8",
-      "type": "porte",
+      "to": "level-5",
+      "type": "autre",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -51,8 +36,18 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-9",
-      "type": "porte",
+      "to": "level-6",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-7",
+      "type": "autre",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -63,19 +58,19 @@
   ],
   "i18n": {
     "en": {
-      "name": "Level 7 — Thalassophobia",
-      "shortDescription": "An impossibly vast ocean under dim light, split by depth into zones, holding two apex predators and countless humanoid skeletal remains.",
-      "atmosphere": "Claustrophobic despite open water; perpetual twilight, crushing depths and stray bioluminescence — desolate and isolating.",
-      "tips": "Use the entrance room as base camp. Exploit the Thing's light sensitivity and Tiny's poor hearing. Keep excursions short."
+      "name": "Level 41 — The Black Lake",
+      "shortDescription": "A vast boiling tar pit wrapped in toxic fumes, dotted with scorching islands and sinking wooden platforms that make for perilous crossings.",
+      "atmosphere": "An oppressive haze over a charcoal landscape; bubbling tar coughs up choking fumes while skeletal things hunt from below.",
+      "tips": "Never touch the tar. Cross via the islands and platforms. Watch for sudden eruptions and don't chase the unreachable dunes beyond."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-7-thumb.webp",
-    "banner": "/images/levels/level-7-banner.webp"
+    "thumbnail": "/images/levels/level-41-thumb.webp",
+    "banner": "/images/levels/level-41-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-7",
-    "fr": "https://backrooms-wiki.wikidot.com/level-7"
+    "en": "https://backrooms-wiki.wikidot.com/level-41",
+    "fr": "https://backrooms-wiki.wikidot.com/level-41"
   },
   "layers": {
     "danger": true,

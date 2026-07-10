@@ -1,0 +1,75 @@
+{
+  "id": "level-14",
+  "slug": "level-14",
+  "class": "mortel",
+  "danger": {
+    "level": 5,
+    "scale": 5,
+    "tags": [
+      "psychic-hazard",
+      "hive-mind",
+      "mind-affecting",
+      "entrapment"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "unknown-collective-entity",
+      "presence": "omnipresent",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-13",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-15",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 14 — Paradise",
+      "shortDescription": "A dreamlike forest realm that lures wanderers into a collective consciousness, absorbing their minds and making escape all but impossible.",
+      "atmosphere": "Serene yet wrong: starlit skies, waterfalls and crimson grass masking a parasitic hive-mind that hungers to assimilate.",
+      "tips": "Do not read the wall inscriptions. Resist the peaceful pull urging you to surrender to the collective."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-14-thumb.webp",
+    "banner": "/images/levels/level-14-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-14",
+    "fr": "https://backrooms-wiki.wikidot.com/level-14"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

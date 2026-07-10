@@ -1,15 +1,15 @@
 {
-  "id": "level-7",
-  "slug": "level-7",
+  "id": "level-44",
+  "slug": "level-44",
   "class": "dangereux",
   "danger": {
-    "level": 5,
+    "level": 4,
     "scale": 5,
     "tags": [
-      "aquatic",
-      "deep-ocean",
-      "hostile-entities",
-      "extreme-pressure"
+      "corrosive-liquid",
+      "non-euclidean",
+      "entity-hazard",
+      "reality-breach"
     ]
   },
   "survival": {
@@ -19,29 +19,19 @@
   },
   "entities": [
     {
-      "id": "thing-on-level-7",
-      "presence": "frequent",
+      "id": "wranglers",
+      "presence": "rare",
       "zones": []
     },
     {
-      "id": "tiny",
-      "presence": "frequent",
+      "id": "outlined-statuette",
+      "presence": "occasional",
       "zones": []
     }
   ],
   "connections": [
     {
-      "to": "level-6",
-      "type": "escalier",
-      "direction": "bidirectional",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-8",
+      "to": "level-0",
       "type": "porte",
       "direction": "one-way",
       "method": {
@@ -59,23 +49,33 @@
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
       },
       "reliability": "inconnue"
+    },
+    {
+      "to": "level-11",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
     }
   ],
   "i18n": {
     "en": {
-      "name": "Level 7 — Thalassophobia",
-      "shortDescription": "An impossibly vast ocean under dim light, split by depth into zones, holding two apex predators and countless humanoid skeletal remains.",
-      "atmosphere": "Claustrophobic despite open water; perpetual twilight, crushing depths and stray bioluminescence — desolate and isolating.",
-      "tips": "Use the entrance room as base camp. Exploit the Thing's light sensitivity and Tiny's poor hearing. Keep excursions short."
+      "name": "Level 44 — Corroding Retail Outlet",
+      "shortDescription": "An abandoned retail space with non-Euclidean geometry, creeping corrosive liquid, and windows showing Frontrooms imagery.",
+      "atmosphere": "Empty desolate retail under partial light, dark corners and moans from above, thick with anxiety and architectural impossibility.",
+      "tips": "Don't explore long — stay near the entrance. Avoid the dark. Beware the fast-spreading corrosive fluid and the silhouette entity."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-7-thumb.webp",
-    "banner": "/images/levels/level-7-banner.webp"
+    "thumbnail": "/images/levels/level-44-thumb.webp",
+    "banner": "/images/levels/level-44-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-7",
-    "fr": "https://backrooms-wiki.wikidot.com/level-7"
+    "en": "https://backrooms-wiki.wikidot.com/level-44",
+    "fr": "https://backrooms-wiki.wikidot.com/level-44"
   },
   "layers": {
     "danger": true,

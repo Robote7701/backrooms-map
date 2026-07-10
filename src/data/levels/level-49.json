@@ -1,54 +1,34 @@
 {
-  "id": "level-9",
-  "slug": "level-9",
-  "class": "mortel",
+  "id": "level-49",
+  "slug": "level-49",
+  "class": "dangereux",
   "danger": {
     "level": 5,
     "scale": 5,
     "tags": [
-      "suburban",
-      "night",
-      "hostile-entities",
-      "psychological"
+      "warfare",
+      "hostile-machines",
+      "trench-system",
+      "extreme-danger"
     ]
   },
   "survival": {
     "safe": false,
     "secure": false,
-    "entityCount": "eleve"
+    "entityCount": "faible"
   },
   "entities": [
     {
-      "id": "deathmoths",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
-      "id": "smilers",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
-      "id": "skin-stealers",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
-      "id": "the-mangled",
-      "presence": "common",
-      "zones": []
-    },
-    {
-      "id": "hounds",
-      "presence": "occasional",
+      "id": "trenchcleaners",
+      "presence": "frequent",
       "zones": []
     }
   ],
   "connections": [
     {
-      "to": "level-8",
-      "type": "autre",
-      "direction": "bidirectional",
+      "to": "level-3",
+      "type": "noclip",
+      "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
@@ -56,7 +36,7 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-10",
+      "to": "level-7",
       "type": "autre",
       "direction": "one-way",
       "method": {
@@ -67,6 +47,36 @@
     },
     {
       "to": "level-11",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-14",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-35",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-48",
       "type": "autre",
       "direction": "one-way",
       "method": {
@@ -76,29 +86,9 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-34",
-      "type": "autre",
-      "direction": "one-way",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-36",
+      "to": "level-50",
       "type": "porte",
-      "direction": "one-way",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-40",
-      "type": "porte",
-      "direction": "one-way",
+      "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
@@ -108,19 +98,19 @@
   ],
   "i18n": {
     "en": {
-      "name": "Level 9 — The Suburbs",
-      "shortDescription": "An infinite suburb frozen at midnight, with furnished houses and deadly foggy streets prowled by hazardous entities.",
-      "atmosphere": "Dark, eerie neighborhood: midnight fog, flickering streetlights, abandoned homes and unsettling psychological effects.",
-      "tips": "Follow arrow signs toward Level 11. Avoid the entity-spawning fog. Loot houses but beware sudden teleportation."
+      "name": "Level 49 — The Unfilled River of Phlegethon",
+      "shortDescription": "An infinite WWI-style trench network where automated war machines patrol and unseen forces fatally punish any attempt to escape.",
+      "atmosphere": "A desolate warzone of ceaseless gunfire, dense fog and floods, with mechanical horrors hunting through the mud-filled trenches.",
+      "tips": "Hide in bunkers during bombardments. Move quietly in groups. Avoid armor that escalates the machines. Never try to leave."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-9-thumb.webp",
-    "banner": "/images/levels/level-9-banner.webp"
+    "thumbnail": "/images/levels/level-49-thumb.webp",
+    "banner": "/images/levels/level-49-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-9",
-    "fr": "https://backrooms-wiki.wikidot.com/level-9"
+    "en": "https://backrooms-wiki.wikidot.com/level-49",
+    "fr": "https://backrooms-wiki.wikidot.com/level-49"
   },
   "layers": {
     "danger": true,

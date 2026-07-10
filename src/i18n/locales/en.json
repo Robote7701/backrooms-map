@@ -43,6 +43,7 @@
     "noclip": "No-clip (phase through reality)",
     "porte": "Door",
     "escalier": "Stairs",
+    "autre": "Other (portal, elevator…)",
     "bidirectional": "Two-way",
     "oneway": "One-way",
     "dangerScale": "Danger scale",
@@ -57,7 +58,8 @@
   "connType": {
     "noclip": "No-clip",
     "porte": "Door",
-    "escalier": "Stairs"
+    "escalier": "Stairs",
+    "autre": "Other"
   },
   "language": {
     "label": "Language",

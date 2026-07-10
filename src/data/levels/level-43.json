@@ -1,15 +1,15 @@
 {
-  "id": "level-9",
-  "slug": "level-9",
-  "class": "mortel",
+  "id": "level-43",
+  "slug": "level-43",
+  "class": "dangereux",
   "danger": {
-    "level": 5,
+    "level": 4,
     "scale": 5,
     "tags": [
-      "suburban",
-      "night",
-      "hostile-entities",
-      "psychological"
+      "aquatic",
+      "abandoned-park",
+      "flooded",
+      "hostile-entities"
     ]
   },
   "survival": {
@@ -19,8 +19,8 @@
   },
   "entities": [
     {
-      "id": "deathmoths",
-      "presence": "occasional",
+      "id": "the-fish-creature",
+      "presence": "omnipresent",
       "zones": []
     },
     {
@@ -29,26 +29,26 @@
       "zones": []
     },
     {
+      "id": "death-rats",
+      "presence": "rare",
+      "zones": []
+    },
+    {
+      "id": "facelings",
+      "presence": "rare",
+      "zones": []
+    },
+    {
       "id": "skin-stealers",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
-      "id": "the-mangled",
-      "presence": "common",
-      "zones": []
-    },
-    {
-      "id": "hounds",
-      "presence": "occasional",
+      "presence": "rare",
       "zones": []
     }
   ],
   "connections": [
     {
-      "to": "level-8",
-      "type": "autre",
-      "direction": "bidirectional",
+      "to": "level-2",
+      "type": "porte",
+      "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
@@ -56,7 +56,27 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-10",
+      "to": "level-4",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-7",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-9",
       "type": "autre",
       "direction": "one-way",
       "method": {
@@ -76,6 +96,16 @@
       "reliability": "inconnue"
     },
     {
+      "to": "level-33",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
       "to": "level-34",
       "type": "autre",
       "direction": "one-way",
@@ -86,18 +116,8 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-36",
-      "type": "porte",
-      "direction": "one-way",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
       "to": "level-40",
-      "type": "porte",
+      "type": "autre",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -108,19 +128,19 @@
   ],
   "i18n": {
     "en": {
-      "name": "Level 9 — The Suburbs",
-      "shortDescription": "An infinite suburb frozen at midnight, with furnished houses and deadly foggy streets prowled by hazardous entities.",
-      "atmosphere": "Dark, eerie neighborhood: midnight fog, flickering streetlights, abandoned homes and unsettling psychological effects.",
-      "tips": "Follow arrow signs toward Level 11. Avoid the entity-spawning fog. Loot houses but beware sudden teleportation."
+      "name": "Level 43 — Water World",
+      "shortDescription": "An abandoned aquatic theme park of four linked zones, ending in a flooded final area where aquatic creatures roam free.",
+      "atmosphere": "An eerily quiet park still humming with machinery, choked with fog and disembodied announcements as dread mounts with depth.",
+      "tips": "Don't trigger the corrupted video in the staff halls. Come equipped for hostile entities. Leave at once if you reach the flooded final zone."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-9-thumb.webp",
-    "banner": "/images/levels/level-9-banner.webp"
+    "thumbnail": "/images/levels/level-43-thumb.webp",
+    "banner": "/images/levels/level-43-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-9",
-    "fr": "https://backrooms-wiki.wikidot.com/level-9"
+    "en": "https://backrooms-wiki.wikidot.com/level-43",
+    "fr": "https://backrooms-wiki.wikidot.com/level-43"
   },
   "layers": {
     "danger": true,

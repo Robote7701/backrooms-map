@@ -1,16 +1,15 @@
 {
-  "id": "level-6",
-  "slug": "level-6",
-  "class": "instable",
+  "id": "level-22",
+  "slug": "level-22",
+  "class": "mortel",
   "danger": {
-    "level": 3,
+    "level": 5,
     "scale": 5,
     "tags": [
-      "darkness",
-      "isolation",
-      "silence",
-      "psychological",
-      "difficulte-estimee"
+      "unstable-structure",
+      "debris",
+      "abandoned-settlement",
+      "deep-pits"
     ]
   },
   "survival": {
@@ -21,29 +20,29 @@
   "entities": [],
   "connections": [
     {
-      "to": "level-5",
+      "to": "level-1",
       "type": "porte",
-      "direction": "bidirectional",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-4",
-      "type": "porte",
-      "direction": "bidirectional",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-7",
-      "type": "escalier",
       "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-21",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-23",
+      "type": "autre",
+      "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
@@ -53,19 +52,19 @@
   ],
   "i18n": {
     "en": {
-      "name": "Level 6 — Lights Out",
-      "shortDescription": "A completely dark level of seamless concrete hallways where light sources fail and sound is absent, causing severe psychological distress.",
-      "atmosphere": "Total darkness, absolute silence and deep isolation breed paranoia; auditory hallucinations come with prolonged exposure.",
-      "tips": "Navigate by touch. Listen for faint waves to find the Level 7 exit. Never flip a discovered light switch."
+      "name": "Level 22 — Ruins Left Behind",
+      "shortDescription": "A collapsed multi-storey car park once held by the Emstable micronation, now hazardous ruins of unstable structure and deep mining pits.",
+      "atmosphere": "Desolate industrial decay: rubble, rusted vehicles, abandoned tents and the skeletal remains of a failed society in the dark.",
+      "tips": "Beware collapse and deep-pit falls. Traversal is extremely dangerous; most wanderers avoid this level entirely."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-6-thumb.webp",
-    "banner": "/images/levels/level-6-banner.webp"
+    "thumbnail": "/images/levels/level-22-thumb.webp",
+    "banner": "/images/levels/level-22-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-6",
-    "fr": "https://backrooms-wiki.wikidot.com/level-6"
+    "en": "https://backrooms-wiki.wikidot.com/level-22",
+    "fr": "https://backrooms-wiki.wikidot.com/level-22"
   },
   "layers": {
     "danger": true,
@@ -74,7 +73,7 @@
   },
   "meta": {
     "addedOn": "2026-07-10",
-    "status": "published",
+    "status": "stub",
     "source": "backrooms-wiki.wikidot.com"
   }
 }

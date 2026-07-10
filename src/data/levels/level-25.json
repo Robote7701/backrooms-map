@@ -1,0 +1,139 @@
+{
+  "id": "level-25",
+  "slug": "level-25",
+  "class": "sur",
+  "danger": {
+    "level": 1,
+    "scale": 5,
+    "tags": [
+      "arcade",
+      "hub",
+      "dust",
+      "abandoned"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": false,
+    "entityCount": "aucune"
+  },
+  "entities": [],
+  "connections": [
+    {
+      "to": "level-0",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-4",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-5",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-9",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-10",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-12",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-19",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-40",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-50",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 25 — The Quarter Hub",
+      "shortDescription": "A dusty abandoned arcade spanning miles whose broken cabinets act as interdimensional transit hubs between Backrooms levels.",
+      "atmosphere": "Desolate echoing arcade thick with dust and decay, vintage machines vandalized by age, a faint electrical hum in the silence.",
+      "tips": "Find a working cabinet and insert quarters to travel. Only ~1 in 1500 works. An arcade always appears when you arrive."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-25-thumb.webp",
+    "banner": "/images/levels/level-25-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-25",
+    "fr": "https://backrooms-wiki.wikidot.com/level-25"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

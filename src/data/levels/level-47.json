@@ -1,0 +1,85 @@
+{
+  "id": "level-47",
+  "slug": "level-47",
+  "class": "dangereux",
+  "danger": {
+    "level": 4,
+    "scale": 5,
+    "tags": [
+      "forest",
+      "anomalous-wildlife",
+      "reality-distortion",
+      "nocturnal-threats"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "moyen"
+  },
+  "entities": [
+    {
+      "id": "great-old-adder",
+      "presence": "omnipresent",
+      "zones": []
+    },
+    {
+      "id": "black-shucks",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "irish-elk",
+      "presence": "occasional",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-46",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-48",
+      "type": "noclip",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 47 — The Adderwood",
+      "shortDescription": "An ancient primeval forest of non-Euclidean topology, guarded by a colossal serpent that punishes harm to snakes, roamed by predatory canids.",
+      "atmosphere": "Foggy by day beneath towering old trees; clear starlit nights under an oversized moon; reality shifts when unobserved.",
+      "tips": "Never harm a snake or the Great Adder hunts you. Climb trees at night to escape Black Shucks. Dead tree hollows are no-clip exits."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-47-thumb.webp",
+    "banner": "/images/levels/level-47-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-47",
+    "fr": "https://backrooms-wiki.wikidot.com/level-47"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

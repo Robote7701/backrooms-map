@@ -1,15 +1,15 @@
 {
-  "id": "level-9",
-  "slug": "level-9",
-  "class": "mortel",
+  "id": "level-20",
+  "slug": "level-20",
+  "class": "dangereux",
   "danger": {
     "level": 5,
     "scale": 5,
     "tags": [
-      "suburban",
-      "night",
-      "hostile-entities",
-      "psychological"
+      "cold",
+      "paranoia",
+      "entity-infested",
+      "hazardous-games"
     ]
   },
   "survival": {
@@ -24,7 +24,17 @@
       "zones": []
     },
     {
-      "id": "smilers",
+      "id": "clumps",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "hounds",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "facelings",
       "presence": "occasional",
       "zones": []
     },
@@ -32,22 +42,12 @@
       "id": "skin-stealers",
       "presence": "occasional",
       "zones": []
-    },
-    {
-      "id": "the-mangled",
-      "presence": "common",
-      "zones": []
-    },
-    {
-      "id": "hounds",
-      "presence": "occasional",
-      "zones": []
     }
   ],
   "connections": [
     {
-      "to": "level-8",
-      "type": "autre",
+      "to": "level-2",
+      "type": "porte",
       "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -56,8 +56,8 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-10",
-      "type": "autre",
+      "to": "level-4",
+      "type": "porte",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -66,8 +66,8 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-11",
-      "type": "autre",
+      "to": "level-6",
+      "type": "porte",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -76,8 +76,28 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-34",
-      "type": "autre",
+      "to": "level-7",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-21",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-24",
+      "type": "noclip",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -94,33 +114,23 @@
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
       },
       "reliability": "inconnue"
-    },
-    {
-      "to": "level-40",
-      "type": "porte",
-      "direction": "one-way",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
     }
   ],
   "i18n": {
     "en": {
-      "name": "Level 9 — The Suburbs",
-      "shortDescription": "An infinite suburb frozen at midnight, with furnished houses and deadly foggy streets prowled by hazardous entities.",
-      "atmosphere": "Dark, eerie neighborhood: midnight fog, flickering streetlights, abandoned homes and unsettling psychological effects.",
-      "tips": "Follow arrow signs toward Level 11. Avoid the entity-spawning fog. Loot houses but beware sudden teleportation."
+      "name": "Level 20 — Boreas Structure",
+      "shortDescription": "An amusement facility split into the Waiting Halls (lockers, vending) and the Electric (deadly game rooms), bitterly cold and paranoia-inducing.",
+      "atmosphere": "Eerie artificially-lit amusement palace sinking into darkness and extreme cold, with breathing/wind hallucinations and phantom snow.",
+      "tips": "Don't read expedition logs before entry. Use staff-only doors in the Waiting Halls to exit fast. Win games for supplies; losing teleports you."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-9-thumb.webp",
-    "banner": "/images/levels/level-9-banner.webp"
+    "thumbnail": "/images/levels/level-20-thumb.webp",
+    "banner": "/images/levels/level-20-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-9",
-    "fr": "https://backrooms-wiki.wikidot.com/level-9"
+    "en": "https://backrooms-wiki.wikidot.com/level-20",
+    "fr": "https://backrooms-wiki.wikidot.com/level-20"
   },
   "layers": {
     "danger": true,

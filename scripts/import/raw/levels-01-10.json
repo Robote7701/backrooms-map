@@ -1,0 +1,246 @@
+[
+  {
+    "number": 1,
+    "title": "Habitable Zone",
+    "survivalClass": 1,
+    "tags": ["non-euclidean-geometry", "flickering-blackouts", "hostile-entities", "resource-crates"],
+    "safe": true,
+    "secure": true,
+    "entities": [
+      { "id": "smilers", "presence": "frequent" },
+      { "id": "dullers", "presence": "common" },
+      { "id": "skin-stealer", "presence": "occasional" },
+      { "id": "hounds", "presence": "occasional" },
+      { "id": "wretches", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 0, "type": "noclip", "direction": "two-way" },
+      { "to": 2, "type": "other", "direction": "one-way" },
+      { "to": 19, "type": "other", "direction": "one-way" },
+      { "to": 22, "type": "door", "direction": "one-way" },
+      { "to": 38, "type": "other", "direction": "one-way" },
+      { "to": 128, "type": "noclip", "direction": "one-way" },
+      { "to": 154, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "A vast warehouse-like level of concrete pillars and non-Euclidean geometry, home to survivor settlements offering food, shelter and guidance.",
+    "atmosphere": "Industrial and liminal; flickering lights bring dangerous blackouts. Habitable despite roaming entities and deceptive distances.",
+    "tips": "Navigate by fixed landmarks. Cross corridors during flickering events. Loot crates for Almond Water. Seek established bases.",
+    "noData": false
+  },
+  {
+    "number": 2,
+    "title": "Abandoned Utility Halls",
+    "survivalClass": 3,
+    "tags": ["industrial", "machinery", "hostile-entities", "darkness"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "smilers", "presence": "frequent" },
+      { "id": "clumps", "presence": "common" },
+      { "id": "deathmoths", "presence": "occasional" },
+      { "id": "hounds", "presence": "common" },
+      { "id": "wranglers", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 1, "type": "door", "direction": "two-way" },
+      { "to": 3, "type": "door", "direction": "two-way" },
+      { "to": 4, "type": "door", "direction": "one-way" },
+      { "to": 31, "type": "door", "direction": "one-way" },
+      { "to": 70, "type": "door", "direction": "one-way" },
+      { "to": 127, "type": "noclip", "direction": "one-way" }
+    ],
+    "shortDescription": "Vast maintenance tunnels of machinery, wiring and mysterious doors, in a Euclidean layout accessible from Level 1 and the Frontrooms.",
+    "atmosphere": "Sparse fluorescent light, heavy machines choking narrow concrete corridors; abandoned, industrial, dark and silent after a blackout.",
+    "tips": "Shelter near Office Space EL3A. Never open void rooms behind locked doors. Beware power failures on series-wired lighting.",
+    "noData": false
+  },
+  {
+    "number": 3,
+    "title": "Electrical Station",
+    "survivalClass": 4,
+    "tags": ["intelligent-entities", "electrical-hazards", "resource-abundant", "paranoia"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "hounds", "presence": "frequent" },
+      { "id": "facelings", "presence": "frequent" },
+      { "id": "deathmoths", "presence": "omnipresent" },
+      { "id": "skin-stealers", "presence": "frequent" },
+      { "id": "smilers", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 0, "type": "noclip", "direction": "two-way" },
+      { "to": 11, "type": "door", "direction": "two-way" }
+    ],
+    "shortDescription": "An abandoned industrial complex, resource-rich but walled by indestructible barriers and hunted by unusually intelligent, coordinated entities.",
+    "atmosphere": "Dark brick halls of archaic electrical gear, humming machines and black liquid in the pipes; a pervasive sense of being hunted.",
+    "tips": "Never go alone. Reach Base Gamma. Don't stare at barred areas. Carry a flashlight and a light-bomb against entity brigades.",
+    "noData": false
+  },
+  {
+    "number": 4,
+    "title": "Abandoned Office",
+    "survivalClass": 1,
+    "tags": ["office", "safe-hub", "supplies", "almond-water"],
+    "safe": true,
+    "secure": false,
+    "entities": [
+      { "id": "hounds", "presence": "occasional" },
+      { "id": "dullers", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 3, "type": "stairs", "direction": "two-way" },
+      { "to": 2, "type": "door", "direction": "two-way" },
+      { "to": 5, "type": "stairs", "direction": "one-way" },
+      { "to": 6, "type": "stairs", "direction": "one-way" },
+      { "to": 71, "type": "stairs", "direction": "one-way" }
+    ],
+    "shortDescription": "An empty office building with minimal furniture: a major hub where wanderers gather and stock up on supplies, especially Almond Water.",
+    "atmosphere": "Mostly desolate corridors, some windows blacked out; quiet and commercial with moderate traffic from other travelers.",
+    "tips": "Stock Almond Water before going deeper. Avoid clear windows — they are traps. A good place to meet others and resupply.",
+    "noData": false
+  },
+  {
+    "number": 5,
+    "title": "Terror Hotel",
+    "survivalClass": 2,
+    "tags": ["hotel", "deathmoths", "paranormal", "nostalgic-horror"],
+    "safe": true,
+    "secure": true,
+    "entities": [
+      { "id": "deathmoths", "presence": "frequent" },
+      { "id": "hounds", "presence": "occasional" },
+      { "id": "woodlins", "presence": "rare" },
+      { "id": "skin-stealers", "presence": "rare" },
+      { "id": "watchers", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 3, "type": "door", "direction": "two-way" },
+      { "to": 4, "type": "stairs", "direction": "two-way" },
+      { "to": 6, "type": "other", "direction": "one-way" },
+      { "to": 9, "type": "door", "direction": "one-way" },
+      { "to": 25, "type": "other", "direction": "one-way" },
+      { "to": 40, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "An infinite 1930s hotel of pristine mahogany halls and mysterious rooms, populated by deathmoths and unsettling watching presences.",
+    "atmosphere": "Eerie elegance: vintage décor, ambient jazz, self-cleaning surfaces, strange whispers and a constant sense of being watched.",
+    "tips": "Stay with communities like the Homely Hotel. Avoid elevators past floor 12 and dark deathmoth rooms. Carry good meat for Samantha.",
+    "noData": false
+  },
+  {
+    "number": 6,
+    "title": "Lights Out",
+    "survivalClass": null,
+    "tags": ["darkness", "isolation", "silence", "psychological"],
+    "safe": false,
+    "secure": false,
+    "entities": [],
+    "connections": [
+      { "to": 5, "type": "door", "direction": "two-way" },
+      { "to": 4, "type": "door", "direction": "two-way" },
+      { "to": 7, "type": "stairs", "direction": "one-way" },
+      { "to": 129, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "A completely dark level of seamless concrete hallways where light sources fail and sound is absent, causing severe psychological distress.",
+    "atmosphere": "Total darkness, absolute silence and deep isolation breed paranoia; auditory hallucinations come with prolonged exposure.",
+    "tips": "Navigate by touch. Listen for faint waves to find the Level 7 exit. Never flip a discovered light switch.",
+    "noData": false
+  },
+  {
+    "number": 7,
+    "title": "Thalassophobia",
+    "survivalClass": 4,
+    "tags": ["aquatic", "deep-ocean", "hostile-entities", "extreme-pressure"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "thing-on-level-7", "presence": "frequent" },
+      { "id": "tiny", "presence": "frequent" }
+    ],
+    "connections": [
+      { "to": 6, "type": "stairs", "direction": "two-way" },
+      { "to": 8, "type": "door", "direction": "one-way" },
+      { "to": 9, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "An impossibly vast ocean under dim light, split by depth into zones, holding two apex predators and countless humanoid skeletal remains.",
+    "atmosphere": "Claustrophobic despite open water; perpetual twilight, crushing depths and stray bioluminescence — desolate and isolating.",
+    "tips": "Use the entrance room as base camp. Exploit the Thing's light sensitivity and Tiny's poor hearing. Keep excursions short.",
+    "noData": false
+  },
+  {
+    "number": 8,
+    "title": "Cave Systems",
+    "survivalClass": 4,
+    "tags": ["caves", "non-euclidean-geometry", "flooded", "hostile-entities"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "wranglers", "presence": "occasional" },
+      { "id": "arachnids", "presence": "frequent" },
+      { "id": "light-guides", "presence": "occasional" },
+      { "id": "deathmoths", "presence": "occasional" },
+      { "id": "wretches", "presence": "common" }
+    ],
+    "connections": [
+      { "to": 6, "type": "other", "direction": "two-way" },
+      { "to": 9, "type": "other", "direction": "two-way" },
+      { "to": 2, "type": "noclip", "direction": "one-way" },
+      { "to": 41, "type": "other", "direction": "one-way" },
+      { "to": 91, "type": "other", "direction": "one-way" },
+      { "to": 93, "type": "noclip", "direction": "one-way" }
+    ],
+    "shortDescription": "A vast underground cave network with non-Euclidean geometry, shifting gravity, flooded passages and many hostile entities.",
+    "atmosphere": "Oppressively dark caverns, cold almond water, eerie silence broken by creature sounds and flickering emergency lights.",
+    "tips": "Follow the 9th Road markers religiously. Stay warm, dry and awake against hypothermia. Avoid glyph-marked spider colonies.",
+    "noData": false
+  },
+  {
+    "number": 9,
+    "title": "The Suburbs",
+    "survivalClass": 5,
+    "tags": ["suburban", "night", "hostile-entities", "psychological"],
+    "safe": false,
+    "secure": false,
+    "entities": [
+      { "id": "deathmoths", "presence": "occasional" },
+      { "id": "smilers", "presence": "occasional" },
+      { "id": "skin-stealers", "presence": "occasional" },
+      { "id": "the-mangled", "presence": "common" },
+      { "id": "hounds", "presence": "occasional" }
+    ],
+    "connections": [
+      { "to": 8, "type": "other", "direction": "two-way" },
+      { "to": 10, "type": "other", "direction": "one-way" },
+      { "to": 11, "type": "other", "direction": "one-way" },
+      { "to": 34, "type": "other", "direction": "one-way" },
+      { "to": 36, "type": "door", "direction": "one-way" },
+      { "to": 40, "type": "door", "direction": "one-way" },
+      { "to": 53, "type": "other", "direction": "one-way" },
+      { "to": 54, "type": "door", "direction": "one-way" }
+    ],
+    "shortDescription": "An infinite suburb frozen at midnight, with furnished houses and deadly foggy streets prowled by hazardous entities.",
+    "atmosphere": "Dark, eerie neighborhood: midnight fog, flickering streetlights, abandoned homes and unsettling psychological effects.",
+    "tips": "Follow arrow signs toward Level 11. Avoid the entity-spawning fog. Loot houses but beware sudden teleportation.",
+    "noData": false
+  },
+  {
+    "number": 10,
+    "title": "Bumper Crop",
+    "survivalClass": 1,
+    "tags": ["agricultural", "worms", "water-safe", "low-threat"],
+    "safe": true,
+    "secure": true,
+    "entities": [
+      { "id": "soil-worms", "presence": "common" }
+    ],
+    "connections": [
+      { "to": 9, "type": "other", "direction": "one-way" },
+      { "to": 11, "type": "other", "direction": "two-way" },
+      { "to": 25, "type": "other", "direction": "one-way" }
+    ],
+    "shortDescription": "Endless wheat and barley fields under an overcast sky, dotted with empty structures and lakes, with worms burrowing beneath the soil.",
+    "atmosphere": "Dreary, unchanging pastoral expanse under permanent overcast, calm but for underlying mysteries beneath the fields.",
+    "tips": "Follow the roads toward Level 11. Gather supplies from empty structures. Dig with caution — the worms surface fast.",
+    "noData": false
+  }
+]

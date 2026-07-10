@@ -1,0 +1,75 @@
+{
+  "id": "level-18",
+  "slug": "level-18",
+  "class": "habitable",
+  "danger": {
+    "level": 2,
+    "scale": 5,
+    "tags": [
+      "nostalgia",
+      "psychological",
+      "safe",
+      "wonder"
+    ]
+  },
+  "survival": {
+    "safe": true,
+    "secure": true,
+    "entityCount": "faible"
+  },
+  "entities": [
+    {
+      "id": "plush-dino",
+      "presence": "rare",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-17",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-19",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 18 — Memories",
+      "shortDescription": "A personalized childhood-memory realm that manifests differently for each visitor, laced with whispering voices and nostalgic imagery.",
+      "atmosphere": "Emotionally evocative and introspective; recreates formative spaces with a melancholy that resurfaces forgotten memories.",
+      "tips": "No physical danger. Simply turn around and leave to reach Level 19. Following the Plush Dino can guide you, though slowly."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-18-thumb.webp",
+    "banner": "/images/levels/level-18-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-18",
+    "fr": "https://backrooms-wiki.wikidot.com/level-18"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}

@@ -1,82 +1,32 @@
 {
-  "id": "level-1",
-  "slug": "level-1",
-  "class": "habitable",
+  "id": "level-21",
+  "slug": "level-21",
+  "class": "dangereux",
   "danger": {
-    "level": 2,
+    "level": 5,
     "scale": 5,
     "tags": [
-      "non-euclidean-geometry",
-      "flickering-blackouts",
+      "doors",
+      "shifting-maze",
       "hostile-entities",
-      "resource-crates"
+      "disorientation"
     ]
   },
   "survival": {
-    "safe": true,
-    "secure": true,
-    "entityCount": "eleve"
+    "safe": false,
+    "secure": false,
+    "entityCount": "faible"
   },
   "entities": [
     {
-      "id": "smilers",
-      "presence": "frequent",
-      "zones": []
-    },
-    {
-      "id": "dullers",
+      "id": "clickers",
       "presence": "common",
-      "zones": []
-    },
-    {
-      "id": "skin-stealer",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
-      "id": "hounds",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
-      "id": "wretches",
-      "presence": "occasional",
       "zones": []
     }
   ],
   "connections": [
     {
       "to": "level-0",
-      "type": "noclip",
-      "direction": "bidirectional",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-2",
-      "type": "autre",
-      "direction": "one-way",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-19",
-      "type": "autre",
-      "direction": "one-way",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-22",
       "type": "porte",
       "direction": "one-way",
       "method": {
@@ -86,8 +36,48 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-38",
+      "to": "level-6",
       "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-9",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-11",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-13",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-46",
+      "type": "porte",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -98,19 +88,19 @@
   ],
   "i18n": {
     "en": {
-      "name": "Level 1 — Habitable Zone",
-      "shortDescription": "A vast warehouse-like level of concrete pillars and non-Euclidean geometry, home to survivor settlements offering food, shelter and guidance.",
-      "atmosphere": "Industrial and liminal; flickering lights bring dangerous blackouts. Habitable despite roaming entities and deceptive distances.",
-      "tips": "Navigate by fixed landmarks. Cross corridors during flickering events. Loot crates for Almond Water. Seek established bases."
+      "name": "Level 21 — Numbered Doors",
+      "shortDescription": "Four interconnected hallways of randomized numbered doors leading all across the Backrooms, around an unpredictable hub and a deadly exit passage.",
+      "atmosphere": "Maze-like and disorienting, with passageways that shift and mysterious numbered doors breeding constant uncertainty.",
+      "tips": "Trust labeled doors 105–356 for known destinations. Avoid unlabeled or 'trustworthy'-claiming doors. Never open the red Exit door."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-1-thumb.webp",
-    "banner": "/images/levels/level-1-banner.webp"
+    "thumbnail": "/images/levels/level-21-thumb.webp",
+    "banner": "/images/levels/level-21-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-1",
-    "fr": "https://backrooms-wiki.wikidot.com/level-1"
+    "en": "https://backrooms-wiki.wikidot.com/level-21",
+    "fr": "https://backrooms-wiki.wikidot.com/level-21"
   },
   "layers": {
     "danger": true,

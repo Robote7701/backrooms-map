@@ -1,47 +1,26 @@
 {
-  "id": "level-4",
-  "slug": "level-4",
-  "class": "habitable",
+  "id": "level-13",
+  "slug": "level-13",
+  "class": "instable",
   "danger": {
-    "level": 2,
+    "level": 3,
     "scale": 5,
     "tags": [
-      "office",
-      "safe-hub",
-      "supplies",
-      "almond-water"
+      "residential",
+      "lethargy",
+      "psychological",
+      "disappearances"
     ]
   },
   "survival": {
     "safe": true,
-    "secure": false,
-    "entityCount": "faible"
+    "secure": true,
+    "entityCount": "aucune"
   },
-  "entities": [
-    {
-      "id": "hounds",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
-      "id": "dullers",
-      "presence": "occasional",
-      "zones": []
-    }
-  ],
+  "entities": [],
   "connections": [
     {
-      "to": "level-3",
-      "type": "escalier",
-      "direction": "bidirectional",
-      "method": {
-        "en": "From this level's entrances/exits on the source wiki.",
-        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-2",
+      "to": "level-0",
       "type": "porte",
       "direction": "bidirectional",
       "method": {
@@ -51,8 +30,28 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-5",
+      "to": "level-2",
       "type": "escalier",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-12",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-14",
+      "type": "porte",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -61,8 +60,8 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-6",
-      "type": "escalier",
+      "to": "level-21",
+      "type": "autre",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -73,19 +72,19 @@
   ],
   "i18n": {
     "en": {
-      "name": "Level 4 — Abandoned Office",
-      "shortDescription": "An empty office building with minimal furniture: a major hub where wanderers gather and stock up on supplies, especially Almond Water.",
-      "atmosphere": "Mostly desolate corridors, some windows blacked out; quiet and commercial with moderate traffic from other travelers.",
-      "tips": "Stock Almond Water before going deeper. Avoid clear windows — they are traps. A good place to meet others and resupply."
+      "name": "Level 13 — The Boiling Frogs",
+      "shortDescription": "A 290-floor apartment complex of bland halls and identical furnished rooms that quietly nudges long-term residents into lethargy and withdrawal.",
+      "atmosphere": "Monotonous, suffocating comfort; dim endless hallways and apartments giving just enough to make leaving psychologically hard.",
+      "tips": "Keep social ties and routines outside your room. The level's lethargy deepens isolation — seek work or a group to resist stagnation."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-4-thumb.webp",
-    "banner": "/images/levels/level-4-banner.webp"
+    "thumbnail": "/images/levels/level-13-thumb.webp",
+    "banner": "/images/levels/level-13-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-4",
-    "fr": "https://backrooms-wiki.wikidot.com/level-4"
+    "en": "https://backrooms-wiki.wikidot.com/level-13",
+    "fr": "https://backrooms-wiki.wikidot.com/level-13"
   },
   "layers": {
     "danger": true,

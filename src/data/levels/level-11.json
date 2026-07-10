@@ -1,53 +1,48 @@
 {
-  "id": "level-1",
-  "slug": "level-1",
-  "class": "habitable",
+  "id": "level-11",
+  "slug": "level-11",
+  "class": "instable",
   "danger": {
-    "level": 2,
+    "level": 3,
     "scale": 5,
     "tags": [
-      "non-euclidean-geometry",
-      "flickering-blackouts",
-      "hostile-entities",
-      "resource-crates"
+      "urban",
+      "hub",
+      "self-sufficient",
+      "fluid-architecture"
     ]
   },
   "survival": {
     "safe": true,
-    "secure": true,
-    "entityCount": "eleve"
+    "secure": false,
+    "entityCount": "moyen"
   },
   "entities": [
     {
-      "id": "smilers",
-      "presence": "frequent",
-      "zones": []
-    },
-    {
-      "id": "dullers",
+      "id": "facelings",
       "presence": "common",
       "zones": []
     },
     {
-      "id": "skin-stealer",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
       "id": "hounds",
-      "presence": "occasional",
+      "presence": "common",
       "zones": []
     },
     {
-      "id": "wretches",
+      "id": "lucky-cranes",
+      "presence": "rare",
+      "zones": []
+    },
+    {
+      "id": "living-pizzas",
       "presence": "occasional",
       "zones": []
     }
   ],
   "connections": [
     {
-      "to": "level-0",
-      "type": "noclip",
+      "to": "level-6",
+      "type": "porte",
       "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -56,7 +51,7 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-2",
+      "to": "level-9",
       "type": "autre",
       "direction": "one-way",
       "method": {
@@ -66,7 +61,7 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-19",
+      "to": "level-10",
       "type": "autre",
       "direction": "one-way",
       "method": {
@@ -76,9 +71,19 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-22",
+      "to": "level-12",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-33",
       "type": "porte",
-      "direction": "one-way",
+      "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
@@ -86,8 +91,8 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-38",
-      "type": "autre",
+      "to": "level-40",
+      "type": "porte",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -98,19 +103,19 @@
   ],
   "i18n": {
     "en": {
-      "name": "Level 1 — Habitable Zone",
-      "shortDescription": "A vast warehouse-like level of concrete pillars and non-Euclidean geometry, home to survivor settlements offering food, shelter and guidance.",
-      "atmosphere": "Industrial and liminal; flickering lights bring dangerous blackouts. Habitable despite roaming entities and deceptive distances.",
-      "tips": "Navigate by fixed landmarks. Cross corridors during flickering events. Loot crates for Almond Water. Seek established bases."
+      "name": "Level 11 — The City That Never Sleeps",
+      "shortDescription": "An empty metropolis that serves as the Backrooms' main hub: self-sustaining infrastructure, many faction settlements and countless exits.",
+      "atmosphere": "Sprawling urban emptiness of working buildings, zones bleeding into one another, oddly pacifying to hostile entities.",
+      "tips": "Mark safe routes with paint. Avoid unmapped areas near exits. Seek work for housing in the Capital and ask locals for directions."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-1-thumb.webp",
-    "banner": "/images/levels/level-1-banner.webp"
+    "thumbnail": "/images/levels/level-11-thumb.webp",
+    "banner": "/images/levels/level-11-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-1",
-    "fr": "https://backrooms-wiki.wikidot.com/level-1"
+    "en": "https://backrooms-wiki.wikidot.com/level-11",
+    "fr": "https://backrooms-wiki.wikidot.com/level-11"
   },
   "layers": {
     "danger": true,

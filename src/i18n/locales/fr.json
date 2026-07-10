@@ -43,6 +43,7 @@
     "noclip": "No-clip (traverser la réalité)",
     "porte": "Porte",
     "escalier": "Escalier",
+    "autre": "Autre (portail, ascenseur…)",
     "bidirectional": "Bidirectionnelle",
     "oneway": "Sens unique",
     "dangerScale": "Échelle de danger",
@@ -57,7 +58,8 @@
   "connType": {
     "noclip": "No-clip",
     "porte": "Porte",
-    "escalier": "Escalier"
+    "escalier": "Escalier",
+    "autre": "Autre"
   },
   "language": {
     "label": "Langue",

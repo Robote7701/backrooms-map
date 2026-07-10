@@ -8,8 +8,8 @@
     "tags": [
       "caves",
       "non-euclidean-geometry",
-      "extreme-temperatures",
-      "low-oxygen"
+      "flooded",
+      "hostile-entities"
     ]
   },
   "survival": {
@@ -19,89 +19,69 @@
   },
   "entities": [
     {
-      "id": "entity-35",
-      "presence": "common",
+      "id": "wranglers",
+      "presence": "occasional",
       "zones": []
     },
     {
-      "id": "entity-31",
+      "id": "arachnids",
       "presence": "frequent",
       "zones": []
     },
     {
-      "id": "entity-24",
+      "id": "light-guides",
       "presence": "occasional",
       "zones": []
     },
     {
-      "id": "entity-4",
+      "id": "deathmoths",
       "presence": "occasional",
       "zones": []
     },
     {
-      "id": "entity-75",
-      "presence": "rare",
+      "id": "wretches",
+      "presence": "common",
       "zones": []
     }
   ],
   "connections": [
     {
-      "to": "level-2",
-      "type": "noclip",
-      "direction": "bidirectional",
-      "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-4",
-      "type": "noclip",
-      "direction": "bidirectional",
-      "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-5",
-      "type": "noclip",
-      "direction": "bidirectional",
-      "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
       "to": "level-6",
-      "type": "noclip",
+      "type": "autre",
       "direction": "bidirectional",
       "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
-      },
-      "reliability": "inconnue"
-    },
-    {
-      "to": "level-7",
-      "type": "noclip",
-      "direction": "bidirectional",
-      "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
       },
       "reliability": "inconnue"
     },
     {
       "to": "level-9",
-      "type": "noclip",
+      "type": "autre",
       "direction": "bidirectional",
       "method": {
-        "en": "Listed among this level's entrances/exits on the source wiki.",
-        "fr": "Figure parmi les entrées/sorties de ce niveau sur le wiki source."
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-2",
+      "type": "noclip",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-41",
+      "type": "autre",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
       },
       "reliability": "inconnue"
     }
@@ -109,9 +89,9 @@
   "i18n": {
     "en": {
       "name": "Level 8 — Cave Systems",
-      "shortDescription": "A sprawling non-Euclidean cave network with treacherous terrain, wild temperature and gravity swings, and thin air.",
-      "atmosphere": "Dark claustrophobic chambers of chaotic rock, cold stagnant air, distant creature sounds and constant risk of disorientation.",
-      "tips": "Stay on the M.E.G.-marked 9th Road. Keep moving against hypothermia, watch oxygen, avoid spider colonies and floating rocks."
+      "shortDescription": "A vast underground cave network with non-Euclidean geometry, shifting gravity, flooded passages and many hostile entities.",
+      "atmosphere": "Oppressively dark caverns, cold almond water, eerie silence broken by creature sounds and flickering emergency lights.",
+      "tips": "Follow the 9th Road markers religiously. Stay warm, dry and awake against hypothermia. Avoid glyph-marked spider colonies."
     }
   },
   "media": {

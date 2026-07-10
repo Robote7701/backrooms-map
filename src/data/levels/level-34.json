@@ -1,21 +1,21 @@
 {
-  "id": "level-1",
-  "slug": "level-1",
-  "class": "habitable",
+  "id": "level-34",
+  "slug": "level-34",
+  "class": "dangereux",
   "danger": {
-    "level": 2,
+    "level": 5,
     "scale": 5,
     "tags": [
-      "non-euclidean-geometry",
-      "flickering-blackouts",
-      "hostile-entities",
-      "resource-crates"
+      "flooded",
+      "cramped",
+      "darkness",
+      "hostile-entities"
     ]
   },
   "survival": {
-    "safe": true,
-    "secure": true,
-    "entityCount": "eleve"
+    "safe": false,
+    "secure": false,
+    "entityCount": "moyen"
   },
   "entities": [
     {
@@ -24,30 +24,25 @@
       "zones": []
     },
     {
-      "id": "dullers",
+      "id": "death-rats",
       "presence": "common",
       "zones": []
     },
     {
-      "id": "skin-stealer",
-      "presence": "occasional",
-      "zones": []
-    },
-    {
       "id": "hounds",
-      "presence": "occasional",
+      "presence": "rare",
       "zones": []
     },
     {
-      "id": "wretches",
-      "presence": "occasional",
+      "id": "skin-stealers",
+      "presence": "unknown",
       "zones": []
     }
   ],
   "connections": [
     {
       "to": "level-0",
-      "type": "noclip",
+      "type": "autre",
       "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -56,9 +51,9 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-2",
+      "to": "level-4",
       "type": "autre",
-      "direction": "one-way",
+      "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
@@ -66,9 +61,9 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-19",
+      "to": "level-7",
       "type": "autre",
-      "direction": "one-way",
+      "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
@@ -76,9 +71,29 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-22",
+      "to": "level-9",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-11",
+      "type": "autre",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-18",
       "type": "porte",
-      "direction": "one-way",
+      "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
@@ -86,9 +101,9 @@
       "reliability": "inconnue"
     },
     {
-      "to": "level-38",
+      "to": "level-43",
       "type": "autre",
-      "direction": "one-way",
+      "direction": "bidirectional",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
         "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
@@ -98,19 +113,19 @@
   ],
   "i18n": {
     "en": {
-      "name": "Level 1 — Habitable Zone",
-      "shortDescription": "A vast warehouse-like level of concrete pillars and non-Euclidean geometry, home to survivor settlements offering food, shelter and guidance.",
-      "atmosphere": "Industrial and liminal; flickering lights bring dangerous blackouts. Habitable despite roaming entities and deceptive distances.",
-      "tips": "Navigate by fixed landmarks. Cross corridors during flickering events. Loot crates for Almond Water. Seek established bases."
+      "name": "Level 34 — Sewer System",
+      "shortDescription": "A tight, pitch-black sewer of brick and stone where the water below may drop you into other levels. Home to several dangerous entities.",
+      "atmosphere": "Claustrophobic darkness over stagnant water, hostile creatures lurking in the cramped tunnels.",
+      "tips": "Bring a light and almond water. Kill your flashlight if you meet Smilers. Never fall into the water."
     }
   },
   "media": {
-    "thumbnail": "/images/levels/level-1-thumb.webp",
-    "banner": "/images/levels/level-1-banner.webp"
+    "thumbnail": "/images/levels/level-34-thumb.webp",
+    "banner": "/images/levels/level-34-banner.webp"
   },
   "wikiUrl": {
-    "en": "https://backrooms-wiki.wikidot.com/level-1",
-    "fr": "https://backrooms-wiki.wikidot.com/level-1"
+    "en": "https://backrooms-wiki.wikidot.com/level-34",
+    "fr": "https://backrooms-wiki.wikidot.com/level-34"
   },
   "layers": {
     "danger": true,

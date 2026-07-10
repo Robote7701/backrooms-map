@@ -1,0 +1,105 @@
+{
+  "id": "level-33",
+  "slug": "level-33",
+  "class": "instable",
+  "danger": {
+    "level": 3,
+    "scale": 5,
+    "tags": [
+      "abandoned-mall",
+      "progressive-decay",
+      "hallucinations",
+      "hostile-entities"
+    ]
+  },
+  "survival": {
+    "safe": false,
+    "secure": false,
+    "entityCount": "eleve"
+  },
+  "entities": [
+    {
+      "id": "death-rats",
+      "presence": "common",
+      "zones": []
+    },
+    {
+      "id": "smilers",
+      "presence": "common",
+      "zones": []
+    },
+    {
+      "id": "anithikas",
+      "presence": "frequent",
+      "zones": []
+    },
+    {
+      "id": "hounds",
+      "presence": "occasional",
+      "zones": []
+    },
+    {
+      "id": "skin-stealers",
+      "presence": "rare",
+      "zones": []
+    }
+  ],
+  "connections": [
+    {
+      "to": "level-11",
+      "type": "porte",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-22",
+      "type": "escalier",
+      "direction": "bidirectional",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    },
+    {
+      "to": "level-45",
+      "type": "porte",
+      "direction": "one-way",
+      "method": {
+        "en": "From this level's entrances/exits on the source wiki.",
+        "fr": "D'après les entrées/sorties de ce niveau sur le wiki source."
+      },
+      "reliability": "inconnue"
+    }
+  ],
+  "i18n": {
+    "en": {
+      "name": "Level 33 — The Infinite Mall",
+      "shortDescription": "An infinite shopping mall that decays the further you travel, from clean stores into flooded, hazardous ruins.",
+      "atmosphere": "Clean and quiet at first, turning flooded, moldy and overgrown as mental deterioration and hallucinations creep in.",
+      "tips": "Try not to travel beyond ~50 miles. Stay hydrated, manage the psychological effects and watch for entity activity that grows with distance."
+    }
+  },
+  "media": {
+    "thumbnail": "/images/levels/level-33-thumb.webp",
+    "banner": "/images/levels/level-33-banner.webp"
+  },
+  "wikiUrl": {
+    "en": "https://backrooms-wiki.wikidot.com/level-33",
+    "fr": "https://backrooms-wiki.wikidot.com/level-33"
+  },
+  "layers": {
+    "danger": true,
+    "entities": true,
+    "resources": false
+  },
+  "meta": {
+    "addedOn": "2026-07-10",
+    "status": "published",
+    "source": "backrooms-wiki.wikidot.com"
+  }
+}
