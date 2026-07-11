@@ -1,17 +1,12 @@
-fix: optimisation mobile complete
+fix: routes du niveau selectionne qui disparaissaient hors survol
 
-- header : titre+langue sur une ligne, recherche pleine largeur en dessous
-  (<=640px), sous-titre masque, tailles reduites
-- Calques/Filtres transformes en tiroir repliable (bouton toggle) plutot
-  que de recouvrir toute la carte ; ferme par defaut sur mobile
-- page redevient scrollable (carte 62vh + panneau en dessous) au lieu
-  d'un layout 100vh fige qui coupait le contenu
-- panneau lateral pleine largeur sans limite de hauteur artificielle
-- cibles tactiles agrandies (boutons, chips, liens)
-- legende masquee sous 860px (deja existant, confirme)
+Le handler mouseout retirait la classe "highlighted" sur toutes les routes
+du noeud quitte, y compris celles posees par la selection (applySelection).
+Resultat : des qu'on quittait le survol du niveau selectionne, ses routes
+perdaient leur mise en avant et redevenaient invisibles (LOD zoom faible).
 
-Teste via iframe 390x844 (viewport OS resistant au resize) : tiroir
-calques/filtres, selection d'un niveau avec panneau et routes
-surlignees malgre le LOD zoom, tout fonctionnel.
+Fix : mouseout ne retire plus "highlighted" que sur les routes qui ne
+touchent pas le niveau actuellement selectionne (ref selectedIdRef,
+meme pattern que onSelectRef).
 
 Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>

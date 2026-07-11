@@ -22,6 +22,14 @@ export default function MapView({ levels, activeLayers, selectedId, focusNonce, 
     onSelectRef.current = onSelect
   }, [onSelect])
 
+  // Idem pour le niveau sélectionné : le handler de survol doit savoir
+  // quelles routes appartiennent à la sélection pour ne pas les éteindre
+  // par erreur quand la souris quitte le nœud (voir mouseout ci-dessous).
+  const selectedIdRef = useRef(selectedId)
+  useEffect(() => {
+    selectedIdRef.current = selectedId
+  }, [selectedId])
+
   function bindEvents(cy) {
     cy.on('tap', 'node', (evt) => onSelectRef.current?.(evt.target.id()))
     cy.on('tap', (evt) => {
@@ -35,7 +43,15 @@ export default function MapView({ levels, activeLayers, selectedId, focusNonce, 
     cy.on('mouseout', 'node', (evt) => {
       const n = evt.target
       n.removeClass('hovered')
-      n.connectedEdges().removeClass('highlighted')
+      // Ne retire la mise en avant que sur les routes qui ne touchent pas
+      // le nœud sélectionné : celles-là doivent rester visibles même sans
+      // survol, tant que la sélection est active.
+      const selId = selectedIdRef.current
+      n.connectedEdges().forEach((edge) => {
+        if (edge.data('source') !== selId && edge.data('target') !== selId) {
+          edge.removeClass('highlighted')
+        }
+      })
     })
 
     // Niveau de détail selon le zoom : avec ~100 nœuds et 360+ routes,
