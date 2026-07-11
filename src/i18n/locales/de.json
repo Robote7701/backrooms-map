@@ -49,7 +49,14 @@
     "min": "min",
     "max": "max",
     "reset": "Zurücksetzen",
-    "showing": "{count} Ebenen angezeigt"
+    "showing": "{count} / {total} Ebenen angezeigt",
+    "entities": "Wesen",
+    "withEntities": "Mit Wesen",
+    "withoutEntities": "Ohne Wesen",
+    "survival": "Sicherheit des Ortes",
+    "commonHazards": "Häufige Gefahren",
+    "hideStubs": "Unvollständige Einträge ausblenden",
+    "random": "Zufällige Ebene"
   },
   "legend": {
     "title": "Legende",

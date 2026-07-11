@@ -278,6 +278,7 @@ body {
   width: 260px;
   max-height: calc(100% - 32px);
   overflow-y: auto;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -375,6 +376,35 @@ body {
   opacity: 0.5;
   text-decoration: line-through;
 }
+/* Variante "switch" : contrairement à chip--toggle (actif = inclus par
+   défaut, clic = exclu), ces puces démarrent neutres et s'allument au
+   clic — utilisées pour les filtres additifs (entités, sûreté, tags). */
+.chip--switch {
+  cursor: pointer;
+  background: var(--bg-elev);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.15s;
+}
+.chip--switch.chip--active {
+  color: var(--neon-cyan);
+  border-color: var(--neon-cyan);
+  background: rgba(0, 240, 255, 0.1);
+}
+.chip--tag.chip--active {
+  color: var(--neon-purple);
+  border-color: var(--neon-purple);
+  background: rgba(177, 75, 255, 0.1);
+}
+.chip__count {
+  font-size: 9px;
+  color: inherit;
+  opacity: 0.65;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  padding: 1px 5px;
+}
 .chip--noclip {
   color: var(--neon-cyan);
   border-color: var(--neon-cyan);
@@ -420,7 +450,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 8px;
   margin-top: 4px;
+  flex-wrap: wrap;
+}
+.filter-footer__actions {
+  display: flex;
+  gap: 12px;
+}
+.filter-footer .link-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  text-decoration: none;
 }
 
 /* ---- Legend (bas-gauche) ---- */

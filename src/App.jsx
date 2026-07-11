@@ -30,6 +30,13 @@ export default function App() {
     hiddenClasses: new Set(),
     dangerMin: dangerBounds.min,
     dangerMax: dangerBounds.max,
+    // 'all' | 'with' | 'without' — présence d'au moins une entité connue.
+    entityPresence: 'all',
+    safeOnly: false,
+    securedOnly: false,
+    hideStubs: false,
+    // Tags de danger sélectionnés (correspondance OR : un seul suffit).
+    activeTags: new Set(),
   }))
   // Page mentions légales : simple bascule via #legal dans l'URL, pas besoin
   // d'un routeur pour une seule page annexe.
@@ -45,12 +52,19 @@ export default function App() {
   // Niveaux visibles après application des filtres.
   const visibleLevels = useMemo(
     () =>
-      allLevels.filter(
-        (lvl) =>
-          !filters.hiddenClasses.has(lvl.class) &&
-          lvl.danger.level >= filters.dangerMin &&
-          lvl.danger.level <= filters.dangerMax,
-      ),
+      allLevels.filter((lvl) => {
+        if (filters.hiddenClasses.has(lvl.class)) return false
+        if (lvl.danger.level < filters.dangerMin || lvl.danger.level > filters.dangerMax) return false
+        if (filters.entityPresence === 'with' && lvl.entities.length === 0) return false
+        if (filters.entityPresence === 'without' && lvl.entities.length > 0) return false
+        if (filters.safeOnly && !lvl.survival.safe) return false
+        if (filters.securedOnly && !lvl.survival.secure) return false
+        if (filters.hideStubs && lvl.meta?.status === 'stub') return false
+        if (filters.activeTags.size > 0 && !lvl.danger.tags?.some((tag) => filters.activeTags.has(tag))) {
+          return false
+        }
+        return true
+      }),
     [filters],
   )
 
@@ -64,6 +78,14 @@ export default function App() {
   function focusLevel(id) {
     setSelectedId(id)
     setFocusNonce((n) => n + 1)
+  }
+
+  // Téléporte vers un niveau au hasard parmi ceux actuellement visibles —
+  // un clin d'œil au thème (on erre dans les Backrooms sans destination).
+  function randomLevel() {
+    if (visibleLevels.length === 0) return
+    const pick = visibleLevels[Math.floor(Math.random() * visibleLevels.length)]
+    focusLevel(pick.id)
   }
 
   function toggleLayer(id) {
@@ -110,7 +132,12 @@ export default function App() {
 
           <div className={`controls ${controlsOpen ? '' : 'controls--closed'}`}>
             <LayerToggles activeLayers={activeLayers} onToggle={toggleLayer} />
-            <Filters filters={filters} onChange={setFilters} shownCount={visibleLevels.length} />
+            <Filters
+              filters={filters}
+              onChange={setFilters}
+              shownCount={visibleLevels.length}
+              onRandom={randomLevel}
+            />
           </div>
 
           <Legend />

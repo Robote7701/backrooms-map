@@ -1,18 +1,18 @@
-feat(i18n): ajout de l'allemand comme langue de l'interface
+feat: filtres enrichis et instructifs (comptes, tags, entites, securite)
 
-- src/i18n/locales/de.json : traduction complete de l'UI (header, panneau,
-  calques, filtres, legende, footer)
-- I18nContext.jsx : enregistrement de 'de' dans DICTIONARIES (le
-  selecteur de langue et le fallback sont deja generiques, rien d'autre
-  a cabler)
-- icons.js : drapeau 🇩🇪 dans langIcons
-- LegalPage.jsx : refactor en dictionnaire de traductions (fr/en/de) au
-  lieu de ternaires fr/en imbriques, page legale desormais aussi en
-  allemand
-- fr.json/en.json : ajout de la cle language.de ("Deutsch")
-
-Le contenu des niveaux reste FR/EN uniquement (decision precedente vu le
-volume) ; en DE il retombe automatiquement sur l'anglais via le fallback
-existant de getLevelText, sans erreur ni contenu manquant visible.
+- loadLevels.js expose levelClassCounts, topDangerTags (12 tags de danger
+  les plus frequents, hors tags "meta" comme difficulte-estimee), stubCount
+- Filters.jsx repense entierement :
+  - chaque chip de classe affiche son nombre de niveaux
+  - nouveau filtre presence d'entites (avec/sans)
+  - nouveau filtre securite du lieu (sur / securise)
+  - nouveau filtre par dangers frequents (tags, correspondance OR)
+  - nouveau filtre "masquer les fiches incompletes" (stubs)
+  - compteur "X / Y niveaux affiches" au lieu de X seul
+  - bouton "🎲 Niveau au hasard" : teleporte vers un niveau visible pris
+    au hasard, recentre la carte et ouvre le panneau (clin d'oeil au theme)
+- nouvelle variante CSS .chip--switch (etat neutre par defaut, s'allume au
+  clic) distincte de .chip--toggle (actif par defaut, barre si exclu)
+- traductions FR/EN/DE des nouveaux libelles
 
 Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>

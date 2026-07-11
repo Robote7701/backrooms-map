@@ -49,7 +49,14 @@
     "min": "min",
     "max": "max",
     "reset": "Reset",
-    "showing": "{count} levels shown"
+    "showing": "{count} / {total} levels shown",
+    "entities": "Entities",
+    "withEntities": "With entities",
+    "withoutEntities": "No entities",
+    "survival": "Site safety",
+    "commonHazards": "Common hazards",
+    "hideStubs": "Hide incomplete entries",
+    "random": "Random level"
   },
   "legend": {
     "title": "Legend",

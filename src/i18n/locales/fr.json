@@ -49,7 +49,14 @@
     "min": "min",
     "max": "max",
     "reset": "Réinitialiser",
-    "showing": "{count} niveaux affichés"
+    "showing": "{count} / {total} niveaux affichés",
+    "entities": "Entités",
+    "withEntities": "Avec entités",
+    "withoutEntities": "Sans entité",
+    "survival": "Sécurité du lieu",
+    "commonHazards": "Dangers fréquents",
+    "hideStubs": "Masquer les fiches incomplètes",
+    "random": "Niveau au hasard"
   },
   "legend": {
     "title": "Légende",
