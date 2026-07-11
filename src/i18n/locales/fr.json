@@ -28,6 +28,9 @@
     "reliability": "fiabilité",
     "close": "Fermer"
   },
+  "controls": {
+    "toggle": "Calques & filtres"
+  },
   "layers": {
     "title": "Calques",
     "danger": "Danger",

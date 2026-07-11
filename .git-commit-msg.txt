@@ -1,14 +1,17 @@
-fix: niveau de detail par zoom pour eliminer l'amas de points au chargement
+fix: optimisation mobile complete
 
-Avec ~100 niveaux et 360+ routes, tout afficher en permanence produisait une
-pelote illisible meme apres l'espacement du layout. Ajout d'un LOD base sur
-le zoom :
-- zoom < 0.55 : routes masquees (edge.lod-hidden, opacity 0)
-- zoom < 0.4 : labels masques (node.lod-compact)
-- routes connectees au noeud survole/selectionne restent visibles quel que
-  soit le zoom (classe .highlighted appliquee apres .lod-hidden dans la
-  feuille de style)
+- header : titre+langue sur une ligne, recherche pleine largeur en dessous
+  (<=640px), sous-titre masque, tailles reduites
+- Calques/Filtres transformes en tiroir repliable (bouton toggle) plutot
+  que de recouvrir toute la carte ; ferme par defaut sur mobile
+- page redevient scrollable (carte 62vh + panneau en dessous) au lieu
+  d'un layout 100vh fige qui coupait le contenu
+- panneau lateral pleine largeur sans limite de hauteur artificielle
+- cibles tactiles agrandies (boutons, chips, liens)
+- legende masquee sous 860px (deja existant, confirme)
 
-Vue initiale = semis propre de points, structure revelee en zoomant.
+Teste via iframe 390x844 (viewport OS resistant au resize) : tiroir
+calques/filtres, selection d'un niveau avec panneau et routes
+surlignees malgre le LOD zoom, tout fonctionnel.
 
 Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>

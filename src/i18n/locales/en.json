@@ -28,6 +28,9 @@
     "reliability": "reliability",
     "close": "Close"
   },
+  "controls": {
+    "toggle": "Layers & filters"
+  },
   "layers": {
     "title": "Layers",
     "danger": "Danger",

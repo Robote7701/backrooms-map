@@ -10,11 +10,20 @@ import { useI18n } from './i18n/I18nContext'
 import { levels as allLevels, levelsById, dangerBounds } from './data/loadLevels'
 import { defaultActiveLayers } from './layers/registry'
 
+// Sous ce seuil, le panneau Calques/Filtres devient un tiroir repliable
+// (sinon il recouvre toute la carte sur un écran de téléphone).
+const MOBILE_BREAKPOINT = 640
+
 export default function App() {
   const { t } = useI18n()
   const [selectedId, setSelectedId] = useState(null)
   // Incrémenté à chaque recherche pour demander à la carte de recentrer.
   const [focusNonce, setFocusNonce] = useState(0)
+  // Fermé par défaut sur mobile (la carte doit être visible immédiatement),
+  // ouvert par défaut sur desktop. Le toggle n'est visible qu'en mobile (CSS).
+  const [controlsOpen, setControlsOpen] = useState(
+    () => typeof window === 'undefined' || window.innerWidth > MOBILE_BREAKPOINT,
+  )
   const [activeLayers, setActiveLayers] = useState(() => new Set(defaultActiveLayers))
   const [filters, setFilters] = useState(() => ({
     hiddenClasses: new Set(),
@@ -75,7 +84,16 @@ export default function App() {
             onSelect={setSelectedId}
           />
 
-          <div className="controls">
+          <button
+            className="controls-toggle"
+            onClick={() => setControlsOpen((o) => !o)}
+            aria-expanded={controlsOpen}
+            aria-label={t('controls.toggle')}
+          >
+            {controlsOpen ? '✕' : '⚙️'} {t('controls.toggle')}
+          </button>
+
+          <div className={`controls ${controlsOpen ? '' : 'controls--closed'}`}>
             <LayerToggles activeLayers={activeLayers} onToggle={toggleLayer} />
             <Filters filters={filters} onChange={setFilters} shownCount={visibleLevels.length} />
           </div>

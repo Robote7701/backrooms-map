@@ -195,6 +195,9 @@ body {
 }
 
 /* ---- Overlay controls (haut-gauche) ---- */
+.controls-toggle {
+  display: none; /* visible seulement en mobile, voir media query */
+}
 .controls {
   position: absolute;
   top: 16px;
@@ -206,6 +209,7 @@ body {
   flex-direction: column;
   gap: 12px;
   z-index: 4;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 .panel-block {
   background: var(--bg-panel);
@@ -629,7 +633,7 @@ body {
   font-size: 12px;
 }
 
-/* ---- Responsive ---- */
+/* ---- Responsive : tablette ---- */
 @media (max-width: 860px) {
   .app__body {
     flex-direction: column;
@@ -646,5 +650,113 @@ body {
   }
   .legend {
     display: none;
+  }
+}
+
+/* ---- Responsive : téléphone ---- */
+@media (max-width: 640px) {
+  html,
+  body,
+  #root {
+    /* Autorise le scroll vertical (carte + panneau empilés) plutôt que
+       de forcer une hauteur d'écran fixe qui coupe le contenu. */
+    height: auto;
+    min-height: 100%;
+  }
+  body {
+    overflow: auto;
+  }
+  .app {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  /* Header : titre + langue sur une ligne, recherche pleine largeur en dessous. */
+  .app__header {
+    flex-wrap: wrap;
+    row-gap: 8px;
+    padding: 10px 14px;
+  }
+  .app__brand {
+    order: 1;
+  }
+  .lang-switcher {
+    order: 2;
+  }
+  .search-bar {
+    order: 3;
+    flex: 1 1 100%;
+    max-width: none;
+    margin: 0;
+  }
+  .app__title {
+    font-size: 16px;
+  }
+  .app__subtitle {
+    display: none;
+  }
+
+  .app__body {
+    height: auto;
+  }
+  .app__map {
+    /* Hauteur généreuse mais laisse deviner le panneau en dessous. */
+    height: 62vh;
+    min-height: 360px;
+    flex: none;
+  }
+
+  /* Calques/Filtres : tiroir repliable au lieu de recouvrir la carte. */
+  .controls-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 6;
+    padding: 8px 14px;
+    background: var(--bg-panel);
+    color: var(--backrooms-yellow);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-family: var(--mono);
+    font-size: 12px;
+    backdrop-filter: blur(6px);
+  }
+  .controls {
+    top: 56px;
+    left: 12px;
+    right: 12px;
+    width: auto;
+    max-height: calc(100% - 72px);
+  }
+  .controls--closed {
+    transform: translateY(-12px);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .legend {
+    display: none;
+  }
+
+  .side-panel {
+    max-height: none;
+    padding: 16px;
+  }
+  .side-panel--empty {
+    min-height: 140px;
+  }
+  .side-panel__title {
+    font-size: 16px;
+  }
+
+  /* Cibles tactiles plus généreuses. */
+  .lang-btn,
+  .toggle,
+  .chip--toggle,
+  .link-btn {
+    min-height: 34px;
   }
 }
