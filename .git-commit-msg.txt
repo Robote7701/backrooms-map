@@ -1,12 +1,11 @@
-fix: routes du niveau selectionne qui disparaissaient hors survol
+feat: page mentions legales & confidentialite
 
-Le handler mouseout retirait la classe "highlighted" sur toutes les routes
-du noeud quitte, y compris celles posees par la selection (applySelection).
-Resultat : des qu'on quittait le survol du niveau selectionne, ses routes
-perdaient leur mise en avant et redevenaient invisibles (LOD zoom faible).
-
-Fix : mouseout ne retire plus "highlighted" que sur les routes qui ne
-touchent pas le niveau actuellement selectionne (ref selectedIdRef,
-meme pattern que onSelectRef).
+- src/components/LegalPage.jsx : editeur, contact (issues GitHub),
+  hebergement, propriete intellectuelle/credits (source wiki CC BY-SA),
+  confidentialite (aucune collecte, localStorage langue uniquement),
+  liens externes, responsabilite. Bilingue FR/EN via useI18n.
+- Accessible via #legal (hashchange) + lien discret dans un nouveau
+  footer en bas de page, non intrusif
+- Aucun routeur ajoute : bascule d'etat simple suffisante pour 1 page
 
 Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>

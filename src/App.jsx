@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import MapView from './components/MapView'
 import SidePanel from './components/SidePanel'
 import LanguageSwitcher from './components/LanguageSwitcher'
@@ -6,6 +6,7 @@ import LayerToggles from './components/LayerToggles'
 import Filters from './components/Filters'
 import Legend from './components/Legend'
 import SearchBar from './components/SearchBar'
+import LegalPage from './components/LegalPage'
 import { useI18n } from './i18n/I18nContext'
 import { levels as allLevels, levelsById, dangerBounds } from './data/loadLevels'
 import { defaultActiveLayers } from './layers/registry'
@@ -30,6 +31,16 @@ export default function App() {
     dangerMin: dangerBounds.min,
     dangerMax: dangerBounds.max,
   }))
+  // Page mentions légales : simple bascule via #legal dans l'URL, pas besoin
+  // d'un routeur pour une seule page annexe.
+  const [showLegal, setShowLegal] = useState(
+    () => typeof window !== 'undefined' && window.location.hash === '#legal',
+  )
+  useEffect(() => {
+    const onHashChange = () => setShowLegal(window.location.hash === '#legal')
+    window.addEventListener('hashchange', onHashChange)
+    return () => window.removeEventListener('hashchange', onHashChange)
+  }, [])
 
   // Niveaux visibles après application des filtres.
   const visibleLevels = useMemo(
@@ -61,6 +72,10 @@ export default function App() {
       next.has(id) ? next.delete(id) : next.add(id)
       return next
     })
+  }
+
+  if (showLegal) {
+    return <LegalPage onClose={() => { window.location.hash = '' }} />
   }
 
   return (
@@ -107,6 +122,10 @@ export default function App() {
           onClose={() => setSelectedId(null)}
         />
       </div>
+
+      <footer className="app-footer">
+        <a href="#legal">{t('footer.legal')}</a>
+      </footer>
     </div>
   )
 }

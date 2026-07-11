@@ -31,6 +31,12 @@
   "controls": {
     "toggle": "Layers & filters"
   },
+  "footer": {
+    "legal": "Legal notice & privacy"
+  },
+  "legal": {
+    "back": "Back to map"
+  },
   "layers": {
     "title": "Layers",
     "danger": "Danger",

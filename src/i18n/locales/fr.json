@@ -31,6 +31,12 @@
   "controls": {
     "toggle": "Calques & filtres"
   },
+  "footer": {
+    "legal": "Mentions légales & confidentialité"
+  },
+  "legal": {
+    "back": "Retour à la carte"
+  },
   "layers": {
     "title": "Calques",
     "danger": "Danger",
