@@ -26,16 +26,44 @@
     "presence": "presence",
     "entityLinkHint": "View this entity's wiki page (external link, not guaranteed)",
     "reliability": "reliability",
-    "close": "Close"
+    "close": "Close",
+    "favorite": "Add to favorites",
+    "unfavorite": "Remove from favorites",
+    "share": "Copy this level's link",
+    "linkCopied": "Link copied!"
   },
   "controls": {
     "toggle": "Layers & filters"
   },
   "footer": {
-    "legal": "Legal notice & privacy"
+    "legal": "Legal notice & privacy",
+    "changelog": "Changelog",
+    "glossary": "Entity glossary"
   },
   "legal": {
     "back": "Back to map"
+  },
+  "glossary": {
+    "title": "Entity glossary",
+    "intro": "Every entity recorded across the level entries, with the levels where it appears. Complements the external wiki links, which aren't always reliable.",
+    "appearances": "{count} levels"
+  },
+  "pathfinder": {
+    "title": "Route finder",
+    "from": "From",
+    "to": "To",
+    "find": "Find a path",
+    "clear": "Clear",
+    "noPath": "No path found between these two levels."
+  },
+  "stats": {
+    "title": "Statistics",
+    "levels": "levels",
+    "routes": "routes",
+    "entities": "entities",
+    "stubs": "incomplete entries",
+    "dangerHist": "Danger distribution",
+    "topEntity": "Most frequent entity: {name} ({count} levels)"
   },
   "layers": {
     "title": "Layers",

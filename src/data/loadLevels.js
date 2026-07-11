@@ -50,3 +50,15 @@ export const topDangerTags = Object.entries(
 // Niveaux dont la fiche est incomplète (page source introuvable au moment
 // de l'import) : utile pour un filtre "masquer les fiches incomplètes".
 export const stubCount = levels.filter((lvl) => lvl.meta?.status === 'stub').length
+
+// Répartition du nombre de niveaux par palier de danger (pour le dashboard
+// de stats). Toujours les 5 paliers, même à 0, pour un histogramme stable.
+export const dangerDistribution = Array.from({ length: dangerBounds.max }, (_, i) => {
+  const level = i + 1
+  return { level, count: levels.filter((lvl) => lvl.danger.level === level).length }
+})
+
+// Nombre total de routes déclarées (comptées depuis la source, sans
+// dédoublonner les bidirectionnelles — un ordre de grandeur, pas une
+// valeur d'audit).
+export const totalRoutes = levels.reduce((sum, lvl) => sum + (lvl.connections?.length ?? 0), 0)

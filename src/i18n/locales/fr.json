@@ -26,16 +26,44 @@
     "presence": "présence",
     "entityLinkHint": "Voir la page wiki de cette entité (lien externe, non garanti)",
     "reliability": "fiabilité",
-    "close": "Fermer"
+    "close": "Fermer",
+    "favorite": "Ajouter aux favoris",
+    "unfavorite": "Retirer des favoris",
+    "share": "Copier le lien de ce niveau",
+    "linkCopied": "Lien copié !"
   },
   "controls": {
     "toggle": "Calques & filtres"
   },
   "footer": {
-    "legal": "Mentions légales & confidentialité"
+    "legal": "Mentions légales & confidentialité",
+    "changelog": "Changelog",
+    "glossary": "Glossaire des entités"
   },
   "legal": {
     "back": "Retour à la carte"
+  },
+  "glossary": {
+    "title": "Glossaire des entités",
+    "intro": "Toutes les entités recensées dans les fiches de niveaux, avec les niveaux où elles apparaissent. Complète les liens externes vers le wiki, qui ne sont pas toujours fiables.",
+    "appearances": "{count} niveaux"
+  },
+  "pathfinder": {
+    "title": "Itinéraire",
+    "from": "Départ",
+    "to": "Arrivée",
+    "find": "Trouver un chemin",
+    "clear": "Effacer",
+    "noPath": "Aucun chemin trouvé entre ces deux niveaux."
+  },
+  "stats": {
+    "title": "Statistiques",
+    "levels": "niveaux",
+    "routes": "routes",
+    "entities": "entités",
+    "stubs": "fiches incomplètes",
+    "dangerHist": "Répartition par danger",
+    "topEntity": "Entité la plus fréquente : {name} ({count} niveaux)"
   },
   "layers": {
     "title": "Calques",

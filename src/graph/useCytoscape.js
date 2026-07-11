@@ -1,15 +1,21 @@
-import { useEffect, useRef } from 'react'
-import cytoscape from 'cytoscape'
-import fcose from 'cytoscape-fcose'
+import { useEffect, useRef, useState } from 'react'
 import { baseStylesheet } from './cytoscapeStyle'
 
-// Enregistrement unique de l'extension de layout auto.
-let fcoseRegistered = false
-function ensureExtensions() {
-  if (!fcoseRegistered) {
-    cytoscape.use(fcose)
-    fcoseRegistered = true
+// Cytoscape + son extension de layout pèsent l'essentiel du bundle JS.
+// Chargés à la demande (après le premier rendu) plutôt qu'au démarrage,
+// pour que la page affiche l'interface plus vite, surtout sur mobile.
+let loadPromise = null
+function loadCytoscape() {
+  if (!loadPromise) {
+    loadPromise = Promise.all([import('cytoscape'), import('cytoscape-fcose')]).then(
+      ([cytoscapeMod, fcoseMod]) => {
+        const cytoscape = cytoscapeMod.default
+        cytoscape.use(fcoseMod.default)
+        return cytoscape
+      },
+    )
   }
+  return loadPromise
 }
 
 /**
@@ -59,31 +65,42 @@ export function runHybridLayout(cy) {
 }
 
 /**
- * Hook : crée une instance Cytoscape dans `containerRef` une seule fois
- * et la nettoie au démontage. Renvoie une ref vers l'instance.
+ * Hook : charge Cytoscape à la demande, crée une instance dans
+ * `containerRef` une seule fois et la nettoie au démontage.
+ * Renvoie [cyRef, ready] — `ready` ne passe à true qu'une fois l'instance
+ * disponible ; les effets qui en dépendent doivent l'ajouter à leurs deps.
  */
 export function useCytoscape(containerRef, onReady) {
   const cyRef = useRef(null)
+  const [ready, setReady] = useState(false)
 
   useEffect(() => {
-    ensureExtensions()
-    const cy = cytoscape({
-      container: containerRef.current,
-      style: baseStylesheet,
-      elements: [],
-      minZoom: 0.2,
-      maxZoom: 3,
-      boxSelectionEnabled: false,
+    let cancelled = false
+
+    loadCytoscape().then((cytoscape) => {
+      if (cancelled) return
+      const cy = cytoscape({
+        container: containerRef.current,
+        style: baseStylesheet,
+        elements: [],
+        minZoom: 0.2,
+        maxZoom: 3,
+        boxSelectionEnabled: false,
+      })
+      cyRef.current = cy
+      onReady?.(cy)
+      setReady(true)
     })
-    cyRef.current = cy
-    onReady?.(cy)
 
     return () => {
-      cy.destroy()
-      cyRef.current = null
+      cancelled = true
+      if (cyRef.current) {
+        cyRef.current.destroy()
+        cyRef.current = null
+      }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  return cyRef
+  return [cyRef, ready]
 }

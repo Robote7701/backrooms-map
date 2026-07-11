@@ -142,4 +142,29 @@ export const baseStylesheet = [
     selector: 'node.dimmed',
     style: { opacity: 0.22 },
   },
+
+  // ---- Chemin actif (PathFinder) — toujours en dernier pour l'emporter
+  // sur le LOD zoom, le dimming et même la sélection/survol. ----
+  {
+    selector: 'node.path',
+    style: {
+      'border-color': '#00e676',
+      'border-width': 4,
+      'overlay-color': '#00e676',
+      'overlay-opacity': 0.3,
+      'overlay-padding': 10,
+      opacity: 1,
+    },
+  },
+  {
+    selector: 'edge.path',
+    style: {
+      'line-color': '#00e676',
+      'target-arrow-color': '#00e676',
+      'source-arrow-color': '#00e676',
+      width: 5,
+      opacity: 1,
+      'z-index': 10,
+    },
+  },
 ]

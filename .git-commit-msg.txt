@@ -1,9 +1,35 @@
-docs: ajout du changelog
+feat: 6 ameliorations d'experience (chemin, deep links, favoris, glossaire, stats, perf)
 
-- CHANGELOG.md : historique regroupe par versions (format Keep a
-  Changelog), de la v1.0.0 (carte initiale) a la v1.5.0 (filtres
-  enrichis)
-- README.md : lien vers le changelog, badge langues mis a jour
-  (FR/EN -> FR/EN/DE)
+Recherche de chemin entre deux niveaux :
+- graph/pathfinding.js : BFS dirige (respecte one-way/bidirectional)
+- components/PathFinder.jsx : 2 selecteurs a autocompletion, liste des
+  etapes cliquable, surbrillance verte du chemin sur la carte (classe
+  .path, prioritaire sur le LOD zoom et le dimming), recentrage auto
+
+Lien partageable par niveau :
+- #level/<id> lu au chargement et synchronise (replaceState) a chaque
+  selection ; bouton 🔗 dans le panneau pour copier l'URL courante
+- glossaire et mentions legales integres au meme routage par hash
+
+Favoris :
+- data/useFavorites.js (localStorage), bouton etoile dans le panneau
+
+Glossaire interne des entites :
+- data/entityIndex.js + components/EntityGlossary.jsx : chaque entite
+  avec ses niveaux d'apparition, complementaire aux liens wiki externes
+  best-effort existants
+
+Mini dashboard de stats :
+- components/StatsPanel.jsx : totaux (niveaux/routes/entites/fiches
+  incompletes), histogramme de repartition par danger, entite la plus
+  frequente
+
+Perf :
+- graph/useCytoscape.js : Cytoscape + fcose charges via import()
+  dynamique au lieu d'imports statiques -> chunk initial 123 Ko gzip
+  (vs 233 Ko avant tout confondu), le reste charge en parallele
+
+Footer enrichi (Changelog / Glossaire / Mentions legales), traductions
+FR/EN/DE completes pour toutes les nouvelles chaines.
 
 Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>

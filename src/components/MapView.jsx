@@ -11,10 +11,10 @@ import { useI18n } from '../i18n/I18nContext'
  *  - les calques actifs -> recompose le stylesheet
  *  - la sélection -> classes .selected / .highlighted
  */
-export default function MapView({ levels, activeLayers, selectedId, focusNonce, onSelect }) {
+export default function MapView({ levels, activeLayers, selectedId, pathIds, focusNonce, onSelect }) {
   const { lang } = useI18n()
   const containerRef = useRef(null)
-  const cyRef = useCytoscape(containerRef, (cy) => bindEvents(cy))
+  const [cyRef, cyReady] = useCytoscape(containerRef, (cy) => bindEvents(cy))
 
   // Garde une réf stable vers onSelect pour les handlers d'événements.
   const onSelectRef = useRef(onSelect)
@@ -82,24 +82,32 @@ export default function MapView({ levels, activeLayers, selectedId, focusNonce, 
     cy.elements().remove()
     cy.add([...nodes, ...edges])
     runHybridLayout(cy)
-    // Réapplique la sélection après reconstruction.
+    // Réapplique la sélection et le chemin actif après reconstruction.
     applySelection(cy, selectedId)
+    applyPath(cy, pathIds)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [levels, lang])
+  }, [levels, lang, cyReady])
 
   // Recompose le stylesheet quand les calques changent.
   useEffect(() => {
     const cy = cyRef.current
     if (!cy) return
     cy.style().fromJson(composeStylesheet(baseStylesheet, activeLayers)).update()
-  }, [activeLayers, cyRef])
+  }, [activeLayers, cyRef, cyReady])
 
   // Met à jour les classes de sélection / mise en avant.
   useEffect(() => {
     const cy = cyRef.current
     if (!cy) return
     applySelection(cy, selectedId)
-  }, [selectedId, cyRef])
+  }, [selectedId, cyRef, cyReady])
+
+  // Met à jour la surbrillance du chemin actif (PathFinder).
+  useEffect(() => {
+    const cy = cyRef.current
+    if (!cy) return
+    applyPath(cy, pathIds)
+  }, [pathIds, cyRef, cyReady])
 
   // Recentre la carte sur le niveau recherché (focusNonce change à chaque recherche).
   useEffect(() => {
@@ -110,7 +118,7 @@ export default function MapView({ levels, activeLayers, selectedId, focusNonce, 
     if (node.empty()) return
     cy.animate({ center: { eles: node }, zoom: Math.max(cy.zoom(), 1.4) }, { duration: 350 })
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [focusNonce])
+  }, [focusNonce, cyReady])
 
   return <div ref={containerRef} className="map-view" />
 }
@@ -126,4 +134,23 @@ function applySelection(cy, selectedId) {
     node.addClass('selected')
     node.connectedEdges().addClass('highlighted')
   })
+}
+
+// Marque les nœuds/arêtes du chemin trouvé par PathFinder (classe .path,
+// toujours au-dessus du LOD zoom et du dimming, voir cytoscapeStyle.js).
+function applyPath(cy, pathIds) {
+  cy.batch(() => {
+    cy.elements().removeClass('path')
+    if (!pathIds || pathIds.length < 2) return
+    for (const id of pathIds) cy.getElementById(id).addClass('path')
+    for (let i = 0; i < pathIds.length - 1; i++) {
+      const a = pathIds[i]
+      const b = pathIds[i + 1]
+      cy.edges(`[source = "${a}"][target = "${b}"], [source = "${b}"][target = "${a}"]`).addClass('path')
+    }
+  })
+  if (pathIds && pathIds.length >= 2) {
+    const nodes = cy.collection(pathIds.map((id) => cy.getElementById(id)).filter((n) => !n.empty()))
+    if (nodes.length > 0) cy.animate({ fit: { eles: nodes, padding: 80 } }, { duration: 400 })
+  }
 }

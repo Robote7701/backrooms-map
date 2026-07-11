@@ -7,17 +7,26 @@ import Filters from './components/Filters'
 import Legend from './components/Legend'
 import SearchBar from './components/SearchBar'
 import LegalPage from './components/LegalPage'
+import EntityGlossary from './components/EntityGlossary'
+import PathFinder from './components/PathFinder'
+import StatsPanel from './components/StatsPanel'
 import { useI18n } from './i18n/I18nContext'
 import { levels as allLevels, levelsById, dangerBounds } from './data/loadLevels'
 import { defaultActiveLayers } from './layers/registry'
+import { useFavorites } from './data/useFavorites'
 
 // Sous ce seuil, le panneau Calques/Filtres devient un tiroir repliable
 // (sinon il recouvre toute la carte sur un écran de téléphone).
 const MOBILE_BREAKPOINT = 640
 
+function parseLevelHash() {
+  const m = /^#level\/(.+)$/.exec(window.location.hash)
+  return m ? decodeURIComponent(m[1]) : null
+}
+
 export default function App() {
   const { t } = useI18n()
-  const [selectedId, setSelectedId] = useState(null)
+  const { favorites, toggleFavorite } = useFavorites()
   // Incrémenté à chaque recherche pour demander à la carte de recentrer.
   const [focusNonce, setFocusNonce] = useState(0)
   // Fermé par défaut sur mobile (la carte doit être visible immédiatement),
@@ -38,16 +47,60 @@ export default function App() {
     // Tags de danger sélectionnés (correspondance OR : un seul suffit).
     activeTags: new Set(),
   }))
-  // Page mentions légales : simple bascule via #legal dans l'URL, pas besoin
-  // d'un routeur pour une seule page annexe.
+  // Chemin actif entre deux niveaux (liste d'ids), voir PathFinder.
+  const [pathIds, setPathIds] = useState(null)
+
+  // Pages annexes : simple bascule via le hash de l'URL, pas besoin d'un
+  // routeur pour deux pages secondaires.
   const [showLegal, setShowLegal] = useState(
     () => typeof window !== 'undefined' && window.location.hash === '#legal',
   )
+  const [showGlossary, setShowGlossary] = useState(
+    () => typeof window !== 'undefined' && window.location.hash === '#entities',
+  )
+
+  // Lien partageable vers un niveau précis : #level/<id>. Lu au chargement
+  // (et à chaque navigation historique), écrit à chaque changement de
+  // sélection via replaceState pour ne pas polluer l'historique.
+  const [selectedId, setSelectedId] = useState(() => {
+    if (typeof window === 'undefined') return null
+    const id = parseLevelHash()
+    return id && levelsById[id] ? id : null
+  })
+
   useEffect(() => {
-    const onHashChange = () => setShowLegal(window.location.hash === '#legal')
+    function onHashChange() {
+      const hash = window.location.hash
+      setShowLegal(hash === '#legal')
+      setShowGlossary(hash === '#entities')
+      if (hash === '#legal' || hash === '#entities') return
+      const id = parseLevelHash()
+      if (id && levelsById[id]) {
+        setSelectedId(id)
+        setFocusNonce((n) => n + 1)
+      } else if (!hash) {
+        setSelectedId(null)
+      }
+    }
     window.addEventListener('hashchange', onHashChange)
     return () => window.removeEventListener('hashchange', onHashChange)
   }, [])
+
+  // Recentre la carte une fois au chargement si on est arrivé via un lien
+  // direct vers un niveau (#level/xxx).
+  useEffect(() => {
+    if (selectedId) setFocusNonce((n) => n + 1)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  // Garde l'URL synchronisée avec le niveau sélectionné, sauf pendant
+  // l'affichage des pages annexes (mentions légales, glossaire).
+  useEffect(() => {
+    if (showLegal || showGlossary) return
+    const url = new URL(window.location.href)
+    url.hash = selectedId ? `level/${selectedId}` : ''
+    window.history.replaceState(null, '', url)
+  }, [selectedId, showLegal, showGlossary])
 
   // Niveaux visibles après application des filtres.
   const visibleLevels = useMemo(
@@ -68,13 +121,21 @@ export default function App() {
     [filters],
   )
 
-  // Désélectionne si le niveau sélectionné devient invisible.
-  const selectedLevel =
-    selectedId && visibleLevels.some((l) => l.id === selectedId)
-      ? levelsById[selectedId]
-      : null
+  // Un chemin actif doit rester entièrement visible sur la carte, même si
+  // une étape est masquée par les filtres courants.
+  const mapLevels = useMemo(() => {
+    if (!pathIds || pathIds.length === 0) return visibleLevels
+    const visibleIds = new Set(visibleLevels.map((l) => l.id))
+    const extra = pathIds.map((id) => levelsById[id]).filter((l) => l && !visibleIds.has(l.id))
+    return extra.length ? [...visibleLevels, ...extra] : visibleLevels
+  }, [visibleLevels, pathIds])
 
-  // Sélection depuis la recherche : ouvre le panneau + recentre la carte.
+  // Désélectionne si le niveau sélectionné n'est plus affiché sur la carte.
+  const selectedLevel =
+    selectedId && mapLevels.some((l) => l.id === selectedId) ? levelsById[selectedId] : null
+
+  // Sélection depuis la recherche / le glossaire / un chemin : ouvre le
+  // panneau + recentre la carte.
   function focusLevel(id) {
     setSelectedId(id)
     setFocusNonce((n) => n + 1)
@@ -99,6 +160,9 @@ export default function App() {
   if (showLegal) {
     return <LegalPage onClose={() => { window.location.hash = '' }} />
   }
+  if (showGlossary) {
+    return <EntityGlossary onClose={() => { window.location.hash = '' }} />
+  }
 
   return (
     <div className="app">
@@ -114,9 +178,10 @@ export default function App() {
       <div className="app__body">
         <div className="app__map">
           <MapView
-            levels={visibleLevels}
+            levels={mapLevels}
             activeLayers={activeLayers}
             selectedId={selectedLevel?.id ?? null}
+            pathIds={pathIds}
             focusNonce={focusNonce}
             onSelect={setSelectedId}
           />
@@ -138,6 +203,8 @@ export default function App() {
               shownCount={visibleLevels.length}
               onRandom={randomLevel}
             />
+            <PathFinder onPathChange={setPathIds} onSelectLevel={focusLevel} />
+            <StatsPanel />
           </div>
 
           <Legend />
@@ -147,10 +214,20 @@ export default function App() {
           level={selectedLevel}
           onSelect={setSelectedId}
           onClose={() => setSelectedId(null)}
+          isFavorite={selectedLevel ? favorites.has(selectedLevel.id) : false}
+          onToggleFavorite={() => selectedLevel && toggleFavorite(selectedLevel.id)}
         />
       </div>
 
       <footer className="app-footer">
+        <a
+          href="https://github.com/Robote7701/backrooms-map/blob/master/CHANGELOG.md"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          {t('footer.changelog')}
+        </a>
+        <a href="#entities">{t('footer.glossary')}</a>
         <a href="#legal">{t('footer.legal')}</a>
       </footer>
     </div>

@@ -26,16 +26,44 @@
     "presence": "Präsenz",
     "entityLinkHint": "Wiki-Seite dieses Wesens ansehen (externer Link, ohne Garantie)",
     "reliability": "Zuverlässigkeit",
-    "close": "Schließen"
+    "close": "Schließen",
+    "favorite": "Zu Favoriten hinzufügen",
+    "unfavorite": "Aus Favoriten entfernen",
+    "share": "Link dieser Ebene kopieren",
+    "linkCopied": "Link kopiert!"
   },
   "controls": {
     "toggle": "Ebenen & Filter"
   },
   "footer": {
-    "legal": "Impressum & Datenschutz"
+    "legal": "Impressum & Datenschutz",
+    "changelog": "Änderungsprotokoll",
+    "glossary": "Wesen-Glossar"
   },
   "legal": {
     "back": "Zurück zur Karte"
+  },
+  "glossary": {
+    "title": "Wesen-Glossar",
+    "intro": "Alle in den Ebenen erfassten Wesen, mit den Ebenen, in denen sie vorkommen. Ergänzt die externen Wiki-Links, die nicht immer zuverlässig sind.",
+    "appearances": "{count} Ebenen"
+  },
+  "pathfinder": {
+    "title": "Routenplaner",
+    "from": "Von",
+    "to": "Nach",
+    "find": "Weg finden",
+    "clear": "Löschen",
+    "noPath": "Kein Weg zwischen diesen beiden Ebenen gefunden."
+  },
+  "stats": {
+    "title": "Statistiken",
+    "levels": "Ebenen",
+    "routes": "Routen",
+    "entities": "Wesen",
+    "stubs": "unvollständige Einträge",
+    "dangerHist": "Gefahrenverteilung",
+    "topEntity": "Häufigstes Wesen: {name} ({count} Ebenen)"
   },
   "layers": {
     "title": "Ebenen",

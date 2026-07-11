@@ -6,7 +6,7 @@ import { classIcons, routeIcons, presenceIcons } from '../data/icons'
 import { entityWikiUrl } from '../data/entityWiki'
 
 // Panneau latéral : détails du niveau sélectionné.
-export default function SidePanel({ level, onSelect, onClose }) {
+export default function SidePanel({ level, onSelect, onClose, isFavorite, onToggleFavorite }) {
   const { lang, t } = useI18n()
 
   if (!level) {
@@ -23,9 +23,21 @@ export default function SidePanel({ level, onSelect, onClose }) {
 
   return (
     <aside className="side-panel" key={level.id}>
-      <button className="side-panel__close" onClick={onClose} aria-label={t('panel.close')}>
-        ×
-      </button>
+      <div className="side-panel__toolbar">
+        <button
+          className={`side-panel__star ${isFavorite ? 'is-active' : ''}`}
+          onClick={onToggleFavorite}
+          aria-pressed={isFavorite}
+          aria-label={t(isFavorite ? 'panel.unfavorite' : 'panel.favorite')}
+          title={t(isFavorite ? 'panel.unfavorite' : 'panel.favorite')}
+        >
+          {isFavorite ? '⭐' : '☆'}
+        </button>
+        <ShareButton label={t('panel.share')} copiedLabel={t('panel.linkCopied')} />
+        <button className="side-panel__close" onClick={onClose} aria-label={t('panel.close')}>
+          ×
+        </button>
+      </div>
 
       {banner && <Banner src={banner} alt={name} />}
 
@@ -144,6 +156,28 @@ function DangerBadge({ danger, label }) {
     <span className="badge" style={{ borderColor: `hsl(${hue} 70% 55%)`, color: `hsl(${hue} 70% 70%)` }}>
       🔥 {label}: {danger.level}/{danger.scale}
     </span>
+  )
+}
+
+// Copie le lien partageable du niveau courant (l'URL contient déjà
+// #level/<id>, tenu à jour par App.jsx) dans le presse-papiers.
+function ShareButton({ label, copiedLabel }) {
+  const [copied, setCopied] = useState(false)
+
+  async function copy() {
+    try {
+      await navigator.clipboard.writeText(window.location.href)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 1800)
+    } catch {
+      /* presse-papiers indisponible : on ignore silencieusement */
+    }
+  }
+
+  return (
+    <button className="side-panel__share" onClick={copy} aria-label={label} title={label}>
+      {copied ? `✅ ${copiedLabel}` : '🔗'}
+    </button>
   )
 }
 
