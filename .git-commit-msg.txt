@@ -1,18 +1,9 @@
-feat: filtres enrichis et instructifs (comptes, tags, entites, securite)
+docs: ajout du changelog
 
-- loadLevels.js expose levelClassCounts, topDangerTags (12 tags de danger
-  les plus frequents, hors tags "meta" comme difficulte-estimee), stubCount
-- Filters.jsx repense entierement :
-  - chaque chip de classe affiche son nombre de niveaux
-  - nouveau filtre presence d'entites (avec/sans)
-  - nouveau filtre securite du lieu (sur / securise)
-  - nouveau filtre par dangers frequents (tags, correspondance OR)
-  - nouveau filtre "masquer les fiches incompletes" (stubs)
-  - compteur "X / Y niveaux affiches" au lieu de X seul
-  - bouton "🎲 Niveau au hasard" : teleporte vers un niveau visible pris
-    au hasard, recentre la carte et ouvre le panneau (clin d'oeil au theme)
-- nouvelle variante CSS .chip--switch (etat neutre par defaut, s'allume au
-  clic) distincte de .chip--toggle (actif par defaut, barre si exclu)
-- traductions FR/EN/DE des nouveaux libelles
+- CHANGELOG.md : historique regroupe par versions (format Keep a
+  Changelog), de la v1.0.0 (carte initiale) a la v1.5.0 (filtres
+  enrichis)
+- README.md : lien vers le changelog, badge langues mis a jour
+  (FR/EN -> FR/EN/DE)
 
 Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>

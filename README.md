@@ -6,11 +6,11 @@
 
 [![Deploy to GitHub Pages](https://github.com/Robote7701/backrooms-map/actions/workflows/deploy.yml/badge.svg)](https://github.com/Robote7701/backrooms-map/actions/workflows/deploy.yml)
 ![Niveaux](https://img.shields.io/badge/niveaux-99-d4c26a)
-![Langues](https://img.shields.io/badge/langues-FR%20%2F%20EN-31d7f5)
+![Langues](https://img.shields.io/badge/langues-FR%20%2F%20EN%20%2F%20DE-31d7f5)
 ![Stack](https://img.shields.io/badge/stack-Vite%20%2B%20React%20%2B%20Cytoscape.js-e34ba9)
 ![Licence](https://img.shields.io/badge/licence-MIT-8a7de0)
 
-**[🔗 Voir la carte en ligne](https://robote7701.github.io/backrooms-map/)**
+**[🔗 Voir la carte en ligne](https://robote7701.github.io/backrooms-map/)** · [📋 Changelog](CHANGELOG.md)
 
 </div>
 
@@ -25,7 +25,7 @@ Site 100 % statique, sans backend, déployé automatiquement sur GitHub Pages.
 
 - 🗺️ **Carte interactive** — zoom, pan, clic sur un nœud pour ouvrir le panneau de détails
 - 🔍 **Recherche** — trouvez un niveau par nom ou numéro, la carte se recentre dessus
-- 🌐 **Multilingue FR/EN** — interface et contenu des niveaux, architecture extensible
+- 🌐 **Multilingue FR/EN/DE** — interface dans les 3 langues, contenu des niveaux en FR/EN (repli automatique en DE), architecture extensible
 - 🎨 **Calques** — Danger (dégradé vert → rouge) et Entités (badge de présence)
 - 🧭 **Filtres** — par classe de niveau et par plage de danger
 - 📖 **Légende repliable** — types de routes, échelle de danger
