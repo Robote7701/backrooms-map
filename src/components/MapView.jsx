@@ -37,6 +37,25 @@ export default function MapView({ levels, activeLayers, selectedId, focusNonce, 
       n.removeClass('hovered')
       n.connectedEdges().removeClass('highlighted')
     })
+
+    // Niveau de détail selon le zoom : avec ~100 nœuds et 360+ routes,
+    // tout afficher en permanence donne une pelote illisible. En vue
+    // d'ensemble on ne montre qu'un semis de points ; routes et labels
+    // se révèlent progressivement en zoomant.
+    let lodFrame = null
+    const applyLod = () => {
+      lodFrame = null
+      const z = cy.zoom()
+      cy.batch(() => {
+        cy.edges().toggleClass('lod-hidden', z < 0.55)
+        cy.nodes().toggleClass('lod-compact', z < 0.4)
+      })
+    }
+    cy.on('zoom pan', () => {
+      if (lodFrame) return
+      lodFrame = requestAnimationFrame(applyLod)
+    })
+    cy.on('layoutstop', applyLod)
   }
 
   // (Re)construit les éléments quand niveaux ou langue changent.

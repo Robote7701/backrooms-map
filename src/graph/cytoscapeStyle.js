@@ -27,6 +27,11 @@ export const baseStylesheet = [
     },
   },
   {
+    // Vue très dézoomée : masque les labels pour ne garder que les points.
+    selector: 'node.lod-compact',
+    style: { label: '' },
+  },
+  {
     // Survol : halo néon cyan (overlay = la façon Cytoscape de "glow").
     selector: 'node.hovered',
     style: {
@@ -63,6 +68,12 @@ export const baseStylesheet = [
       'transition-property': 'line-color, width, opacity',
       'transition-duration': '150ms',
     },
+  },
+  {
+    // Vue d'ensemble (zoom faible) : routes masquées pour ne garder qu'un
+    // semis de points lisible. Se révèlent en zoomant (voir MapView).
+    selector: 'edge.lod-hidden',
+    style: { opacity: 0, events: 'no' },
   },
   {
     selector: 'edge.oneway',
