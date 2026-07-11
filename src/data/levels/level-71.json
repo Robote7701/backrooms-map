@@ -7,9 +7,9 @@
     "scale": 5,
     "tags": [
       "darkness",
-      "disorientation",
-      "existential-fading",
-      "horror"
+      "fading",
+      "psychological",
+      "reality-collapse"
     ]
   },
   "survival": {
@@ -21,7 +21,7 @@
   "connections": [
     {
       "to": "level-4",
-      "type": "porte",
+      "type": "noclip",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -33,9 +33,9 @@
   "i18n": {
     "en": {
       "name": "Level 71 — Void Basement",
-      "shortDescription": "An infinite basement where visitors slowly lose their senses and dissolve, piece by piece, into nothingness.",
-      "atmosphere": "A pitch-black void of growing disorientation and despair as explorers lose form and, eventually, consciousness.",
-      "tips": "Avoid basements reached from Level 4 — this level induces an irreversible fade from reality."
+      "shortDescription": "An infinite basement where visitors gradually fade from existence, losing physical form and consciousness over time.",
+      "atmosphere": "Pitch-black emptiness thick with existential dread as wanderers experience progressive dissolution.",
+      "tips": "Avoid basements reached from Level 4 — the fading is irreversible, with no known successful exit or rescue."
     },
     "fr": {
       "name": "Niveau 71 — Sous-sol du Vide",
@@ -59,7 +59,7 @@
   },
   "meta": {
     "addedOn": "2026-07-10",
-    "status": "stub",
+    "status": "published",
     "source": "backrooms-wiki.wikidot.com"
   }
 }

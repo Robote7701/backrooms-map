@@ -3,17 +3,17 @@
     "number": 71,
     "title": "Void Basement",
     "survivalClass": 2,
-    "tags": ["darkness", "disorientation", "existential-fading", "horror"],
+    "tags": ["darkness", "fading", "psychological", "reality-collapse"],
     "safe": false,
     "secure": false,
     "entities": [],
     "connections": [
-      { "to": 4, "type": "door", "direction": "one-way" }
+      { "to": 4, "type": "noclip", "direction": "one-way" }
     ],
-    "shortDescription": "An infinite basement where visitors slowly lose their senses and dissolve, piece by piece, into nothingness.",
-    "atmosphere": "A pitch-black void of growing disorientation and despair as explorers lose form and, eventually, consciousness.",
-    "tips": "Avoid basements reached from Level 4 — this level induces an irreversible fade from reality.",
-    "noData": true
+    "shortDescription": "An infinite basement where visitors gradually fade from existence, losing physical form and consciousness over time.",
+    "atmosphere": "Pitch-black emptiness thick with existential dread as wanderers experience progressive dissolution.",
+    "tips": "Avoid basements reached from Level 4 — the fading is irreversible, with no known successful exit or rescue.",
+    "noData": false
   },
   {
     "number": 72,
@@ -71,10 +71,10 @@
       { "to": 68, "type": "door", "direction": "one-way" },
       { "to": 117, "type": "door", "direction": "one-way" }
     ],
-    "shortDescription": "A theatre stage of looping hallways populated by dream-like figures resembling people the visitor knows.",
-    "atmosphere": "Theatrical and familiar at first, growing more unsettling as isolation deepens and hallucinations intensify.",
-    "tips": "Leave through the trapdoors within two hours — longer stays badly erode your grip on reality.",
-    "noData": true
+    "shortDescription": "A theatre stage of looping hallways populated by figures resembling people the visitor knows; conditions worsen after two hours.",
+    "atmosphere": "Theatrical and familiar at first — audience members mirror people you know — before growing oppressive as figures vanish.",
+    "tips": "Leave through a trapdoor within two hours. Choose hallway paths carefully; subconscious navigation may eventually lead you out.",
+    "noData": false
   },
   {
     "number": 75,

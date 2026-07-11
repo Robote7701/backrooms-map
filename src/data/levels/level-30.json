@@ -33,15 +33,20 @@
       "id": "wormlings",
       "presence": "occasional",
       "zones": []
+    },
+    {
+      "id": "level-30-entity",
+      "presence": "omnipresent",
+      "zones": []
     }
   ],
   "connections": [],
   "i18n": {
     "en": {
       "name": "Level 30 — Shifted Beyond Reality",
-      "shortDescription": "A reality-warping skybox of floating islands where Memory Lurkers bend perception and cognition, trapping wanderers in false sensations.",
-      "atmosphere": "Perpetual daylight with dreamlike distortion; everything feels artificial and flat, steeped in a constant sense of unreality.",
-      "tips": "Avoid Memory Lurkers — their touch corrupts the mind and fakes safety. Trust your original memories and question what you perceive."
+      "shortDescription": "A deceptive false skybox of floating islands, ruled by a sentient entity that manifests through Memory Lurkers to distort perception.",
+      "atmosphere": "A dreamlike, disorienting expanse where reality turns plastic and flat; pervasive psychological manipulation breeds isolation.",
+      "tips": "Avoid all contact with Memory Lurkers. Treat any reality distortion as a warning sign. No confirmed exit is known — a likely dead zone."
     },
     "fr": {
       "name": "Niveau 30 — Décalé de la Réalité",

@@ -1,35 +1,12 @@
-feat: 6 ameliorations d'experience (chemin, deep links, favoris, glossaire, stats, perf)
+feat(data): complete des fiches incomplete (10 -> 7 stubs)
 
-Recherche de chemin entre deux niveaux :
-- graph/pathfinding.js : BFS dirige (respecte one-way/bidirectional)
-- components/PathFinder.jsx : 2 selecteurs a autocompletion, liste des
-  etapes cliquable, surbrillance verte du chemin sur la carte (classe
-  .path, prioritaire sur le LOD zoom et le dimming), recentrage auto
+Re-fetch de tous les niveaux marques stub. Resultat :
+- Level 17, 42, 59, 61 : toujours 404 sur le wiki source, restent en stub
+- Level 22, 30, 93 : contenu enrichi (connexions, description) mais le
+  wiki source les marque toujours [NO DATA]/incomplet, restent en stub
+- Level 50, 71, 74 : page desormais complete sur le wiki, passent en
+  "published" avec connexions et descriptions enrichies
 
-Lien partageable par niveau :
-- #level/<id> lu au chargement et synchronise (replaceState) a chaque
-  selection ; bouton 🔗 dans le panneau pour copier l'URL courante
-- glossaire et mentions legales integres au meme routage par hash
-
-Favoris :
-- data/useFavorites.js (localStorage), bouton etoile dans le panneau
-
-Glossaire interne des entites :
-- data/entityIndex.js + components/EntityGlossary.jsx : chaque entite
-  avec ses niveaux d'apparition, complementaire aux liens wiki externes
-  best-effort existants
-
-Mini dashboard de stats :
-- components/StatsPanel.jsx : totaux (niveaux/routes/entites/fiches
-  incompletes), histogramme de repartition par danger, entite la plus
-  frequente
-
-Perf :
-- graph/useCytoscape.js : Cytoscape + fcose charges via import()
-  dynamique au lieu d'imports statiques -> chunk initial 123 Ko gzip
-  (vs 233 Ko avant tout confondu), le reste charge en parallele
-
-Footer enrichi (Changelog / Glossaire / Mentions legales), traductions
-FR/EN/DE completes pour toutes les nouvelles chaines.
+103 niveaux, 363 connexions, 0 erreur, build OK.
 
 Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>

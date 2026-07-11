@@ -45,7 +45,7 @@
     "number": 93,
     "title": "The Summit",
     "survivalClass": 4,
-    "tags": ["extreme-cold", "avalanche-risk", "hostile-weather", "entity-graveyard"],
+    "tags": ["extreme-cold", "avalanche-risk", "entity-graveyard", "no-exit"],
     "safe": false,
     "secure": false,
     "entities": [

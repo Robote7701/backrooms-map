@@ -7,9 +7,9 @@
     "scale": 5,
     "tags": [
       "unstable-structure",
-      "debris",
       "abandoned-settlement",
-      "deep-pits"
+      "hazardous-debris",
+      "deep-holes"
     ]
   },
   "survival": {
@@ -63,9 +63,9 @@
   "i18n": {
     "en": {
       "name": "Level 22 — Ruins Left Behind",
-      "shortDescription": "A collapsed multi-storey car park once held by the Emstable micronation, now hazardous ruins of unstable structure and deep mining pits.",
-      "atmosphere": "Desolate industrial decay: rubble, rusted vehicles, abandoned tents and the skeletal remains of a failed society in the dark.",
-      "tips": "Beware collapse and deep-pit falls. Traversal is extremely dangerous; most wanderers avoid this level entirely."
+      "shortDescription": "A collapsed multi-storey car park once held by Emstable, an independent micronation that fell to structural decay and inequality.",
+      "atmosphere": "Ruins of a once-thriving underground society reduced to rubble: abandoned tents, rusted vehicles, deep mining pits in the dark.",
+      "tips": "Avoid this level if possible — unstable infrastructure, debris and deep holes from mining make traversal extremely dangerous."
     },
     "fr": {
       "name": "Niveau 22 — Ruines Abandonnées",

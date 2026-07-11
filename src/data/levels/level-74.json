@@ -34,9 +34,9 @@
   "i18n": {
     "en": {
       "name": "Level 74 — Stage Fright",
-      "shortDescription": "A theatre stage of looping hallways populated by dream-like figures resembling people the visitor knows.",
-      "atmosphere": "Theatrical and familiar at first, growing more unsettling as isolation deepens and hallucinations intensify.",
-      "tips": "Leave through the trapdoors within two hours — longer stays badly erode your grip on reality."
+      "shortDescription": "A theatre stage of looping hallways populated by figures resembling people the visitor knows; conditions worsen after two hours.",
+      "atmosphere": "Theatrical and familiar at first — audience members mirror people you know — before growing oppressive as figures vanish.",
+      "tips": "Leave through a trapdoor within two hours. Choose hallway paths carefully; subconscious navigation may eventually lead you out."
     },
     "fr": {
       "name": "Niveau 74 — Trac",
@@ -60,7 +60,7 @@
   },
   "meta": {
     "addedOn": "2026-07-10",
-    "status": "stub",
+    "status": "published",
     "source": "backrooms-wiki.wikidot.com"
   }
 }

@@ -37,7 +37,7 @@
     },
     {
       "to": "level-35",
-      "type": "noclip",
+      "type": "autre",
       "direction": "one-way",
       "method": {
         "en": "From this level's entrances/exits on the source wiki.",
@@ -59,9 +59,9 @@
   "i18n": {
     "en": {
       "name": "Level 50 — The Moribund Highway",
-      "shortDescription": "An infinite desert highway of paused vehicles and eerie silence, roamed by mysterious humans whose intentions stay unknown.",
-      "atmosphere": "A silent desolate desert with frozen traffic; extreme heat and the psychological strain of isolation and uneasy human encounters.",
-      "tips": "Avoid the roaming humans. Mobile homes make safe shelter. Loot vehicles for supplies but don't stay inside. Bring almond water."
+      "shortDescription": "An endless four-lane desert highway frozen in time, its traffic paused mid-journey, roamed by mysterious humans of unknown intent.",
+      "atmosphere": "A desolate, silent highway of stopped cars under extreme heat; isolation and strange human encounters wear down the mind.",
+      "tips": "Shelter in RVs, not standard vehicles. Avoid the roaming humans entirely. Almond water is essential for the long stretches."
     },
     "fr": {
       "name": "Niveau 50 — L'Autoroute Moribonde",
@@ -85,7 +85,7 @@
   },
   "meta": {
     "addedOn": "2026-07-10",
-    "status": "stub",
+    "status": "published",
     "source": "backrooms-wiki.wikidot.com"
   }
 }
