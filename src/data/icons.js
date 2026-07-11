@@ -19,6 +19,7 @@ export const routeIcons = {
 export const langIcons = {
   fr: '🇫🇷',
   en: '🇬🇧',
+  de: '🇩🇪',
 }
 
 // Emoji par niveau de présence d'une entité.

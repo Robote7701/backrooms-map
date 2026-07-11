@@ -1,0 +1,84 @@
+{
+  "app": {
+    "title": "Backrooms — Interaktive Karte",
+    "subtitle": "Ebenen, Routen und Wesen"
+  },
+  "search": {
+    "placeholder": "Ebene suchen…",
+    "noResults": "Keine Ebene gefunden"
+  },
+  "panel": {
+    "empty": "Klicke auf eine Ebene, um Details anzuzeigen.",
+    "class": "Klasse",
+    "danger": "Gefahr",
+    "atmosphere": "Atmosphäre",
+    "tips": "Überlebenstipps",
+    "entities": "Wesen",
+    "noEntities": "Keine bekannten Wesen",
+    "connections": "Verbindungen",
+    "noConnections": "Keine bekannten Verbindungen",
+    "survival": "Überleben",
+    "safe": "Sicher",
+    "secure": "Gesichert",
+    "unsafe": "Unsicher",
+    "unsecure": "Ungesichert",
+    "wiki": "Im Wiki ansehen",
+    "presence": "Präsenz",
+    "entityLinkHint": "Wiki-Seite dieses Wesens ansehen (externer Link, ohne Garantie)",
+    "reliability": "Zuverlässigkeit",
+    "close": "Schließen"
+  },
+  "controls": {
+    "toggle": "Ebenen & Filter"
+  },
+  "footer": {
+    "legal": "Impressum & Datenschutz"
+  },
+  "legal": {
+    "back": "Zurück zur Karte"
+  },
+  "layers": {
+    "title": "Ebenen",
+    "danger": "Gefahr",
+    "entities": "Wesen"
+  },
+  "filters": {
+    "title": "Filter",
+    "byClass": "Nach Klasse",
+    "dangerRange": "Gefahrenstufe",
+    "min": "min",
+    "max": "max",
+    "reset": "Zurücksetzen",
+    "showing": "{count} Ebenen angezeigt"
+  },
+  "legend": {
+    "title": "Legende",
+    "routes": "Routentypen",
+    "noclip": "No-Clip (durch die Realität phasen)",
+    "porte": "Tür",
+    "escalier": "Treppe",
+    "autre": "Andere (Portal, Aufzug…)",
+    "bidirectional": "Bidirektional",
+    "oneway": "Einbahn",
+    "dangerScale": "Gefahrenskala",
+    "safeLevel": "Sicher",
+    "lethalLevel": "Tödlich",
+    "entitiesBadge": "Magentaring = Wesen vorhanden"
+  },
+  "direction": {
+    "bidirectional": "bidirektional",
+    "one-way": "Einbahn"
+  },
+  "connType": {
+    "noclip": "No-Clip",
+    "porte": "Tür",
+    "escalier": "Treppe",
+    "autre": "Andere"
+  },
+  "language": {
+    "label": "Sprache",
+    "fr": "Français",
+    "en": "English",
+    "de": "Deutsch"
+  }
+}

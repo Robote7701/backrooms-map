@@ -1,10 +1,11 @@
 import { createContext, useContext, useMemo, useState, useCallback } from 'react'
 import fr from './locales/fr.json'
 import en from './locales/en.json'
+import de from './locales/de.json'
 
 // Registre des langues UI. Ajouter une langue :
 //   1. créer locales/xx.json  2. l'importer  3. l'ajouter ici.
-const DICTIONARIES = { fr, en }
+const DICTIONARIES = { fr, en, de }
 export const AVAILABLE_LANGS = Object.keys(DICTIONARIES)
 const DEFAULT_LANG = 'fr'
 const STORAGE_KEY = 'backrooms.lang'

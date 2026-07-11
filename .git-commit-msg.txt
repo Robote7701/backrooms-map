@@ -1,11 +1,18 @@
-feat: page mentions legales & confidentialite
+feat(i18n): ajout de l'allemand comme langue de l'interface
 
-- src/components/LegalPage.jsx : editeur, contact (issues GitHub),
-  hebergement, propriete intellectuelle/credits (source wiki CC BY-SA),
-  confidentialite (aucune collecte, localStorage langue uniquement),
-  liens externes, responsabilite. Bilingue FR/EN via useI18n.
-- Accessible via #legal (hashchange) + lien discret dans un nouveau
-  footer en bas de page, non intrusif
-- Aucun routeur ajoute : bascule d'etat simple suffisante pour 1 page
+- src/i18n/locales/de.json : traduction complete de l'UI (header, panneau,
+  calques, filtres, legende, footer)
+- I18nContext.jsx : enregistrement de 'de' dans DICTIONARIES (le
+  selecteur de langue et le fallback sont deja generiques, rien d'autre
+  a cabler)
+- icons.js : drapeau 🇩🇪 dans langIcons
+- LegalPage.jsx : refactor en dictionnaire de traductions (fr/en/de) au
+  lieu de ternaires fr/en imbriques, page legale desormais aussi en
+  allemand
+- fr.json/en.json : ajout de la cle language.de ("Deutsch")
+
+Le contenu des niveaux reste FR/EN uniquement (decision precedente vu le
+volume) ; en DE il retombe automatiquement sur l'anglais via le fallback
+existant de getLevelText, sans erreur ni contenu manquant visible.
 
 Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
