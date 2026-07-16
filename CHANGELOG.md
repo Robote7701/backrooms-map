@@ -3,6 +3,54 @@
 Toutes les évolutions notables de ce projet sont documentées ici.
 Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
+## [1.7.0] — 2026-07-16
+
+### Ajouté
+- Image de partage (Open Graph / Twitter Card) et favicon dédié : un lien
+  vers le site affiche désormais un aperçu illustré sur Reddit, Discord,
+  X/Twitter au lieu d'une carte vide.
+- Ambiance visuelle discrète sur la carte : grain, vignette et brouillard
+  qui dérive lentement (CSS pur, aucun impact sur les performances).
+- Son d'ambiance optionnel : bourdonnement de néon généré via Web Audio
+  (aucun fichier audio hébergé), activable/désactivable dans l'en-tête.
+- Bulle d'aide à la toute première visite, qui disparaît dès la première
+  sélection d'un niveau.
+- Suivi d'exploration : « X / 103 niveaux explorés » avec barre de
+  progression dans le panneau de statistiques (persisté en localStorage).
+- Export d'une carte-image (PNG) du niveau sélectionné, pensée pour le
+  partage sur les réseaux sociaux.
+- Navigation clavier : ← → pour sauter vers la première/dernière connexion
+  du niveau sélectionné, Échap pour fermer le panneau.
+
+### Corrigé
+- Les drapeaux de langue (FR/EN/DE) et l'icône d'export ne s'affichaient
+  pas sous Windows (emoji « region indicator » et 📸 non pris en charge
+  par la police système) : remplacés par des icônes SVG inline, fiables
+  sur toutes les plateformes.
+
+## [1.6.0] — 2026-07-11
+
+### Ajouté
+- Recherche de chemin entre deux niveaux (parcours en largeur respectant
+  le sens des routes), avec surbrillance animée du trajet sur la carte et
+  liste des étapes cliquable.
+- Lien partageable par niveau (`#level/<id>`), synchronisé automatiquement
+  avec la sélection, et bouton pour copier le lien courant.
+- Glossaire interne des entités : chaque entité listée avec tous ses
+  niveaux d'apparition, en complément des liens externes vers le wiki.
+- Favoris persistés en localStorage (bouton étoile dans le panneau).
+- Mini tableau de bord de statistiques (totaux, histogramme de danger,
+  entité la plus fréquente).
+- Lien vers le changelog ajouté au pied de page.
+- 3 fiches de niveaux complétées (50, 71, 74) suite à un nouveau passage
+  sur le wiki source ; 7 fiches restent incomplètes (page introuvable ou
+  marquée incomplète par le wiki lui-même).
+
+### Modifié
+- Cytoscape et son extension de layout sont désormais chargés à la
+  demande (`import()` dynamique) : le script initial passe de 233 Ko à
+  123 Ko compressé, la carte se charge en parallèle du reste de l'UI.
+
 ## [1.5.0] — 2026-07-11
 
 ### Ajouté
