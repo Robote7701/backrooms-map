@@ -1,12 +1,12 @@
-feat(data): complete des fiches incomplete (10 -> 7 stubs)
+fix: drapeaux SVG au lieu d'emoji (invisibles sur Windows)
 
-Re-fetch de tous les niveaux marques stub. Resultat :
-- Level 17, 42, 59, 61 : toujours 404 sur le wiki source, restent en stub
-- Level 22, 30, 93 : contenu enrichi (connexions, description) mais le
-  wiki source les marque toujours [NO DATA]/incomplet, restent en stub
-- Level 50, 71, 74 : page desormais complete sur le wiki, passent en
-  "published" avec connexions et descriptions enrichies
+Windows n'a pas de police d'emoji couleur par defaut : les emoji drapeau
+(🇫🇷 🇬🇧 🇩🇪) s'affichaient comme du texte brut ("FR", "GB", "DE") dans
+Chrome/Edge sur PC au lieu d'une image de drapeau.
 
-103 niveaux, 363 connexions, 0 erreur, build OK.
+- components/FlagIcon.jsx : drapeaux en SVG inline (identique sur
+  toutes les plateformes, pas de dependance a une police systeme)
+- LanguageSwitcher.jsx utilise FlagIcon au lieu de langIcons (emoji)
+- icons.js : langIcons retire (devenu inutile)
 
 Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
