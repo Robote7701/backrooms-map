@@ -4,14 +4,27 @@ import { entityIndex } from '../data/entityIndex'
 
 // Petit tableau de bord basé sur les données déjà chargées : aucun calcul
 // serveur, juste un moyen ludique de survoler l'ensemble du corpus.
-export default function StatsPanel() {
+export default function StatsPanel({ visitedCount = 0 }) {
   const { t } = useI18n()
   const maxCount = Math.max(...dangerDistribution.map((d) => d.count), 1)
   const topEntity = entityIndex[0]
+  const visitedPct = Math.round((visitedCount / levels.length) * 100)
 
   return (
     <div className="panel-block">
       <h3 className="panel-block__title">{t('stats.title')}</h3>
+
+      <div className="stats-explored">
+        <div className="stats-explored__row">
+          <span>{t('stats.explored')}</span>
+          <span className="stats-explored__count">
+            {visitedCount} / {levels.length}
+          </span>
+        </div>
+        <div className="stats-hist__bar-track">
+          <div className="stats-explored__bar" style={{ width: `${visitedPct}%` }} />
+        </div>
+      </div>
 
       <div className="stats-grid">
         <div className="stats-tile">

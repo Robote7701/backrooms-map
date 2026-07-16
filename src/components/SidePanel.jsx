@@ -4,6 +4,7 @@ import { getLevelText, pickLang } from '../i18n/getLevelText'
 import { levelsById } from '../data/loadLevels'
 import { classIcons, routeIcons, presenceIcons } from '../data/icons'
 import { entityWikiUrl } from '../data/entityWiki'
+import { downloadLevelCard } from '../data/exportLevelCard'
 
 // Panneau latéral : détails du niveau sélectionné.
 export default function SidePanel({ level, onSelect, onClose, isFavorite, onToggleFavorite }) {
@@ -34,6 +35,22 @@ export default function SidePanel({ level, onSelect, onClose, isFavorite, onTogg
           {isFavorite ? '⭐' : '☆'}
         </button>
         <ShareButton label={t('panel.share')} copiedLabel={t('panel.linkCopied')} />
+        <button
+          className="side-panel__export"
+          onClick={() =>
+            downloadLevelCard({
+              name,
+              className: `${classIcons[level.class] ?? ''} ${level.class}`.trim(),
+              dangerLabel: `${t('panel.danger')} ${level.danger.level}/${level.danger.scale}`,
+              description: getLevelText(level, lang, 'shortDescription'),
+              url: window.location.href,
+            })
+          }
+          aria-label={t('panel.exportCard')}
+          title={t('panel.exportCard')}
+        >
+          <ExportIcon />
+        </button>
         <button className="side-panel__close" onClick={onClose} aria-label={t('panel.close')}>
           ×
         </button>
@@ -161,6 +178,18 @@ function DangerBadge({ danger, label }) {
 
 // Copie le lien partageable du niveau courant (l'URL contient déjà
 // #level/<id>, tenu à jour par App.jsx) dans le presse-papiers.
+// Icône appareil photo en SVG plutôt qu'en emoji (📸 ne s'affiche pas de
+// façon fiable sous Windows, cf. FlagIcon pour le même problème sur les
+// drapeaux de langue).
+function ExportIcon() {
+  return (
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+      <path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z" />
+      <circle cx="12" cy="13" r="3.2" />
+    </svg>
+  )
+}
+
 function ShareButton({ label, copiedLabel }) {
   const [copied, setCopied] = useState(false)
 

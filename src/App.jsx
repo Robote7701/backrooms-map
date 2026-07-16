@@ -10,10 +10,13 @@ import LegalPage from './components/LegalPage'
 import EntityGlossary from './components/EntityGlossary'
 import PathFinder from './components/PathFinder'
 import StatsPanel from './components/StatsPanel'
+import AmbientSoundToggle from './components/AmbientSoundToggle'
+import OnboardingHint from './components/OnboardingHint'
 import { useI18n } from './i18n/I18nContext'
 import { levels as allLevels, levelsById, dangerBounds } from './data/loadLevels'
 import { defaultActiveLayers } from './layers/registry'
 import { useFavorites } from './data/useFavorites'
+import { useVisited } from './data/useVisited'
 
 // Sous ce seuil, le panneau Calques/Filtres devient un tiroir repliable
 // (sinon il recouvre toute la carte sur un écran de téléphone).
@@ -27,6 +30,7 @@ function parseLevelHash() {
 export default function App() {
   const { t } = useI18n()
   const { favorites, toggleFavorite } = useFavorites()
+  const { visited, markVisited } = useVisited()
   // Incrémenté à chaque recherche pour demander à la carte de recentrer.
   const [focusNonce, setFocusNonce] = useState(0)
   // Fermé par défaut sur mobile (la carte doit être visible immédiatement),
@@ -134,6 +138,37 @@ export default function App() {
   const selectedLevel =
     selectedId && mapLevels.some((l) => l.id === selectedId) ? levelsById[selectedId] : null
 
+  // Suivi d'exploration : marque le niveau comme visité dès qu'il est
+  // sélectionné (recherche, clic, chemin, glossaire, lien direct...).
+  useEffect(() => {
+    if (selectedLevel) markVisited(selectedLevel.id)
+  }, [selectedLevel, markVisited])
+
+  // Navigation clavier : flèche droite/gauche saute vers la première/
+  // dernière connexion du niveau sélectionné (explore le graphe de proche
+  // en proche), Échap ferme le panneau. Désactivée pendant la saisie dans
+  // un champ (recherche, itinéraire...).
+  useEffect(() => {
+    function onKeyDown(e) {
+      const tag = document.activeElement?.tagName
+      if (tag === 'INPUT' || tag === 'TEXTAREA') return
+
+      if (e.key === 'Escape' && selectedId) {
+        setSelectedId(null)
+        return
+      }
+      if (!selectedLevel) return
+      if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return
+      const connections = selectedLevel.connections ?? []
+      if (connections.length === 0) return
+      e.preventDefault()
+      const target = e.key === 'ArrowRight' ? connections[0].to : connections[connections.length - 1].to
+      if (levelsById[target]) focusLevel(target)
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [selectedLevel, selectedId])
+
   // Sélection depuis la recherche / le glossaire / un chemin : ouvre le
   // panneau + recentre la carte.
   function focusLevel(id) {
@@ -172,6 +207,7 @@ export default function App() {
           <p className="app__subtitle">{t('app.subtitle')}</p>
         </div>
         <SearchBar levels={visibleLevels} onSelect={focusLevel} />
+        <AmbientSoundToggle />
         <LanguageSwitcher />
       </header>
 
@@ -185,6 +221,8 @@ export default function App() {
             focusNonce={focusNonce}
             onSelect={setSelectedId}
           />
+
+          <OnboardingHint dismissSignal={selectedId} />
 
           <button
             className="controls-toggle"
@@ -204,7 +242,7 @@ export default function App() {
               onRandom={randomLevel}
             />
             <PathFinder onPathChange={setPathIds} onSelectLevel={focusLevel} />
-            <StatsPanel />
+            <StatsPanel visitedCount={visited.size} />
           </div>
 
           <Legend />

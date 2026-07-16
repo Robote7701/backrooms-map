@@ -30,7 +30,8 @@
     "favorite": "Ajouter aux favoris",
     "unfavorite": "Retirer des favoris",
     "share": "Copier le lien de ce niveau",
-    "linkCopied": "Lien copié !"
+    "linkCopied": "Lien copié !",
+    "exportCard": "Exporter une carte-image de ce niveau"
   },
   "controls": {
     "toggle": "Calques & filtres"
@@ -58,6 +59,7 @@
   },
   "stats": {
     "title": "Statistiques",
+    "explored": "Niveaux explorés",
     "levels": "niveaux",
     "routes": "routes",
     "entities": "entités",
@@ -115,5 +117,13 @@
     "fr": "Français",
     "en": "English",
     "de": "Deutsch"
+  },
+  "sound": {
+    "on": "Activer le son d'ambiance",
+    "off": "Couper le son d'ambiance"
+  },
+  "onboarding": {
+    "line1": "🖱️ Cliquez un point pour l'explorer · 🔍 Cherchez un niveau · 🖲️ Molette pour zoomer",
+    "line2": "Astuce : les flèches ← → sautent vers un niveau connecté une fois un niveau sélectionné."
   }
 }

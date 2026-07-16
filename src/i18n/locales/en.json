@@ -30,7 +30,8 @@
     "favorite": "Add to favorites",
     "unfavorite": "Remove from favorites",
     "share": "Copy this level's link",
-    "linkCopied": "Link copied!"
+    "linkCopied": "Link copied!",
+    "exportCard": "Export this level as an image card"
   },
   "controls": {
     "toggle": "Layers & filters"
@@ -58,6 +59,7 @@
   },
   "stats": {
     "title": "Statistics",
+    "explored": "Levels explored",
     "levels": "levels",
     "routes": "routes",
     "entities": "entities",
@@ -115,5 +117,13 @@
     "fr": "Français",
     "en": "English",
     "de": "Deutsch"
+  },
+  "sound": {
+    "on": "Enable ambient sound",
+    "off": "Mute ambient sound"
+  },
+  "onboarding": {
+    "line1": "🖱️ Click a dot to explore it · 🔍 Search a level · 🖲️ Scroll to zoom",
+    "line2": "Tip: once a level is selected, ← → jump to a connected level."
   }
 }

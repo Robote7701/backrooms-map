@@ -120,7 +120,12 @@ export default function MapView({ levels, activeLayers, selectedId, pathIds, foc
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [focusNonce, cyReady])
 
-  return <div ref={containerRef} className="map-view" />
+  return (
+    <>
+      <div ref={containerRef} className="map-view" />
+      <div className="map-ambient" aria-hidden="true" />
+    </>
+  )
 }
 
 function applySelection(cy, selectedId) {

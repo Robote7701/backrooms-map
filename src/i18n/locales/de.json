@@ -30,7 +30,8 @@
     "favorite": "Zu Favoriten hinzufügen",
     "unfavorite": "Aus Favoriten entfernen",
     "share": "Link dieser Ebene kopieren",
-    "linkCopied": "Link kopiert!"
+    "linkCopied": "Link kopiert!",
+    "exportCard": "Diese Ebene als Bildkarte exportieren"
   },
   "controls": {
     "toggle": "Ebenen & Filter"
@@ -58,6 +59,7 @@
   },
   "stats": {
     "title": "Statistiken",
+    "explored": "Erkundete Ebenen",
     "levels": "Ebenen",
     "routes": "Routen",
     "entities": "Wesen",
@@ -115,5 +117,13 @@
     "fr": "Français",
     "en": "English",
     "de": "Deutsch"
+  },
+  "sound": {
+    "on": "Umgebungsklang aktivieren",
+    "off": "Umgebungsklang stummschalten"
+  },
+  "onboarding": {
+    "line1": "🖱️ Klicke einen Punkt an · 🔍 Suche eine Ebene · 🖲️ Scrollen zum Zoomen",
+    "line2": "Tipp: Ist eine Ebene ausgewählt, springen ← → zu einer verbundenen Ebene."
   }
 }
